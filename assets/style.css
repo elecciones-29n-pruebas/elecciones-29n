@@ -807,3 +807,71 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .tabla-encuestas tr.detalle-enc table th, .tabla-encuestas tr.detalle-enc table td { padding: 4px 10px 4px 0; border: 0; text-align: left; position: static; background: transparent; }
 .notas-encuestas { margin-top: 10px; }
 #ultimo-mapa { margin-bottom: 12px; }
+.mapa-tip .fila-ult { display: flex; align-items: center; gap: 6px; margin: 4px 0; } .mapa-tip .fila-ult i { color: var(--gris); font-style: normal; }
+.mapa-tip .m { color: var(--gris); font-size: .8rem; }
+
+/* ---------- ¿Y si…? ---------- */
+.sim-rejilla { display: grid; gap: 12px; }
+@media (min-width: 1000px) { .sim-rejilla { grid-template-columns: 1fr 1fr; align-items: start; } }
+.sim-barras { display: grid; gap: 6px; }
+.sim-fila { display: grid; grid-template-columns: 96px 1fr 62px 44px; align-items: center; gap: 8px; }
+.sim-fila .nom { font-weight: 700; font-size: .9rem; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-fila input[type="range"] { -webkit-appearance: none; appearance: none; width: 100%; height: 22px; border-radius: 11px; background: linear-gradient(to right, var(--c) 0 var(--p), var(--papel) var(--p) 100%); cursor: grab; margin: 0; }
+.sim-fila input[type="range"]:active { cursor: grabbing; }
+.sim-fila input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 26px; height: 26px; border-radius: 50%; background: #fff; border: 3px solid var(--c); box-shadow: 0 2px 6px rgba(23,32,46,.25); }
+.sim-fila input[type="range"]::-moz-range-thumb { width: 22px; height: 22px; border-radius: 50%; background: #fff; border: 3px solid var(--c); box-shadow: 0 2px 6px rgba(23,32,46,.25); }
+.sim-fila input[type="range"]:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.sim-fila .num { font-weight: 800; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sim-fila small { font-size: .74rem; font-weight: 700; text-align: right; }
+.sim-fila small.sube { color: var(--bien); } .sim-fila small.baja { color: var(--mal); } .sim-fila small.igual { color: var(--gris); }
+@media (max-width: 480px) { .sim-fila { grid-template-columns: 74px 1fr 56px 38px; gap: 6px; } .sim-fila .nom { font-size: .84rem; } .sim-fila .num { font-size: .9rem; } }
+.sim-atajos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.atajo { border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: .84rem; font-weight: 650; color: var(--tinta); cursor: pointer; }
+.atajo[aria-pressed="true"] { border-color: var(--acento); background: var(--acento-suave); }
+.atajo.volver { border-style: dashed; color: var(--gris); }
+.sim-cifra { text-align: center; font-size: 1.05rem; margin: 4px 0 10px; }
+.sim-cifra b { font-size: 1.9rem; font-weight: 800; }
+.sim-cifra small { display: block; color: var(--gris); font-size: .86rem; }
+.pasa { color: var(--bien); font-weight: 700; } .nopasa { color: var(--mal); font-weight: 700; }
+.ej-desliza { display: flex; align-items: center; gap: 10px; font-size: .86rem; font-weight: 650; color: var(--gris); flex: 1 1 260px; min-width: 0; max-width: 100%; flex-wrap: wrap; }
+.ej-desliza input[type="range"] { flex: 1 1 120px; min-width: 0; accent-color: var(--acento); }
+.ej-desliza b { color: var(--tinta); white-space: nowrap; font-size: .8rem; }
+.ej-leyenda { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .76rem; color: var(--gris); margin: 4px 0 10px; }
+.ej-leyenda span { display: inline-flex; align-items: center; gap: 5px; }
+.ej-leyenda i { width: 16px; height: 10px; border-radius: 3px; display: inline-block; }
+.ej-leyenda i.seg { background: var(--tinta); } .ej-leyenda i.perder { background: repeating-linear-gradient(135deg, #B9C1CE 0 3px, transparent 3px 6px); border: 1px solid #B9C1CE; } .ej-leyenda i.ganar { border: 1.5px dashed var(--tinta); } .ej-leyenda i.hoy { width: 2px; background: var(--tinta); border-radius: 0; }
+.ej-filas { display: grid; gap: 4px; }
+.ej-fila { display: grid; grid-template-columns: 110px 1fr 70px; align-items: center; gap: 10px; background: var(--superficie); border: 2px solid transparent; border-radius: 12px; padding: 8px 10px; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.ej-fila:hover { border-color: var(--linea); } .ej-fila.abierta { border-color: var(--c); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.ej-fila .nom { font-weight: 700; font-size: .9rem; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; }
+.ej-fila .nom small { color: var(--gris); font-weight: 500; font-size: .74rem; }
+.ej-fila .pista { position: relative; height: 26px; }
+.ej-fila .pista i { position: absolute; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; font-style: normal; font-size: .74rem; font-weight: 800; box-sizing: border-box; }
+.ej-fila .pista .seg { left: 0; background: var(--c); color: #fff; border-radius: 6px 0 0 6px; }
+.ej-fila .pista .perder { background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--c) 45%, #fff) 0 3px, color-mix(in srgb, var(--c) 15%, #fff) 3px 6px); color: var(--tinta); }
+.ej-fila .pista .ganar { border: 1.5px dashed var(--c); border-radius: 0 6px 6px 0; color: var(--c); }
+.ej-fila .pista .hoy { width: 2px; margin-left: -1px; background: var(--tinta); top: -3px; height: calc(100% + 6px); }
+.ej-fila .num { text-align: right; } .ej-fila .num b { display: block; font-size: 1.2rem; line-height: 1.1; } .ej-fila .num small { color: var(--gris); font-size: .74rem; }
+@media (max-width: 480px) { .ej-fila { grid-template-columns: 80px 1fr 58px; gap: 6px; padding: 8px 8px; } .ej-fila .nom { font-size: .82rem; } }
+.ej-detalle { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: var(--superficie); border: 2px solid var(--c); border-top: 0; border-radius: 0 0 12px 12px; padding: 10px 12px 12px; margin-top: -4px; margin-bottom: 4px; animation: entraPestana .25s ease-out both; }
+@media (max-width: 480px) { .ej-detalle { grid-template-columns: 1fr; } }
+.ej-col .cab { display: block; font-size: .72rem; color: var(--gris); font-weight: 700; margin-bottom: 4px; }
+.ej-prov { display: flex; justify-content: space-between; width: 100%; border: 0; border-top: 1px solid var(--linea); background: transparent; padding: 5px 2px; font: inherit; font-size: .86rem; color: inherit; cursor: pointer; text-align: left; }
+.ej-prov b { font-weight: 800; } .ej-prov.perder b { color: var(--mal); } .ej-prov.ganar b { color: var(--bien); }
+.pacto { display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: .86rem; font-weight: 700; color: var(--tinta); cursor: pointer; }
+
+/* La disputa por el último asiento */
+.duelo { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: end; margin: 6px 0 8px; }
+.duelo .lado { display: flex; flex-direction: column; gap: 5px; }
+.duelo .lado.pelea { align-items: flex-end; text-align: right; }
+.duelo .eti { font-size: .7rem; color: var(--gris); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.duelo .chip { font-size: .9rem; padding: 4px 12px; border-radius: 999px; }
+.duelo .barra { display: block; height: 16px; border-radius: 8px; background: var(--c); transform-origin: left center; animation: crece .8s cubic-bezier(.2,.7,.2,1) both; }
+.duelo .lado.pelea .barra { transform-origin: right center; }
+.duelo small { color: var(--gris); font-size: .74rem; line-height: 1.2; }
+.duelo .centro { text-align: center; padding: 0 6px 6px; min-width: 96px; }
+.duelo .centro b { display: block; font-size: 1.7rem; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+.duelo .centro span { display: block; color: var(--gris); font-size: .74rem; }
+.duelo .centro em { display: inline-block; font-style: normal; font-size: .72rem; font-weight: 800; border-radius: 999px; padding: 2px 8px; margin-top: 6px; color: #fff; }
+.duelo .centro em.mal { background: var(--mal); } .duelo .centro em.medio { background: var(--bronce); } .duelo .centro em.bien { background: var(--bien); }
+@media (max-width: 480px) { .duelo { grid-template-columns: 1fr auto 1fr; gap: 6px; } .duelo .centro { min-width: 78px; } .duelo .centro b { font-size: 1.35rem; } .duelo small { font-size: .68rem; } }

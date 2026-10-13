@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=58">
+<link rel="stylesheet" href="assets/style.css?v=59">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -172,6 +172,10 @@
           <p id="det-lider" class="det-lider"></p>
           <p id="det-ultimo" class="explica-corta"></p>
         </article>
+        <article class="pregunta" id="det-disputa-bloque">
+          <h2>El último asiento</h2>
+          <div id="det-disputa" class="disputa"></div>
+        </article>
         <article class="pregunta">
           <h2>Partido a partido</h2>
           <div id="det-tabla" class="det-tabla"></div>
@@ -291,39 +295,66 @@
   <section id="simulador" class="pantalla" hidden>
     <div id="foco-simulador" class="foco-caja"></div>
     <h2>¿Y si…?</h2>
-    <p class="explica">Prueba qué pasaría si las cosas cambiaran. Toca una situación o monta la tuya. Un punto es el 1 % de los votos de toda España, y se reparten por provincias según lo fuerte que sea cada partido en cada una.</p>
-    <div id="situaciones" class="situaciones"></div>
-    <div id="caso" class="caso"></div>
-    <p id="r-sim" class="respuesta"></p>
-    <div id="sim-hemiciclo" class="hemi"></div>
-    <div id="sim-hemi-ficha"></div>
-    <p id="sim-hemi-arco" class="arco-txt"></p>
-    <div id="sim-leyenda" class="leyenda"></div>
-    <div id="sim-medidores" class="medidores"></div>
-    <div id="sim-medidor-detalle" class="medidor-detalle"></div>
-    <h2>Así quedaría el mapa</h2>
-    <div id="sim-mapa" class="mapa"></div>
-    <p id="sim-cambios" class="explica"></p>
-    <div id="sim-ficha"></div>
-    <article class="pregunta">
-      <h2>Suma partidos y mira si llegan a 176</h2>
-      <p class="pie-bloque">Toca los partidos que quieras juntar, en el dibujo o en los botones. Se colocan a la izquierda y, si entre todos pasan la raya, tienen mayoría. Cuenta con los asientos de la situación elegida arriba.</p>
-      <div id="pactos-hemi" class="hemi"></div>
-      <p id="pactos-frase" class="arco-txt"></p>
-      <div id="pactos" class="pactos"></div>
-    </article>
-
-    <article class="pregunta">
-      <h2>¿La ley electoral favorece a alguien?</h2>
-      <p id="r-coste" class="respuesta"></p>
-      <p class="pie-bloque">Asientos que tendría cada partido con los votos de la situación elegida arriba, y los que le tocarían si los 350 se repartieran solo por el número de votos en toda España.</p>
-      <div id="g-proporcional" class="pares"></div>
-      <details class="como"><summary>¿Por qué pasa esto?</summary>
-        <p>Porque los asientos no se reparten en toda España a la vez, sino provincia a provincia. En cada provincia, los votos de un partido que no llega a asiento se tiran, no se suman en ningún otro sitio. A los partidos medianos con el voto repartido por todo el país les pasa en casi todas las provincias. A los que concentran su voto en una zona casi nunca. Y los dos grandes salen ganando porque en las provincias pequeñas, que reparten 3 o 4 asientos, casi todo se lo llevan ellos.</p>
-        <div id="g-perdidos" class="perdidos"></div>
-        <p class="fuente">Cálculo aproximado con los votos de la situación elegida.</p>
-      </details>
-    </article>
+    <div class="mandos-grafica">
+      <div class="conmutador subvistas-sim" role="group" aria-label="Qué hacer">
+        <button type="button" data-ssub="mueve" aria-pressed="true">Mueve el voto</button>
+        <button type="button" data-ssub="enjuego" aria-pressed="false">En juego</button>
+        <button type="button" data-ssub="pactos" aria-pressed="false">Pactos</button>
+      </div>
+    </div>
+    <div id="sim-mueve" class="subvista">
+      <div class="sim-rejilla">
+        <article class="pregunta">
+          <h2>Arrastra un partido</h2>
+          <p class="explica-corta">Un punto es el 1 % de los votos de toda España. Al subir uno, el resto baja en proporción.</p>
+          <div id="sim-barras" class="sim-barras"></div>
+          <div id="sim-atajos" class="sim-atajos"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Así quedaría</h2>
+          <div id="sim-arcos" class="arcos"></div>
+          <p id="sim-cifra" class="sim-cifra"></p>
+          <p id="r-sim" class="explica-corta"></p>
+          <div id="sim-medidores" class="medidores"></div>
+          <div id="sim-medidor-detalle" class="medidor-detalle"></div>
+          <p id="sim-prop" class="fuente"></p>
+        </article>
+      </div>
+      <article class="pregunta">
+        <h2>Qué provincias cambian</h2>
+        <div id="sim-mapa" class="mapa"></div>
+        <p id="sim-cambios" class="explica-corta"></p>
+        <div id="sim-ficha"></div>
+      </article>
+    </div>
+    <div id="sim-enjuego" class="subvista" hidden>
+      <article class="pregunta">
+        <h2>Horquillas de asientos</h2>
+        <p class="explica-corta">Si un partido subiera o bajara estos puntos en todas las provincias, cuántos asientos tiene seguros, cuántos podría perder y cuántos podría ganar.</p>
+        <div class="mandos-grafica">
+          <div class="conmutador" role="group" aria-label="Partidos o bloques">
+            <button type="button" data-ej="partidos" aria-pressed="true">Partidos</button>
+            <button type="button" data-ej="bloques" aria-pressed="false">Bloques</button>
+          </div>
+          <label class="ej-desliza">Cambio de voto <input type="range" id="ej-puntos" min="0.5" max="8" step="0.5" value="3"> <b id="ej-valor">±3 puntos</b></label>
+        </div>
+        <p class="explica-corta" id="ej-votos"></p>
+        <div class="mandos-grafica" hidden>
+        </div>
+        <div class="ej-leyenda"><span><i class="seg"></i>Seguros</span><span><i class="perder"></i>Podría perder</span><span><i class="ganar"></i>Podría ganar</span><span><i class="hoy"></i>Hoy</span></div>
+        <div id="ej-filas" class="ej-filas"></div>
+        <div id="ej-detalle"></div>
+      </article>
+    </div>
+    <div id="sim-pactos" class="subvista" hidden>
+      <article class="pregunta">
+        <h2>Suma partidos</h2>
+        <p class="explica-corta">Toca los partidos que quieras juntar y mira si llegan a 176 con los asientos de hoy.</p>
+        <div id="pactos" class="pactos"></div>
+        <div id="pactos-arcos" class="arcos"></div>
+        <p id="pactos-frase" class="sim-cifra"></p>
+      </article>
+    </div>
   </section>
 
   <section id="noticias" class="pantalla" hidden>
@@ -494,10 +525,10 @@
 try { if (location.hash === "#no-contar" || location.hostname !== "1985xose.github.io") localStorage.setItem("skipgc", "t"); } catch (e) {}
 if (location.hostname !== "1985xose.github.io") document.documentElement.classList.add("pruebas");</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=58"></script>
-<script src="assets/modelo.js?v=58"></script>
-<script src="assets/media.js?v=58"></script>
-<script src="assets/app.js?v=58"></script>
+<script src="assets/chart.umd.js?v=59"></script>
+<script src="assets/modelo.js?v=59"></script>
+<script src="assets/media.js?v=59"></script>
+<script src="assets/app.js?v=59"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;
