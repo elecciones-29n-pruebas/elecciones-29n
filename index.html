@@ -57,23 +57,24 @@
 
     <article class="pregunta desde" id="desde" hidden></article>
 
-    <article class="foto" id="foto-hoy">
-      <div class="foto-cab"><h2>La foto de hoy</h2><span id="foto-fecha"></span></div>
-      <div class="foto-cuerpo">
-        <div class="foto-hemi">
-          <div id="hemiciclo" class="hemi"></div>
-          <div id="hemi-ficha"></div>
-          <p id="hemi-arco" class="arco-txt"></p>
-          <div id="leyenda" class="leyenda"></div>
-        </div>
-        <div class="foto-cifras" id="foto-cifras"></div>
+    <article class="portada" id="portada">
+      <div class="portada-txt">
+        <p class="portada-eti" id="portada-fecha"></p>
+        <h2 id="portada-titulo">Cargando…</h2>
+        <p id="portada-sub" class="portada-sub"></p>
+        <div id="portada-anillo"></div>
+      </div>
+      <div class="portada-arcos">
+        <p class="portada-eti">Si hoy hubiera elecciones</p>
+        <div id="arcos" class="arcos"></div>
+        <div id="arcos-leyenda" class="arcos-leyenda"></div>
+        <p class="portada-pie">Reparto con la media de encuestas de hoy. La flecha es el cambio en una semana.</p>
       </div>
     </article>
 
-    <article class="pregunta resumen-dia">
-      <h2 id="resumen-titulo">El resumen de hoy</h2>
-      <ul id="resumen" class="resumen"></ul>
-    </article>
+    <div id="tarjetas-hoy" class="tarjetas-hoy"></div>
+
+    <article class="pregunta desde" id="desde" hidden></article>
 
     <article class="pregunta">
       <h2>¿Quién va ganando?</h2>
@@ -90,7 +91,11 @@
     <article class="pregunta">
       <h2>¿Quién va a gobernar?</h2>
       <p id="r-gobernar" class="respuesta">Cargando…</p>
-      <p class="pie-bloque">El hemiciclo de arriba es el reparto con las encuestas de hoy. El bloque cuyo arco pasa la raya del centro, 176 de 350, puede gobernar sin depender de nadie. Toca un partido en el dibujo para ver sus datos. Abajo, cuántas veces pasa cada cosa en las 10.000 repeticiones.</p>
+      <div id="hemiciclo" class="hemi"></div>
+      <div id="hemi-ficha"></div>
+      <p id="hemi-arco" class="arco-txt"></p>
+      <div id="leyenda" class="leyenda"></div>
+      <p class="pie-bloque">Cada punto es un asiento del Congreso. El bloque cuyo arco pasa la raya del centro, 176 de 350, puede gobernar sin depender de nadie. Toca un partido en el dibujo para ver sus datos.</p>
       <div id="g-medidores" class="medidores"></div>
       <div id="g-medidor-detalle" class="medidor-detalle"></div>
       <button type="button" id="compartir" class="boton compartir" hidden>Compartir esta foto por WhatsApp</button>
