@@ -1532,8 +1532,9 @@ function pintarBarrasSim() {
     const r = el("input", { type: "range", min: "0", max: String(max), step: "0.1", value: v.toFixed(1), "aria-label": `${nombre(k)}, ${fmt1.format(v)} %`, style: { "--c": color(k), "--p": `${v / max * 100}%` } });
     r.addEventListener("input", () => { moverVoto(k, +r.value); });
     r.addEventListener("change", () => contar("Arrastra un partido en Y si"));
-    return el("div", { class: "sim-fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
-      el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "=")); }));
+    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
+      el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="),
+      el("span", { class: "esc" }, el("b", {}, "–"), el("small", {}, ""))); }));
   const sits = situaciones(sim.base).filter((x) => x.id !== "media");
   $("#sim-atajos").replaceChildren(...sits.map((x) => el("button", { type: "button", class: "atajo", "data-id": x.id, "aria-pressed": sim.situacion === x.id ? "true" : "false", title: x.detalle, onclick: () => { sim.tocado = true; sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); sim.fusiones = []; contar("Atajo en Y si"); pintarBarrasSim(); recalcularSim(); probabilidadSim(); } }, x.titulo)),
     el("button", { type: "button", class: "atajo volver", onclick: () => { sim.tocado = false; sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; pintarBarrasSim(); recalcularSim(); probabilidadSim(); } }, "Volver a hoy"));
@@ -1556,11 +1557,23 @@ function recalcularSim() {
   const proy = Modelo.proyectar(sim.valores, D.base, { fusiones: sim.fusiones });
   sim.ultimaProy = proy;
   pintarArcosSim();
+  asientosEnFilas("#sim-barras", proy.total, sim.proyBase.total, "asientos");
   pintarMapaSim();
+}
+/* En cada fila de barras, los asientos que saca ese partido y el cambio respecto a hoy */
+function asientosEnFilas(sel, tot, base, unidad) {
+  document.querySelectorAll(`${sel} .sim-fila`).forEach((fila) => { const k = fila.dataset.k, n = tot[k] || 0, d = n - (base[k] || 0), c = fila.querySelector(".esc"); if (!c) return;
+    c.querySelector("b").textContent = String(n); const sm = c.querySelector("small"); sm.textContent = d ? `${d > 0 ? "▲" : "▼"}${Math.abs(d)}` : unidad === "asientos" ? "asientos" : "sen."; sm.className = d > 0 ? "sube" : d < 0 ? "baja" : ""; });
+}
+/* La leyenda bajo un hemiciclo de arcos: todos los partidos con asiento, con el cambio */
+function leyendaArcos(cont, esc, base) {
+  cont.replaceChildren(...ordenar(esc).filter((k) => esc[k] > 0).map((k) => { const d = base ? esc[k] - (base[k] || 0) : 0;
+    return el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
 }
 function pintarArcosSim() {
   const proy = sim.ultimaProy, tot = proy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
   arcos($("#sim-arcos"), tot, sim.proyBase.total, { minimo: 12 });
+  leyendaArcos($("#sim-arcos-leyenda"), tot, sim.proyBase.total);
   const suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0), sd = der ? suma(der) : 0, si = izq ? suma(izq) : 0;
   const fav = sd >= si ? der : izq, X = Math.max(sd, si);
   $("#sim-cifra").replaceChildren(el("b", { style: { color: color(fav.partidos[0]) } }, `${X}`), ` ${nombreEsc(fav)}`, el("span", { class: X >= 176 ? "pasa" : "nopasa" }, X > 176 ? ` · pasan la raya por ${X - 176}` : X === 176 ? " · justo en la raya" : ` · les faltan ${176 - X}`),
@@ -1802,7 +1815,8 @@ function pintarBarrasSen() {
     r.addEventListener("input", () => moverVotoSen(k, +r.value));
     r.addEventListener("change", () => contar("Arrastra un partido en el Senado"));
     return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
-      el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "=")); }));
+      el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="),
+      el("span", { class: "esc" }, el("b", {}, "–"), el("small", {}, ""))); }));
   $("#sen-atajos").replaceChildren(el("button", { type: "button", class: "atajo volver", onclick: () => { senado.tocado = false; senado.valores = { ...senado.base }; pintarBarrasSen(); recalcularSen(); } }, "Volver a hoy"));
 }
 function moverVotoSen(k, v) {
@@ -1818,6 +1832,8 @@ function moverVotoSen(k, v) {
 function recalcularSen() {
   const proy = Modelo.proyectar(senado.valores, D.base), R = repartoSenado(proy), R0 = repartoSenado(senado.proy), { con, M, total } = R;
   arcos($("#sen-sim-arcos"), con, R0.con, { sin176: true, minimo: 10, sombra: R.des, unidad: "senadores", orden: ORDEN_SEN() });
+  leyendaArcos($("#sen-sim-leyenda"), con, R0.con);
+  asientosEnFilas("#sen-barras", con, R0.con, "senadores");
   const o = ordenar(con).filter((k) => k !== "Otros"), k1 = o[0], k2 = o[1], X = con[k1] || 0;
   $("#sen-sim-cifra").replaceChildren(el("b", { style: { color: color(k1) } }, `${X}`), ` ${nombre(k1)}`, el("span", { class: X >= M ? "pasa" : "nopasa" }, X > M ? ` · pasa la raya por ${X - M}` : X === M ? " · justo en la raya" : ` · le faltan ${M - X}`), k2 ? el("small", {}, `${nombre(k2)}, ${con[k2]}`) : null);
   // Provincias que cambian de primero respecto a hoy
