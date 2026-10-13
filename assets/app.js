@@ -562,8 +562,8 @@ function pintarPortada(m, m7, proy, g) {
 }
 /* El hemiciclo de arcos: un semianillo, cada partido un tramo proporcional a sus asientos, en el orden del hemiciclo.
    Los de 14 asientos o más llevan nombre, número y cambio dentro. Los pequeños van juntos en «otros» si no caben. */
-function arcos(cont, esc, esc7) {
-  const total = Object.values(esc).reduce((a, b) => a + b, 0);
+function arcos(cont, esc, esc7, op = {}) {
+  const total = Object.values(esc).reduce((a, b) => a + b, 0), minimo = op.minimo ?? 14;
   if (!total) { cont.replaceChildren(); return; }
   const orden = D.config.orden_hemiciclo, sitio = (k) => orden.indexOf(k) + 1 || 99;
   const claves = Object.keys(esc).filter((k) => esc[k] > 0).sort((a, b) => sitio(a) - sitio(b));
@@ -580,13 +580,14 @@ function arcos(cont, esc, esc7) {
   acc = 0;
   for (const k of claves) {
     const n = esc[k], fm = (acc + n / 2) / total; acc += n;
-    if (n < 14) continue;
+    if (n < minimo || (n / total) < 0.07) continue;
     const [x, y] = pt(fm, R), d = esc7 ? n - (esc7[k] || 0) : 0, c = sobre(color(k)).color;
     svg += `<text class="arco-eti" x="${x.toFixed(1)}" y="${(y - 9).toFixed(1)}" text-anchor="middle" fill="${c}" font-size="11" font-weight="700">${esc_(nombre(k))}</text>`;
     svg += `<text class="arco-eti" x="${x.toFixed(1)}" y="${(y + 9).toFixed(1)}" text-anchor="middle" fill="${c}" font-size="19" font-weight="800">${n}</text>`;
     if (d) svg += `<text class="arco-eti" x="${x.toFixed(1)}" y="${(y + 22).toFixed(1)}" text-anchor="middle" fill="${c}" font-size="9.5" font-weight="700">${d > 0 ? "▲" : "▼"} ${Math.abs(d)}</text>`;
   }
-  svg += `<line x1="${CX}" y1="${CY - R - W / 2 - 10}" x2="${CX}" y2="${CY - R - W / 2 + 4}" stroke="var(--tinta)" stroke-width="1.6"/><text x="${CX + 5}" y="${CY - R - W / 2 - 2}" font-size="11" font-weight="700" fill="var(--gris)">176</text>`;
+  if (!op.sin176) svg += `<line x1="${CX}" y1="${CY - R - W / 2 - 10}" x2="${CX}" y2="${CY - R - W / 2 + 4}" stroke="var(--tinta)" stroke-width="1.6"/><text x="${CX + 5}" y="${CY - R - W / 2 - 2}" font-size="11" font-weight="700" fill="var(--gris)">176</text>`;
+  else { const M = Math.floor(total / 2) + 1; svg += `<line x1="${CX}" y1="${CY - R - W / 2 - 10}" x2="${CX}" y2="${CY - R - W / 2 + 4}" stroke="var(--tinta)" stroke-width="1.6" stroke-dasharray="3 3"/><text x="${CX + 5}" y="${CY - R - W / 2 - 2}" font-size="11" font-weight="700" fill="var(--gris)">${M}</text>`; }
   svg += `<text x="${CX}" y="${CY - 10}" text-anchor="middle" font-size="22" font-weight="800" fill="var(--tinta)">${total}</text><text x="${CX}" y="${CY + 4}" text-anchor="middle" font-size="9.5" font-weight="600" fill="var(--gris)">asientos</text></svg>`;
   cont.innerHTML = svg;
 }
@@ -603,7 +604,7 @@ function pintarTarjetasHoy(proy) {
   const pol0 = D.noticias?.polemicas?.[0];
   if (pol0) T.push(tarjeta(`Polémica del día · ${nombre(pol0.partido)}`, pol0.titulo, pol0.fuente, pol0.enlace, color(pol0.partido)));
   const aire0 = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => Math.max(a.aspirante.falta, 0) / (10 / (a.n + 1)) - Math.max(b.aspirante.falta, 0) / (10 / (b.n + 1)))[0];
-  if (aire0) T.push(tarjeta("La provincia más reñida", aire0.nombre, `${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; mapa.vista = "filo"; document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.vista === "filo" ? "true" : "false")); pintarMapa(mapa.proy); location.hash = "#mapa"; }));
+  if (aire0) T.push(tarjeta("La provincia más reñida", aire0.nombre, `${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; pintarMapa(mapa.proy); location.hash = "#mapa"; }));
   const toca = pintarTareas();
   if (toca) T.push(tarjeta("Qué te toca hacer", toca, "Ver todos los plazos", () => { location.hash = "#el29n"; }));
   $("#tarjetas-hoy").replaceChildren(...T);
@@ -703,7 +704,7 @@ function fraseProvincia(p, conReparto = true) {
 function pintarMiProvincia(proy) {
   const sel = $("#mi-provincia");
   if (!sel.options.length) {
-    sel.append(el("option", { value: "" }, "Elige una"), ...proy.provincias.map((p) => p.nombre).sort((a, b) => a.localeCompare(b, "es")).map((n) => el("option", { value: n }, n)));
+    sel.append(el("option", { value: "" }, "Elige una provincia…"), ...proy.provincias.map((p) => p.nombre).sort((a, b) => a.localeCompare(b, "es")).map((n) => el("option", { value: n }, n)));
     sel.addEventListener("change", () => { quitarDelEnlace("provincia"); try { localStorage.setItem("mi-provincia", sel.value); } catch {} mapa.sel = sel.value || null; if (mapa.proy) pintarMapa(mapa.proy); if (sel.value) $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); });
   }
   sel.value = mapa.sel || "";
@@ -1148,7 +1149,7 @@ const TESELAS = { "A Coruña": [0, 0], "Lugo": [1, 0], "Asturias": [2, 0], "Cant
   "Ceuta": [2, 8], "Melilla": [4, 8], "Santa Cruz de Tenerife": [8, 8], "Las Palmas": [9, 8] };
 const ABREV = { "A Coruña": "COR", "Lugo": "LUG", "Asturias": "AST", "Cantabria": "CAN", "Bizkaia": "BIZ", "Gipuzkoa": "GIP", "Pontevedra": "PON", "Ourense": "OUR", "León": "LEO", "Palencia": "PAL", "Burgos": "BUR", "Álava": "ALA", "Navarra": "NAV", "Huesca": "HUE", "Lleida": "LLE", "Girona": "GIR", "Zamora": "ZAM", "Valladolid": "VLL", "La Rioja": "RIO", "Soria": "SOR", "Zaragoza": "ZGZ", "Barcelona": "BCN", "Salamanca": "SAL", "Ávila": "AVI", "Segovia": "SEG", "Guadalajara": "GUA", "Teruel": "TER", "Tarragona": "TAR", "Cáceres": "CAC", "Madrid": "MAD", "Cuenca": "CUE", "Castellón": "CAS", "Badajoz": "BAD", "Toledo": "TOL", "Ciudad Real": "CRE", "Albacete": "ALB", "Valencia": "VAL", "Baleares": "BAL", "Huelva": "HUV", "Sevilla": "SEV", "Córdoba": "COR", "Jaén": "JAE", "Murcia": "MUR", "Alicante": "ALI", "Cádiz": "CAD", "Málaga": "MAL", "Granada": "GRA", "Almería": "ALM", "Ceuta": "CEU", "Melilla": "MEL", "Santa Cruz de Tenerife": "TFE", "Las Palmas": "LPA" };
 ABREV["Córdoba"] = "CBA";
-const mapa = { vista: "ganador", sel: null, proy: null };
+const mapa = { vista: "ganador", sel: null, proy: null, sub: "mapa", terr: "ccaa", tmed: "pct" };
 
 function colorProvincia(p) {
   const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre);
@@ -1163,7 +1164,7 @@ function colorProvincia(p) {
     return { fill: dos.length === 2 ? `url(#${id})` : "var(--linea)", op: rel < 0.5 ? 1 : rel < 1 ? 0.75 : rel < 2 ? 0.4 : 0.12, txt: "var(--tinta)", etiqueta: dos.length === 2 && p.n >= 4 ? esc(`${nombre(dos[0])}·${nombre(dos[1])}`) : "", grad, clase: "etq", tam: 21 };
   }
   const empate = gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]];
-  return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: gan ? sobre(color(gan), empate ? .6 : 1).color : "var(--tinta)", etiqueta: String(p.n) };
+  return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: gan ? sobre(color(gan), empate ? .6 : 1).color : "var(--tinta)", etiqueta: ABREV[p.nombre] || String(p.n), tam: 17 };
 }
 function dibujarMapa(proy, opciones = {}) {
   // opciones: {vista, sel, resaltar: Set de provincias con borde, colorear: (p)=>{fill,op,...}}
@@ -1199,32 +1200,106 @@ function dibujarMapa(proy, opciones = {}) {
 function pintarMapa(proy) {
   mapa.proy = proy;
   pintarMiProvincia(proy);
-  const svg = dibujarMapa(proy);
-  $("#mapa-svg").innerHTML = svg;
-  $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
-  $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Cada provincia lleva el color del partido que más asientos sacaría en ella, y el número de asientos que reparte. Si está más clara es que hay empate. Toca una para ver el detalle." : "Cada provincia lleva los colores de los dos partidos que se disputan su último asiento, primero el que lo tiene y luego el que lo persigue. Cuanto más intenso, más reñido. Las casi blancas están decididas. Toca una para ver el detalle.";
-  const p = proy.provincias.find((x) => x.nombre === mapa.sel);
-  $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} asientos`),
-    el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${p.escanos[k]}`))),
-    el("p", {}, (p.aspirante ? fraseProvincia(p, false) : "") + antes2023(p)),
-    botonEnlace(`Copiar el enlace a ${p.nombre}`, () => enlaceA({ provincia: p.nombre, pestana: "mapa" })),
-    el("details", { class: "como" }, el("summary", {}, "¿Cómo se reparten estos asientos?"),
-      el("p", {}, `De uno en uno. Cada asiento se lo lleva el partido que tenga el número más alto en ese momento. Todos empiezan con su porcentaje de voto. Cuando un partido gana un asiento, para optar al siguiente su voto se divide entre 2. Si gana otro, entre 3. Así el que ya tiene asientos lo tiene cada vez más difícil y los demás van entrando. Es la ley D'Hondt.`),
-      pasosDhondt(p),
-      el("p", { class: "fuente" }, `Ahí se acaban los ${p.n} asientos de ${p.nombre}. Solo entran en el reparto los partidos con al menos el 3 % del voto de la provincia.`),
-      el("details", { class: "como dentro" }, el("summary", {}, "Ver todas las divisiones en una tabla"),
-        el("p", {}, "Es lo mismo, visto de golpe. El voto de cada partido dividido entre 1, 2, 3… Los números en color son los más altos, y cada uno es un asiento."),
-        el("div", { class: "tabla-scroll" }, tablaDhondt(p)))))] : []));
-  // Ordenadas por lo mismo que dice la etiqueta: lo que le falta al aspirante comparado con lo que cuesta un asiento en esa provincia
-  const relativo = (x) => Math.max(x.aspirante.falta, 0) / (10 / (x.n + 1));
-  const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => relativo(a) - relativo(b)).slice(0, 5).map((x) => ({ x }));
-  const nivel = (x) => { const f = Math.max(x.aspirante?.falta ?? 99, 0), u = 10 / (x.n + 1); return f < u / 2 ? "Muy reñida" : f < u ? "Reñida" : "Algo reñida"; };
-  $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
-    el("b", {}, x.nombre), el("span", { class: "pts" }, nivel(x)),
-    el("span", { class: "m" }, x.aspirante ? `Se lo disputan ${nombre(x.ultimo.p)} y ${nombre(x.aspirante.p)}. Hoy lo tiene ${nombre(x.ultimo.p)} ${porVotos(Math.max(x.aspirante.falta, 0), x.n)}.` : ""))));
+  // Qué se ve: la lista (mapa, último asiento o tabla) o el detalle de una provincia
+  const det = !!mapa.sel && proy.provincias.some((x) => x.nombre === mapa.sel);
+  $("#prov-lista").hidden = det;
+  $("#prov-detalle").hidden = !det;
+  if (det) { pintarDetalleProvincia(proy.provincias.find((x) => x.nombre === mapa.sel), proy); return; }
+  for (const sub of ["mapa", "ultimo", "tabla"]) $(`#prov-${sub}`).hidden = mapa.sub !== sub;
+  document.querySelectorAll(".conmutador.subvistas button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.sub === mapa.sub ? "true" : "false"));
+  if (mapa.sub === "mapa") {
+    const tip = $("#mapa-tip");
+    $("#mapa-svg").innerHTML = dibujarMapa(proy);
+    $("#mapa-svg").prepend(tip);
+    const abrir = (nombre) => { quitarDelEnlace("provincia"); mapa.sel = nombre; try { localStorage.setItem("mi-provincia", nombre); } catch {} contar("Abre una provincia"); pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); };
+    $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => {
+      g.addEventListener("click", () => abrir(g.dataset.p));
+      // En ordenador, al pasar el ratón sale la tabla de la provincia. En táctil no hay ratón, se toca y se abre.
+      g.addEventListener("pointerenter", (ev) => { if (ev.pointerType !== "mouse") return; tipProvincia(tip, proy.provincias.find((x) => x.nombre === g.dataset.p)); tip.hidden = false; moverTip(tip, ev); });
+      g.addEventListener("pointermove", (ev) => { if (!tip.hidden) moverTip(tip, ev); });
+      g.addEventListener("pointerleave", () => { tip.hidden = true; });
+    });
+    $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Cada provincia lleva el color del partido que más asientos sacaría en ella. Pasa el ratón para ver su reparto y tócala para abrirla." : "Las provincias donde el último asiento se decide por menos votos, a todo color. Los dos colores son los dos partidos que se lo disputan.";
+  } else if (mapa.sub === "ultimo") pintarUltimoAsiento(proy);
+  else pintarTablaTerritorio(proy);
 }
-/* El reparto contado asiento a asiento, que se entiende mejor que la tabla de divisiones. Es la ley D'Hondt de siempre,
-   en el orden en que se van dando los asientos. En las provincias grandes se enseñan los primeros y los últimos. */
+function moverTip(tip, ev) {
+  const caja = tip.parentElement.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.clientX - caja.left + 14, y = ev.clientY - caja.top + 14;
+  if (x + w > caja.width - 4) x = ev.clientX - caja.left - w - 14;
+  if (y + h > caja.height - 4) y = ev.clientY - caja.top - h - 14;
+  tip.style.left = `${Math.max(0, x)}px`; tip.style.top = `${Math.max(0, y)}px`;
+}
+function tipProvincia(tip, p) {
+  if (!p) return;
+  const o = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 1).slice(0, 6), max = p.cuotas[o[0]] || 1;
+  tip.replaceChildren(el("b", {}, `${p.nombre}, ${p.n} asientos`),
+    el("div", { class: "cab" }, el("span", {}, "Partido"), el("span", {}, "% votos"), el("span", {}, "Esc.")),
+    ...o.map((k) => el("div", { class: "fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pct" }, `${fmt1.format(p.cuotas[k])} %`), el("b", { class: p.escanos[k] ? "" : "cero" }, p.escanos[k] || "–"), el("i", { class: "barra", style: { width: `${p.cuotas[k] / max * 100}%` } }))));
+}
+/* El detalle de una provincia: hemiciclo de arcos, tabla de partidos, bloques y el reparto D'Hondt plegado */
+function pintarDetalleProvincia(p, proy) {
+  const b = D.base.provincias.find((x) => x.nombre === p.nombre), r23 = b?.esc_reales_2023 || {};
+  $("#det-nombre").textContent = p.nombre;
+  $("#det-sub").textContent = `${b?.ccaa || ""} · ${p.n} asientos`;
+  arcos($("#det-arcos"), p.escanos, null, { sin176: true, minimo: 1, total: p.n });
+  const o = ordenar(p.escanos), lider = o[0], m = Math.floor(p.n / 2) + 1;
+  $("#det-lider").replaceChildren(el("i", { class: "punto", style: { background: color(lider) } }), el("b", {}, nombre(lider)), ` se lleva ${p.escanos[lider]} de ${p.n}`, p.escanos[lider] >= m ? ", más de la mitad." : ".");
+  $("#det-ultimo").textContent = p.aspirante ? `El último asiento lo tiene ${nombre(p.ultimo.p)} y ${nombre(p.aspirante.p)} se lo quitaría ${porVotos(Math.max(p.aspirante.falta, 0), p.n)}.${antes2023(p)}` : antes2023(p);
+  const todos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 0.5), max = p.cuotas[todos[0]] || 1;
+  const fila = (k, pct, esc, esc23) => { const d = esc23 == null ? null : esc - esc23;
+    return el("div", { class: "det-fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pista" }, el("i", { style: { width: `${pct / max * 100}%` } })), el("span", { class: "pct" }, `${fmt1.format(pct)} %`), el("b", { class: esc ? "" : "cero" }, esc || "–"),
+      el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "igual" }, d == null ? "" : d > 0 ? `▲${d}` : d < 0 ? `▼${-d}` : "=")); };
+  $("#det-tabla").replaceChildren(el("div", { class: "det-cab-fila" }, el("span", {}, "Partido"), el("span", {}), el("span", {}, "% votos"), el("span", {}, "Esc."), el("span", {}, "vs 2023")),
+    ...todos.map((k) => fila(k, p.cuotas[k], p.escanos[k] || 0, r23[k] ?? (Object.keys(r23).length ? 0 : null))));
+  // Bloques
+  const B = bloques(), maxB = Math.max(...B.map((x) => sumaDe(p.cuotas, x.partidos) || 0), 1);
+  $("#det-bloques").replaceChildren(...B.map((x) => { const pct = sumaDe(p.cuotas, x.partidos) || 0, esc = sumaDe(p.escanos, x.partidos) || 0;
+    return el("div", { class: "det-fila bloque", style: { "--c": x.color } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: x.color } }), x.nombre), el("span", { class: "pista" }, el("i", { style: { width: `${pct / maxB * 100}%` } })), el("span", { class: "pct" }, `${fmt1.format(pct)} %`), el("b", { class: esc ? "" : "cero" }, esc || "–"), el("small", {})); }));
+  // D'Hondt
+  $("#det-dhondt").replaceChildren(el("p", { class: "explica-corta" }, "De uno en uno. Cada asiento se lo lleva el partido con el número más alto, y a quien gana uno se le divide el voto entre 2, luego entre 3, y así."),
+    pasosDhondt(p), el("p", { class: "fuente" }, `Solo entran en el reparto los partidos con al menos el 3 % del voto de la provincia.`),
+    el("details", { class: "como dentro" }, el("summary", {}, "Ver todas las divisiones en una tabla"), el("div", { class: "tabla-scroll" }, tablaDhondt(p))),
+    botonEnlace(`Copiar el enlace a ${p.nombre}`, () => enlaceA({ provincia: p.nombre, pestana: "mapa" })));
+}
+$("#det-volver")?.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = null; try { localStorage.removeItem("mi-provincia"); } catch {} pintarMapa(mapa.proy); });
+document.querySelectorAll(".conmutador.subvistas button").forEach((b) => b.addEventListener("click", () => { mapa.sub = b.dataset.sub; contar(`Provincias ${mapa.sub}`); pintarMapa(mapa.proy); }));
+/* Último asiento de cada provincia: cuántos tiene y pelea cada partido, y la lista de más a menos reñida */
+function pintarUltimoAsiento(proy) {
+  const con = proy.provincias.filter((x) => x.ultimo && x.aspirante);
+  const tiene = {}, pelea = {};
+  for (const x of con) { tiene[x.ultimo.p] = (tiene[x.ultimo.p] || 0) + 1; pelea[x.aspirante.p] = (pelea[x.aspirante.p] || 0) + 1; }
+  const ks = [...new Set([...Object.keys(tiene), ...Object.keys(pelea)])].sort((a, b) => (tiene[b] || 0) - (tiene[a] || 0) || (pelea[b] || 0) - (pelea[a] || 0)), max = Math.max(...Object.values(tiene), ...Object.values(pelea), 1);
+  const col = (obj, titulo) => el("div", { class: "ultimo-col" }, el("span", { class: "cab" }, titulo), ...ks.map((k) => el("div", { class: "ultimo-fila" }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), el("span", { class: "pista" }, el("i", { style: { width: `${(obj[k] || 0) / max * 100}%`, background: color(k) } })), el("b", {}, obj[k] || 0))));
+  $("#ultimo-resumen").replaceChildren(col(tiene, "Lo tiene"), col(pelea, "Se lo pelea"));
+  const orden = con.slice().sort((a, b) => Math.max(a.aspirante.falta, 0) - Math.max(b.aspirante.falta, 0));
+  const chip = (k) => el("span", { class: "chip", style: sobre(color(k)) }, nombre(k));
+  $("#ultimo-tabla").replaceChildren(el("div", { class: "cab" }, el("span", {}, "Provincia"), el("span", {}, "Lo tiene"), el("span", {}, "Siguiente"), el("span", {}, "Le faltan")),
+    ...orden.map((x) => el("button", { type: "button", class: "ultimo-prov", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.nombre; pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); } },
+      el("span", { class: "prov" }, el("b", {}, x.nombre), el("small", {}, `${x.n} asientos`)), chip(x.ultimo.p), el("span", { class: "sig" }, el("i", {}, "›"), chip(x.aspirante.p)), el("span", { class: "falta" }, `${fmt1.format(Math.max(x.aspirante.falta, 0))} pp`))));
+}
+/* Tabla por territorio: comunidades o provincias, porcentaje o asientos */
+function pintarTablaTerritorio(proy) {
+  document.querySelectorAll("#prov-tabla .conmutador button").forEach((x) => { if (x.dataset.terr) x.setAttribute("aria-pressed", x.dataset.terr === mapa.terr ? "true" : "false"); if (x.dataset.tmed) x.setAttribute("aria-pressed", x.dataset.tmed === mapa.tmed ? "true" : "false"); });
+  const m = calcMedia().media, cols = ordenar(m).filter((k) => m[k] >= 0.8 || proy.total[k] > 0).slice(0, 12);
+  let filas;
+  if (mapa.terr === "prov") filas = proy.provincias.map((p) => ({ nombre: p.nombre, n: p.n, pct: p.cuotas, esc: p.escanos, abrir: p.nombre }));
+  else {
+    const por = {};
+    for (const p of proy.provincias) { const c = (por[p.ccaa] ||= { nombre: p.ccaa, n: 0, pct: {}, esc: {} }); c.n += p.n; for (const k of Object.keys(p.cuotas)) c.pct[k] = (c.pct[k] || 0) + p.cuotas[k] * p.n; for (const k of Object.keys(p.escanos)) c.esc[k] = (c.esc[k] || 0) + p.escanos[k]; }
+    filas = Object.values(por).map((c) => ({ ...c, pct: Object.fromEntries(Object.entries(c.pct).map(([k, v]) => [k, v / c.n])) }));
+  }
+  filas.sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+  const pct = mapa.tmed === "pct";
+  const celda = (f, k) => { const v = pct ? f.pct[k] : f.esc[k]; if (!v || (pct && v < 0.5)) return el("td", { class: "vacia" }, "–");
+    const lider = ordenar(pct ? f.pct : f.esc)[0] === k; return el("td", {}, el("span", { class: `celda${lider ? " lider" : ""}`, style: lider ? sobre(color(k)) : { color: color(k) } }, pct ? `${fmt1.format(v)} %` : v)); };
+  const total = el("tr", { class: "total" }, el("th", {}, "España"), el("th", {}), ...cols.map((k) => el("td", {}, pct ? `${fmt1.format(m[k] || 0)} %` : proy.total[k] || "–")));
+  $("#tabla-territorio").replaceChildren(el("thead", {}, el("tr", {}, el("th", {}, mapa.terr === "prov" ? "Provincia" : "Comunidad"), el("th", {}, "Esc."), ...cols.map((k) => el("th", { style: { "--c": color(k) } }, el("i", { class: "punto", style: { background: color(k) } }), el("span", {}, nombre(k)))))),
+    el("tbody", {}, ...filas.map((f) => el("tr", { class: f.abrir ? "tocable" : null, onclick: f.abrir ? () => { quitarDelEnlace("provincia"); mapa.sel = f.abrir; pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); } : null }, el("th", {}, f.nombre), el("th", { class: "n" }, f.n), ...cols.map((k) => celda(f, k)))), total));
+}
+document.querySelectorAll("#prov-tabla .conmutador button").forEach((b) => b.addEventListener("click", () => { if (b.dataset.terr) mapa.terr = b.dataset.terr; if (b.dataset.tmed) mapa.tmed = b.dataset.tmed; pintarTablaTerritorio(mapa.proy); }));
 function pasosDhondt(p) {
   const partidos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= Modelo.UMBRAL), lleva = {}, pasos = [];
   for (let i = 1; i <= p.n && partidos.length; i++) {
@@ -1247,9 +1322,9 @@ function tablaDhondt(p) {
     el("tbody", {}, ...partidos.map((k) => el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(p.cuotas[k])),
       ...Array.from({ length: maxDiv }, (_, i) => { const g = gana.has(`${k}/${i + 1}`); return el("td", { class: g ? "gana" : null, style: g ? sobre(color(k)) : null }, fmt1.format(p.cuotas[k] / (i + 1))); })))));
 }
-document.querySelectorAll("#mapa .conmutador button").forEach((b) => b.addEventListener("click", () => {
+document.querySelectorAll("#prov-mapa .conmutador button").forEach((b) => b.addEventListener("click", () => {
   mapa.vista = b.dataset.vista;
-  document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  document.querySelectorAll("#prov-mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
   pintarMapa(mapa.proy);
 }));
 

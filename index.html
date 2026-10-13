@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=56">
+<link rel="stylesheet" href="assets/style.css?v=57">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -125,19 +125,73 @@
 
   <section id="mapa" class="pantalla" hidden>
     <div id="foco-mapa" class="foco-caja"></div>
-    <h2>Provincia a provincia</h2>
-    <p class="explica">Cada provincia reparte sus propios asientos. Elige la tuya o toca cualquiera en el mapa para ver cómo quedaría.</p>
-    <label class="selector">Tu provincia <select id="mi-provincia"></select></label>
-    <div class="conmutador" role="group" aria-label="Qué mostrar en el mapa">
-      <button type="button" data-vista="ganador" aria-pressed="true">Quién gana en cada una</button>
-      <button type="button" data-vista="filo" aria-pressed="false">Dónde está reñido</button>
+    <div id="prov-lista" class="prov-vista">
+      <h2>Provincia a provincia</h2>
+      <div class="mandos-grafica">
+        <div class="conmutador subvistas" role="group" aria-label="Qué ver">
+          <button type="button" data-sub="mapa" aria-pressed="true">Mapa</button>
+          <button type="button" data-sub="ultimo" aria-pressed="false">Último asiento</button>
+          <button type="button" data-sub="tabla" aria-pressed="false">Tabla</button>
+        </div>
+        <select id="mi-provincia" class="desplegable" aria-label="Elige una provincia"></select>
+      </div>
+      <div id="prov-mapa" class="subvista">
+        <div class="conmutador" role="group" aria-label="Qué mostrar en el mapa">
+          <button type="button" data-vista="ganador" aria-pressed="true">Quién gana</button>
+          <button type="button" data-vista="filo" aria-pressed="false">Dónde está reñido</button>
+        </div>
+        <div id="mapa-svg" class="mapa"><div id="mapa-tip" class="mapa-tip" hidden></div></div>
+        <p id="mapa-pista" class="explica-corta"></p>
+      </div>
+      <div id="prov-ultimo" class="subvista" hidden>
+        <p class="explica-corta">El último asiento de cada provincia, quién lo tiene hoy y quién se lo pelea. Ordenadas de más a menos reñidas.</p>
+        <div id="ultimo-resumen" class="ultimo-resumen"></div>
+        <div id="ultimo-tabla" class="tabla-ultimo"></div>
+      </div>
+      <div id="prov-tabla" class="subvista" hidden>
+        <div class="mandos-grafica">
+          <div class="conmutador" role="group" aria-label="Comunidades o provincias">
+            <button type="button" data-terr="ccaa" aria-pressed="true">Comunidades</button>
+            <button type="button" data-terr="prov" aria-pressed="false">Provincias</button>
+          </div>
+          <div class="conmutador" role="group" aria-label="Porcentaje o asientos">
+            <button type="button" data-tmed="pct" aria-pressed="true">% de voto</button>
+            <button type="button" data-tmed="esc" aria-pressed="false">Asientos</button>
+          </div>
+        </div>
+        <div class="tabla-scroll"><table id="tabla-territorio" class="tabla-territorio"></table></div>
+        <p class="fuente">Reparto con la media de encuestas de hoy. El porcentaje de cada comunidad es la media de sus provincias, pesada por los asientos que reparte cada una. En Provincias, toca una fila para abrir su detalle.</p>
+      </div>
     </div>
-    <div id="mapa-svg" class="mapa"></div>
-    <p id="mapa-pista" class="explica"></p>
-    <div id="ficha-provincia"></div>
-    <h2>Las más reñidas</h2>
-    <p class="explica">Las provincias donde el último asiento se decide por muy pocos votos.</p>
-    <div id="ajustadas" class="ajustadas"></div>
+    <div id="prov-detalle" class="prov-vista" hidden>
+      <div class="det-cab">
+        <button type="button" class="boton pequeno" id="det-volver">← Volver</button>
+        <h2 id="det-nombre"></h2>
+        <span id="det-sub" class="det-sub"></span>
+      </div>
+      <div class="det-rejilla">
+        <article class="pregunta">
+          <h2>Reparto de asientos</h2>
+          <div id="det-arcos" class="arcos"></div>
+          <p id="det-lider" class="det-lider"></p>
+          <p id="det-ultimo" class="explica-corta"></p>
+        </article>
+        <article class="pregunta">
+          <h2>Partido a partido</h2>
+          <div id="det-tabla" class="det-tabla"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Por bloques</h2>
+          <div id="det-bloques" class="det-tabla"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Cómo se reparten</h2>
+          <div id="det-dhondt"></div>
+        </article>
+      </div>
+      <div id="ficha-provincia" hidden></div>
+    </div>
+    <div id="ajustadas" hidden></div>
   </section>
 
   <section id="encuestas" class="pantalla" hidden>
@@ -446,10 +500,10 @@
 try { if (location.hash === "#no-contar" || location.hostname !== "1985xose.github.io") localStorage.setItem("skipgc", "t"); } catch (e) {}
 if (location.hostname !== "1985xose.github.io") document.documentElement.classList.add("pruebas");</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=56"></script>
-<script src="assets/modelo.js?v=56"></script>
-<script src="assets/media.js?v=56"></script>
-<script src="assets/app.js?v=56"></script>
+<script src="assets/chart.umd.js?v=57"></script>
+<script src="assets/modelo.js?v=57"></script>
+<script src="assets/media.js?v=57"></script>
+<script src="assets/app.js?v=57"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

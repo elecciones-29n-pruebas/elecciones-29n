@@ -729,3 +729,67 @@ html.pruebas .sello-pruebas { display: inline-block; }
   #hoy > #desde { grid-row: 5; }
   #hoy > .bloque-titulares { grid-row: 6; }
 }
+
+/* ---------- Provincias ---------- */
+.mapa { position: relative; }
+.mapa-tip { position: absolute; z-index: 5; min-width: 230px; background: var(--superficie); border-radius: 12px; box-shadow: 0 10px 30px rgba(23,32,46,.18); padding: 10px 12px; pointer-events: none; font-size: .84rem; }
+.mapa-tip[hidden] { display: none; }
+.mapa-tip > b { display: block; font-size: .95rem; margin-bottom: 6px; }
+.mapa-tip .cab, .mapa-tip .fila { display: grid; grid-template-columns: 1fr 58px 34px; gap: 6px; align-items: center; }
+.mapa-tip .cab { font-size: .66rem; color: var(--gris); text-transform: uppercase; letter-spacing: .03em; margin-bottom: 2px; }
+.mapa-tip .fila { position: relative; padding: 3px 0 6px; }
+.mapa-tip .fila .nom { display: flex; align-items: center; gap: 6px; font-weight: 700; }
+.mapa-tip .fila .pct { text-align: right; }
+.mapa-tip .fila b { text-align: right; } .mapa-tip .fila b.cero { color: var(--gris); font-weight: 500; }
+.mapa-tip .fila .barra { position: absolute; left: 0; bottom: 1px; height: 3px; border-radius: 2px; background: var(--c); }
+.mapa svg text { font-weight: 800; }
+.prov-vista[hidden] { display: none; }
+.det-cab { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 6px 0 4px; }
+.det-cab h2 { margin: 0; font-size: 1.6rem; }
+.det-sub { color: var(--gris); font-weight: 600; }
+.det-rejilla { display: grid; gap: 12px; }
+@media (min-width: 1000px) { .det-rejilla { grid-template-columns: 1fr 1fr; } }
+.det-rejilla .pregunta { margin-top: 2px; }
+.det-lider { display: flex; align-items: center; gap: 6px; justify-content: center; margin: 6px 0 2px; font-size: 1.05rem; }
+.det-lider b { font-weight: 800; }
+.det-tabla { display: grid; gap: 2px; }
+.det-cab-fila, .det-fila { display: grid; grid-template-columns: 110px 1fr 64px 36px 44px; gap: 8px; align-items: center; }
+.det-cab-fila { font-size: .66rem; color: var(--gris); text-transform: uppercase; letter-spacing: .03em; padding: 0 2px 4px; }
+.det-cab-fila span:nth-child(n+3) { text-align: right; }
+.det-fila { padding: 7px 2px; border-top: 1px solid var(--linea); }
+.det-fila .nom { font-weight: 700; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .92rem; }
+.det-fila .pista { height: 10px; background: var(--papel); border-radius: 5px; overflow: hidden; }
+.det-fila .pista i { display: block; height: 100%; background: var(--c); border-radius: 5px; transform-origin: left center; animation: crece .7s cubic-bezier(.2,.7,.2,1) both; }
+.det-fila .pct { text-align: right; font-variant-numeric: tabular-nums; }
+.det-fila b { text-align: right; font-size: 1.05rem; } .det-fila b.cero { color: var(--gris); font-weight: 500; }
+.det-fila small { text-align: right; font-weight: 700; font-size: .74rem; }
+.det-fila small.sube { color: var(--bien); } .det-fila small.baja { color: var(--mal); } .det-fila small.igual { color: var(--gris); }
+@media (max-width: 480px) { .det-cab-fila, .det-fila { grid-template-columns: 84px 1fr 56px 30px 38px; gap: 6px; } .det-fila .nom { font-size: .84rem; } }
+.ultimo-resumen { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; background: var(--superficie); border-radius: 16px; padding: 12px 14px; margin-bottom: 12px; }
+@media (max-width: 480px) { .ultimo-resumen { grid-template-columns: 1fr; } }
+.ultimo-col .cab { display: block; font-size: .66rem; color: var(--gris); text-transform: uppercase; letter-spacing: .03em; margin-bottom: 4px; }
+.ultimo-fila { display: grid; grid-template-columns: 88px 1fr 28px; gap: 8px; align-items: center; padding: 3px 0; }
+.ultimo-fila .nom { font-weight: 700; font-size: .86rem; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ultimo-fila .pista { height: 10px; background: var(--papel); border-radius: 5px; overflow: hidden; }
+.ultimo-fila .pista i { display: block; height: 100%; border-radius: 5px; transform-origin: left center; animation: crece .7s cubic-bezier(.2,.7,.2,1) both; }
+.ultimo-fila b { text-align: right; }
+.tabla-ultimo { background: var(--superficie); border-radius: 16px; padding: 6px 14px 8px; }
+.tabla-ultimo .cab, .ultimo-prov { display: grid; grid-template-columns: 1fr 96px 120px 64px; gap: 8px; align-items: center; }
+.tabla-ultimo .cab { font-size: .66rem; color: var(--gris); text-transform: uppercase; letter-spacing: .03em; padding: 6px 0 4px; }
+.ultimo-prov { width: 100%; border: 0; border-top: 1px solid var(--linea); background: transparent; padding: 8px 0; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.ultimo-prov:hover { background: var(--papel); }
+.ultimo-prov .prov b { display: block; font-weight: 700; } .ultimo-prov .prov small { color: var(--gris); font-size: .74rem; }
+.ultimo-prov .chip { font-size: .74rem; padding: 3px 8px; border-radius: 999px; justify-self: start; }
+.ultimo-prov .sig { display: flex; align-items: center; gap: 6px; } .ultimo-prov .sig i { color: var(--gris); font-style: normal; }
+.ultimo-prov .falta { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .tabla-ultimo .cab, .ultimo-prov { grid-template-columns: 1fr 76px 94px 52px; gap: 4px; } .ultimo-prov .chip { font-size: .68rem; padding: 2px 6px; } .tabla-ultimo { padding: 6px 10px 8px; } }
+.tabla-territorio { border-collapse: collapse; font-size: .84rem; background: var(--superficie); border-radius: 12px; min-width: 100%; }
+.tabla-territorio th, .tabla-territorio td { padding: 7px 8px; text-align: right; white-space: nowrap; border-top: 1px solid var(--linea); }
+.tabla-territorio thead th { border-top: 0; font-size: .7rem; color: var(--gris); text-transform: uppercase; letter-spacing: .03em; vertical-align: bottom; }
+.tabla-territorio thead th .punto { display: block; margin: 0 auto 3px; }
+.tabla-territorio th:first-child, .tabla-territorio td:first-child { text-align: left; position: sticky; left: 0; background: var(--superficie); z-index: 1; font-weight: 700; }
+.tabla-territorio th.n { color: var(--gris); font-weight: 500; }
+.tabla-territorio td.vacia { color: var(--linea); }
+.tabla-territorio .celda { display: inline-block; padding: 2px 7px; border-radius: 999px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.tabla-territorio tr.tocable { cursor: pointer; } .tabla-territorio tr.tocable:hover th, .tabla-territorio tr.tocable:hover td { background: var(--papel); }
+.tabla-territorio tr.total th, .tabla-territorio tr.total td { font-weight: 800; border-top: 2px solid var(--tinta); }
