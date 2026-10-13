@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T12:45:52+00:00",
+ "actualizado": "2026-10-13T12:50:34+00:00",
  "generales": [
   {
    "titulo": "Visita de los Reyes a Ceuta, en directo: última hora de Felipe VI y Letizia, crisis migratoria y elecciones del 29N",
@@ -102,17 +102,18 @@
     "fecha": "2026-10-13T11:44:28+00:00"
    },
    {
-    "titulo": "El PP y UPN sellan un principio de acuerdo para concurrir juntos a las elecciones del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR3dVZmFrWGxxQTdlaHpOaGpBZm4yVmZ3cFpfY1BVbk9IVmhad05DaHdPVmcxU1dyeHdvRUhBWWJlazcxOXBtRHFNTHhXZ2FvRUFIZENNbkZaZGliUjFuc3BQUHM5UHR5MUIwMmxHM1R5UVJVQldZX2lXZ3k0QVA5TmJKSDF5QkJvalV4TllhVjBSWDNUR2tqVGYtbUNUMTRRX2t0NUlJdHFlWER6blpJbHJEU1RicGMtVmtBMnJ3Vm5SSFAzZzM0WnFPcEhWQlo5YnR6S9IB1AFBVV95cUxPR3dVZmFrWGxxQTdlaHpOaGpBZm4yVmZ3cFpfY1BVbk9IVmhad05DaHdPVmcxU1dyeHdvRUhBWWJlazcxOXBtRHFNTHhXZ2FvRUFIZENNbkZaZGliUjFuc3BQUHM5UHR5MUIwMmxHM1R5UVJVQldZX2lXZ3k0QVA5TmJKSDF5QkJvalV4TllhVjBSWDNUR2tqVGYtbUNUMTRRX2t0NUlJdHFlWER6blpJbHJEU1RicGMtVmtBMnJ3Vm5SSFAzZzM0WnFPcEhWQlo5YnR6Sw?oc=5",
-    "fuente": "MUNDIARIO",
-    "fecha": "2026-10-13T11:28:21+00:00"
-   },
-   {
     "titulo": "PP y UPN cierran un principio de acuerdo para presentarse juntos a las elecciones del 29-N",
     "enlace": "https://www.larazon.es/espana/upn-cierran-principio-acuerdo-presentarse-juntos-elecciones-29n_202610136ace13edfb06971aad01bcf3.html",
     "fuente": "La Razón",
     "fecha": "2026-10-13T11:20:13+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2023/12/13/0716856F-DB93-4290-8C10-9F39A03A2F7F/lider-alberto-nunez-feijoo-diputado-upn-alberto-catala-congreso_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Feijóo blindará las pensiones y se compromete a revalorizarlas con el IPC para \"garantizar la viabilidad\" de los jóvenes",
+    "enlace": "https://www.larazon.es/espana/feijoo-blindara-pensiones-compromete-revalorizarlas-ipc-garantizar-viabilidad-jovenes_202610136ace1069b79b18452fc3472b.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-13T11:05:13+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/13/87B97545-D97A-4A18-AC57-06EAE38678C0/96.jpg?crop=1920,1080,x0,y99&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "PSOE": [
@@ -131,6 +132,12 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/08/6ac801de06a6d4-06042046.jpeg"
    },
    {
+    "titulo": "El PSOE Aragón elegirá a sus candidatos para las elecciones generales después del mitin de Pedro Sánchez en Zaragoza",
+    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdzVkZG1zZkxyTXhzcmZXUTBqNmRoQnZVVnNZNWR3SlJuVEM0a3dWWHMweWUxS1huUU5peWVaRVFLdE1ZS2xXTUtQOEdlRkZNT2I0aFlMaEpxei0wY2U3R3N0bUFMZGN6TzhwNmdGM090ZjZTV0dYTl9xcW0zSFlEWVRXalhIQ0RxTkRNQjhtRFJzUEtQZzlsSi1iVE52TWFER3gtLXZVOHVmQlRXaDhKX2dyVFRJU19ZU19CODlPUjhoS0p1OUpxWGN3d3o4T18tSXfSAdcBQVVfeXFMTm5PYnZkLWlUdUl1SFROSjdRU2VWLWg5eHJGZ01GWjZSMzZmTmtFakJBYWZrM2pMT01YUGNhSDNfS2ZpUHNYbVlhcXRQNWo0MWVNaWY3djJRVmZZOFZRVWdJUG5xdHpWdUpUS2lWVzNBRXdZQmFOM1l4X2dWV05mWVlzTzUycjgxNWNRcWhTZUFUQUtqdllXNlRnZU5kVkM4TjJEblJoTDlKcnBCMHJ1WWs3QXBRTlY0QnMxZUhZeDhVOHEzbkNJR0RhaHRyNXNmMkNycFNhMlU?oc=5",
+    "fuente": "El Periódico de Aragón",
+    "fecha": "2026-10-13T12:37:39+00:00"
+   },
+   {
     "titulo": "Una concejala del PSOE en Puertollano pacta con la Fiscalía una pena por publicar mensajes el día de las elecciones",
     "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcWZ4OXowX091ZTFsTXZGVFFoelN2OHBqYnRpSllxbjQ3RS1DZFRQNnpGOGNKemExcDZXV0RWM0FkTHFXWmVCbDViX0ktRmhjYmNvcFRLSmg3X0JQcWoybTNSTUVYYVVDSlNpbHYxUmpkQjNpMnd3NUlkZ1RtYnRCTzQxemFjQVZPRXZQUFlWTHlQMllPYjA3TW9NWW1iSS11M3g1anVTVnlEazc3RjRZZDlqRXFlVGNxcHhKWTduZ0HSAcYBQVVfeXFMTWpyQzhfSGl2SlpoSTcyVUwzeVdHV0ZkaVRHcFl4RUtrQlp3Z0NXOEROUDdfYWd3Zk81S0NwVlJkaFU1cVpDOXRlMHBsX1p1aTBvM3ZpbjA2NDhkSUlTd1VaV1p6QkNYUFY2eGIxUUdXSkpyNUJKalRfck43eDdmUzFvcHNoZnAxU3FIR3VKbVhRQUJ3RmU3T0tmU19pRlZHTU8xZWt5NW5NOG5RckJlYXdEdjlXcGE2WnlTTDVJUDgwRVgtdThR?oc=5",
     "fuente": "ABC",
@@ -147,13 +154,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQb3dyb3AxaW5lb2FrRTVISW9sMDJfUlRabFlFT3RPOVdSX0dKTEQ3YnlVZ1gxdE5GT1YxQTNkOHZlNF9peXlEdXUwbXo0UWFoLXVjTGlSaUh5VmRWQ3NGMHZncGk1V0dwcms4OHItanJvYkxSVFctZ0RhNW9naDFtb055VTBoY1M3UXUzVmxJQXdJcVplNnJLcU5UOHVsaHNfd3VwUnNpNWI1cWxWVWdrSTBDV01YNUNxNmRjaFNOZmdrUm5xWXhLYmk2R0o4bnVuWHZfa2t1Wjc0M2YweWJud0Vhb3JlbmJNUHFkUzYyUkJ5RWZUOEN4cW1UaWZ1VDdIY0lsLXBfMHV1ZnFNTDlzSE9ZR0dHMU1rNGN6WnhOTUtyMzdpZkJnLWxvRmsyUXlyRG040gGzAkFVX3lxTE5HMnVwRGloMEFXMExPMHZrREhUcTJ4UGRlN0xVcW8tdl8wcTQxTWJDMGVWVG9sekpYcjQ2XzhJUHVnWjMwTWhfMXJRVTZrU0NObmR5SVVSOTRhQ0RnY08zZkdUZVBfWExhbDVfNWRnY1ZPWlNnQ3h5cTE1U0d6ck9maTZOZTRHZm4wMnRUalVHc0o3b3ROUWtHVFJaa1FHQXZtcjJOTHB0WDRxQjZwT3FtakdIV3NGR19qMGtyTWVsYUl5V3Q4UnppamQ3bGpLLWpqdlBRdmFLeFJyc2ZRdll0RXBla3hwUmNXR1EtbU1yMG4xTVVuSTdsYTFDbXgtTnJpa3FiSjRwOHQxd0trM24weThKV3d0ZWxlRTlBczg5OHo5Z1FKYWhLU3JZLUlUcmwzeEE?oc=5",
     "fuente": "Onda Cero",
     "fecha": "2026-10-13T12:02:27+00:00"
-   },
-   {
-    "titulo": "El PSOE celebrará su Comité Federal este sábado en Fuenlabrada",
-    "enlace": "https://www.larazon.es/espana/vivas-necesario-que-ceuta-forme-parte-debate-electoral-cara-29n-espana-puede-vivir-margen-ocurrido_202610136ace1badcfd4076f0c79f33b.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-13T11:57:15+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2024/06/26/5F17C2BE-5922-4332-A5B4-E007ED0C165A/96.jpg?crop=3500,1969,x0,y183&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
@@ -339,22 +339,22 @@
     "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/13/2026101313243180177.jpg"
    },
    {
+    "titulo": "Rufián reclama que ERC y Comuns vuelvan a “hablar, escucharse” tras el pacto ERC-Podemos",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGtRTnhGX2VTRWZaT051anZ6QTU3OTdGYmd2TWFxWlU5N3BlbVJDM1liX2VKRV9rc3RIWnY4ZGJ4S211RzJvc2tuSmgyeGJaRl9KMWV6ZE0yUjJqUlRqeHVjTnEyZG5OVXJ2b1hTRW5oLWhFejB2X3phS2JOaGRRWUhub2YydjFhaG84eksyZ2hVSUV6NnhvLVFRaFQzZHRPR3U5OUJGTmsyUVNBcnd0aXZXTGgySGZwQjU0ONIBwgFBVV95cUxOdUpXUG1tZ0xUXzhwT2h5anlvLUVmbVFfZ0dSUGRZdzhLR3BxdVRnbFNmQk5LcTRFZVBIcFdRQ3pHWmhEdEcwZTEzR09OMmhlVTB1eFN3dzZHRVRGWXFrOFo0U29aTnB4Nkh3VlZzM2VNbjF3SkZLTEhNQlh6b0taemdaV0tXMXk1MkdLSEJWdVl5QkE1QjJHc01LSU5tcU42bkl1Yl9vdDV6OWlCYVA5QkdLUUJpa2t2SjNaODdPU0VJQQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-13T12:43:02+00:00"
+   },
+   {
     "titulo": "ERC descarta integrarse en el Frente Amplio de Colau mientras que Rufián pide 'hablar y entenderse'",
     "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUE0dkk5dkoxRmE3YVRqaWkyRWhLRHppSTVkclJ4bERvRF9KLVdTeU1WN3QzRHM2dTFWNkdMYjlxZ0d1YXY1N2NQdjBHc0plYzZFWG4tZTJCMnEzTmVBVVJwdzFIRGJIUHJFd1ZMTW5iMWhhU1U3bG5kREtId3lNeU1aVEYzWW1NZ1RLd29HbUVtWUtnYVJveFptMEZ3M0dXRmdqUGktWGVPcWtGTUJLZGhjY29Ic0lDVVBDaG4ySmc?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-10-13T12:15:20+00:00"
    },
    {
-    "titulo": "ERC descarta sumarse al Frente Amplio, mientras Rufián pide un entendimiento con los Comunes",
+    "titulo": "ERC descarta sumarse al Frente Amplio, mientras Rufián pide un entendimiento con los Comuns",
     "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1VOcTBFTll2c3hMYVVKNHNIOWIyM0ltVXlXVFlRazhvSFpZdUxxQzRQbUduRXdjWGJsN1V4WHcyakR2cjVQX2xNeVRsX0ZtZWFDNTlwWmpheWFRQVh6enBvT1hXVFNnLWRYY2VRdVJuZDlMWXl5b3Z2SUx6SThmSERfNk9nODZmSGFjSmRkRGhpM1REbmxTWld3LUs3b2taVzMtUDI3bHByVU9MYXhqOUUtTk1SNXhLazNDMlE0cU1oZjFJTjBEc1BjMVotclU3Qno4?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-10-13T12:13:00+00:00"
-   },
-   {
-    "titulo": "Joan Garriga (Vox) ve a Colau y a Rufián parte del \"mismo proyecto destructivo\" para España",
-    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeEo0RVVqa21iWUNJUkptcy1rbjhubjhWUXFVZmI5OGNwVi1BT3lFbXdKbFNqXzhwN1k5bHlYTllsc1EzZVU3cFFqNmdHZW9ZaExDczFkQW5Kd1Q5SEZsNnJad2Q5YktPVWQwLUE4NnQ5dXEwQzE0VlNFRVhOVGFDeUdEUFJxMkRlajdKSWVEVWw2VF9oNnVNTWxKQTA5MXNXZzh0am9TMV92Snd6aDdWTTNKMlZ3REllYzdlaUNyS292X1ZWTU1PLWg1YlhJWUdrWjFj0gHYAUFVX3lxTE5tbjdUcnNldm9jQ0pXdUFmcEdPMzdPUGRYYk93cGx5alhMcmpNM19FZVEwdUQ4ZXMzeThTdzJOV01paHRZMnpONkNxeU5JWWVhR1A1Qy1iV2VCdTFoTnlpU3dqN3JERldheXIteUl5d3hQc1d6N1FPbU8tQTY0RHJTNnotZmVXVF9lNnd6NmRKWWd0QW9YUE03dVAyb2U1UHNiaDRmeW9WYV9SeVdoVFVJM3kwYUMzWUQya1JfQjYwRzVBajJMbGFIcjhRT3lHbVEtdS1MMFNWZQ?oc=5",
-    "fuente": "Teleprensa",
-    "fecha": "2026-10-13T11:47:39+00:00"
    }
   ],
   "Junts": [
@@ -411,7 +411,7 @@
    },
    {
     "titulo": "Bel Pozueta no repetirá como candidata de EH Bildu por Navarra en las elecciones generales",
-    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQzhSM0RQZ3dLYkxRLTduWktuNzlGcUw3Y08za29GeFR6N2NycHhHN2REaWs3ZkNwYUwyNWpMNFF5cEswYk1xRWVYOW1HMU9NdUsxbDRCSXYtNExnZlhWZExtX0lZRVZURWlodlFqTXpTc2d6TzYwOWZWa0NVeHJpVzJIZFZDaXgtdDRmSER5ckJGX0FGcDFnTTZLSWRBYjI3N3FCNUlNZXVaV0pHN0x5d0JkUGVJR2VVR3hpVHEwalVYcmlLUEhrUzNnVFZGNmpFWE9qQWF2S1YyQVlZSHVFa9IB9AFBVV95cUxQbFlZMTFsTUlocmlhdXJGUHMxZTV4WGJjWUVRR1FRMFZWTFB0NmNNdUNlNnBvVWc0WHR3NUZ1NzQtaHlSeG14QlJMY0tPUDBROWFhRUpkVVNwQmZVU2RUYW9zem4yS0h6MnZsRklublhEM3J1UEVQTkw5VFNET19pekMwbVBZb2psQ3RKSzJaT1U4SkVFQVl2cGpkQjdHUllYcEpBaHdfN3p0SEVhaDdURkoxbWhQS2dtZTAzQ1NhQkRhVjVGVGQxT0paXzVmcmwzWFBseGl1NnZRTS1LY3doa09zXzlGd1dJWFBtY3hNVE5hanFK?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbFlZMTFsTUlocmlhdXJGUHMxZTV4WGJjWUVRR1FRMFZWTFB0NmNNdUNlNnBvVWc0WHR3NUZ1NzQtaHlSeG14QlJMY0tPUDBROWFhRUpkVVNwQmZVU2RUYW9zem4yS0h6MnZsRklublhEM3J1UEVQTkw5VFNET19pekMwbVBZb2psQ3RKSzJaT1U4SkVFQVl2cGpkQjdHUllYcEpBaHdfN3p0SEVhaDdURkoxbWhQS2dtZTAzQ1NhQkRhVjVGVGQxT0paXzVmcmwzWFBseGl1NnZRTS1LY3doa09zXzlGd1dJWFBtY3hNVE5hanFK0gH0AUFVX3lxTFBsWVkxMWxNSWhyaWF1ckZQczFlNXhYYmNZRVFHUVEwVlZMUHQ2Y011Q2U2cG9VZzRYdHc1RnU3NC1oeVJ4bXhCUkxjS09QMFE5YWFFSmRVU3BCZlVTZFRhb3N6bjJLSHoydmxGSW5uWEQzcnVQRVBOTDlUU0RPX2l6QzBtUFlvamxDdEpLMlpPVThKRUVBWXZwamRCN0dSWVhwSkFod183enRIRWFoN1RGSjFtaFBLZ21lMDNDU2FCRGFWNUZUZDFPSlpfNWZybDNYUGx4aXU2dlFNLUtjd2hrT3NfOUZ3V0lYUG1jeE1UTmFqcUo?oc=5",
     "fuente": "Cadena SER",
     "fecha": "2026-10-13T10:13:14+00:00"
    },
@@ -654,16 +654,16 @@
     "fecha": "2026-10-13T11:20:52+00:00"
    },
    {
+    "titulo": "Adelante Andalucía reclama una tasa turística progresiva",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0UtemJGaE0yUng3QUt2RFlFRkhXWkpqTXlJTjg4bnlsaGJEMEFlbTVCNUQ0RXVKamRoMFBFWGV3ZFlka3JLN1ktMHN5SGNUWnJwUUlaRms3NDVqNXFIeGx5ZVp5TTQ3OVlBYnFMakw4NGstT3hvRzVNa21YcEFiSGtkdGg3VWdNN2xUemhuVHlRdHoxYS1rVnJxNGgxNWI0OERzRXFSM0ZYU2FoSkVjNnVOSFdURktaNTRpYlF4VUZ2eG93TFHSAcYBQVVfeXFMT3NFLXpiRmhNMlJ4N0FLdkRZRUZIV1pKak15SU44OG55bGhiRDBBZW01QjVENEV1SmpkaDBQRVhld2RZZGtySzdZLTBzeUhjVFpycFFJWkZrNzQ1ajVxSHhseWVaeU00NzlZQWJxTGpMODRrLU94b0c1TWttWHBBYkhrZHRoN1VnTTdsVHpoblR5UXR6MWEta1ZycTRoMTViNDhEc0VxUjNGWFNhaEpFYzZ1TkhXVEZLWjU0aWJReFVGdnhvd0xR?oc=5",
+    "fuente": "Cadena SER",
+    "fecha": "2026-10-13T11:20:34+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía critica que el PP reaccione tarde al exigir la dimisión del alcalde de Algeciras",
     "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMlVyd2Q0ek9PMVg1aG1PN2ZNN2dZZ3lCaGtlWWdTR1l0NW96b25hdG9GeDN0SVBqam9yeF9MMVgxS0taUUc3NVlsNFdqU1RBQTgtaVpFWGU1d2dvOXZ0dGxoMjdMLTV6WXRVblhXRE1PQXpuS21PM3l1bExKWENlSkY3dlk1S2E5OE9tYnFUM2xrOXZrdUVlUS1pUWFVU3EzQmZtejlLSTJyN0dPcWM3WVR3ZXg2SzFwMzUxaHJLMVVibWVhLUJlc1E4cEstNzjSAdQBQVVfeXFMUHVpQi0wM252VUtyVlJ6RmVXNEhaUnBPbmNVWWNoNTZDTTk4MFVzWU8zakV2cGRNSlJPTTNHZ0wwOW5RVHZOR21iVmVoNFRCTGFDaW12eHAyTzlxOG5HblpzS1ZDU2lsZ3dIWEJjeW5oZGxVb3NZeFUxRHJ5SEhDQ0lIekJrRGF2cEtUNjUxcUpPUE1JVDNNMXlZWDNKaEppeGh0REJVNmJ3MEJudHJJeFRXQUdaU0pORlMtRzFGZS1zN0dFdjFjcnlsNEtlUGhKcEkxeDc?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-13T10:59:17+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía fija su ruta para las municipales: ampliar la izquierda y abrir candidaturas en Cádiz",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMG9hZDNsM1pFSXh6dkUyb0VfcFJhQkh1ZVphTHhqdEdpcVR6TUNSRDdVTTJSTE84U1dqLUpMYXNxd1Y5aHlPVjhfR09yLUYxTFRDNURqSlFId0RLYW5FUXczYk9xcTlJTU8zX1pWeVVfc055YXUzenFTTjdWcGRycnF1dUhMV2ZlVUMySnEwMnI2SnV1eTdIaUJjTVJyVGEwaXJNdHVCZ041VFExNTRMb2UwM3gtOTc3SlZGckU0cEhEQ1VqZE9nTXA4VEh4bnVBRmJiZklRRHBZYmxyMWN0T2ZQdnZsSlFPV1JN?oc=5",
-    "fuente": "Portal de Cádiz",
-    "fecha": "2026-10-13T09:23:44+00:00"
    }
   ]
  },
@@ -849,6 +849,12 @@
    "fecha": "2026-10-13T11:54:43+00:00"
   },
   {
+   "titulo": "¿«Un testigo de la causa por presunto fraude electoral en Albaida del Aljarafe (Sevilla) aseguró ante la jueza que no votó en 2019 a pesar de aparecer su firma en la solicitud de voto por correo»? · La Buloteca · Maldita.es",
+   "enlace": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOUkN1VlVpZ3oyYk1nVDN2M21MVUU5MVhJNDZPdXpkQzZvX3RSZUpXNll3aDZ0OFhMeVNHX3NKNmlDLVhXa01Sc0hGVi1lbjg0TnhIc1hPWlA5OFhuT1ZLSE9qVXljVUktY3haZ1U5Q3lob1ktZW01MG9QM01ETm5fNjhjS0hPalZZSDk1LVJVQTFMRDRzaDJ1c05WN2hYdFZPR0w0Ym1DSjB3N0xqNVZjSkl2OU9GYnN3VEEtTUlhbVpXTWx6Q0J5SFA5eXJVQjJUTFJpZkJxOWNiWERTc2FDOHBoclR6Ykp3OHE1cGQwenltNWhySXpqQnIyYlF5NnppeWFsdGJrcU9oQko4WDlCZFdEMXpCREFpeHl1RExOdnFDTmpxQ012XzJhQkVoNzh6bE4tZHQtM0tYUjJBTWRmeVV3enJQMDg?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-10-13T11:39:29+00:00"
+  },
+  {
    "titulo": "¿«Sánchez y el PSOE afirman que millones de trabajadores, autónomos y pequeños empresarios no tienen otra forma de votar que por correo al estar trabajando ese día»? · La Buloteca · Maldita.es",
    "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPOUNJRmxGNlJfU3V0UmM2OUpKdExzSXNob2Q1eGpGSWNPWGZucWNzclJ1Zm91TWRzaE1IS3pNNzNqUTFvSC1YNXU3WjRUNTBSMGZMMFFpX2Y4b3ZIcXl0Z2drZHN4QzQ2aTA2VlpaTTZnQVVSN2RZZUZyT3Y3OERfb1hPZS13RzkyZFU4bnA3ekdDWi1INk1WaklSNnhHTkFueWpRR3IxOTVvb05MamdSTkhORlpXM28zaTVRR1hKQnZmYTVRdm5WMjRUY2RIUkV5UWRienl6ZHR4UTJpT3VBV0xjeWt4d1lsbWFKeUFacHRtc1ZQN2tnWTc0YTZCSjR3cUExLThzTGhhWDh1SnJhWUJzQ0pNRkJQVEFDamxJOA?oc=5",
    "fuente": "Maldita.es",
@@ -863,12 +869,6 @@
   {
    "titulo": "¿Irene Montero tiene varias propiedades inmobiliarias y un salario anual de 150.000 euros?",
    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVm1QMEdWdlVKdlk2RGpaM0E5cC1EQnBGRW8yODJwc1ZtcVZhdFhBekpOdEI0YnJFaXVlSDJlT1R4SnFLdk5acVJpc3labkQwZENfOHRxc0dDQ0JGTk9rVVRBaU5KTHNBQlZNb2U2bS03R2tYd01mZlMyckhGSWpsZGJVUlRrZFlGOHVaUGlUWHBrcy1HWkNyRjliTlpFUjQyQm5WSUpoT3JoaW42YXNuLTE4d1pTb2ZBaFlreVJWVQ?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-10-13T11:39:26+00:00"
-  },
-  {
-   "titulo": "¿«El Gobierno de Sánchez busca 10.000 millones de euros para financiar hipotecas de hasta 50.000 euros para la primera vivienda»? · La Buloteca · Maldita.es",
-   "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOR2pKVHQxYlZDanJGeGtzQ3d6VVFmcGs1OFRWeXJYMFNETy1YRU0zWjdlNHR0VjBrMjlQbXoxVEZmeGxvYzVUTVJmbk91c3B4by1iR2xRd0VhSzJjX1JKSmtjb2gxTW9Sc3VRRlAxMkZhLV9HeDhPLTNWWVc1X2c4N0FfcWlYak53ZVI4SFlDT3NzVWIzMEdKM0FSSmU4MjFGbzltZEN4ZVJET1VIRjlRTTRfYTRldE10ako5QnNRNzFyZWY0alZrd2s2eHlRQy1kRkhZaWRQOUVxMzlZc0dqQkkxYlM1NlBweFMxamdDbTdjZXVwaWdfZw?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-10-13T11:39:26+00:00"
   }
