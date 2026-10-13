@@ -701,3 +701,31 @@ html.pruebas .sello-pruebas { display: inline-block; }
 @media (max-width: 600px) { .titulares-hoy { grid-template-columns: 1fr; } }
 .titulares-hoy .titular-n:not(.grande) { grid-column: 1 / -1; }
 .pregunta .como summary { font-size: .95rem; }
+
+/* Desplegables en forma de píldora (tramo de la gráfica, empresa) */
+.desplegable { appearance: none; -webkit-appearance: none; border: 2px solid var(--linea); background: var(--superficie) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%235C6575' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") no-repeat right 8px center / 18px; border-radius: 999px; padding: 7px 32px 7px 14px; font: inherit; font-size: .88rem; font-weight: 650; color: var(--tinta); cursor: pointer; max-width: 100%; }
+.desplegable:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.mandos-grafica.secundarios { margin-top: -2px; }
+.leyenda-empresas { margin: 0 0 8px; }
+
+/* ---------- Hoy en una pantalla (ordenador) ---------- */
+@media (min-width: 1000px) {
+  main, .cabecera { max-width: 1180px; }
+  #hoy:not([hidden]) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px 16px; align-items: start; }
+  #hoy > #foco-hoy, #hoy > .foco-caja { grid-column: 1 / -1; }
+  #hoy > .portada { grid-template-columns: 1fr; gap: 6px; padding: 18px 18px 14px; background: var(--superficie); border-radius: 20px; margin-top: 14px; box-shadow: 0 1px 2px rgba(23,32,46,.04); }
+  #hoy > .portada .portada-txt h2 { font-size: 2rem; }
+  #hoy > .portada .portada-arcos { order: -1; }
+  #hoy > .pregunta, #hoy > .tarjetas-hoy { margin-top: 14px; }
+  #hoy > #desde { grid-column: 1 / -1; }
+  #hoy > .pregunta.bloque-titulares { grid-column: 1 / -1; }
+  #hoy .titulares-hoy { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  #hoy .titulares-hoy .titular-n:not(.grande) { grid-column: span 2; }
+  #hoy > .portada { grid-column: 1; grid-row: 2; }
+  #hoy > #ganando-bloque { grid-column: 2; grid-row: 2; }
+  #hoy > .tarjetas-hoy { grid-column: 1 / -1; grid-row: 3; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  #hoy > #gobernar-bloque { grid-column: 1; grid-row: 4; }
+  #hoy > #semana-bloque { grid-column: 2; grid-row: 4; }
+  #hoy > #desde { grid-row: 5; }
+  #hoy > .bloque-titulares { grid-row: 6; }
+}

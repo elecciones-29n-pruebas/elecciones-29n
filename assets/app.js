@@ -759,7 +759,7 @@ function textoTramo() {
 function elegirTramo(t) {
   enc.tramo = t;
   const caja = $("#tramo-fechas"), d = $("#tramo-desde"), h = $("#tramo-hasta"), hoyS = diaMadrid();
-  document.querySelectorAll(".tramos button").forEach((x) => { x.setAttribute("aria-pressed", x.dataset.tramo === t ? "true" : "false"); if (x.dataset.tramo === "medida") x.setAttribute("aria-expanded", t === "medida" ? "true" : "false"); });
+  if ($("#tramo-sel")) $("#tramo-sel").value = t;
   caja.hidden = t !== "medida";
   if (t === "medida") {
     for (const c of [d, h]) { c.min = TRAMO_INICIO; c.max = hoyS; }
@@ -779,7 +779,7 @@ function avisoTramo() {
     : enc.desde > enc.hasta ? "La primera fecha era posterior a la segunda, así que se han tomado al revés."
     : fuera(enc.desde) || fuera(enc.hasta) ? `Solo hay media entre el ${fFechaAnio.format(fechaD(TRAMO_INICIO))} y hoy. Se enseña lo que cae dentro.` : "";
 }
-document.querySelectorAll(".tramos button").forEach((b) => b.addEventListener("click", () => elegirTramo(b.dataset.tramo)));
+$("#tramo-sel")?.addEventListener("change", (e) => elegirTramo(e.target.value));
 for (const id of ["tramo-desde", "tramo-hasta"]) document.getElementById(id)?.addEventListener("change", (e) => {
   if (!e.target.value) return; // fecha a medio escribir
   enc[id === "tramo-desde" ? "desde" : "hasta"] = e.target.value;
@@ -830,11 +830,12 @@ function pintarEncuestas(m, m7, proy) {
   const CORTE = 8;
   const oculta = () => enc.filtro && empresas.findIndex(([k]) => k === enc.filtro) >= CORTE;
   if (oculta()) enc.todas = true;
-  $("#filtro-empresas").replaceChildren(el("button", { type: "button", "aria-pressed": enc.filtro ? "false" : "true", onclick: () => { enc.filtro = null; pintarEncuestas(m, m7, proy); } }, "Media de todas"),
-    ...(enc.todas ? empresas : empresas.slice(0, CORTE)).map(([clave, v]) => el("button", { type: "button", class: `${enMedia.has(clave) ? "en-media" : ""}${v.activa ? "" : " inactiva"}`, "data-clave": clave, "aria-pressed": enc.filtro === clave ? "true" : "false",
-      title: `${v.n} ${v.n === 1 ? "encuesta" : "encuestas"} desde 2023, la última del ${fFecha.format(fechaD(v.ultima))}`, onclick: () => { enc.filtro = clave; pintarEncuestas(m, m7, proy); } }, v.empresa, el("small", {}, ` ${v.n}`))),
-    empresas.length > CORTE ? el("button", { type: "button", class: "mas", "aria-expanded": enc.todas ? "true" : "false", onclick: () => { enc.todas = !enc.todas; if (!enc.todas && oculta()) enc.filtro = null; pintarEncuestas(m, m7, proy); } }, enc.todas ? "Ver menos" : `Ver las ${empresas.length}`) : null);
-  $("#leyenda-empresas").textContent = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
+  const sel = $("#filtro-empresas");
+  sel.replaceChildren(el("option", { value: "" }, "Media de todas las empresas"),
+    ...empresas.map(([clave, v]) => el("option", { value: clave }, `${v.empresa} (${v.n})${enMedia.has(clave) ? "" : v.activa ? "" : ", sin publicar desde hace un año"}`)));
+  sel.value = enc.filtro || "";
+  sel.onchange = () => { enc.filtro = sel.value || null; contar("Filtra por empresa"); pintarEncuestas(m, m7, proy); };
+  $("#leyenda-empresas").textContent = `${empresas.length} empresas desde 2023, ${enMedia.size} cuentan hoy en la media. El número es cuántas encuestas lleva cada una.`; const _viejo = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
   const cf = enc.filtro ? cuenta[enc.filtro] : null;
   enc.explica = () => cf ? `Las encuestas de ${cf.empresa}, una a una, ${textoTramo()}. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : `Así ha cambiado la media de encuestas ${textoTramo()}.${enc.tramo === "convocatoria" || (enc.tramo === "medida" && rangoTendencia()[1] - rangoTendencia()[0] <= 130 * DIA) ? " Un punto por día." : ""}`;
   $("#explica-tendencia").textContent = enc.explica();
@@ -915,7 +916,7 @@ function animarNumeros(raiz) {
    difieren las encuestas entre sí. Cada punto es una encuesta tal como la publicó su empresa (en asientos, los que dio
    esa empresa). La línea y las barras son la media del día, y en asientos el reparto de esa media con la ley electoral,
    el mismo número que sale en Hoy. Todo se calcula en el dispositivo a partir de encuestas.json. */
-Object.assign(enc, { vista: "tendencia", que: "partidos", medida: "pct", franja: false, carreraI: null, reproduciendo: null });
+Object.assign(enc, { vista: "tendencia", que: "partidos", medida: "pct", franja: true, puntos: false, carreraI: null, reproduciendo: null });
 const diaDesdeInicio = (t) => Math.round((t - fechaD(TRAMO_INICIO)) / DIA);
 const fechaDesdeDia = (n) => new Date(+fechaD(TRAMO_INICIO) + n * DIA);
 const GRIS_RESTO = "#8A94A6";
@@ -978,10 +979,10 @@ function pintarTendencia() {
   const series = seriesGrafica(), x0 = diaDesdeInicio(desde), x1 = diaDesdeInicio(hasta);
   const E = (D.encuestas?.encuestas || []).filter((e) => fechaD(e.fin) >= desde && fechaD(e.fin) <= hasta && (!enc.filtro || e.clave === enc.filtro));
   const datasets = [];
-  // Cada encuesta, un punto translúcido (en asientos, solo las que los publican)
-  for (const s of series) {
+  // Cada encuesta, un punto translúcido (en asientos, solo las que los publican). Solo si se piden o al elegir una empresa.
+  if (enc.puntos || enc.filtro) for (const s of series) {
     const puntos = E.map((e) => { const y = sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos); return y == null ? null : { x: diaDesdeInicio(fechaD(e.fin)), y, empresa: e.empresa }; }).filter(Boolean);
-    datasets.push({ type: "scatter", label: s.nombre, data: puntos, backgroundColor: colorAlfa(s.color, enc.filtro ? .9 : .32), borderColor: "transparent", pointRadius: enc.filtro ? 4.5 : 3.2, pointHoverRadius: 5, order: 3, esPunto: true, color: s.color });
+    datasets.push({ type: "scatter", label: s.nombre, data: puntos, backgroundColor: colorAlfa(s.color, enc.filtro ? .9 : .28), borderColor: "transparent", pointRadius: enc.filtro ? 4.5 : 2.6, pointHoverRadius: 5, order: 3, esPunto: true, color: s.color });
   }
   // La media, una línea suave. Con una sola empresa elegida no hay media, los puntos van unidos por una línea fina.
   if (!enc.filtro) {
@@ -1002,7 +1003,7 @@ function pintarTendencia() {
         datasets.push({ type: "line", label: `${s.nombre} +`, data: arriba, borderWidth: 0, pointRadius: 0, pointHoverRadius: 0, tension: .35, spanGaps: true, order: 4, auxiliar: true });
         datasets.push({ type: "line", label: `${s.nombre} −`, data: abajo, borderWidth: 0, pointRadius: 0, pointHoverRadius: 0, tension: .35, spanGaps: true, fill: "-1", backgroundColor: colorAlfa(s.color, .13), order: 4, auxiliar: true });
       }
-      datasets.push({ type: "line", label: s.nombre, data: linea, borderColor: s.color, backgroundColor: s.color, borderWidth: 3.2, pointRadius: 0, pointHoverRadius: 4, tension: .35, spanGaps: true, order: 1, esMedia: true });
+      datasets.push({ type: "line", label: s.nombre, data: linea, borderColor: s.color, backgroundColor: s.color, borderWidth: 4, pointRadius: 0, pointHoverRadius: 5, pointHitRadius: 10, tension: .35, spanGaps: true, order: 1, esMedia: true });
     }
   } else {
     for (const s of series) { const d = datasets.find((x) => x.esPunto && x.label === s.nombre); if (d) { d.showLine = true; d.borderColor = colorAlfa(s.color, .5); d.borderWidth = 1.5; d.data.sort((a, b) => a.x - b.x); } }
@@ -1016,7 +1017,7 @@ function pintarTendencia() {
   const css = getComputedStyle(document.documentElement), gris = css.getPropertyValue("--gris").trim(), tinta = css.getPropertyValue("--tinta").trim();
   const fEje = corto ? new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short" }) : new Intl.DateTimeFormat("es-ES", { month: "short", year: "2-digit" });
   const ultimos = {}; // para que la leyenda enseñe una entrada por serie y el tooltip no repita
-  graficoTendencia = new Chart($("#grafico-tendencia"), { data: { datasets }, options: { ...op, animation: { duration: 600, easing: "easeOutQuart" }, interaction: { mode: "nearest", axis: "x", intersect: false },
+  graficoTendencia = new Chart($("#grafico-tendencia"), { data: { datasets }, options: { ...op, animation: { duration: 600, easing: "easeOutQuart" }, interaction: { mode: "nearest", axis: "xy", intersect: false },
     plugins: { ...op.plugins, legend: { ...op.plugins.legend, labels: { ...op.plugins.legend.labels, color: tinta, pointStyleWidth: 10, boxHeight: 8, filter: (it, data) => { const d = data.datasets[it.datasetIndex]; if (d.auxiliar || d.esPunto && !enc.filtro) return false; if (ultimos[d.label] != null && ultimos[d.label] !== it.datasetIndex) return false; ultimos[d.label] = it.datasetIndex; return true; } } },
       tooltip: { callbacks: { title: (items) => items.length ? fFechaCompleta.format(fechaDesdeDia(items[0].parsed.x)) : "", label: (c) => { const d = c.dataset; if (d.mayoria) return null; const base = `${d.label.replace(/ [+−]$/, "")} ${fmtValor(c.parsed.y)}${unidad()}`; return d.esPunto ? `${c.raw.empresa}, ${base}` : d.auxiliar ? (c.raw.empresa ? `${c.raw.empresa}, ${base}` : null) : `Media, ${base}`; }, filter: (c) => !c.dataset.auxiliar || !!c.raw.empresa } } },
     scales: { x: { type: "linear", min: x0 - margenX, max: x1 + margenX, ticks: { color: gris, maxRotation: 0, autoSkipPadding: 24, callback: (v) => fEje.format(fechaDesdeDia(v)).replace(" de ", " ") }, grid: { display: false } },
@@ -1026,7 +1027,7 @@ const fFechaCompleta = new Intl.DateTimeFormat("es-ES", { day: "numeric", month:
 function pieGrafica() {
   const pct = enc.medida === "pct", v = enc.vista;
   $("#pie-grafica").textContent = v === "tendencia"
-    ? `${enc.filtro ? "Cada punto es una encuesta de esa empresa." : "Cada punto es una encuesta y la línea, la media del día."} ${pct ? "" : "En asientos, cada punto es lo que publicó esa empresa, y la línea es el reparto de la media con la ley electoral, el mismo número que en Hoy. "}El rombo es el resultado de 2023.${enc.franja ? " La franja es lo que difieren entre sí las encuestas que cuentan ese día, una desviación típica arriba y abajo." : ""}`
+    ? `${enc.filtro ? "Cada punto es una encuesta de esa empresa, y la línea fina las une." : `La línea es la media del día y la franja clara, lo que difieren entre sí las encuestas que cuentan ese día.${enc.puntos ? " Cada punto es una encuesta." : ""}`} ${pct ? "" : "En asientos, la línea es el reparto de la media con la ley electoral, el mismo número que en Hoy, y cada punto lo que publicó esa empresa. "}El rombo es el resultado de 2023.`
     : v === "barras" ? `La barra es la media de hoy${pct ? "" : " repartida con la ley electoral"}. ${!pct && enc.que === "partidos" && D.prob?.partidos ? "La parte clara es donde lo normal es que acabe, el 80 % de las repeticiones del modelo." : "La parte clara es lo que difieren entre sí las encuestas que cuentan hoy."} La raya fina es lo que sacó en 2023.`
     : `Mueve el deslizador o dale al play para ver cómo ha cambiado la media desde 2023. La parte clara es lo que difieren entre sí las encuestas de cada momento, y la raya fina, el resultado de 2023.`;
 }
@@ -1056,7 +1057,7 @@ function prepararCarrera() {
 function pintarCarrera(i, primera = false) {
   enc.carreraI = i;
   const t = carrera.puntos[i], esHoy = i === carrera.puntos.length - 1 && diaMadrid(t) === diaMadrid();
-  const d = valorDia(t), series = seriesGrafica(), modelo = enc.vista === "barras" && enc.medida === "esc" && enc.que === "partidos" ? D.prob?.partidos : null;
+  const d = valorDia(t), series = seriesGrafica(), modelo = esHoy && enc.medida === "esc" && enc.que === "partidos" ? D.prob?.partidos : null;
   $("#carrera-dia").textContent = esHoy ? `Hoy · ${fFecha.format(t)} ${t.getUTCFullYear()}` : fFechaCompleta.format(t);
   $("#carrera-n").textContent = d.usadas ? `${d.usadas} ${d.usadas === 1 ? "encuesta" : "encuestas"}${d.desde && d.hasta && d.desde !== d.hasta ? ` entre el ${fFecha.format(fechaD(d.desde))} y el ${fFecha.format(fechaD(d.hasta))}` : d.hasta ? `, del ${fFecha.format(fechaD(d.hasta))}` : ""}` : "Sin encuestas en ese momento";
   const orden = series.slice().sort((a, b) => (d.v[b.k] || 0) - (d.v[a.k] || 0));
@@ -1106,7 +1107,7 @@ function mando(sel, dato, campo) {
   }));
 }
 mando(".conmutador.vistas", "vista", "vista"); mando(".conmutador.quever", "que", "que"); mando(".conmutador.medida", "medida", "medida");
-$("#franja")?.addEventListener("change", (e) => { enc.franja = e.target.checked; pintarTendencia(); });
+$("#puntos")?.addEventListener("change", (e) => { enc.puntos = e.target.checked; contar("Ve cada encuesta"); pintarTendencia(); });
 
 /* ---------- ¿La ley electoral favorece a alguien? (en ¿Y si…?, con los votos de la situación elegida) ---------- */
 function pintarLey(media, esc2, provincias) {
