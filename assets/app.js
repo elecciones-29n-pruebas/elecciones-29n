@@ -317,7 +317,7 @@ function barraAsientos(o) {
    ops: [{id, titulo, p, color, partidos, central, p10, p90, verbo}] */
 function medidores(cont, det, ops, sel, alElegir) {
   cont.replaceChildren(...ops.map((o) => el("button", { type: "button", class: "medidor-a", "data-id": o.id, "aria-pressed": sel === o.id ? "true" : "false", onclick: () => alElegir(sel === o.id ? null : o.id) },
-    el("span", { class: "tit" }, o.titulo), el("span", { class: "svg", html: aguja(o.p, o.color) }), el("b", {}, cap(palabra(o.p))))));
+    el("span", { class: "tit" }, o.titulo), el("span", { class: "svg", html: aguja(o.p, o.color) }), el("b", { class: "num-sube" }, `${r100(o.p)} %`), el("small", {}, cap(palabra(o.p))))));
   const o = ops.find((x) => x.id === sel);
   if (!o) { det.replaceChildren(el("p", { class: "pie-bloque" }, "Toca un medidor para ver el detalle.")); return; }
   const M = o.mayoria || 176;
@@ -397,12 +397,7 @@ function pintarHoy(m, m7, proy) {
   // 1. ¿Quién va ganando?
   if (o.length) {
     $("#r-ganando").replaceChildren(el("b", {}, `${nombre(o[0])}.`), ` Tiene el ${fmt1.format(m.media[o[0]])} % de los votos ${D.sinEncuestas ? "con el resultado de 2023, que es lo que se enseña mientras no se puedan cargar las encuestas" : "en la media de encuestas"}. Le siguen ${nombre(o[1])} con el ${fmt1.format(m.media[o[1]])} % y ${nombre(o[2])} con el ${fmt1.format(m.media[o[2]])} %.`);
-    const max = m.media[o[0]];
-    $("#g-ganando").replaceChildren(...o.slice(0, 3).map((k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0;
-      return el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
-        el("div", { class: "num num-sube" }, `${fmt1.format(m.media[k])} %`, el("small", { class: d ? (d > 0 ? "sube" : "baja") : null }, d ? `${d > 0 ? "▲" : "▼"} ${fmt1.format(Math.abs(d))} esta semana` : "igual que la semana pasada")),
-        el("div", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } }))); }));
-    $("#g-resto").replaceChildren(...o.slice(3).filter((k) => m.media[k] >= 0.5).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${fmt1.format(m.media[k])} %`)));
+    pintarBarrasVotos(m, m7, proy);
     // Transparencia: qué encuestas forman la media de hoy y cuánto pesa cada una
     const faseTxt = m.fase === "precampaña" ? "Cuanto más antigua es una encuesta, menos pesa. Una de hace 10 días pesa la mitad que una de hoy y una de hace un mes, ocho veces menos. Desde que empiece la campaña, el 13 de noviembre, las antiguas perderán peso el doble de rápido, para que los cambios se noten antes."
       : m.fase === "campaña" ? "En campaña las encuestas antiguas pierden peso rápido, una de hace 5 días pesa la mitad que una de hoy, para que los cambios se noten antes." : "En la última semana una encuesta de hace 3 o 4 días ya pesa la mitad que una de hoy. Desde el 24 de noviembre la ley prohíbe publicar encuestas nuevas en España.";
@@ -478,7 +473,7 @@ function pintarHoy(m, m7, proy) {
   pintarHistorial();
 
   // 5. Titulares
-  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n)), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
+  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n, { grande: true })), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
   $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map((n, i) => noticia(n, { grande: i === 0 })));
   $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
   $("#verificaciones-todas").replaceChildren(...((D.noticias?.verificaciones_generales || []).length ? D.noticias.verificaciones_generales.slice(0, 8).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
@@ -512,6 +507,29 @@ function chispasFoco(partidos) {
   return v;
 }
 
+/* ---------- ¿Quién va ganando?: barras tocables ----------
+   Una barra por partido con al menos un 1 %. Al tocar una se abre debajo su chispa de 90 días, la franja de asientos del
+   modelo y el cambio en una semana. Solo una abierta a la vez. */
+const votos = { abierto: null };
+function pintarBarrasVotos(m, m7, proy) {
+  const o = ordenar(m.media).filter((k) => m.media[k] >= 1), max = Math.max(...o.map((k) => m.media[k]), 1), ch = chispasFoco(o);
+  const fila = (k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0, abierta = votos.abierto === k, pk = D.prob?.partidos?.[k];
+    const b = el("button", { type: "button", class: `fila-v${abierta ? " abierta" : ""}`, "aria-expanded": abierta ? "true" : "false", style: { "--c": color(k) }, onclick: () => { votos.abierto = abierta ? null : k; contar("Toca un partido en Hoy"); pintarBarrasVotos(m, m7, proy); } },
+      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%` } })),
+      el("span", { class: "num num-sube" }, `${fmt1.format(m.media[k])} %`), el("small", { class: d ? (d > 0 ? "sube" : "baja") : "igual" }, d ? `${d > 0 ? "▲" : "▼"} ${fmt1.format(Math.abs(d))}` : "="));
+    if (!abierta) return b;
+    const det = el("div", { class: "fila-v-detalle", style: { "--c": color(k) } },
+      el("div", { class: "dato" }, el("b", {}, `${proy.total[k] || 0}`), el("span", {}, "asientos hoy")),
+      el("div", { class: "dato" }, el("b", {}, pk ? `${pk.p10}–${pk.p90}` : "–"), el("span", {}, "lo normal, 80 % de las veces")),
+      el("div", { class: "dato" }, el("b", {}, d ? `${d > 0 ? "+" : ""}${fmt1.format(d)}` : "="), el("span", {}, "puntos en una semana")),
+      ch[k] ? el("div", { class: "dato chispa-grande" }, el("svg", { viewBox: "0 0 34 14", "aria-hidden": "true", html: `<polyline points="${ch[k]}"/>` }), el("span", {}, "últimos 90 días")) : null,
+      el("button", { type: "button", class: "boton pequeno", onclick: (ev) => { ev.stopPropagation(); elegirFoco(k); window.scrollTo({ top: 0, behavior: "smooth" }); } }, `Toda la app sobre ${nombre(k)}`));
+    return [b, det];
+  };
+  $("#g-ganando").replaceChildren(...o.flatMap(fila));
+}
+
 /* ---------- La portada de Hoy ----------
    Quién gobernaría y con cuánta probabilidad, en grande, y a la derecha el hemiciclo de arcos con el reparto de hoy y el
    cambio en una semana. Los arcos se dibujan uno tras otro al entrar (CSS, stroke-dashoffset). */
@@ -521,7 +539,11 @@ function pintarPortada(m, m7, proy, g) {
   if (g.fav && P) {
     const { fav, otro, X, Y } = g, t = tramo(fav.p), varios = fav.partidos.length > 1, dif = X - 176;
     $("#portada-titulo").replaceChildren(el("b", {}, cap(nombreEsc(fav))), t >= 3 ? ` ${varios ? "gobernarían" : "gobernaría"}, ${palabra(fav.p)}.` : t === 2 ? ", en el aire." : `, ${palabra(fav.p)}.`);
-    $("#portada-sub").textContent = `Con las encuestas de hoy ${varios ? "suman" : "saca"} ${X} asientos, ${dif > 0 ? `${dif} por encima` : dif === 0 ? "justo en la raya" : `${-dif} por debajo`} de los 176 que hacen falta. Para ${nombreEsc(otro)}, ${palabra(otro.p)}, con ${Y}. Que nadie sume, ${palabra(P.bloqueo)}.`;
+    // Tres cifras que se tocan: al tocar un bloque se iluminan sus arcos en el hemiciclo
+    const resalta = (partidos) => { const svg = $("#arcos svg"); if (!svg) return; svg.classList.toggle("resalta", !!partidos); svg.querySelectorAll("path.arco").forEach((pth) => pth.classList.toggle("on", !!partidos && partidos.includes(pth.dataset.k))); };
+    const cifra = (n, texto, c, partidos) => el("button", { type: "button", class: "cifra", style: { "--c": c }, onpointerenter: () => resalta(partidos), onpointerleave: () => resalta(null), onclick: () => { const ya = $("#arcos svg")?.classList.contains("resalta") && $("#arcos svg").querySelector("path.on")?.dataset.k === partidos?.[0]; resalta(ya ? null : partidos); } },
+      el("b", { class: "num-sube" }, String(n)), el("span", {}, texto));
+    $("#portada-cifras").replaceChildren(cifra(X, `${cap(nombreEsc(fav))}${varios ? " suman" : " saca"} hoy`, color(fav.partidos[0]), fav.partidos), cifra(176, "para gobernar", "var(--acento)", null), cifra(Y, cap(nombreEsc(otro)), color(otro.partidos[0]), otro.partidos));
     const col = color(fav.partidos[0]), R = 36, L = 2 * Math.PI * R, p = Math.max(0, Math.min(1, fav.p));
     $("#portada-anillo").replaceChildren(el("div", { class: "anillo", style: { "--c": col } },
       el("svg", { viewBox: "0 0 90 90", role: "img", "aria-label": `${r100(p)} % de probabilidad`, html: `<circle cx="45" cy="45" r="${R}" class="fondo"/><circle cx="45" cy="45" r="${R}" class="valor" style="stroke-dasharray:${L};stroke-dashoffset:${L * (1 - p)}" transform="rotate(-90 45 45)"/>` }),
@@ -530,7 +552,7 @@ function pintarPortada(m, m7, proy, g) {
   } else {
     const o = ordenar(esc);
     $("#portada-titulo").replaceChildren(el("b", {}, nombre(o[0])), ` va primero con ${esc[o[0]]} asientos.`);
-    $("#portada-sub").textContent = "Las probabilidades se calculan en la próxima actualización.";
+    $("#portada-cifras").replaceChildren(el("p", { class: "portada-sub" }, "Las probabilidades se calculan en la próxima actualización."));
     $("#portada-anillo").replaceChildren();
   }
   arcos($("#arcos"), esc, esc7);
@@ -551,7 +573,7 @@ function arcos(cont, esc, esc7) {
     const n = esc[k], f0 = acc / total, f1 = (acc + n) / total, [x0, y0] = pt(f0, R), [x1, y1] = pt(f1, R), largo = Math.PI * R * (f1 - f0);
     acc += n;
     const grande = f1 - f0 > 0.5 ? 1 : 0;
-    svg += `<path class="arco" d="M${x0.toFixed(1)} ${y0.toFixed(1)} A${R} ${R} 0 ${grande} 1 ${x1.toFixed(1)} ${y1.toFixed(1)}" stroke="${color(k)}" stroke-width="${W}" fill="none" style="--l:${largo.toFixed(1)};--r:${retraso}ms"/>`;
+    svg += `<path class="arco" data-k="${k}" d="M${x0.toFixed(1)} ${y0.toFixed(1)} A${R} ${R} 0 ${grande} 1 ${x1.toFixed(1)} ${y1.toFixed(1)}" stroke="${color(k)}" stroke-width="${W}" fill="none" style="--l:${largo.toFixed(1)};--r:${retraso}ms"/>`;
     retraso += Math.max(60, largo * 2.2);
   }
   // Etiquetas dentro de los arcos grandes
