@@ -24,14 +24,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=53">
+<link rel="stylesheet" href="assets/style.css?v=54">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
 </head>
 <body>
 <header class="cabecera">
-  <div><span class="marca">29N</span> <span class="lema">las elecciones, explicadas</span></div>
+  <div><span class="marca">29N</span> <span class="lema">las elecciones, explicadas</span><span class="sello-pruebas">pruebas</span></div>
   <div class="estado"><span id="cuenta" class="cuenta"></span><span id="cuenta-act" class="cuenta-act"></span></div>
 </header>
 
@@ -57,6 +57,19 @@
 
     <article class="pregunta desde" id="desde" hidden></article>
 
+    <article class="foto" id="foto-hoy">
+      <div class="foto-cab"><h2>La foto de hoy</h2><span id="foto-fecha"></span></div>
+      <div class="foto-cuerpo">
+        <div class="foto-hemi">
+          <div id="hemiciclo" class="hemi"></div>
+          <div id="hemi-ficha"></div>
+          <p id="hemi-arco" class="arco-txt"></p>
+          <div id="leyenda" class="leyenda"></div>
+        </div>
+        <div class="foto-cifras" id="foto-cifras"></div>
+      </div>
+    </article>
+
     <article class="pregunta resumen-dia">
       <h2 id="resumen-titulo">El resumen de hoy</h2>
       <ul id="resumen" class="resumen"></ul>
@@ -77,11 +90,7 @@
     <article class="pregunta">
       <h2>¿Quién va a gobernar?</h2>
       <p id="r-gobernar" class="respuesta">Cargando…</p>
-      <div id="hemiciclo" class="hemi"></div>
-      <div id="hemi-ficha"></div>
-      <p id="hemi-arco" class="arco-txt"></p>
-      <div id="leyenda" class="leyenda"></div>
-      <p class="pie-bloque">Cada punto es un asiento del Congreso. El bloque cuyo arco pasa la raya del centro, 176 de 350, puede gobernar sin depender de nadie. Toca un partido en el dibujo para ver sus datos.</p>
+      <p class="pie-bloque">El hemiciclo de arriba es el reparto con las encuestas de hoy. El bloque cuyo arco pasa la raya del centro, 176 de 350, puede gobernar sin depender de nadie. Toca un partido en el dibujo para ver sus datos. Abajo, cuántas veces pasa cada cosa en las 10.000 repeticiones.</p>
       <div id="g-medidores" class="medidores"></div>
       <div id="g-medidor-detalle" class="medidor-detalle"></div>
       <button type="button" id="compartir" class="boton compartir" hidden>Compartir esta foto por WhatsApp</button>
@@ -134,6 +143,22 @@
     <h2>Lo que dicen las encuestas</h2>
     <div id="filtro-empresas" class="filtro-empresas"></div>
     <p id="leyenda-empresas" class="fuente leyenda-empresas"></p>
+    <div class="mandos-grafica">
+      <div class="conmutador vistas" role="group" aria-label="Qué gráfica ver">
+        <button type="button" data-vista="tendencia" aria-pressed="true">Tendencia</button>
+        <button type="button" data-vista="barras" aria-pressed="false">Barras</button>
+        <button type="button" data-vista="carrera" aria-pressed="false">Carrera</button>
+      </div>
+      <div class="conmutador quever" role="group" aria-label="Partidos o bloques">
+        <button type="button" data-que="partidos" aria-pressed="true">Partidos</button>
+        <button type="button" data-que="bloques" aria-pressed="false">Bloques</button>
+      </div>
+      <div class="conmutador medida" role="group" aria-label="Porcentaje o asientos">
+        <button type="button" data-medida="pct" aria-pressed="true">% de voto</button>
+        <button type="button" data-medida="esc" aria-pressed="false">Asientos</button>
+      </div>
+      <label class="interruptor" id="franja-mando"><input type="checkbox" id="franja"><span class="pista-int"></span>Margen entre encuestas</label>
+    </div>
     <div class="conmutador tramos" role="group" aria-label="Tramo de la gráfica">
       <button type="button" data-tramo="legislatura" aria-pressed="true">Toda la legislatura</button>
       <button type="button" data-tramo="anio" aria-pressed="false">Último año</button>
@@ -147,7 +172,20 @@
       <p id="tramo-aviso" class="fuente" role="status"></p>
     </div>
     <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
-    <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
+    <div class="grafico grafico-grande" id="caja-tendencia"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
+    <div id="carrera" class="carrera" hidden>
+      <div class="carrera-mandos">
+        <button type="button" id="carrera-play" class="play" aria-label="Reproducir"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+        <div class="carrera-tiempo">
+          <input type="range" id="carrera-fecha" min="0" max="0" value="0" aria-label="Fecha">
+          <div class="carrera-marcas"><span id="carrera-inicio"></span><span>Hoy</span></div>
+        </div>
+        <div class="carrera-cuando"><b id="carrera-dia"></b><small id="carrera-n"></small></div>
+      </div>
+      <div id="carrera-escala" class="carrera-escala"></div>
+      <div id="carrera-barras" class="carrera-barras"></div>
+    </div>
+    <p id="pie-grafica" class="fuente"></p>
     <h2>Cómo va cada partido</h2>
     <p class="explica">El porcentaje es la media de hoy. El número pequeño de color es lo que ha cambiado en una semana. Debajo, los asientos entre los que lo normal es que acabe.</p>
     <div id="lista-partidos" class="lista-partidos"></div>
@@ -400,13 +438,15 @@
   <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
 </main>
 
-<script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente. */
-try { if (location.hash === "#no-contar") localStorage.setItem("skipgc", "t"); } catch (e) {}</script>
+<script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente.
+   Y solo cuenta la web de verdad: la de pruebas (elecciones-29n-pruebas.github.io) y cualquier otra copia se marcan igual. */
+try { if (location.hash === "#no-contar" || location.hostname !== "1985xose.github.io") localStorage.setItem("skipgc", "t"); } catch (e) {}
+if (location.hostname !== "1985xose.github.io") document.documentElement.classList.add("pruebas");</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=53"></script>
-<script src="assets/modelo.js?v=53"></script>
-<script src="assets/media.js?v=53"></script>
-<script src="assets/app.js?v=53"></script>
+<script src="assets/chart.umd.js?v=54"></script>
+<script src="assets/modelo.js?v=54"></script>
+<script src="assets/media.js?v=54"></script>
+<script src="assets/app.js?v=54"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;
