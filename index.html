@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=57">
+<link rel="stylesheet" href="assets/style.css?v=58">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -136,16 +136,12 @@
         <select id="mi-provincia" class="desplegable" aria-label="Elige una provincia"></select>
       </div>
       <div id="prov-mapa" class="subvista">
-        <div class="conmutador" role="group" aria-label="Qué mostrar en el mapa">
-          <button type="button" data-vista="ganador" aria-pressed="true">Quién gana</button>
-          <button type="button" data-vista="filo" aria-pressed="false">Dónde está reñido</button>
-        </div>
         <div id="mapa-svg" class="mapa"><div id="mapa-tip" class="mapa-tip" hidden></div></div>
         <p id="mapa-pista" class="explica-corta"></p>
       </div>
       <div id="prov-ultimo" class="subvista" hidden>
-        <p class="explica-corta">El último asiento de cada provincia, quién lo tiene hoy y quién se lo pelea. Ordenadas de más a menos reñidas.</p>
-        <div id="ultimo-resumen" class="ultimo-resumen"></div>
+        <p class="explica-corta">Dónde se decide el último asiento por menos votos, a todo color, con los dos partidos que se lo disputan. Toca una provincia o una fila para abrirla.</p>
+        <div id="ultimo-mapa" class="mapa"></div>
         <div id="ultimo-tabla" class="tabla-ultimo"></div>
       </div>
       <div id="prov-tabla" class="subvista" hidden>
@@ -243,18 +239,16 @@
       <div id="carrera-barras" class="carrera-barras"></div>
     </div>
     <p id="pie-grafica" class="fuente"></p>
-    <h2>Cómo va cada partido</h2>
-    <p class="explica">El porcentaje es la media de hoy. El número pequeño de color es lo que ha cambiado en una semana. Debajo, los asientos entre los que lo normal es que acabe.</p>
-    <div id="lista-partidos" class="lista-partidos"></div>
+    <div id="notas-encuestas" class="notas-encuestas"></div>
     <article class="pregunta" id="cis-bloque" hidden>
       <h2>¿Y el CIS?</h2>
       <p id="cis-texto" class="pie-bloque"></p>
       <div id="cis-tabla" class="cis-tabla"></div>
       <p id="cis-nota" class="fuente"></p>
     </article>
-    <h2>Las últimas encuestas, una a una</h2>
-    <p class="explica">Cada empresa tiene sus manías. Aquí te decimos si lo que dice una encuesta es normal en ella o es una novedad de verdad. Toca una encuesta para ver todos sus datos.</p>
-    <div id="tarjetas-encuestas" class="tarjetas"></div>
+    <h2>Encuesta a encuesta</h2>
+    <p class="explica-corta">Las últimas publicadas. Toca una para ver todos sus datos y lo que suele dar esa empresa.</p>
+    <div class="tabla-scroll"><table id="tabla-encuestas" class="tabla-territorio tabla-encuestas"></table></div>
     <p class="fuente" id="fuente-encuestas"></p>
   </section>
 
@@ -500,10 +494,10 @@
 try { if (location.hash === "#no-contar" || location.hostname !== "1985xose.github.io") localStorage.setItem("skipgc", "t"); } catch (e) {}
 if (location.hostname !== "1985xose.github.io") document.documentElement.classList.add("pruebas");</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=57"></script>
-<script src="assets/modelo.js?v=57"></script>
-<script src="assets/media.js?v=57"></script>
-<script src="assets/app.js?v=57"></script>
+<script src="assets/chart.umd.js?v=58"></script>
+<script src="assets/modelo.js?v=58"></script>
+<script src="assets/media.js?v=58"></script>
+<script src="assets/app.js?v=58"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

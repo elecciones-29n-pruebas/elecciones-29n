@@ -793,3 +793,17 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .tabla-territorio .celda { display: inline-block; padding: 2px 7px; border-radius: 999px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .tabla-territorio tr.tocable { cursor: pointer; } .tabla-territorio tr.tocable:hover th, .tabla-territorio tr.tocable:hover td { background: var(--papel); }
 .tabla-territorio tr.total th, .tabla-territorio tr.total td { font-weight: 800; border-top: 2px solid var(--tinta); }
+
+/* Encuesta a encuesta */
+.tabla-encuestas tr.fuera th, .tabla-encuestas tr.fuera td { opacity: .55; }
+.tabla-encuestas tr.abierta th, .tabla-encuestas tr.abierta td { background: var(--acento-suave); opacity: 1; }
+.tabla-encuestas th .emp { display: flex; align-items: center; gap: 6px; }
+.tabla-encuestas th small { display: block; color: var(--gris); font-weight: 500; font-size: .72rem; }
+.tabla-encuestas td.n { color: var(--gris); font-weight: 500; }
+.tabla-encuestas td.ver { text-align: left; }
+.tabla-encuestas tr.detalle-enc td { white-space: normal; text-align: left; background: var(--papel); padding: 12px 14px; }
+.tabla-encuestas tr.detalle-enc .detalle p { margin: 0 0 8px; font-size: .9rem; }
+.tabla-encuestas tr.detalle-enc table { font-size: .84rem; margin-top: 6px; }
+.tabla-encuestas tr.detalle-enc table th, .tabla-encuestas tr.detalle-enc table td { padding: 4px 10px 4px 0; border: 0; text-align: left; position: static; background: transparent; }
+.notas-encuestas { margin-top: 10px; }
+#ultimo-mapa { margin-bottom: 12px; }
