@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=59">
+<link rel="stylesheet" href="assets/style.css?v=60">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -229,7 +229,7 @@
       <p id="tramo-aviso" class="fuente" role="status"></p>
     </div>
     <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
-    <div class="grafico grafico-grande" id="caja-tendencia"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
+    <div class="grafico grafico-grande" id="caja-tendencia"><div class="lienzo"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div><div id="lectura-tendencia" class="lectura" aria-live="polite"></div></div>
     <div id="carrera" class="carrera" hidden>
       <div class="carrera-mandos">
         <button type="button" id="carrera-play" class="play" aria-label="Reproducir"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
@@ -359,16 +359,30 @@
 
   <section id="noticias" class="pantalla" hidden>
     <div id="foco-noticias" class="foco-caja"></div>
-    <h2>Titulares del día</h2>
-    <div id="titulares-todos" class="titulares"></div>
-    <h2>Polémicas</h2>
-    <p class="explica">Lo que los medios publican como polémica, caso o investigación sobre cada partido. Solo entran titulares que nombran al partido. Se recoge, no se valora.</p>
-    <div id="polemicas-todas" class="polemicas"></div>
-    <h2>Bulos y verificaciones</h2>
-    <p class="explica">Lo que han comprobado Newtral y Maldita estos días sobre la campaña.</p>
-    <div id="verificaciones-todas" class="titulares"></div>
-    <h2>Partido a partido</h2>
-    <div id="fichas-partidos" class="fichas"></div>
+    <div class="not-cab">
+      <h2>Noticias</h2>
+      <span id="not-directo" class="directo"><i></i><span></span></span>
+    </div>
+    <div id="not-pulso" class="pulso"></div>
+    <div class="not-rejilla">
+      <div class="not-col">
+        <div id="not-portada" class="not-portada"></div>
+        <div id="not-mosaico" class="not-mosaico"></div>
+      </div>
+      <div class="not-lateral">
+        <article class="pregunta polemicas-bloque">
+          <h2>Polémicas</h2>
+          <p class="explica-corta">Casos, investigaciones y líos de los últimos 7 días, por partido. Se recoge, no se valora.</p>
+          <div id="polemicas-todas" class="termometro"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Bulos y verificaciones</h2>
+          <p class="explica-corta">Lo que han comprobado Newtral y Maldita.</p>
+          <div id="verificaciones-todas" class="verificaciones"></div>
+        </article>
+      </div>
+    </div>
+    <div id="titulares-todos" hidden></div><div id="fichas-partidos" hidden></div>
   </section>
 
   <section id="el29n" class="pantalla" hidden>
@@ -525,10 +539,10 @@
 try { if (location.hash === "#no-contar" || location.hostname !== "1985xose.github.io") localStorage.setItem("skipgc", "t"); } catch (e) {}
 if (location.hostname !== "1985xose.github.io") document.documentElement.classList.add("pruebas");</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=59"></script>
-<script src="assets/modelo.js?v=59"></script>
-<script src="assets/media.js?v=59"></script>
-<script src="assets/app.js?v=59"></script>
+<script src="assets/chart.umd.js?v=60"></script>
+<script src="assets/modelo.js?v=60"></script>
+<script src="assets/media.js?v=60"></script>
+<script src="assets/app.js?v=60"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

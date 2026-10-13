@@ -474,9 +474,7 @@ function pintarHoy(m, m7, proy) {
 
   // 5. Titulares
   $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n, { grande: true })), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
-  $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map((n, i) => noticia(n, { grande: i === 0 })));
-  $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
-  $("#verificaciones-todas").replaceChildren(...((D.noticias?.verificaciones_generales || []).length ? D.noticias.verificaciones_generales.slice(0, 8).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
+  pintarPortadaNoticias();
 
   // 6. Fechas
   /* Lo siguiente es el hito más cercano que aún no ha pasado: algo que empieza o, en los plazos que lo tienen apuntado
@@ -531,6 +529,44 @@ function pintarBarrasVotos(m, m7, proy) {
 }
 
 const lista2 = (xs) => lista(xs);
+/* ---------- Noticias: portada, pulso del día, polémicas y verificaciones ----------
+   La portada es la última noticia con foto, a toda anchura, y las siguientes en mosaico. El pulso son burbujas por partido
+   según cuántos titulares lo nombran, y al tocar una se filtra todo a ese partido. Las polémicas van por partido, con
+   cuántas lleva cada uno, y las verificaciones con su veredicto si el titular lo dice. */
+const not = { filtro: null };
+function pintarPortadaNoticias() {
+  const N = D.noticias; if (!N) return;
+  const ahora = Date.now(), reciente = (n) => n.fecha && ahora - new Date(n.fecha) < 2 * 3600000;
+  // En directo
+  const ult = (N.generales || [])[0];
+  $("#not-directo").hidden = !ult; if (ult) $("#not-directo").querySelector("span").textContent = `última ${hace(ult.fecha)}`;
+  // El pulso del día: titulares de las últimas 24 h por partido, y en rojo cuántas polémicas lleva. El tamaño junta las dos cosas.
+  const polPor = {}; for (const p of N.polemicas || []) if (p.partido) polPor[p.partido] = (polPor[p.partido] || 0) + 1;
+  const cuenta = Object.entries(N.partidos || {}).map(([k, arr]) => [k, (arr || []).filter((n) => n.fecha && ahora - new Date(n.fecha) < 24 * 3600000).length, polPor[k] || 0])
+    .filter(([k, n, pol]) => (n > 0 || pol > 0) && D.config.partidos[k] && !D.config.partidos[k].no_concurre).sort((a, b) => (b[1] + 2 * b[2]) - (a[1] + 2 * a[2])).slice(0, 10);
+  const maxN = Math.max(...cuenta.map((x) => x[1] + 2 * x[2]), 1);
+  $("#not-pulso").replaceChildren(el("span", { class: "eti" }, "De quién se habla"), el("div", { class: "pulso-fila" }, ...cuenta.map(([k, n, pol]) => el("button", { type: "button", class: `burbuja${not.filtro === k ? " activa" : ""}`, "aria-pressed": not.filtro === k ? "true" : "false", title: `${n} titulares en 24 h${pol ? `, ${pol} polémica${pol === 1 ? "" : "s"}` : ""}`, style: { "--c": color(k), "--t": `${44 + 30 * (n + 2 * pol) / maxN}px` }, onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra noticias por partido"); pintarPortadaNoticias(); } }, el("b", {}, n), el("span", {}, nombre(k)), pol ? el("i", { class: "pol-n", "aria-label": `${pol} polémicas` }, pol) : null))));
+  // Portada y mosaico (filtradas por partido si se ha tocado una burbuja)
+  const lista = not.filtro ? (N.partidos?.[not.filtro] || []) : (N.generales || []);
+  const iPortada = lista.findIndex((n) => n.imagen), portada = iPortada >= 0 ? lista[iPortada] : null, resto = lista.filter((n, i) => i !== iPortada).slice(0, 8);
+  $("#not-portada").replaceChildren(...(portada ? [el("a", { class: "portada-n", href: portada.enlace, target: "_blank", rel: "noopener" },
+    el("img", { src: portada.imagen, alt: "", referrerpolicy: "no-referrer", onerror: (ev) => { ev.target.closest("a").classList.add("sin-foto"); } }),
+    el("div", { class: "velo" }, reciente(portada) ? el("span", { class: "nuevo" }, "Nuevo") : null, portada.partido && not.filtro ? null : (portada.partido ? el("span", { class: "tag", style: sobre(color(portada.partido)) }, nombre(portada.partido)) : null), el("h3", {}, portada.titulo), el("span", { class: "m" }, `${portada.fuente} · ${hace(portada.fecha)}`)))] : [el("p", { class: "vacio" }, not.filtro ? `Hoy no hay titulares de ${nombre(not.filtro)}.` : "Los titulares llegan en la próxima actualización.")]));
+  $("#not-mosaico").replaceChildren(...resto.map((n) => { const a = noticia(n, { grande: !!n.imagen, sinPartido: !!not.filtro }); if (reciente(n)) a.classList.add("reciente"); return a; }));
+  // Polémicas por partido, las de más a menos
+  const porP = {};
+  for (const x of N.polemicas || []) (porP[x.partido] ||= []).push(x);
+  const orden = Object.keys(porP).sort((a, b) => porP[b].length - porP[a].length);
+  $("#polemicas-todas").replaceChildren(...(orden.length ? orden.map((k) => el("div", { class: "termo", style: { "--c": color(k) } },
+    el("div", { class: "termo-cab" }, el("span", { class: "chip", style: sobre(color(k)) }, nombre(k)), el("b", {}, porP[k].length), el("small", {}, porP[k].length === 1 ? "polémica" : "polémicas")),
+    ...porP[k].slice(0, 2).map((x) => el("a", { class: "termo-tit", href: x.enlace, target: "_blank", rel: "noopener" }, x.titulo, el("span", { class: "m" }, `${x.fuente} · ${hace(x.fecha)}`))))) : [el("p", { class: "vacio" }, "Sin polémicas recogidas esta semana.")]));
+  // Verificaciones: el veredicto si el titular lo dice
+  const veredicto = (t) => /\bbulo|falso|falsa|no es cierto|es mentira|desinforma/i.test(t) ? ["Bulo", "bulo"] : /engañoso|engañosa|fuera de contexto|a medias|descontextualiz/i.test(t) ? ["Engañoso", "enganoso"] : /\bverdad|es cierto|confirmad|sí es real/i.test(t) ? ["Verdad", "verdad"] : /\bqué sabemos|explicamos|claves\b|¿/i.test(t) ? ["Explicación", "explica"] : null;
+  const V = N.verificaciones_generales || [];
+  $("#verificaciones-todas").replaceChildren(...(V.length ? V.slice(0, 6).map((x) => { const v = veredicto(x.titulo);
+    return el("a", { class: `verif${v ? " " + v[1] : ""}`, href: x.enlace, target: "_blank", rel: "noopener" }, el("span", { class: "sello-v" }, x.fuente), v ? el("span", { class: "ver-eti" }, v[0]) : null, el("span", { class: "txt" }, x.titulo), el("span", { class: "m" }, hace(x.fecha))); }) : [el("p", { class: "vacio" }, "Sin verificaciones recogidas estos días.")]));
+}
+
 /* ---------- La portada de Hoy ----------
    Quién gobernaría y con cuánta probabilidad, en grande, y a la derecha el hemiciclo de arcos con el reparto de hoy y el
    cambio en una semana. Los arcos se dibujan uno tras otro al entrar (CSS, stroke-dashoffset). */
@@ -574,8 +610,10 @@ function arcos(cont, esc, esc7, op = {}) {
   for (const k of claves) {
     const n = esc[k], f0 = acc / total, f1 = (acc + n) / total, [x0, y0] = pt(f0, R), [x1, y1] = pt(f1, R), largo = Math.PI * R * (f1 - f0);
     acc += n;
-    const grande = f1 - f0 > 0.5 ? 1 : 0;
-    svg += `<path class="arco" data-k="${k}" d="M${x0.toFixed(1)} ${y0.toFixed(1)} A${R} ${R} 0 ${grande} 1 ${x1.toFixed(1)} ${y1.toFixed(1)}" stroke="${colorDe(k)}" stroke-width="${W}" fill="none" style="--l:${largo.toFixed(1)};--r:${retraso}ms"/>`;
+    // Sobre un semicírculo ningún tramo pasa de 180 grados, así que el arco siempre es el corto. Un tramo que ocupe
+    // más de la mitad se dibuja pasando por su punto medio, que si no el navegador no sabe por dónde ir.
+    const [xm, ym] = pt((f0 + f1) / 2, R);
+    svg += `<path class="arco" data-k="${k}" d="M${x0.toFixed(1)} ${y0.toFixed(1)} A${R} ${R} 0 0 1 ${xm.toFixed(1)} ${ym.toFixed(1)} A${R} ${R} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}" stroke="${colorDe(k)}" stroke-width="${W}" fill="none" style="--l:${largo.toFixed(1)};--r:${retraso}ms"/>`;
     retraso += Math.max(60, largo * 2.2);
   }
   // Etiquetas dentro de los arcos grandes
@@ -598,17 +636,42 @@ const esc_ = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 /* ---------- Las tarjetas del día ---------- */
 function pintarTarjetasHoy(proy) {
   const ir = (sel) => () => { const t = $(sel); t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); };
-  const tarjeta = (eti, titulo, sub, accion, col) => el(typeof accion === "string" ? "a" : "button", typeof accion === "string" ? { class: "tarjeta-hoy", href: accion, target: "_blank", rel: "noopener", style: { "--c": col || "var(--bronce)" } } : { class: "tarjeta-hoy", type: "button", onclick: accion, style: { "--c": col || "var(--bronce)" } },
-    el("span", { class: "eti" }, eti), el("span", { class: "tit" }, titulo), sub ? el("span", { class: "sub" }, sub) : null, el("svg", { class: "flecha", viewBox: "0 0 24 24", html: '<path d="M9 5l7 7-7 7-1.4-1.4L13.2 12 7.6 6.4z"/>' }));
+  // Cada tarjeta lleva un dibujo a la izquierda (vis) y el fondo teñido de su color, para que no sean cuatro cajas blancas iguales
+  const tarjeta = (clase, vis, eti, titulo, sub, accion, col) => el(typeof accion === "string" ? "a" : "button", typeof accion === "string" ? { class: `tarjeta-hoy ${clase}`, href: accion, target: "_blank", rel: "noopener", style: { "--c": col || "var(--bronce)" } } : { class: `tarjeta-hoy ${clase}`, type: "button", onclick: accion, style: { "--c": col || "var(--bronce)" } },
+    el("span", { class: "vis" }, vis), el("span", { class: "cuerpo" }, el("span", { class: "eti" }, eti), el("span", { class: "tit" }, titulo), sub ? el("span", { class: "sub" }, sub) : null), el("svg", { class: "flecha", viewBox: "0 0 24 24", html: '<path d="M9 5l7 7-7 7-1.4-1.4L13.2 12 7.6 6.4z"/>' }));
   const T = [];
+  // 1. Última encuesta: sus tres primeros partidos en barritas, y la nota de la empresa
   const uu = D.analisis?.ultimas?.[0];
-  if (uu) T.push(tarjeta(`Última encuesta · ${fFecha.format(fechaD(uu.fin))}`, `${uu.empresa}${uu.encargo ? ` para ${uu.encargo}` : ""}`, uu.veredicto === "ruido" ? "Sin novedades, dentro de lo que suele dar esta empresa." : uu.veredicto === "leve" ? "Con algún movimiento." : "Con una novedad de verdad.", () => { location.hash = "#encuestas"; setTimeout(ir(`#enc-${CSS.escape(uu.id)}`), 150); }));
+  if (uu) {
+    const det = (uu.detalle || []).filter((d) => D.config.partidos[d.partido]).sort((x, y) => y.dado - x.dado).slice(0, 3), maxD = Math.max(...det.map((d) => d.dado), 1);
+    const vis = el("span", { class: "mini-barras" }, ...det.map((d) => el("span", { class: "mb", style: { "--c": color(d.partido), "--w": `${Math.round(100 * d.dado / maxD)}%` } }, el("b", {}, d.dado.toFixed(1).replace(".", ",")))));
+    T.push(tarjeta("t-encuesta", vis, `Última encuesta · ${fFecha.format(fechaD(uu.fin))}${uu.nota ? ` · nota ${uu.nota}` : ""}`, `${uu.empresa}${uu.encargo ? ` para ${uu.encargo}` : ""}`, uu.veredicto === "ruido" ? "Sin novedades, dentro de lo que suele dar esta empresa." : uu.veredicto === "leve" ? "Con algún movimiento." : "Con una novedad de verdad.", () => { location.hash = "#encuestas"; setTimeout(ir("#tabla-encuestas"), 60); }, "var(--acento)"));
+  }
+  // 2. Polémica del día: el color del partido manda
   const pol0 = D.noticias?.polemicas?.[0];
-  if (pol0) T.push(tarjeta(`Polémica del día · ${nombre(pol0.partido)}`, pol0.titulo, pol0.fuente, pol0.enlace, color(pol0.partido)));
+  if (pol0) T.push(tarjeta("t-polemica", el("span", { class: "sello-p", style: sobre(color(pol0.partido)) }, nombre(pol0.partido)), `Polémica del día · ${hace(pol0.fecha)}`, pol0.titulo, pol0.fuente, pol0.enlace, color(pol0.partido)));
+  // 3. La provincia más reñida: su silueta partida entre los dos que se disputan el último asiento
   const aire0 = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => Math.max(a.aspirante.falta, 0) / (10 / (a.n + 1)) - Math.max(b.aspirante.falta, 0) / (10 / (b.n + 1)))[0];
-  if (aire0) T.push(tarjeta("La provincia más reñida", aire0.nombre, `${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; pintarMapa(mapa.proy); location.hash = "#mapa"; }));
+  if (aire0) {
+    const g = D.mapa?.provincias?.[aire0.nombre], c1 = color(aire0.ultimo.p), c2 = color(aire0.aspirante.p);
+    let vis = null;
+    if (g && g.d) {
+      const nums = g.d.match(/-?\d+(?:\.\d+)?/g).map(Number), xs = nums.filter((_, i) => i % 2 === 0), ys = nums.filter((_, i) => i % 2 === 1);
+      const x0 = Math.min(...xs), y0 = Math.min(...ys), w = Math.max(...xs) - x0, h = Math.max(...ys) - y0, m = Math.max(w, h) * 0.08;
+      vis = el("svg", { class: "silueta", viewBox: `${x0 - m} ${y0 - m} ${w + 2 * m} ${h + 2 * m}`, html: `<defs><linearGradient id="grad-renida" x1="0" x2="1"><stop offset="50%" stop-color="${c1}"/><stop offset="50%" stop-color="${c2}"/></linearGradient></defs><path d="${g.d}" fill="url(#grad-renida)" stroke="#fff" stroke-width="${Math.max(w, h) / 60}" stroke-linejoin="round"/>` });
+    } else vis = el("span", { class: "sello-p", style: { background: `linear-gradient(90deg, ${c1} 50%, ${c2} 50%)`, color: "#fff" } }, ABREV[aire0.nombre] || "");
+    T.push(tarjeta("t-renida", el("span", { class: "renida-vis" }, vis, el("span", { class: "votos-vis" }, el("b", {}, aire0.aspirante.falta > 0 ? porVotos(aire0.aspirante.falta, aire0.n).replace(/^por unos |^por /, "") : "empate"))), "La provincia más reñida", aire0.nombre, `${nombre(aire0.ultimo.p)} tiene el último asiento y ${nombre(aire0.aspirante.p)} se lo disputa.`, () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; pintarMapa(mapa.proy); location.hash = "#mapa"; }, c1));
+  }
+  // 4. Qué te toca hacer: cuenta atrás en un anillo
   const toca = pintarTareas();
-  if (toca) T.push(tarjeta("Qué te toca hacer", toca, "Ver todos los plazos", () => { location.hash = "#el29n"; }));
+  if (toca) {
+    const ab = listaTareas().filter((t) => t.grupo === "todos" && t.fase === "abierta").sort((x, y) => x.z - y.z)[0];
+    const quedan = ab ? ab.quedan : null, total = ab ? Math.max(1, Math.round((ab.z - ab.a) / DIA)) : 1, f = quedan == null ? 0 : Math.max(0.03, Math.min(1, quedan / total));
+    const R = 26, L = 2 * Math.PI * R;
+    const vis = el("span", { class: "anillo-dias" }, el("svg", { viewBox: "0 0 64 64", html: `<circle cx="32" cy="32" r="${R}" fill="none" stroke="color-mix(in srgb, var(--c) 22%, #fff)" stroke-width="7"/><circle cx="32" cy="32" r="${R}" fill="none" stroke="var(--c)" stroke-width="7" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="${(L * (1 - f)).toFixed(1)}" transform="rotate(-90 32 32)" class="anillo-tramo"/>` }),
+      el("b", {}, quedan == null ? "·" : quedan === 0 ? "hoy" : quedan), quedan != null && quedan > 0 ? el("small", {}, quedan === 1 ? "día" : "días") : null);
+    T.push(tarjeta("t-toca", vis, "Qué te toca hacer", toca, "Ver todos los plazos", () => { location.hash = "#el29n"; }, "var(--bronce)"));
+  }
   $("#tarjetas-hoy").replaceChildren(...T);
 }
 
@@ -981,6 +1044,7 @@ function pintarTendencia() {
   const series = seriesGrafica(), x0 = diaDesdeInicio(desde), x1 = diaDesdeInicio(hasta);
   const E = (D.encuestas?.encuestas || []).filter((e) => fechaD(e.fin) >= desde && fechaD(e.fin) <= hasta && (!enc.filtro || e.clave === enc.filtro));
   const datasets = [];
+  lectura.dias = null; lectura.encuestas = E; lectura.series = series;
   // Cada encuesta, un punto translúcido (en asientos, solo las que los publican). Solo si se piden o al elegir una empresa.
   if (enc.puntos || enc.filtro) for (const s of series) {
     const puntos = E.map((e) => { const y = sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos); return y == null ? null : { x: diaDesdeInicio(fechaD(e.fin)), y, empresa: e.empresa }; }).filter(Boolean);
@@ -992,6 +1056,7 @@ function pintarTendencia() {
     for (let t = desde; t <= hasta; t = new Date(+t + paso * DIA)) puntos.push(t);
     if (puntos[puntos.length - 1] < hasta) puntos.push(hasta);
     const dias = puntos.map(valorDia);
+    lectura.dias = puntos.map((t, i) => ({ x: diaDesdeInicio(t), t, v: dias[i].v }));
     // La media de cada día da saltos cuando entra o sale una encuesta. Para la línea de tendencia se suaviza con los
     // vecinos (unas tres semanas en los tramos largos), que es lo que se quiere ver aquí. En los tramos cortos, tal cual.
     const radio = corto ? 0 : paso >= 7 ? 1 : 3;
@@ -1019,11 +1084,48 @@ function pintarTendencia() {
   const css = getComputedStyle(document.documentElement), gris = css.getPropertyValue("--gris").trim(), tinta = css.getPropertyValue("--tinta").trim();
   const fEje = corto ? new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short" }) : new Intl.DateTimeFormat("es-ES", { month: "short", year: "2-digit" });
   const ultimos = {}; // para que la leyenda enseñe una entrada por serie y el tooltip no repita
-  graficoTendencia = new Chart($("#grafico-tendencia"), { data: { datasets }, options: { ...op, animation: { duration: 600, easing: "easeOutQuart" }, interaction: { mode: "nearest", axis: "xy", intersect: false },
+  graficoTendencia = new Chart($("#grafico-tendencia"), { data: { datasets }, options: { ...op, animation: { duration: 600, easing: "easeOutQuart" }, interaction: { mode: "nearest", axis: "xy", intersect: false }, onHover: (ev, items, chart) => leerTendencia(ev, items, chart), events: ["mousemove", "mouseout", "touchstart", "touchmove", "click"],
     plugins: { ...op.plugins, legend: { ...op.plugins.legend, labels: { ...op.plugins.legend.labels, color: tinta, pointStyleWidth: 10, boxHeight: 8, filter: (it, data) => { const d = data.datasets[it.datasetIndex]; if (d.auxiliar || d.esPunto && !enc.filtro) return false; if (ultimos[d.label] != null && ultimos[d.label] !== it.datasetIndex) return false; ultimos[d.label] = it.datasetIndex; return true; } } },
-      tooltip: { callbacks: { title: (items) => items.length ? fFechaCompleta.format(fechaDesdeDia(items[0].parsed.x)) : "", label: (c) => { const d = c.dataset; if (d.mayoria) return null; const base = `${d.label.replace(/ [+−]$/, "")} ${fmtValor(c.parsed.y)}${unidad()}`; return d.esPunto ? `${c.raw.empresa}, ${base}` : d.auxiliar ? (c.raw.empresa ? `${c.raw.empresa}, ${base}` : null) : `Media, ${base}`; }, filter: (c) => !c.dataset.auxiliar || !!c.raw.empresa } } },
+      tooltip: { enabled: false } },
     scales: { x: { type: "linear", min: x0 - margenX, max: x1 + margenX, ticks: { color: gris, maxRotation: 0, autoSkipPadding: 24, callback: (v) => fEje.format(fechaDesdeDia(v)).replace(" de ", " ") }, grid: { display: false } },
-      y: { min: 0, suggestedMax: enc.medida === "esc" ? 190 : undefined, ticks: { color: gris, callback: (v) => enc.medida === "pct" ? `${v} %` : v }, grid: { color: css.getPropertyValue("--linea").trim() } } } } });
+      y: { min: 0, suggestedMax: enc.medida === "esc" ? 190 : undefined, ticks: { color: gris, callback: (v) => enc.medida === "pct" ? `${v} %` : v }, grid: { color: css.getPropertyValue("--linea").trim() } } } }, plugins: [rayaLectura] });
+  lectura.x = null; pintarLectura(null);
+}
+
+/* ---------- Lectura al pie de la gráfica ----------
+   En vez de un globo sobre la línea, que tapa y solo enseña un partido, al pasar el ratón (o el dedo) se dibuja una raya
+   vertical y debajo de la gráfica salen todos los partidos de ese día. Sin ratón encima, enseña el último día. */
+const lectura = { dias: null, encuestas: [], series: [], x: null };
+const rayaLectura = { id: "rayaLectura", afterDatasetsDraw(chart) {
+  if (lectura.x == null || chart.canvas.id !== "grafico-tendencia") return;
+  const { ctx, chartArea: a, scales } = chart, px = scales.x.getPixelForValue(lectura.x);
+  if (px < a.left || px > a.right) return;
+  ctx.save(); ctx.strokeStyle = "rgba(23,32,46,.45)"; ctx.lineWidth = 1; ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(px, a.top); ctx.lineTo(px, a.bottom); ctx.stroke();
+  ctx.setLineDash([]);
+  for (const ds of chart.data.datasets) { if (!ds.esMedia && !(ds.esPunto && enc.filtro)) continue; const p = ds.data.find((q) => q.x === lectura.x); if (!p || p.y == null) continue; const py = scales.y.getPixelForValue(p.y); ctx.beginPath(); ctx.arc(px, py, 5.5, 0, Math.PI * 2); ctx.fillStyle = ds.borderColor === "transparent" ? ds.backgroundColor : ds.borderColor; ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); }
+  ctx.restore();
+} };
+function leerTendencia(ev, items, chart) {
+  if (ev.type === "mouseout") { lectura.x = null; pintarLectura(null); chart.draw(); return; }
+  // Un punto de encuesta bajo el ratón manda sobre la media
+  const punto = items.find((it) => chart.data.datasets[it.datasetIndex].esPunto || chart.data.datasets[it.datasetIndex].auxiliar && chart.data.datasets[it.datasetIndex].data[it.index]?.empresa);
+  if (punto) { const ds = chart.data.datasets[punto.datasetIndex], p = ds.data[punto.index]; const e = lectura.encuestas.find((q) => q.empresa === p.empresa && diaDesdeInicio(fechaD(q.fin)) === p.x); if (e) { lectura.x = p.x; pintarLectura({ encuesta: e, x: p.x }); chart.draw(); return; } }
+  if (!lectura.dias || !ev.x) { return; }
+  const xv = chart.scales.x.getValueForPixel(ev.x);
+  let mejor = null; for (const d of lectura.dias) if (!mejor || Math.abs(d.x - xv) < Math.abs(mejor.x - xv)) mejor = d;
+  if (mejor && mejor.x !== lectura.x) { lectura.x = mejor.x; pintarLectura({ dia: mejor }); chart.draw(); }
+}
+function pintarLectura(q) {
+  const cont = $("#lectura-tendencia"); if (!cont) return;
+  const S = lectura.series, u = unidad();
+  let cab, vals;
+  if (q && q.encuesta) { const e = q.encuesta; cab = `${e.empresa}${e.encargo ? ` para ${e.encargo}` : ""} · ${fFechaCompleta.format(fechaD(e.fin))}`; vals = S.map((s) => [s, sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos)]); }
+  else if (q && q.dia) { cab = `Media del ${fFechaCompleta.format(q.dia.t)}`; vals = S.map((s) => [s, q.dia.v[s.k]]); }
+  else if (lectura.dias && lectura.dias.length) { const d = lectura.dias[lectura.dias.length - 1]; cab = `Media a ${fFechaCompleta.format(d.t)} · pasa el ratón por la gráfica`; vals = S.map((s) => [s, d.v[s.k]]); }
+  else if (lectura.encuestas.length) { const e = lectura.encuestas[lectura.encuestas.length - 1]; cab = `Última, ${e.empresa} · ${fFechaCompleta.format(fechaD(e.fin))}`; vals = S.map((s) => [s, sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos)]); }
+  else { cont.replaceChildren(); return; }
+  vals = vals.filter(([, v]) => v != null).sort((a, b) => b[1] - a[1]);
+  cont.replaceChildren(el("span", { class: "lf" }, cab), el("span", { class: "lvals" }, ...vals.map(([s, v]) => el("span", { class: "lchip", style: { "--c": s.color } }, el("i"), `${s.nombre} `, el("b", {}, `${fmtValor(v)}${u}`)))));
 }
 const fFechaCompleta = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 function pieGrafica() {
