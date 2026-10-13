@@ -486,8 +486,28 @@ function pintarHoy(m, m7, proy) {
   const cuando = (y) => { const n = Math.round((y.t - h0) / DIA); return y.empieza && y.x.fin ? `del ${fFecha.format(y.t)} al ${fFecha.format(fechaD(y.x.fin))}${n === 0 ? ", empieza hoy" : n === 1 ? ", empieza mañana" : ""}` : n === 0 ? "hoy" : n === 1 ? "mañana" : `el ${fFechaLarga.format(y.t)}`; };
   const voto = dias > 1 ? `Se vota el domingo 29 de noviembre, dentro de ${dias} días.` : dias === 1 ? "Se vota mañana, domingo 29 de noviembre." : dias === 0 ? "Se vota hoy, domingo 29 de noviembre, de 9:00 a 20:00." : "Se votó el domingo 29 de noviembre.";
   $("#r-fechas").textContent = `${voto}${hito ? ` Lo siguiente en el calendario, ${hito.titulo.charAt(0).toLowerCase() + hito.titulo.slice(1)}, ${cuando(hito)}.` : ""}`;
-  $("#agenda").replaceChildren(...ag.map((x) => { const fin = fechaD(x.fin || x.fecha);
-    return el("li", { class: fin < hoy() ? "pasado" : x === sig ? "siguiente" : null }, el("span", { class: "dia" }, x.fin ? `${fFecha.format(fechaD(x.fecha))} al ${fFecha.format(fin)}` : fFecha.format(fechaD(x.fecha))), el("span", {}, x.titulo, x.detalle ? el("span", { class: "det" }, x.detalle) : null)); }));
+  pintarCamino(ag, sig, dias);
+}
+/* La cuenta atrás en grande y el camino hasta el 29N: una línea con cada hito de la agenda, los pasados apagados, el
+   siguiente latiendo, y al tocar uno se abre su detalle. En móvil la línea va en vertical. */
+const camino = { abierto: null, todo: false };
+function pintarCamino(ag, sig, dias) {
+  const conv = fechaD(D.config.eleccion.fecha), h0 = hoy();
+  $("#cuenta-29n").replaceChildren(el("div", { class: "cuenta-num" }, el("b", { class: "num-sube" }, dias > 0 ? String(dias) : dias === 0 ? "Hoy" : "29N"), el("span", {}, dias > 1 ? "días para el 29N" : dias === 1 ? "día, se vota mañana" : dias === 0 ? "se vota, de 9:00 a 20:00" : "elecciones celebradas")),
+    el("div", { class: "cuenta-txt" }, el("b", {}, "Domingo 29 de noviembre de 2026"), el("span", {}, "Elecciones generales. Congreso y Senado.")));
+  const hitos = ag.map((x) => ({ x, t: fechaD(x.fecha), fin: fechaD(x.fin || x.fecha) })), t0 = Math.min(...hitos.map((h) => +h.t)), t1 = +conv;
+  const pos = (t) => Math.max(0, Math.min(100, (t - t0) / (t1 - t0) * 100));
+  const hoyPos = pos(+h0);
+  $("#camino-29n").replaceChildren(el("div", { class: "camino-linea" }, el("i", { class: "hecho", style: { "--p": `${hoyPos}%` } }), el("i", { class: "hoy", style: { "--p": `${hoyPos}%` }, title: "Hoy" })),
+    el("ol", { class: "camino-hitos" }, ...hitos.map((h, i) => { const pasado = h.fin < h0, siguiente = h.x === sig, abierto = camino.abierto === i;
+      // Plegado: el último pasado, los seis siguientes y el día de la votación. El resto sale con «Ver todo»
+      const iSig = Math.max(0, hitos.findIndex((q) => q.x === sig)), esVoto = h.x.fecha === D.config.eleccion.fecha;
+      if (!camino.todo && !esVoto && (i < iSig - 1 || i > iSig + 5)) return null;
+      return el("li", { class: `hito${pasado ? " pasado" : ""}${siguiente ? " siguiente" : ""}${abierto ? " abierto" : ""}${h.x.fecha === D.config.eleccion.fecha ? " voto" : ""}`, style: { "--p": `${pos(+h.t)}%` } },
+        el("button", { type: "button", "aria-expanded": abierto ? "true" : "false", onclick: () => { camino.abierto = abierto ? null : i; contar("Abre un hito del camino"); pintarCamino(ag, sig, dias); } },
+          el("i", { class: "punto-hito" }), el("span", { class: "dia" }, h.x.fin ? `${fFecha.format(h.t)} al ${fFecha.format(h.fin)}` : fFecha.format(h.t)), el("span", { class: "tit" }, h.x.titulo)),
+        abierto && h.x.detalle ? el("p", { class: "det" }, h.x.detalle) : null); })),
+    hitos.length > 8 ? el("button", { type: "button", class: "atajo volver camino-todo", onclick: () => { camino.todo = !camino.todo; contar("Ver todo el camino"); pintarCamino(ag, sig, dias); } }, camino.todo ? "Ver menos" : `Ver todo el calendario, ${hitos.length} fechas`) : null);
 }
 /* Chispa de cada partido en la fila de arriba: su media de los últimos 90 días, en 10 puntos, cada una a su escala */
 let chispasHechas = null;
@@ -545,7 +565,7 @@ function pintarPortadaNoticias() {
   const cuenta = Object.entries(N.partidos || {}).map(([k, arr]) => [k, (arr || []).filter((n) => n.fecha && ahora - new Date(n.fecha) < 24 * 3600000).length, polPor[k] || 0])
     .filter(([k, n, pol]) => (n > 0 || pol > 0) && D.config.partidos[k] && !D.config.partidos[k].no_concurre).sort((a, b) => (b[1] + 2 * b[2]) - (a[1] + 2 * a[2])).slice(0, 10);
   const maxN = Math.max(...cuenta.map((x) => x[1] + 2 * x[2]), 1);
-  $("#not-pulso").replaceChildren(el("span", { class: "eti" }, "De quién se habla"), el("div", { class: "pulso-fila" }, ...cuenta.map(([k, n, pol]) => el("button", { type: "button", class: `burbuja${not.filtro === k ? " activa" : ""}`, "aria-pressed": not.filtro === k ? "true" : "false", title: `${n} titulares en 24 h${pol ? `, ${pol} polémica${pol === 1 ? "" : "s"}` : ""}`, style: { "--c": color(k), "--t": `${44 + 30 * (n + 2 * pol) / maxN}px` }, onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra noticias por partido"); pintarPortadaNoticias(); } }, el("b", {}, n), el("span", {}, nombre(k)), pol ? el("i", { class: "pol-n", "aria-label": `${pol} polémicas` }, pol) : null))));
+  $("#not-pulso").replaceChildren(el("span", { class: "eti" }, "De quién se habla"), el("div", { class: "pulso-fila" }, not.filtro ? el("button", { type: "button", class: "burbuja todo", style: { "--c": "var(--tinta)", "--t": "44px" }, title: "Ver todos los partidos", onclick: () => { not.filtro = null; pintarPortadaNoticias(); } }, el("b", {}, "✕"), el("span", {}, "todos")) : null, ...cuenta.map(([k, n, pol]) => el("button", { type: "button", class: `burbuja${not.filtro === k ? " activa" : ""}`, "aria-pressed": not.filtro === k ? "true" : "false", title: `${n} titulares en 24 h${pol ? `, ${pol} polémica${pol === 1 ? "" : "s"}` : ""}`, style: { "--c": color(k), "--t": `${44 + 30 * (n + 2 * pol) / maxN}px` }, onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra noticias por partido"); pintarPortadaNoticias(); } }, el("b", {}, n), el("span", {}, nombre(k)), pol ? el("i", { class: "pol-n", "aria-label": `${pol} polémicas` }, pol) : null))));
   // Portada y mosaico (filtradas por partido si se ha tocado una burbuja)
   const lista = not.filtro ? (N.partidos?.[not.filtro] || []) : (N.generales || []);
   const iPortada = lista.findIndex((n) => n.imagen), portada = iPortada >= 0 ? lista[iPortada] : null, resto = lista.filter((n, i) => i !== iPortada).slice(0, 8);
@@ -563,7 +583,7 @@ function pintarPortadaNoticias() {
   const todasP = (N.polemicas || []).slice().sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
   const todas = todasP.filter((x) => !not.filtro || x.partido === not.filtro);
   $("#pol-ultima").textContent = todasP.length ? `última ${hace(todasP[0].fecha)} · ${nPol} esta semana` : "";
-  $("#pol-reparto").replaceChildren(...ordenP.map((k) => el("button", { type: "button", class: `pol-chip${not.filtro === k ? " activa" : ""}`, style: { "--c": color(k) }, "aria-pressed": not.filtro === k ? "true" : "false", onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra polémicas por partido"); pintarPortadaNoticias(); } }, el("i"), `${nombre(k)} `, el("b", {}, porP[k].length))));
+  $("#pol-reparto").replaceChildren(el("button", { type: "button", class: `pol-chip todas${not.filtro ? "" : " activa"}`, style: { "--c": "var(--tinta)" }, "aria-pressed": not.filtro ? "false" : "true", onclick: () => { if (!not.filtro) return; not.filtro = null; pintarPortadaNoticias(); } }, "Todas ", el("b", {}, nPol)), ...ordenP.map((k) => el("button", { type: "button", class: `pol-chip${not.filtro === k ? " activa" : ""}`, style: { "--c": color(k) }, "aria-pressed": not.filtro === k ? "true" : "false", onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra polémicas por partido"); pintarPortadaNoticias(); } }, el("i"), `${nombre(k)} `, el("b", {}, porP[k].length))));
   const sup = (x) => el("span", { class: "pol-sup" }, el("i", { class: "pol-tag" }, nombre(x.partido)), el("time", { class: reciente(x) ? "fresca" : "" }, hace(x.fecha)));
   const grande = (x) => el("a", { class: `pol-grande${x.imagen ? " con-foto" : ""}`, href: x.enlace, target: "_blank", rel: "noopener", style: { "--c": color(x.partido) } },
     x.imagen ? el("img", { src: x.imagen, alt: "", loading: "lazy", referrerpolicy: "no-referrer", onerror: (ev) => { ev.target.closest("a").classList.remove("con-foto"); ev.target.remove(); } }) : el("span", { class: "marca", "aria-hidden": "true" }, nombre(x.partido)),
@@ -691,6 +711,7 @@ function pintarTarjetasHoy(proy) {
 }
 
 /* ---------- Qué te toca hacer: los trámites del votante con sus plazos (config.tareas) ---------- */
+const tareasVista = { grupo: null };
 const GRUPOS_TAREA = [["todos", "Para votar el 29"], ["correo", "Si vas a votar por correo"], ["fuera", "Si estás fuera de España"]];
 const fMes = new Intl.DateTimeFormat("es-ES", { month: "long", timeZone: "UTC" });
 const diaLargo = (t) => fFechaLarga.format(t).replace(",", "");
@@ -716,17 +737,23 @@ function pintarTareas() {
   else toca = "Por tu parte ya está todo hecho.";
   // Los otros dos grupos solo suben al titular cuando a un plazo le quedan tres días o menos
   const ojo = T.filter((t) => t.grupo !== "todos" && t.fase === "abierta" && !t.sin_plazo && t.quedan <= 3).sort((x, y) => x.z - y.z)[0];
-  const resto = ojo ? ` Ojo, ${ojo.quedan === 0 ? "hoy" : ojo.quedan === 1 ? "mañana" : `el ${diaLargo(ojo.z)}`} es el último día para ${minus(ojo.que)}.` : " Si votas por correo o estás fuera de España, tus plazos van más abajo.";
+  const resto = ojo ? ` Ojo, ${ojo.quedan === 0 ? "hoy" : ojo.quedan === 1 ? "mañana" : `el ${diaLargo(ojo.z)}`} es el último día para ${minus(ojo.que)}.` : " Si votas por correo o estás fuera de España, toca tu píldora.";
   $("#r-tareas").textContent = toca + resto;
   const estado = (t) => t.fase === "pasada" ? (t.unDia ? "Ya pasó" : t.sin_plazo ? "Ya pasó" : "Plazo cerrado")
     : t.fase === "futura" ? (t.faltan === 1 ? (t.unDia ? "Mañana" : "Empieza mañana") : `Dentro de ${t.faltan} días`)
     : t.unDia ? "Hoy" : t.sin_plazo ? "Estos días" : t.quedan === 0 ? "Último día" : t.quedan === 1 ? "Termina mañana" : `Abierto, quedan ${t.quedan} días`;
   const fechas = (t) => t.cuando || (t.unDia ? fFecha.format(t.a) : `${fFecha.format(t.a)} al ${fFecha.format(t.z)}`);
-  $("#tareas").replaceChildren(...GRUPOS_TAREA.flatMap(([g, titulo]) => { const suyas = T.filter((t) => t.grupo === g).sort((x, y) => x.a - y.a || x.z - y.z);
-    return suyas.length ? [el("h3", { class: "tareas-grupo" }, titulo), el("ul", { class: "tareas" }, ...suyas.map((t) => el("li", { class: `tarea ${t.fase}` },
-      el("div", { class: "cab" }, el("span", { class: "estado" }, estado(t)), el("span", { class: "dias" }, fechas(t))),
+  // Un grupo cada vez, con píldoras. Cada tarea lleva un anillo con los días que quedan.
+  tareasVista.grupo = tareasVista.grupo || "todos";
+  $(".conmutador.grupos-tarea").replaceChildren(...GRUPOS_TAREA.filter(([g]) => T.some((t) => t.grupo === g)).map(([g, titulo]) => el("button", { type: "button", "aria-pressed": tareasVista.grupo === g ? "true" : "false", onclick: () => { tareasVista.grupo = g; contar(`Tareas ${g}`); pintarTareas(); } }, titulo)));
+  const anillo = (t) => { const total = Math.max(1, Math.round((t.z - t.a) / DIA) + 1), f = t.fase === "pasada" ? 0 : t.fase === "futura" ? 1 : Math.max(0.04, Math.min(1, (t.quedan + 1) / total)), R = 26, L = 2 * Math.PI * R;
+    return el("span", { class: "anillo-dias" }, el("svg", { viewBox: "0 0 64 64", html: `<circle cx="32" cy="32" r="${R}" fill="none" stroke="color-mix(in srgb, var(--c) 22%, #fff)" stroke-width="7"/><circle cx="32" cy="32" r="${R}" fill="none" stroke="var(--c)" stroke-width="7" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="${(L * (1 - f)).toFixed(1)}" transform="rotate(-90 32 32)" class="anillo-tramo"/>` }),
+      el("b", {}, t.fase === "pasada" ? "✓" : t.fase === "futura" ? String(t.faltan) : t.unDia || t.sin_plazo ? "hoy" : t.quedan === 0 ? "hoy" : String(t.quedan)), t.fase === "pasada" || (t.fase === "abierta" && (t.unDia || t.sin_plazo || t.quedan === 0)) ? null : el("small", {}, t.fase === "futura" ? (t.faltan === 1 ? "día" : "días") : (t.quedan === 1 ? "día" : "días"))); };
+  const suyas = T.filter((t) => t.grupo === tareasVista.grupo).sort((x, y) => x.a - y.a || x.z - y.z);
+  $("#tareas").replaceChildren(el("ul", { class: "tareas" }, ...suyas.map((t) => el("li", { class: `tarea ${t.fase}`, style: { "--c": t.fase === "abierta" ? "var(--bronce)" : t.fase === "futura" ? "var(--acento)" : "var(--gris)" } },
+    anillo(t), el("div", { class: "tarea-cuerpo" }, el("div", { class: "cab" }, el("span", { class: "estado" }, estado(t)), el("span", { class: "dias" }, fechas(t))),
       el("b", {}, t.que), el("span", { class: "det" }, t.como),
-      t.enlace?.url ? el("a", { href: t.enlace.url, target: "_blank", rel: "noopener" }, t.enlace.texto || "Más información") : null)))] : []; }));
+      t.enlace?.url ? el("a", { href: t.enlace.url, target: "_blank", rel: "noopener" }, t.enlace.texto || "Más información") : null)))));
   return toca;
 }
 /* ---------- Desde tu última visita ---------- */
@@ -1982,6 +2009,11 @@ function pintarMetodo(m) {
   const E = D.encuestas?.encuestas || [], P = D.prob;
   if (E.length) {
     const empresas = new Set(E.filter((e) => !Media.esDePartido(e)).map((e) => e.clave)).size, ult = E.reduce((a, e) => (e.fin > a ? e.fin : a), "");
+    // El flujo en cuatro pasos, con las cifras del día. Al tocar uno se abre su apartado.
+    const abre = (id) => () => { const d = $(`#met-${id}`); if (!d) return; d.open = true; d.scrollIntoView({ behavior: "smooth", block: "start" }); };
+    const paso = (n, cifra, texto, id) => el("button", { type: "button", class: "met-pasito", onclick: abre(id) }, el("span", { class: "n" }, String(n)), el("b", { class: "num-sube" }, cifra), el("span", { class: "t" }, texto));
+    const back = P?.backtest, pasos = [paso(1, fmt0.format(E.length), "encuestas publicadas desde 2023", 1), paso(2, String(m.usadas.length), "cuentan hoy, ponderadas", 2), paso(3, "52", "provincias, reparto D'Hondt", 3), paso(4, "10.000", "repeticiones con el error de otras veces", 4)];
+    $("#met-flujo").replaceChildren(...pasos.flatMap((x, i) => i ? [el("span", { class: "flecha-paso", "aria-hidden": "true" }, "›"), x] : [x]));
     $("#met-resumen").textContent = `Ahora mismo hay cargadas ${fmt0.format(E.length)} encuestas de ${empresas} empresas, todas las publicadas desde las elecciones de julio de 2023. La más reciente terminó de preguntar el ${fFecha.format(fechaD(ult))}. La media de hoy sale de ${m.usadas.length} de ellas.`;
     if (D.encuestas.fuente) $("#met-wiki").href = D.encuestas.fuente;
   }
