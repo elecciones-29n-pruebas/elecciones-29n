@@ -1,12 +1,40 @@
 {
- "actualizado": "2026-10-16T23:35:46+00:00",
+ "actualizado": "2026-10-17T04:25:39+00:00",
  "generales": [
   {
-   "titulo": "PSOE y la izquierda pactan una lista conjunta en el Senado para arrebatar su control al PP",
-   "enlace": "https://www.abc.es/espana/psoe-izquierda-pactan-lista-conjunta-senado-29n-20261017002611-nt.html",
+   "titulo": "Los partidos a la izquierda del PSPV supera sus diferencias y cierran un acuerdo",
+   "enlace": "https://www.larazon.es/comunidad-valenciana/partidos-izquierda-pspv-supera-sus-diferencias-cierran-acuerdo_202610176ad2f2e8b79b18452fc6c1c0.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-17T06:00:40+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/16/89E5D771-E165-41BE-9751-EABC71BBA80C/partidos-izquierda-pspv-supera-sus-diferencias-cierran-acuerdo_96.jpg?crop=1920,1080,x0,y360&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Ayuso crea una comisión que recurrirá el censo de las autonómicas si concluye que hay fraude con los falsos nietos",
+   "enlace": "https://okdiario.com/madrid/ayuso-crea-comision-que-recurrira-censo-autonomicas-si-concluye-que-hay-fraude-falsos-nietos-20568903",
+   "fuente": "OKdiario",
+   "fecha": "2026-10-17T05:48:29+02:00",
+   "imagen": "https://okdiario.com/img/2026/10/16/isabel-diaz-ayuso-en-la-asamblea-de-madrid..jpg"
+  },
+  {
+   "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+   "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
    "fuente": "ABC",
-   "fecha": "2026-10-17T01:26:32+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-senado-efe-RQwktGs103UB65N8Cxl892O-1200x840@diario_abc.png"
+   "fecha": "2026-10-17T05:15:02+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
+  },
+  {
+   "titulo": "Feijóo se prepara para ver \"las calles arder\" si el PP llega a Moncloa y pone ya distancia con los sindicatos",
+   "enlace": "https://www.elconfidencial.com/espana/2026-10-17/huelga-general-feijoo-pp-moncloa-distancia-sindicatos_4446011/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-17T05:00:00+02:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/930/dd4/930dd436f1acc7cd09f44daa57aa5a9d/feijoo-reconecta-con-patronal-y-sindicatos-y-evita-rechazar-la-reforma-laboral.jpg?mtime=1650382101"
+  },
+  {
+   "titulo": "Está bastante claro",
+   "enlace": "https://www.infolibre.es/club-infolibre/librepensadores/claro_129_2237951.html",
+   "fuente": "infoLibre",
+   "fecha": "2026-10-17T04:01:46+00:00",
+   "imagen": "https://static.infolibre.es/clip/afc9567d-4585-4015-aded-53ebc35bc9f4_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
    "titulo": "Así están los acuerdos territoriales a la izquierda del PSOE para las elecciones del 29-N",
@@ -14,20 +42,6 @@
    "fuente": "La Vanguardia",
    "fecha": "2026-10-17T00:55:28+02:00",
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/05/6ac37a99ed093.r_d.3608-3775-640.jpeg"
-  },
-  {
-   "titulo": "Elecciones generales 29N, en directo: última hora de los pactos electorales, Sánchez, Feijóo y el futuro de las pensiones",
-   "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pactos-electorales-sanchez-feijoo-futuro-pensiones_202610166ad1a27acfd4076f0c7ca049.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-17T00:40:15+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/32CB1688-E529-436A-96E3-16A2708D8AE5/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "El PSOE y Frente Amplio acuerdan ir juntos al Senado el 29-N: la coalición se llamará Senado de Progreso",
-   "enlace": "https://www.elespanol.com/espana/politica/20261017/psoe-frente-amplio-acuerdan-ir-juntos-senado-coalicion-llamara-progreso/1003744423896_0.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-17T00:25:55+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379874.jpg?p=w:1706/h:960&h=KTwK9EQo"
   },
   {
    "titulo": "El PSOE y Frente Amplio presentan listas conjuntas al Senado el 29-N para disputar la mayoría al PP",
@@ -51,112 +65,121 @@
    "imagen": "https://static.eldiario.es/clip/6dbec2f2-da62-4c0e-b6fd-8a2afdf3fb62_16-9-discover-aspect-ratio_default_0_x957y430.jpg"
   },
   {
-   "titulo": "PSOE y Frente Amplio llegan a un acuerdo para concurrir en bloque al Senado el 29N",
-   "enlace": "https://www.infolibre.es/economia/psoe-frente-amplio-llegan-acuerdo-concurrir-bloque-senado-29n_1_2238540.html",
-   "fuente": "infoLibre",
-   "fecha": "2026-10-16T22:17:14+00:00",
-   "imagen": "https://static.infolibre.es/clip/559143e2-3d50-467c-ab5e-5fd559f3adf6_16-9-aspect-ratio_default_0.jpg"
-  },
-  {
-   "titulo": "Frente Amplio y Podemos consuman su fractura al no llegar a un acuerdo global para coaliciones en el 29N",
-   "enlace": "https://www.europapress.es/nacional/noticia-frente-amplio-podemos-consuman-fractura-no-llegar-acuerdo-global-coaliciones-29n-20261017000800.html",
+   "titulo": "El PP critica que Bildu, \"socio de Sánchez\", lleve en sus listas a \"herederos orgullosos de ETA\"",
+   "enlace": "https://www.europapress.es/nacional/noticia-pp-critica-bildu-socio-sanchez-lleve-listas-herederos-orgullosos-eta-20261016185215.html",
    "fuente": "Europa Press",
-   "fecha": "2026-10-16T22:08:00+00:00",
-   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261017000800_120.jpg"
-  },
-  {
-   "titulo": "Frente Amplio y Podemos consuman su desacuerdo y concurrirán en dos listas en la mayoría del territorio",
-   "enlace": "https://www.elsaltodiario.com/politica/izquierda-consuma-desacuerdo-elecciones-29N-separado?utm_source=feed",
-   "fuente": "El Salto",
-   "fecha": "2026-10-16T22:01:00+00:00",
-   "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/0a6ca1af/DFS_9051copia.jpg?v=63955686970"
+   "fecha": "2026-10-16T16:52:15+00:00",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261016185215_120.jpg"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "PSOE y la izquierda pactan una lista conjunta en el Senado para arrebatar su control al PP",
-    "enlace": "https://www.abc.es/espana/psoe-izquierda-pactan-lista-conjunta-senado-29n-20261017002611-nt.html",
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-17T01:26:32+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-senado-efe-RQwktGs103UB65N8Cxl892O-1200x840@diario_abc.png"
+    "fecha": "2026-10-17T05:15:02+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
    },
    {
-    "titulo": "El PSOE y Frente Amplio presentan listas conjuntas al Senado el 29-N para disputar la mayoría al PP",
-    "enlace": "https://www.20minutos.es/nacional/psoe-frente-amplio-presentan-listas-conjuntas-senado-29-n-todas-las-provincias-salvo-cataluna-canarias_7049910_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-17T00:21:51+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/05/24/6a12c0fbef8ee5-72737202.jpeg"
+    "titulo": "Feijóo se prepara para ver \"las calles arder\" si el PP llega a Moncloa y pone ya distancia con los sindicatos",
+    "enlace": "https://www.elconfidencial.com/espana/2026-10-17/huelga-general-feijoo-pp-moncloa-distancia-sindicatos_4446011/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-17T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/930/dd4/930dd436f1acc7cd09f44daa57aa5a9d/feijoo-reconecta-con-patronal-y-sindicatos-y-evita-rechazar-la-reforma-laboral.jpg?mtime=1650382101"
    },
    {
-    "titulo": "Elecciones generales 29N, en directo: última hora de los pactos electorales, Sánchez, Feijóo y el futuro de las pensiones",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pactos-electorales-sanchez-feijoo-futuro-pensiones_202610166ad1a27acfd4076f0c7ca049.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-16T22:40:15+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/32CB1688-E529-436A-96E3-16A2708D8AE5/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Feijóo sabe que puede perder las elecciones: las señales de pánico que sacuden al PP",
+    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNEVPdktQcnZTMWdLb2U0Ylc1cDF2UWVIVklseWNmYlo3UHlxVlA2Q2FUa2VLYnJ4aEhoQW1aUkpDaGZRU0R3SXhUWXZycTdReXlyYTZrV1ZqTVVnbncxTGdxSmEwVWtldTF2Z01CMC11QURRRFBhZEFkUWFGSEl3YzZMUDlHck1BaEdIanNmc3NPWm1uemhfUFM4NFpiMV8xMjNCUzVYZ9IBrAFBVV95cUxQclBYVUNTZFI5Ri02U0owck02cUxQOFRyekk1OWQ2YnoyeU5ndGctTnlHMlBveFg2NV90LUhJbGM2RXdXbXlybGkyUTNTZGFqbElrajlrSHdqWGtKeXZtQ3FCSHMxMl9GbjhiYkZsZi00TGQyYmZ0OVhhOXIxaGM0U1J6MVJsTm5Cdm85ZEpPbUtBSExqTnNaZE5WOVRSclc1djFDS01vNXczcDhf?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-17T04:00:00+00:00"
+   },
+   {
+    "titulo": "Feijóo intensificará la campaña en Cataluña para ser tercera fuerza y dar un paso adelante hacia la Moncloa",
+    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZUtfS1BPSzN1d2VWdU5XaWRrVXBuS3c2VXZ2YXMyYTFxYzhmTENSX0FDVWZjRzVhckJOTEJ4ampxRUhiMjJQMXdSS19faWhWMnVRNFl1dmx6RXd4V2pSRHJHanVZdWJURmFTbC1ac0FWRlI0dWdTdEJEMnc3VWNJUWd6cGVySjF6NDRqVEwxRlZIb1pwT2xaT3NOUFo4QVpveVUzTW5GNnpFblJjbDZsZzlESlMtbExXWU1PVmpHbzdMSnZZd20yd2VnZ2NoaUZuWGd1akl2X2U2cDZ3RzVDbW1zeWFPQThPTjRSVW10ONIB7wFBVV95cUxNZUtfS1BPSzN1d2VWdU5XaWRrVXBuS3c2VXZ2YXMyYTFxYzhmTENSX0FDVWZjRzVhckJOTEJ4ampxRUhiMjJQMXdSS19faWhWMnVRNFl1dmx6RXd4V2pSRHJHanVZdWJURmFTbC1ac0FWRlI0dWdTdEJEMnc3VWNJUWd6cGVySjF6NDRqVEwxRlZIb1pwT2xaT3NOUFo4QVpveVUzTW5GNnpFblJjbDZsZzlESlMtbExXWU1PVmpHbzdMSnZZd20yd2VnZ2NoaUZuWGd1akl2X2U2cDZ3RzVDbW1zeWFPQThPTjRSVW10OA?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-10-17T02:45:00+00:00"
+   },
+   {
+    "titulo": "Mañueco insta al PP \"a darlo todo\" para llevar a Feijóo a la Moncloa en las elecciones del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVzBzTGFrZnN5TmhzWXpiN3BvV2V0b1FCY2xmM0poSm0ybmVMWnJaSXdzUVJ5Ym5jdXQ0T09vOU5hVlU3anA4UFFJTkVETXZfVEJ5elFZZ1JlNWRra1ZqZEQtMDN2b1BZWDlOb0hydTFNVy1RUVZScHZhZkt2SDBOSl9fRlR0Q2Jvc2cyLTlVVE5zX1hiQVpGck1pcnlmak02YVI4ZzNNQWRuVUZlY0ZDSHppa19GbE96dUJFaWxzQndjQmJFUWVWTmJjNkRjMnlMeHZkQk9Vc2I5dw?oc=5",
+    "fuente": "Tribuna de Salamanca.",
+    "fecha": "2026-10-16T23:55:40+00:00"
    },
    {
     "titulo": "Rueda sitúa a Galicia como clave para que Feijóo gane las elecciones generales del 29 de noviembre",
-    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOF9EX3NpZW9PN0pHb3h0Qml3b2tMMEl2OHdVYVhjZmJtR2NZNkhranp1bklUOUZudlUyRVl2elVmX1l5WDlWQjd4cXVOMzdKeFRFMFpUM0t4QzdlWmVlMHVKNERCLUNaMkJta2Z2UnVpWGVXSzRVaGtxMTYyZHFxeUNKbFpyM1F5Ny12c0tJeF9aTzREb3FTNVh2NFpDZGs2UGpJclNtb3pFc0hoTjI1Q0dhdE9GUWhsQzBmTjR1c1lkd2NiUjk2SXU4eWNDZw?oc=5",
-    "fuente": "LugoXa",
-    "fecha": "2026-10-16T22:14:28+00:00"
-   },
-   {
-    "titulo": "Illa advierte a Feijóo sobre las pensiones: \"Ya perdiste unas elecciones con esto\"",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTk1QWENOOXRVekU2MDRLRTQxM2RWdFBITXBUVkRHaWRHbDVEbXhfZ2RjU0RpdnJISDd6aVNhSG1IOHdlcGRMWUVxclhSNTB5MlBOcE82dGU2QnMyTTZfS0pkVHlDR3NtQXlyc3phczNTSFFnNkp4bVB2cndIakZIUDRkMVlXMGxYTW5aeU9lUnB2N2x2QnpWaFRxSGZfRXk1V05maG4tcUdPUVdHU1RyR3JsYXRaT2ZONWNoR25rUEF4ejNQN08wWmZ4cFlVbkHSAdQBQVVfeXFMUEFSRlNnNm9KMEhyb1lNVWo3Q2sxY3c4dkk1YWVORGpSVkVqanlIRGZwNlEydHdNT3BpbnFOUENFc0gtOXdNMkpZWVdITERCT0NYb0t5bUdNUlZwbmRTeURMaUlUeXRFeGRZbnhVN1pPaTJxMHhXQXFwNGt5S013QUhwNVZWVGt5eWx1aHNwak1Yb3hueDBlZjdUa0sxMmc3WVRjd3lYZG83b0pzaFF1c1lUMlhEYjVXdmdOZmhHZGdjemdxb2tSWkxXc2ZoTTh4aFY3RVg?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-16T21:31:13+00:00"
-   },
-   {
-    "titulo": "El PP se ensaña con Montse Mínguez tras su dimisión: \"No dimite por coherencia, sino porque la han pillado. Ella era la buitre consorte\"",
-    "enlace": "https://www.lasexta.com/noticias/nacional/ensana-montse-minguez-dimision-dimite-coherencia-sino-porque-han-pillado-ella-era-buitre-consorte_202610166ad25ecdbafd3d736361e955.html",
-    "fuente": "laSexta",
-    "fecha": "2026-10-16T19:28:45+02:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/01/10/DF9CD6AD-02BF-46B6-A56C-B8481D6A4C5E/miguel-tellado_96.jpg?crop=2672,1503,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOU1EeGY5LU5hUG1ZbHFLY250aHBvRGlxTllkZFJCSmliYWdhZUo0SHJQR0otN2ViVWt6akI0dVhTYURwMEJpMDlSajhUcGVZaTZiMVNpOU11TDVLbXdDNXF1OFQ0MGNwS3M1U2F1dGlqSXlMbUtyQlJxZ0s4MXdXX1JBby1QeHpCdnRuRDhyYmxseXBZdEF4aC04Q2lqcGlnUElyVDZmVDV0SWZSTHg0SE9ZQW1kNXlaNEh0RHlEUGFEY0VmVkhxN3BWTmtxUDlHM3c?oc=5",
+    "fuente": "GaliciaXa",
+    "fecha": "2026-10-16T23:16:42+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "PSOE y la izquierda pactan una lista conjunta en el Senado para arrebatar su control al PP",
-    "enlace": "https://www.abc.es/espana/psoe-izquierda-pactan-lista-conjunta-senado-29n-20261017002611-nt.html",
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-17T01:26:32+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-senado-efe-RQwktGs103UB65N8Cxl892O-1200x840@diario_abc.png"
+    "fecha": "2026-10-17T05:15:02+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
    },
    {
-    "titulo": "Así están los acuerdos territoriales a la izquierda del PSOE para las elecciones del 29-N",
-    "enlace": "https://www.lavanguardia.com/politica/20261017/11661135/asi-acuerdos-territoriales-izquierda-psoe-elecciones-29-n.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-17T00:55:28+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/05/6ac37a99ed093.r_d.3608-3775-640.jpeg"
+    "titulo": "El PSOE defiende más intervención en el precio de productos de gran consumo",
+    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY1JBY0NLZ1JoTmcwaWswNEFWTlR0elhfd0VfQjN1bUNCeU9Zd0pzTl9WUllxN2JBUnFKcU0ycnY0WFNMWmlVQnlWRUIyQnMxQVUyYzU4M0RkR2hTSHBpaVJfSGFZYWJtcUFaS1RUejh2TGhMNTU1cEJtb1VmMWZmRVU4UDIxN3Z3djJWSU1zWWttQmZlVHlqMXVoN00xYTZGY09BRHpFOUxpMVBldTVhb3hVRlM1RFduZXpxLXV5ZW81M3dRTlJ2SXNLRWJ1VVBSTmZ4UkgwT0U?oc=5",
+    "fuente": "El Economista",
+    "fecha": "2026-10-17T04:00:09+00:00"
    },
    {
-    "titulo": "Pedro Sánchez llega a las elecciones con un ejército de 1.255 asesores y empleados de confianza: Presidencia...",
-    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWGREeHpWRU81QTQwSk9Fb2ZUWktGbDNINi1kVG5hdm9BREFqcExBZDhhZldCaUhibjFyQktCOXBYMTQ5dmpYaGFTemRZRGhOOGwwMHdacmZRQ1lvaXBwN1VwUlV0RWQ3bV9rQkVfVmIxSFNRRW1wX0t1emVSNnU0Z3lUYzVxZFhGWDRQQmJnQ2dXWUZPWWFDU1VWMHBRVThubzR3eWt3RnlORlc5V0RDWDhZQldLWko1SS1IV1FuN2UzQ01lWXhUMHFBTG1hOVdYQkY4clFKS2h1REw2d0c2YzA2dEVnZUpqLW1HdFdYRVBQRm_SAfgBQVVfeXFMTVBZOGtuLUotLTk3YVdERUtVa2Q2al9vMFRfa0RiYi1JbVhwR00zaTZvZXN1OXlhTHBkaGpQTkxfa01hd25YVGdFeVhsNWw1ak1jRlJySHhoWjF1QjBqZHpFOHYtb29wQ3U4S0dkV3cwN1JnckR6d3VaR3ZidThyYUlqYnJCMV9aNUdjYWNXMmhCOEh1YVNvWE9sMkdkd3p4RExjZDVEUWItMnA3SEZPT0FjZkJiYzRmSzlZajRPNHBtNWJrUTRWRVJGT3UzM01kLXh3a0tFaFhvSHFiVl90WnRDcl85VTdlTVFqZnpPRDZVQ3FtaWRGQVg?oc=5",
-    "fuente": "La Gaceta de la Iberosfera",
-    "fecha": "2026-10-16T22:55:33+00:00"
+    "titulo": "Dime a qué te dedicas y te diré a quién votas: los agricultores al PP, los militares a Vox y los pensionistas al PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNU9KWUFWbmpXeGdVMVVCT1FKNlNXOFBqeTNwYko5UFJ2bUtEbnl6NWF5akQ5RUwycVlSazAtQTZScnZSWERYQnIzanJEWXJGUVdCTUlUTFcwWmhTZ1NYTVN1anZWVmNoalFjRnRBaDJSWUdyU2NLN2NxVFVOeGxrSTQ4NzUxZ2xFNG03R0xSM1p0cFNRWTNJTGtFYm5RM21mNXU3X242NG5yam1FSDJYVTdxQzhkUDNYSWJIbmhnbkIwVjRTOHhJ0gHMAUFVX3lxTFBFY2pPZmNMWFhSNlBzVFM5Y2x5ZFlUV2RMUW1FQjVRZmx5X2J6dVdUX3Qzcm92ckdMbjBNdlMtZHZPRUlGQmx2b1BjbVhQdDR1QTQ0Ml9CWkRjZWhNdHQzRTlzdkNqU2phM29ycTJUN1g4N25RMkp0OUFwRW94Q1FhaktRaVhFOXRjSG5aa3VtN0Y3dWtNcFFzWW1jUjZBVjVBU3I2NU1qa01SVy1wMGdTa29HclJBQk1RTGl3RlAxekk2WjlJQ0lLd2I1RQ?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-17T04:00:00+00:00"
    },
    {
-    "titulo": "El PSOE y Frente Amplio crean la alianza Senado de Progreso para las listas en la Cámara Alta",
-    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVy1qaGd0SDVCaG4xYzVBRFp6c2RzdG0ybHVGcmtWR0RrbllGZHVHcElTeU5VRFMzN2ZyZHdZeVdfZS1kcHhZaU1Kbi1GLTRzdGRmQTB2UmxwZ0lKVUFYZDBsMkZOVmpOUGZId0FqNU1YVmd5cDBoSXdpdUxlUlFPNWlTOHEtRDNLUl9lWlBQRkR5NmR6VVRfOVVUV0FqMGxIZ1l0THVmS29jTVpZNkhKQXhQWkVFUUpGZWRYa1Q1QWlXTkQweThSWW4wdE9BbUN6QW53Q2ozcnNMenNTaWdQSEZhQXHSAeQBQVVfeXFMUHNMZnhQVE5ES1Rxb1F6aGJtRU5jY3BwSC1XdUxHQm1jbHZiRWNCM2lQZ3VWNjlSazZsXy1EdHc2ZVVHU3FjRk9sSm90akpQeUJ0bXBhLXZ5R19hbThZZUZkbDc4OVNBTURsX2JlaUhMbThLaUlnd2h1M3FGd2JSNDQzT0JJXzlGclZXYW0tVUlNaENFejZBa09EOXdKZ1NtVEVjMHJka1czM1FRV0lTcWJlWEpfUlhwc19lOWZsUlV2YXFpUjhYQWxNOWVvZjhKNnFnV05BRTdyNE0tRjYzSjc3REJY?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-16T22:41:12+00:00"
+    "titulo": "El PSOE se conjura en su comité federal para pelear por otra remontada electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYldPSF9JczY3WHFfTnVPM0hIMThqN3lGSGJIZDNpanphYjkyYVZBRk9OMWtQRV9uUWhZMEx0ejBpVmNJNm5nZ0VMVDJOM09kTzVac0V6UEZ0VGg4enZFT1d4c0tMZUFoNGRGMlRJbG0zM1RYODY5dG5hTzI3bkdxaW9KVWUwYTdockY1UVFENlRDYnpJYlFXVzgxSV9qQ2F4b1I3YmVsbzhUa0tRejNiMjlHR196aG1HcFlxT2pBX1ZUYXBIQ1M1LVEtbGM4Mkg4R29YYlZGc2VabXPSAe8BQVVfeXFMT1hEcU9wRGpIaTgybk9YZHhObnloNEhEbnphZjZWZlYyRXNSM2tvVnpaUXRQcVFCRllqQUo5MU5XWkVLdDdvVlE3UldDaTlKcVR5ZC1WNWZsNjJPUjNUOHczZ3hrWWZhWjE2QlN3VlRLRmxqXzJ1d3hJem1xUGo2blVrNy1YSnZSQ2J3MlRLRS1iNmRudWsyN3ZiYWVKWEhYd0hXN1JsMUJDNlhrU2E4cEJTSmlqQ2pKaUgwMWx4VEYyZVRPYUc0RnQxYXNKOVoxcjFwR0RHeUFNckZtOTN3eDhXOXJzenVSd2FOWXUxMDA?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-10-17T03:30:01+00:00"
    },
    {
-    "titulo": "Elecciones generales 29N, en directo: última hora de los pactos electorales, Sánchez, Feijóo y el futuro de las pensiones",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pactos-electorales-sanchez-feijoo-futuro-pensiones_202610166ad1a27acfd4076f0c7ca049.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-16T22:40:15+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/32CB1688-E529-436A-96E3-16A2708D8AE5/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Guerra en el PSOE: dos dirigentes de Galicia piden las actas de las votaciones para las listas",
+    "enlace": "https://theobjective.com/espana/politica/2026-10-17/guerra-psoe-galicia-actas-votaciones-listas/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-17T03:25:00+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/psoe-galicia-listas.jpg"
    },
    {
-    "titulo": "El PSOE y el Frente Amplio cierran un acuerdo para presentarse con listas conjuntas al Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUUhqZ01JNzg4QXc5aVJlUEx4UWh5cjg2bDR5WjlvOUFoT3BaS1FaMng3U2F5amxrU3FSc0lBYXFEX293MG10cmtRRnczcjhWYXk4b2lOdU95M0MwQ1dtSE9KNzhaV3JFZHJjREZJbjB2ZXpIcDEwYjFwWWcxNmdaVWw4VFNWRVNIVTkyd0w5WHhFRnhNcGxOcDZPU2lpM1kzTDZ2Ym93?oc=5",
-    "fuente": "RTVE.es",
-    "fecha": "2026-10-16T22:29:42+00:00"
+    "titulo": "El voto del abogado del PSOE de los fondos buitre será clave en la Diputación Permanente para el decreto de vivienda de Sánchez",
+    "enlace": "https://www.elespanol.com/espana/politica/20261017/voto-abogado-psoe-fondos-buitre-clave-diputacion-permanente-decreto-vivienda-sanchez/1003744423847_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-17T03:00:00+00:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379243.jpg?p=w:1706/h:960&h=fPBIQF1k"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Impuestos cero, coto a la compra extranjera y prioridad nacional: la receta de Vox para la vivienda en Madrid",
+    "enlace": "https://www.eldebate.com/espana/madrid/20261017/impuestos-cero-coto-compra-extranjera-prioridad-nacional-receta-vox-vivienda-madrid_470497.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-17T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/16/6ad23b858c1c0.r_d.2952-1277-0.jpeg"
+   },
+   {
+    "titulo": "Vox repite candidatura al Senado en Ibiza y Formentera y pone en aprietos al PP",
+    "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObzZBVi1oaFZsVkJfUGU2YlRCUjgtcEdJdDk3eUxybzhWNlZaNnN1RTZ4R2NULTlIb1JETXZENFJ0ZGhJYXlFSGhRa0o5bkpoVVdUbU1SdjNRNzRpemM5Sk5SeWtJM1RmYkJmV0d1WjZoWDVNdkdkWHBackRHaDZrUEpLeDEtanhRVHdhcHU3RHlOSUhNSU8w0gGcAUFVX3lxTE9hb1lWcW1lM0RxeFFnUjlkbHZPemVWWFRDbC1ubFlvNThfR2d1cEZTSnJRMEdZSmh3VTB5ZHBwaU4xU1FQX045d0RDNk0tYU1Ybmd1UkdWekpyRnpmZ2loVS1pTEVCN3dtbnNvT0RjTkRCZUlEb1BRSTh3c004eUpXOFBET1Q5dXhvMXhFajd6Qmx3ZWRUWnltb3RLRw?oc=5",
+    "fuente": "Diario de Ibiza",
+    "fecha": "2026-10-17T04:00:57+00:00"
+   },
+   {
+    "titulo": "Dime a qué te dedicas y te diré a quién votas: los agricultores al PP, los militares a Vox y los pensionistas al PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNU9KWUFWbmpXeGdVMVVCT1FKNlNXOFBqeTNwYko5UFJ2bUtEbnl6NWF5akQ5RUwycVlSazAtQTZScnZSWERYQnIzanJEWXJGUVdCTUlUTFcwWmhTZ1NYTVN1anZWVmNoalFjRnRBaDJSWUdyU2NLN2NxVFVOeGxrSTQ4NzUxZ2xFNG03R0xSM1p0cFNRWTNJTGtFYm5RM21mNXU3X242NG5yam1FSDJYVTdxQzhkUDNYSWJIbmhnbkIwVjRTOHhJ0gHMAUFVX3lxTFBFY2pPZmNMWFhSNlBzVFM5Y2x5ZFlUV2RMUW1FQjVRZmx5X2J6dVdUX3Qzcm92ckdMbjBNdlMtZHZPRUlGQmx2b1BjbVhQdDR1QTQ0Ml9CWkRjZWhNdHQzRTlzdkNqU2phM29ycTJUN1g4N25RMkp0OUFwRW94Q1FhaktRaVhFOXRjSG5aa3VtN0Y3dWtNcFFzWW1jUjZBVjVBU3I2NU1qa01SVy1wMGdTa29HclJBQk1RTGl3RlAxekk2WjlJQ0lLd2I1RQ?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-17T04:00:00+00:00"
+   },
+   {
+    "titulo": "Pensiones en Ávila: críticas al PP y Vox y al futuro del ferrocarril",
+    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXpPVWI1cFpnWkJIVndYU1ZYN05tenJCeG9UUjVmWkJ0YV9RWjBMejc1TkpSbnViVVJJaTlsMUJUMUgwVUUtVUdzdG1oekZxSkxScVlrWXpQZmF1alR6ZVZMd3NYdEswYVFJRjFhVmRyUHFPbnRRSjVpMDhsNFROLXYyMVBveHAtVnBpMlVaVGk0T0oySUlhSnlQd0g1ckptQ2otaXg1ejFrRzN2c0cxaUVWdDVCX0VNa19GQ0ZUQQ?oc=5",
+    "fuente": "Diario de Ávila",
+    "fecha": "2026-10-17T03:00:00+00:00"
+   },
    {
     "titulo": "Recortes, desregulación y prioridad nacional: las medidas de Vox en las comunidades anticipan sus planes si llega al Gobierno",
     "enlace": "https://www.eldiario.es/politica/recortes-desregulacion-prioridad-nacional-medidas-vox-comunidades-anticipan-planes-si-llega-gobierno_1_13552492.html",
@@ -165,45 +188,33 @@
     "imagen": "https://static.eldiario.es/clip/6dbec2f2-da62-4c0e-b6fd-8a2afdf3fb62_16-9-discover-aspect-ratio_default_0_x957y430.jpg"
    },
    {
-    "titulo": "Vox denuncia que el «fraude electoral» por la ley de nietos podría cambiar hasta tres diputados en Andalucía",
-    "enlace": "https://www.abc.es/espana/andalucia/vox-denuncia-fraude-electoral-ley-nietos-cambiar-20261016183626-nts.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-16T22:21:34+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/gavira-vox-RbczDFHUuU8bNbx93GSFl6J-1200x840@diario_abc.jpeg"
-   },
-   {
     "titulo": "Aznar acusa a los socios de Vox en Europa de apoyar al \"autócrata\" Putin: \"Abismal confusión\"",
     "enlace": "https://www.20minutos.es/nacional/aznar-acusa-los-socios-vox-europa-apoyar-autocrata-putin-abismal-confusion_7049887_0.html",
     "fuente": "20minutos",
     "fecha": "2026-10-16T21:20:07+02:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/16/6ad2764f9298c1-25607017.r_d.1115-34.jpeg"
-   },
-   {
-    "titulo": "Domínguez abre la puerta a pactar con Vox en Canarias tras las elecciones de 2027",
-    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQldnc0NJVVJMLVFINTNaem01aVc4d0V3MHgwbUp0V2JmR0RZY01SLURTc0NqcnRIZDRiQjlGQUFJUWNKMGtnUlN6RGJlMTRZeGFHb3FqYVUxclAyLTd6Y1pnRUlDNms3SmR4dUx5STNYT0dMZFV6Sk41QjNSU25SLTdGMHZZRHZLWVdlS0I3LTJ3V25hTWJHZDZn0gGfAUFVX3lxTFBDTWxCWUNyN1JHOF9kYVZ4bWJPRXBiMnllY1V5Zng1SUdyNmNzZUFsVi1sVnl0Y1VIYVh4MlRSblUyS2k3RFBvcUpGNEdfLWF0MVF0WHJaS2lwMDZQMlNzc001eUJHX184dUtRRG5TeUFyNGJKZmFNYTRTQ25JbGdpTlRTRklFMDVpYTNVeGpRQXp1a0IzdnhqcEVINzJ6WQ?oc=5",
-    "fuente": "La Provincia",
-    "fecha": "2026-10-16T18:57:37+00:00"
-   },
-   {
-    "titulo": "Sánchez o PP y Vox: Illa reduce las elecciones a dos bandos y enciende la campaña",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMmpuYlEyNllnc1Y0SGpLbWpTLUszS05HeUpKVUtsWERyTUZEZWdxRWNULV9RQ3R3c2hzU1JuLWR6YXZoZnk3TG0wbU0xODJsbWtiYWJwNkJGeDdwWmw4VmtsVnl0bWFoeHVDbTNtRWdISnYwamcxNVU0MWJpOUhsMVNiYVV1dG1aQ2RJ?oc=5",
-    "fuente": "estenerife.com",
-    "fecha": "2026-10-16T18:47:19+00:00"
-   },
-   {
-    "titulo": "Illa asegura que las elecciones son o Sánchez o PP y Vox: \"No hay tres, hay dos opciones\"",
-    "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVEZNYVpnUUdxYzd0T245NGVIZDdGVFFfbkxxWVBZSmVYRHFLV0tJbFdTeEV5QVEwQkdheC1tU216UWFiN2JrejY5cjFubFJHaEJIUzhiVExZbkhzNF9udmZTcWFYZmVjMGtieHJhY1licnRZMDhQTUlBMUxUTFJBYzlGMktTWDNwZENMLXlWaGxtSGJMRHlV?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-16T18:27:31+00:00"
    }
   ],
   "Sumar": [
    {
+    "titulo": "Yolanda Díaz se borra de las pugnas de la izquierda y solo se centra en la OIT",
+    "enlace": "https://theobjective.com/espana/politica/2026-10-17/yolanda-diaz-pugnas-izquierda-oit/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-17T03:25:00+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/yolanda-diaz-portada.jpg"
+   },
+   {
     "titulo": "Adiós a la quimera de la unidad: Podemos y los herederos de Sumar irán separados salvo en Valencia y Canarias",
     "enlace": "https://www.abc.es/espana/pacto-pacto-izquierdas-enfoque-abierto-20261017000246-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-17T01:17:27+02:00",
+    "fecha": "2026-10-17T01:44:02+02:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/podemos-efe-R7zY7qdRcjaNotUlhSKd2FK-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Elecciones 29-N: Adiós a la quimera de la unidad: Podemos y los herederos de Sumar irán separados salvo en Valencia y Canarias",
+    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWndoWXIwOURlQTZwUUlLZUdxM01WcjFjMnFHSFNyRjlJRjdaMnQ1dFdyZmxLYV9QNU1NUXl5cldPT29NQzZkWlN4aG5heFQ5V0FYZldDeHJ3Ylg2TkdXeEZ1VUxKLUxPXzhfSjFMT0VYakZQYTFZUnJJNlRBeDZna1NpUzZRY3lzbVlnZG9hQUXSAZYBQVVfeXFMTU5tZFZtRkN3TnlUdnU1WE1wdFlwYTc2Sk5GTENTSEU5YkstVFh3UThKTkR5akdyNHY4MldpOVhOR2w3THVTV1VtbGxTTGt1bEhIMzV0dUNpTlU2cUVXbmtuZTVuZnNUaWNrd3VoZVhYb3JNTEVCZzRmQ0ZTcERPa3VyOWlHdTRpT2ZFcWJYRjdyQVdkbm5B?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-16T22:02:46+00:00"
    },
    {
     "titulo": "IU, Sumar, Iniciativa del Pueblo Andaluz y Equo concurrirán juntos en un 'Frente Amplio Por Andalucía' sin Podemos",
@@ -222,19 +233,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVTNJWGRlZlBKaWxUeWtFd1gwQjlWQjAzNXJ6OTFWa0ZrU29OcVlhZ1VXYUtNVGQ2MUh5NWZIVzJjZFJteDBfbE9XOG4xT25oalpZOHdkSDRfZXdLM1R0dzV6SFBBWC0zRmh5QUFzVTN4Rmk4eXNDQWlaM3pBZFJhM2dha1VjY2wwRzhwcEl5STNwVTVqZjZ5WUJweUo0V25zTTJOa1hlOTQ3VEhQMnp2STcxVDhTaUU0X3BiWlRpcUVjanJTaGxJaF9zYXkzSG83WElFRkl0ZVpHQUdrenZyaFF30gHnAUFVX3lxTE40OUlmMWJJTGFHWkI4UTQ5OTR4TGRTRFJXaDN2MTRNWEtSUm8zQmNNMXZQakJNR3pBbUs5cjN5el9YVDdfNlg0ZDJCQkRMNlp4WFlFVzlDYlQ1ODc1UWlnWENqUVlzYWtTNkhPV19BSThxZ2xleDFTckdleUJvbXE0d0xxUUdfOGZtNTItZnczdFVveTdzaUJWODhqNkNUNXdCMTdvTElodEx6SUx4M1RuSFpaay13eHhIWDZRNHJSNWJ3TjFqNV83RUFuODliZ0RYZUUxaXdtWFBUbHhVcHEtZHhYcmwtVQ?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-16T11:48:41+00:00"
-   },
-   {
-    "titulo": "Sumar admite que le cuesta entender la actitud de Podemos y les pide que se sienten a negociar para la unidad el 29N",
-    "enlace": "https://www.europapress.es/nacional/noticia-sumar-admite-le-cuesta-entender-actitud-podemos-les-pide-sienten-negociar-unidad-29n-20261016122100.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-16T10:21:00+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261016122100_120.jpg"
-   },
-   {
-    "titulo": "Yolanda Díaz prepara una subida del salario mínimo del 5% antes de las elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOa3RYczlyeThYb1M4SHhZQmxZVF9tNURfcklaTThuaUZYdG9uZXEwV1JsVVZ2RjNoc2M0NmtJTkxRTHZfbUJIdjdjZDlhazBENjZ4d25henNlVkFqOGxXeWpjbXhub2oza1NNUXdnYzlsRkFtek43VTQtUHJOeUoycFA4aVhiVEF5Q0pSSklpZXdDeDlSUHlheWJvV1RMZkU4Z0NYeUpFbDRFWTdSZGpxanRDbUR5d0xBaWFaODVFT1l0Tlo5WmhreHp6ODY1UdIB0wFBVV95cUxPTFEwc0dHU1ZPMXhMVmVqRWU0aW1yS3hyYmwzOWROTDdrbXY5SFNfY2VCZHRsWlM4V093Z2JBV1ZrUE9LVVBkSU9MY0Znc0VFWGNvY3dLUENOT3BBTXFQZTAxM2hoRnloeDNnTElRWkt4SHdibHo5dm85ekJBVFBDeW10NC0xMWg1YmF0aXlweWZCb24yWHRtd2hlTzRYVTcxcTl2RkY3NEdodDBlWndKUGVBWjhoSFpScEM4RWprMVdXTWF3cDBzVE11LUNvQ19kYUcw?oc=5",
-    "fuente": "Negocios.com",
-    "fecha": "2026-10-16T08:38:10+00:00"
    }
   ],
   "Podemos": [
@@ -242,7 +240,7 @@
     "titulo": "Adiós a la quimera de la unidad: Podemos y los herederos de Sumar irán separados salvo en Valencia y Canarias",
     "enlace": "https://www.abc.es/espana/pacto-pacto-izquierdas-enfoque-abierto-20261017000246-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-17T01:17:27+02:00",
+    "fecha": "2026-10-17T01:44:02+02:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/podemos-efe-R7zY7qdRcjaNotUlhSKd2FK-1200x840@diario_abc.jpg"
    },
    {
@@ -276,7 +274,7 @@
     "titulo": "¿Hay algo peor que Pedro Sánchez? Sí, Irene Montero presidente del Gobierno",
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWE9UUThyam1MQW5QeUdoRDBnWDA2QVJGRmYzbUE1aVpUSzk1cWhYQzdzOEI3OEhJY0tNa1FocVRRcHVwczlrNHpIUnJxaUxPOHBFNnJGM3RiSUtSRzZDemU1TUdhd2kyTTQ2N1BxalJSWlZKSlN0UVhyLU1NakJlb3IxYWYxSVFWeVRnYkFBM1B2RkdEdFdvbVFQNzZyaFljaFdVQVktR1lSazVvUUNTRi1CeHlmR1lHYmtLUHVEcmZGbDlaSzNxMw?oc=5",
     "fuente": "PanAm Post",
-    "fecha": "2026-10-16T20:49:55+00:00"
+    "fecha": "2026-10-16T20:52:43+00:00"
    }
   ],
   "SALF": [
@@ -326,16 +324,22 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/16/6ad25cc23afac.r_d.5057-2068-933.jpeg"
    },
    {
+    "titulo": "Ampliación | Podemos rechaza la oferta de Frente Amplio y se niega a romper su pacto con ERC",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQXU5MXVNZlJ0WUpveVQ2UmlpOGY2MU1SX1hLMmdhT09SNnBPZ0dUekdxQWp2WURSSDh0UUt2dDRUVFVpT3JwQVh0cDB5Qm9ybHFWUjRYeGJ5Yjc4LWE4OTZSY0JZZTJnUVhhSG5sYURKVjRhS2FtWklWY3N3eENtTDVTTGFjeXFhZVBoNWc1X3dHb0I4X3lZdUJwWGVzYmJ1aDVZdjdkQmVSekRETDV0dDFvd2NYSEZnVFdwRVhPbGoyQjDSAcgBQVVfeXFMT25pVTQ5cmNzX3czby0tTWh5THFEd3BVa2JSaWRnLU1NYzRKd1FmZWQzTXIxMVhMQkhrUXU1bllIRkFQM2l0a1huMnJiRHJQOGM5M0JvczFic3pYMy1sdDQ0NGs2Wkl2cjVQeGpLRDFZdE9aUC1vUE5XbEFFanBYbXVzR2kzdTZUaTZuNUFCNVN6T3pVcnV2MG44eVVObW1MRjlBRjhlcWxXZTU0WEhpdTJkMTV1MGVSMHZMdWl3cGNuV3hNeXRTSnQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-16T21:28:31+00:00"
+   },
+   {
+    "titulo": "Ampliación | Podemos rechaza la oferta de Frente Amplio y defiende mantener su pacto con ERC",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaF9KczR4YlM1eE9tV1JibnN2TmRvNDdjUW91UHFCSjMwemd3cVNfWTQwYnROcVVxQ0NubjVYV3JYVF9Td3R4LUNhMkFBOEQzODNkd1ByRkFUcDV4aG1mU1FxRUR3TXdlVVJiV2ZNbXlRakR5M1ZveVlQOXhENEtydjduTVdOLVd6ek1vMHFYNzBaSElrRDhBOWhwRUFIUk5HYVYtNV92TjBqWUlrTTBXNnAyWWNYYU9tenlYWHNJb3JDMTjSAcgBQVVfeXFMTVVFT0VQUGctRGNWWTU0WUZiaTJ2YWFIMnAxUW5vMTJWY1hIQnRjSjBaNFdfc20yb2gzOTB6VjlMUlFrSWFodkZEaTJHZWhNSnU4XzNjdEpMeko1SGNsX1Fac1RLUjRLd0ZqN0NKaV80ODlDZGphaW1LSmhNNFlBR2s5bVA4ZWl0V2ZYSG83ZWQ3TVhDdmNlVUlhaXpoYlpSeE5mTkVPeWh1Ymk0bWVGZDliY2V5Ni1QZFVrNC0tcE5SSzdoSEtVTGo?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-16T21:26:33+00:00"
+   },
+   {
     "titulo": "Unidad, 'ma non troppo': de la \"vía Rufián\" a una confluencia que se queda a medio camino",
     "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGFpaE1oMlFDUVJ1RVNVMmxsYkJ6UEEzSk5iT2QyT2htdFNvMGJDb2FaOHhlaGtsNldVcUFmT2Q2a3hJR3B6RjJVVEpLbEFnUDVMdlJtTktzSll5em10a2txMU5UQVlPRjZFZE1qVGtRdlRvR0g5N3RFc2RnVnFHRVZqdU1kMVJTY3JlcU9CYUE2Q05odktTNHlNSTFzV0JXamVvZ0U2RHIxWFkwR2pDWmxPcUZYazE1TWI40gHAAUFVX3lxTFBXSG53MEJnQ2dTY1VoYlVmMkZpdld1RlR6a2VfeFhuMnpLZzNuTXEwTVpScC03dlQ0d1k1VDBjS3RzMVAyWVpUOFpCZTRZcVdBSm1lSWtqMUVOaHg0bmkyNkluQ0c4NW41ZlRyYU1SRnlDbmFhMS1PMmN2bU8wenpCWkNQXzFxU3pRTnVZUmNacF9EYVFxTE5hb0l6SVdLVE04anloNlpLbWh5MU45bHBFYjQ5WC1TNFZFV2xZNmtLVQ?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-10-16T22:02:28+00:00"
-   },
-   {
-    "titulo": "Podemos planta a Frente Amplio y blinda su pacto con ERC",
-    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaF9KczR4YlM1eE9tV1JibnN2TmRvNDdjUW91UHFCSjMwemd3cVNfWTQwYnROcVVxQ0NubjVYV3JYVF9Td3R4LUNhMkFBOEQzODNkd1ByRkFUcDV4aG1mU1FxRUR3TXdlVVJiV2ZNbXlRakR5M1ZveVlQOXhENEtydjduTVdOLVd6ek1vMHFYNzBaSElrRDhBOWhwRUFIUk5HYVYtNV92TjBqWUlrTTBXNnAyWWNYYU9tenlYWHNJb3JDMTg?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-16T21:26:33+00:00"
+    "fecha": "2026-10-16T21:00:00+00:00"
    },
    {
     "titulo": "Gabriel Rufián publica ‘Cómo ganar a los fachas’, un libro para “combatir a la ultraderecha” en medio del fracaso unitario de la izquierda",
@@ -348,13 +352,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdnpaLVd4U0xmNTVqbzAwUDhweTJNU0dtVmN0aVZEaHl0VkJjMjJ5SDRBaFI2bFZLWHBRUEU2SXdONmttUTJYVTMyUTFjbThkQnFFQ0p3OTYxYWpNdmVuNFdwZXRiVkRON3lCZFNQdGFqUWlzRWltTUR0bHBNbWRMSGd4eUh6aGhtMXVKYnJsTjZLNm1RbVFOQUxDRFVwd1hFalJTM2RUelJkSnBuT1lJZlJWSVBZQU8zbmJDMHpWZU0yZV83OEVSTmJTQVo5UjBmX1lBeV9COG5ubEtTMW9IdlE5bXFMVDTSAecBQVVfeXFMTnZ6Wi1XeFNMZjU1am8wMFA4cHkyTVNHbVZjdGlWRGh5dFZCYzIyeUg0QWhSNmxWS1hwUVBFNkl3TjZrbVEyWFUzMlExY204ZEJxRUNKdzk2MWFqTXZlbjRXcGV0YlZETjd5QmRTUHRhalFpc0VpbU1EdGxwTW1kTEhneHlIemhobTF1SmJybE42SzZtUW1RTkFMQ0RVcHdYRWpSUzNkVHpSZEpwbk9ZSWZSVklQWUFPM25iQzB6VmVNMmVfNzhFUk5iU0FaOVIwZl9ZQXlfQjhubmxLUzFvSHZROW1xTFQ0?oc=5",
     "fuente": "MARCA",
     "fecha": "2026-10-16T17:50:51+00:00"
-   },
-   {
-    "titulo": "Pablo Iglesias e Irene Montero abrazan el independentismo y pactan con ERC para hundir a Colau y al Frente Amplio",
-    "enlace": "https://www.eldebate.com/espana/cataluna/20261016/pablo-iglesias-irene-montero-abrazan-independentismo-pactan-erc-hundir-colau-frente-amplio_470515.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-16T17:29:36+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2023/04/22/64433222af688.r_d.1078-473-0.jpeg"
    }
   ],
   "Junts": [
@@ -401,17 +398,17 @@
   ],
   "Bildu": [
    {
-    "titulo": "EH Bildu se sitúa a Oskar Matute como referencia al Congreso y renueva su grupo para el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMi1WLS1lYy05dzZIdG9tbEV6ZEpkWE10MHBZN29kRlQzR29sLWZKSF82OGROVlJMVmxjTmtUMm9HR1gxWHhzUTE4X1Jvc295X3FkOGtfQzVUSC1KUWtQNnRCRUg0NjRPRnN6ZXhEZXhacXQ4NHZtZDB0WEd3OGgxTzF6WQ?oc=5",
-    "fuente": "www.moncloa.com",
-    "fecha": "2026-10-16T18:47:45+00:00"
+    "titulo": "Floren Aoiz, candidato de Bildu, advirtió de \"resaca\" tras quedar libre Ortega Lara: a los 12 días, ETA mató a Miguel Á. Blanco",
+    "enlace": "https://www.elespanol.com/espana/20261017/floren-aoiz-candidato-bildu-advirtio-resaca-quedar-libre-ortega-lara-dias-eta-mato-miguel-blanco/1003744423504_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-17T05:00:00+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379641.jpg?p=w:1706/h:960&h=56Bj1tph"
    },
    {
-    "titulo": "Otegi recupera a un histórico de la peor Herri Batasuna para mandarlo al Senado el 29N",
-    "enlace": "https://www.eldebate.com/espana/20261016/otegi-recupera-historico-peor-herri-batasuna-mandarlo-senado-29n_470461.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-16T17:14:48+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/16/6ad23ef1cb41f.r_d.1326-742-0.jpeg"
+    "titulo": "EH Bildu se sitúa a Oskar Matute como referencia al Congreso y renueva su grupo para el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMi1WLS1lYy05dzZIdG9tbEV6ZEpkWE10MHBZN29kRlQzR29sLWZKSF82OGROVlJMVmxjTmtUMm9HR1gxWHhzUTE4X1Jvc295X3FkOGtfQzVUSC1KUWtQNnRCRUg0NjRPRnN6ZXhEZXhacXQ4NHZtZDB0WEd3OGgxTzF6WQ?oc=5",
+    "fuente": "MONCLOA.COM",
+    "fecha": "2026-10-16T18:47:45+00:00"
    },
    {
     "titulo": "El PP critica que Bildu, \"socio de Sánchez\", lleve en sus listas a \"herederos orgullosos de ETA\"",
@@ -479,6 +476,12 @@
   ],
   "BNG": [
    {
+    "titulo": "Ana Pontón presenta a Eloi Cabanas como candidato de su partido a las municipales",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOVNOUE5ndXFvWndWT01ob2VWbkF5ZndyUFhMeHo1WnRuSG1oRHZBdS1TVkJ5dW5UZ19FbGlkXy0ydXYxRGpoTF90WE5aWHRSU29jTGdXTWlUMXF0WGVvUzJGc0FiampORzFfV2F1YkJIQ0lSQmk2WEwtWlFHQjNGVlV1bEVxLXdxX1UxMF9CTFhUVklhZ1lkQnYyemd6QUZMSmd4Mk9HYVZTdlJhVW5ERnhjTW8xeTBNMlJNYXp1ZWNwaUpqVXlaemZWM19MMGtMNjl4eWNPRmM4Z9IB2gFBVV95cUxQOVNOUE5ndXFvWndWT01ob2VWbkF5ZndyUFhMeHo1WnRuSG1oRHZBdS1TVkJ5dW5UZ19FbGlkXy0ydXYxRGpoTF90WE5aWHRSU29jTGdXTWlUMXF0WGVvUzJGc0FiampORzFfV2F1YkJIQ0lSQmk2WEwtWlFHQjNGVlV1bEVxLXdxX1UxMF9CTFhUVklhZ1lkQnYyemd6QUZMSmd4Mk9HYVZTdlJhVW5ERnhjTW8xeTBNMlJNYXp1ZWNwaUpqVXlaemZWM19MMGtMNjl4eWNPRmM4Zw?oc=5",
+    "fuente": "El Progreso de Lugo",
+    "fecha": "2026-10-17T03:00:00+00:00"
+   },
+   {
     "titulo": "Pablo Vidal será el candidato del BNG a la alcaldía de Ordes de cara a las elecciones de 2027",
     "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQndMcDEybndYSF94NVJGdVplZTlxVlRpLTV0bGltdXFKcE5XY1JZT0dKM0J3eWRyLWYycHcyNFJ5VkdTMHdQV1hTTjN6TWNRWERnRFI5WThMakdGamNsX3FmaERFUkRQM2JsU2V1SlJSS2hfWGhveW1CcEVHb0hnVVRPSkRlTlU5ZDloZ083dC1JOF9aUGQxbDFGUEhaaHoyS1Vsb05vb2J5aWk5N0piWnduQjJiUm1RNGlYaDVENFNoaG1RUVVYNFpiYw?oc=5",
     "fuente": "ACoruñaXa",
@@ -504,18 +507,19 @@
    },
    {
     "titulo": "Pontón agradece a Rufián su apoyo y destaca al BNG como alternativa contra la ultraderecha",
-    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTTlBb0h4NGdYMC1QVXZTbXVGWTN2cDZXSm5yMGlZd1ZYRDg2clVJdkVhWDlwczJZQmo3elA4TE81dzdyTk9NTl9nZk1QT3pGMm50Ql84MktQb0x3STZMdWhPajVRaW5ncWhZbVpBdUxHWlVuOTNDUkl2UXNUa1VYV0R3R3g1dFlVSVU5LWhqUlFwallLNGRVbnYtanhySm95MjJPbU9EWERQaFJvaTBRNnZ3bzdFOUJCS0d1QmtWUHJuQnFqYV9PZXJvUmhNRGtaQTIyUzRtQTlpRW9CMUsySUg4N1UtbmxHOThZZk1SWm5ZOGlX0gH0AUFVX3lxTFBNOUFvSHg0Z1gwLVBVdlNtdUZZM3ZwNldKbnIwaVl3VlhEODZyVUl2RWFYOXBzMllCajd6UDhMTzV3N3JOT01OX2dmTVBPekYybnRCXzgyS1BvTHdJNkx1aE9qNVFpbmdxaFltWkF1TEdaVW45M0NSSXZRc1RrVVhXRHdHeDV0WVVJVTktaGpSUXBqWUs0ZFVudi1qeHJKb3kyMk9tT0RYRFBoUm9pMFE2dndvN0U5QkJLR3VCa1ZQcm5CcWphX09lcm9SaE1Ea1pBMjJTNG1BOWlFb0IxSzJJSDg3VS1ubEc5OFlmTVJablk4aVc?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdUdzdXRMUE92RFRFemd6YVFxbDg0ZnJlR2ZSa2ZyS3JEUTQwdmdKUElFM2xnQm5VQlduUzFxNm4wOHVaWERWaUtIZGVnS0FjeFN2ZERXdnFiTjhHUXVpRFlQZUJHSjFZUm5BRGR0bW1VVXZ6am9VWkhFLVNqTlh5YkJuNm5YLU9fZkRWb1laSXZsU2twaXNIcmk2YWR6cTNaUWJWZnlLMDEweFRhbmVJUXNGZjhzQ0NfSjJEY25GeGJsNVdmRXUzS0R5TW9jcmRMSGpQbXRaTzh2UdIB9AFBVV95cUxQTTlBb0h4NGdYMC1QVXZTbXVGWTN2cDZXSm5yMGlZd1ZYRDg2clVJdkVhWDlwczJZQmo3elA4TE81dzdyTk9NTl9nZk1QT3pGMm50Ql84MktQb0x3STZMdWhPajVRaW5ncWhZbVpBdUxHWlVuOTNDUkl2UXNUa1VYV0R3R3g1dFlVSVU5LWhqUlFwallLNGRVbnYtanhySm95MjJPbU9EWERQaFJvaTBRNnZ3bzdFOUJCS0d1QmtWUHJuQnFqYV9PZXJvUmhNRGtaQTIyUzRtQTlpRW9CMUsySUg4N1UtbmxHOThZZk1SWm5ZOGlX?oc=5",
     "fuente": "Infobae",
-    "fecha": "2026-10-16T13:38:42+00:00"
-   },
-   {
-    "titulo": "El BNG ve los presupuestos de la Xunta \"rutinarios, cargados de propaganda y sin soluciones para vivienda y precios\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMUdqbE1EWVZ2Qy1TZTh5d0dDaEJxQmI1M0VqU3ZCRFdwQWhSZ0d1QXJDVm82dm1BeXNZZVFJWUZheW9LZlRfaGkyYVUwRWhGbUozQWVqUXdsRUoxRUtvVlBMakVVR0dtOU96TWFlWVlRM1RsNjVVYW5KcTBjZXo5NzZKb3MxRHVoMGVybzJjNEZDVGhaMGw5Z1E1VWVjQjBObGZjMUx0RkhPaHB0UzF0eU5xSkpUcm5UOTliZUlXN3NMampUdHRmNGZBNzBQSkluWmJHYk41Q0xqRFppMk1vcTZuQQ?oc=5",
-    "fuente": "GaliciaPress",
-    "fecha": "2026-10-16T13:33:00+00:00"
+    "fecha": "2026-10-16T13:35:51+00:00"
    }
   ],
   "CCa": [
+   {
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-17T05:15:02+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "El mercadeo del 29N: lo que esconde el pacto de Coalición Canaria con Prica",
     "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCdUNEeDBwbDVsdF9XVC1PVmNDRGRNVXJTUjUyb2ZjZks3aURQTTFfam8tOUxyMGhqazhmMjRKcE9Fc0RMRHBPUUZWN2FCMEhuUGpmSllGVDd5QjY3czYtbQ?oc=5",
@@ -545,15 +549,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONjhPdk1mbU0tV2NodFcyR3VOSm9mdmJDajYxeHRFWDNPX21IQkN1dVd2cTIyU1ZwY2Z5TGNKNjNsVi1DN3lLSlFTa3k5c0RmU1RBenYzSXNCQzJIR1dXV1hLMkdqb3FrV0x1b3Fxc0k0RTh2eFZfWnNyOWNXR0NmRjVKN2NSQ1VXdnhWUGJMa1FiblZFUGZlUS15WkZkSktIVmhiaU53SVFVRERUMDd1ZS1NWWQtSGZtTHRPZUpxcHlYTl83dE1KQTVaSDBQMXVXcDJ3X0xFRDlvQVltWHc?oc=5",
     "fuente": "Telde Actualidad",
     "fecha": "2026-10-16T06:38:38+00:00"
-   },
-   {
-    "titulo": "CCD de Telde se suma al respaldo a Primero Canarias–CC para llevar una voz propia al Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT1pYcWtUM3ItQXJweXp1czZvbElEaHpydlZlbUN6bGlQUjFNOExtVTlacl9Eb1FNWFlQZDlhdDB1R190dDRzRkRNdm1tQ0JkbFVlRTdHZVNQaEVjdWNEMkxkLUNYSTRucm1GYTBWR1NMYm03OVFuWlRaMHJDSmZYOHRpNDhKR3ZJeDhhY1ZGbGZtS3dPRXd5MHc5Rkh5aVV6MXZHZW5Xb285TUc1cmJteV91VGE2djl6T2ZTNm92UzVIX3pGYldtTlRVTQ?oc=5",
-    "fuente": "Telde Actualidad",
-    "fecha": "2026-10-16T06:09:39+00:00"
    }
   ],
   "UPN": [
+   {
+    "titulo": "María Caballero será la candidata de UPN a la alcaldía de Pamplona",
+    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZk9DN2lLNE5PZEtuUUlrM3lHVUdkUm1meXNhZy05QlZtTXQxQ3Q5c2VMV2k3bmVCSnZpSFFSc2luZ1RQbE16eWJxdnMzLU0yLVdFTUdLNklFUkRHUm1lNEtsNklDYUIxd1pLaEV2b2FZSW5scHdGOWlDa2ZmRklURjVHNWVzMkV4d0tRamVxV3BnQVM3NWplMldiM01CTUNDbVNmZk9WSFhqdC1FMDRwVDBGcE1lYjR2Tmd1clRhZFhZdnZ0cTdwV2s5bWFud2V1UkNXdXppYllZZTQ?oc=5",
+    "fuente": "Diario de Navarra",
+    "fecha": "2026-10-17T03:00:00+00:00"
+   },
    {
     "titulo": "La Junta Electoral da la razón a UPN y suspende el proceso de Asiron sobre el Aquavox San Agustín en Pamplona",
     "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNX2ZFa2wtWmtJbE91cmJ2UlVkR3RES3lYcnhkZzJQNTlwSVp0bzBTVzVVVVhCQWZvclRRejAtczdCNkVOTGx5bHVOZU9mQ09vcTBSeEpUbngzdDFNZTd1bzFKREJ3eGVtMTRvaE80Um5CMk8xZE8ySzdxckZweG5HTTFjMVpXb1dfaDZ0SFlOYjlmTmtyc2RYWVE1VVZsWnY1NThNbTAxOU90cmlMTzdKbGtEbGw4X3pmTmdMQWRudjhCcTVGZm1jZlFGX3k5NkJRTEhBSm5EQzhlVTdEV0NNbjQ0aWw1YnB1Nld3aEt2ZELSAfYBQVVfeXFMUE5Wdmk4UFlLRkNvZEtiYlE5YnNxRURYRFE1QlYwS0tIVUxJQW1xUHN2SE51bHV0SjFQNDJoRXRjaDhkUUFHeElYMU1mbW9semhWS01GNWJneXBwbDFiWGNaN3pYLU5meDU5cHZoYmVIVDVrazJxMnQxNDdQd0Rnc1RJVVl1SEMzTmY1ekVBaE9TNUx2T1VJZjBsMTdVRGgyTXJ3THNUdWd6cXFpWlN4Y0NCT0hjeGJ2NjZvOGl3MFNsR08tNGhZdzR4QnpBSlByeEtRcUhQV2I1TS0wNEtERGtob1BJWW5CY2pqTGNzMGpKWHZITFZB?oc=5",
@@ -583,15 +587,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbEFfZFdXYzhoUjlJdjFHNUF6VUVxQWtWNDRTMzB5cl9Ea0RyMXJkVTR4dFQ1ZlhuN0lFTUdUT2gxNUtLU2NTdUU3WHhjYi1EeklqcmIxTjBuazVNblZRQW5VRzNDWU5VT3dEWnJ2LWlhaERlNTUxa3dIbWxNUG13UVNiMF9wM2J2ZmFCTlVreXNjNGxOSmZMdldIa0k2QXprY05Rc2l3SV9CV2c0eWhrVGdvNmZfenJvS0E?oc=5",
     "fuente": "sdpnoticias",
     "fecha": "2026-10-15T23:30:01+00:00"
-   },
-   {
-    "titulo": "UPN es la primera institución de Trujillo y Cajamarca en transferir y adoptar una tecnología para el mercado del café",
-    "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNTBFMXd1MG1ocnNNWU9VTll5Qlg0b2xldHVqbkVUd0pLZVN3emlneDk1VTNJMHZzck5WbWdxYmpLTnhBcFgxUkRQLWFMeTlGeXV5bXJXbFVVZEJYY1hUV1dSOHRSVUJyYWZJWEU4NF9QRUtDOUVaMEYwVWtKTHZpRWt6dFEwR1RnZjd3T05xcWFsaWxfOC1XajNRMUtwTGpZUjV3elZGcERodlk1ZHlmZ2ZaaGZLbDNLbEtBUHJ5MDhsV2hZS1M4Y2pEbmJRWkc0T2xVV09wYjM3cFZLT2ZCYWhrTlQ2ckltMERxRU1Ba3lGNndNRGVNdmdSQjlTU3FrNWpra3VLRjQyR2hl0gGMAkFVX3lxTE81MEUxd3UwbWhyc01ZT1VOWXlCWDRvbGV0dWpuRVR3SktlU3d6aWd4OTVVM0kwdnNyTlZtZ3FiaktOeEFwWDFSRFAtYUx5OUZ5dXltcldsVVVkQlhjWFRXV1I4dFJVQnJhZklYRTg0X1BFS0M5RVowRjBVa0pMdmlFa3p0UTBHVGdmN3dPTnFxYWxpbF84LVdqM1ExS3BMallSNXd6VkZwRGh2WTVkeWZnZlpoZktsM0tsS0FQcnkwOGxXaFlLUzhjakRuYlFaRzRPbFVXT3BiMzdwVktPZkJhaGtOVDZySW0wRHFFTUFreUY2d01EZU12Z1JCOVNTcWs1amtrdUtGNDJHaGU?oc=5",
-    "fuente": "La República",
-    "fecha": "2026-10-15T21:19:03+00:00"
    }
   ],
   "AC": [
+   {
+    "titulo": "Conversación con Jordi Aragonès, de Aliança Catalana: «Soy un facha»",
+    "enlace": "https://www.eldebate.com/espana/cataluna/20261017/conversacion-jordi-aragones-alianca-catalana-facha_470481.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-17T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/16/6ad2396b3c2d0.r_d.266-146-0.jpeg"
+   },
    {
     "titulo": "Asens (Comuns): \"En las elecciones catalanas, Netanyahu se presentará a través de Orriols\"",
     "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnpOX0c0TkpqVGRxTTk4NHdHRkdMdlJHaGRTUG04d2UybU1acmo0MkN6YjlGV3hUeUE0R2Y2S1ExRFFFNzBIQzd1ZkJXWHFjNFRvMnROQTMyb01BYTNLZXU0ME5Qb2JZNDZWLXJ6NW5wMHJ2MGE4LU9KZm5NVDZZdUxUc2k2OHd2ODVtT3RaVWp2V0xrbEYydnBNOWNLcGdp?oc=5",
@@ -621,16 +626,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPQnViUGFWSnVuQ242aWRta2FoSnlnMS1UM2FSRU1hbXlrekVYUXhhQ1BneWJPX0FBdFgzSWRoSm5BT1VCaE04MzlJT0J2UTl3SzlTOWRyS2NIaF9OYzV0TWxYbkp3dmdnWnl6TUVzdmZMZVA4OUxWazRQdDJiLXhoRGNlSGY4Qk9zYVNVQUFXTEpPVWYwSDB5TndtRHpiTFprNEhRQU9obl9jQ2VvZkFndUtYbG5MOXNwRGk3ODAwbmFTNzYzS1dpQS1wOGs4QWtSeEpqQzFRUHVkZm9wX0dnQ2ZsN1NuWUJjcHgza3FzLW5hcE92TEZkTw?oc=5",
     "fuente": "CatalunyaPress",
     "fecha": "2026-10-15T07:40:00+00:00"
-   },
-   {
-    "titulo": "Aliança le disputa el segundo puesto a ERC en unas elecciones al Parlament, según el CEO",
-    "enlace": "https://www.lavanguardia.com/politica/20261014/11658595/alianca-le-disputa-segundo-puesto-erc-perjuicio-junts-ceo.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-14T11:11:55+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/14/6acf992a79fd7.jpeg"
    }
   ],
   "AA": [
+   {
+    "titulo": "Silvia Cano, candidata de Adelante Andalucía por Jaén: \"La gente tiene ganas de una izquierda diferente\"",
+    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPekllQm9veVVIUlkwWHFOa1F3ZHpqT0Y3MlpuUzNXMk5TWFB6ajlGTV8zR3hGdDdjQlFLU2FkaXZyTkl0QXQxdDJVU2MycnVHaFpIT0hUZGhzeGJILTBQSE45Ui1vbXE2OXhoZmVOWWtCWEE2SENadlIxVVE4Ym5yWTVRNzVVMGJmRmVLS19LeDg2VzFf?oc=5",
+    "fuente": "Lacontradejaén",
+    "fecha": "2026-10-17T02:00:04+00:00"
+   },
+   {
+    "titulo": "María Sánchez encabezará la candidatura de Adelante Andalucía por Cádiz al Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSlZRRGROOXVHa1RKQmNjdUF2cHhHdld4UElMcUxTdG12cmNGejlneTFGZEEtOTlDeUhRSmVYWkU4aHBzQXZ2TjI5Ui05cmFWd0FyR1Vtdk9OdlRQSmJ0VjVIWFV3TWdKQkctMkVNRUVKLWNoYkI5VXg3MG5uT05vNGpaMUh4X0tZTDRMVHc3QS10ZW1PMzNnYjlIa1MzdjdrSkVCNk1BZWlFaWlpVEE?oc=5",
+    "fuente": "Cadiznoticias",
+    "fecha": "2026-10-17T00:45:55+00:00"
+   },
    {
     "titulo": "Elecciones generales: la profesora Tania Ferre, cabeza de lista de Adelante Andalucía en Almería",
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcm85QWZHWVJ0dnVVdUV4djBHVFYzOUhnVzh6NldJaHZ0V3huNllNNzRnSkQxUVVZdnJUdm94b20zZ0ktTzdpcVlycktvWUZjR0RKaTNhVVE4anAzSkJVazVqM2pUR1NuSUs4RkFhcUlWMzJkR1BIQ3hwc0hYcmJFT2JMS0tJM2pITjlUTW1SMlVpUFM2S1pvS3h3bkVnU2NtNzVILWpXQVl5cVRFbXZ1cVB0TE9FNWPSAbwBQVVfeXFMTUNJY3JEZmJhT2tRT0dQcGZJWTBaek9zVy1JY25sTEFqZGFvNjMtckEtWjNOUVdzdEdPREZPbEVPYl9LLVdmb3dfN1JUTVphd2wtSlB1RmxsOVdzWXJINGRpZ2N3ZnUxWkEydko0OWpCOUJNcC1SZVJJUUp2b2E0TzIyS3dOVnNZRDZGUGhJQ2p1MFhYZVFucVlwX0lsbFgyaURuQkVJdEpETHZQREwtcVhfNlhodW1mQlIxbGg?oc=5",
@@ -639,7 +649,7 @@
    },
    {
     "titulo": "Carmen Martín será la candidata de Huelva por Adelante Andalucía para las elecciones generales",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWxOT0lNbXFBSlNkTGhLTnFkbnVRU0U1c2NRVWFEdk9aeXhhc2dmOTVVWnBQSG9id1pNYl91WDhxUEVCVFFMVVZCTlJTV0RVblE5RV9qd2FLRmxrRkxmeW93YmJLQ1RxWUNZdUE1eWpqVXN3ZFE3eWdRbmMzejRzeGQtMG0zSC1tQlR2bk1RT0M4WUJQRnpENFRuZDFjZ9IBngFBVV95cUxNSWxOT0lNbXFBSlNkTGhLTnFkbnVRU0U1c2NRVWFEdk9aeXhhc2dmOTVVWnBQSG9id1pNYl91WDhxUEVCVFFMVVZCTlJTV0RVblE5RV9qd2FLRmxrRkxmeW93YmJLQ1RxWUNZdUE1eWpqVXN3ZFE3eWdRbmMzejRzeGQtMG0zSC1tQlR2bk1RT0M4WUJQRnpENFRuZDFjZw?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjlKdlJMZU5pN3l2UFFWSWVDVjZaOENUY1BSSEF2TFpGbjRoMlFaeENMUWs1S2dULUxFbkJibkRxM2tVZE5kUEJ6XzhwT3lxVDN2VGMzRlFjY0hqaWlqUFF3Z0l3OTJESFVkTmVjTWgtQWR5dDg1VF9EWldOaWNhQkktdVBKTWpwM0RCY0JLVmx4ZG0yYlI2Mg?oc=5",
     "fuente": "Huelva Información",
     "fecha": "2026-10-16T16:00:43+00:00"
    },
@@ -654,18 +664,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObXdOSmRWbUJnektKWG5tNzJSMDRkNnViNVJqTnpPZUNqa3hjUXU3cF9kcHFIdHI4NnpRS1czbDUyZUZVUGZjcmJuR0hCbFFta21EZmFBa3NuX0JsMFd0RUlmLWk5bzV2cTd3TksyUi1PNGljT3p2TzlUZnl5aldiUGhJbFJqUGVic0F0eS1hdThURmY4U2F0anJWck5SdWdRRGoxc21xTnZRNVVpQkhlZHF5THBpczQyLWxycGFuREJkd1dkY0VUcDJyRm1RZ1A3OXZCS3Q4Rl9NaEVEaldxejNoQnhYQXhUSzhJN0JSTWNwQUc3?oc=5",
     "fuente": "DIARIO Bahía de Cádiz",
     "fecha": "2026-10-16T15:09:25+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía reivindica sus \"caras nuevas\" ante el hastío de \"la izquierda de siempre\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNkQ3TFdPclI1bTNQQTVpTHBEYnhvVFFXUDhqazlJNTNVQlU2QlJWX2FzZDdaLWVJdjdkZXhXWE5zeHQyNUZiRk55NDREUnl1bjVxSHRILThWZ2RPMkhmVGstTXNzT0FrVXhnLVVZcEhsNkVKQVRpS182b29iU2RyZHVDTURrY2NBQVA2MXUwaklvWVN4Y3kzVEJuY1BYU2xKN245UDlyd3FjQ1lHQk9BellHc0ZVS1NMZGtOM1lodXNkTnc?oc=5",
-    "fuente": "Revista Capital",
-    "fecha": "2026-10-16T14:08:01+00:00"
-   },
-   {
-    "titulo": "Luis de los Santos, abogado de derechos humanos, encabeza la lista de Adelante Andalucía por Sevilla el 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPczhITXlRS2EzSzJqVlEtYXR3eE1vSW16Vmc2WXNDSWFQcjVhUzV5cnhnV2NMaEw1c2U4VDFEb3RldkZwcmpobFhwaHNlZmViVEZva283aXZIV29IX1o3anNISko5Uml1WmRrSTdrUnJvYWJoVFJkTXU2QUw1bE41a1N3czNMaTd1c1JLUzZOVHQ4c3c2QmxPZ1l6SWYwTTBadVNlLUdB?oc=5",
-    "fuente": "Diario de Sevilla",
-    "fecha": "2026-10-16T13:44:51+00:00"
    }
   ]
  },
@@ -844,11 +842,10 @@
   },
   {
    "titulo": "Polémica por una clase de la Complutense que pidió dibujar a Ayuso, Almeida y Abascal como «vampiros sanguinarios»",
-   "enlace": "https://www.eldebate.com/espana/madrid/20261016/polemica-clase-complutense-pidio-dibujar-ayuso-almeida-abascal-como-vampiros-sanguinarios_470417.html",
+   "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZ25CV2JhVzFLeXc1R3FjRDhHMms5dXEzVEZNbEs1MWlHT2VaMlVLWWM3Y3NRZVIxQTh6OFdXZWNUQXI0NXp5bTNacURjZmJTbUg2R2xqamNQVzBURU53Z3pYbUw5YnNIMk5HbzVOaFd5QllYWnBXeU9GekZvMjFzaFh3MWg0aWJSQzVoSmxrQ2dLOXloT1N4QnNNWUUtdk5WTUpGVm1CaGRpMFZGZGpSV0JWUGlFeXdocDhEWVcwQjUtMktHZEtJb3kzLWMtVTJhSWZTYi1NbG53RHZkWVN6emxaNNIB6AFBVV95cUxPdEx4UVU0d01KYndkRnAwMnBWQkdoSGZuTVBUYjFBdDg3alJ3ZDNhOGs3MFpkVWl0YjZUTks2QjFMX3BGSi1CazBYLXRlVFNKZ3JpVGdpWk14QjEyOGhDM0VjY2pTSVU4SnQ2d2UxeTZQNnFURmxhVUtWYkpUWEVaVkVUbC1BMU5aaThjM01yX0p5ZXdablBnc3A4UnV5NmlxNzUyTHh0amQ2SktYTFhXSWo5ZDlpSTEwS0NsaXZ6ZFE0c3k1YUZLa0VaZm5sakRsVjQ1d0c2ZEQ3RTcwWUxNY0NHZmQ2cy1I?oc=5",
    "fuente": "El Debate",
    "fecha": "2026-10-16T12:08:26+00:00",
-   "partido": "Vox",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/16/6ad20e72c48e7.r_d.588-316-0.jpeg"
+   "partido": "Vox"
   },
   {
    "titulo": "Vox dice que Fiscalía investiga al alcalde de Ítrabo por contratos municipales",
@@ -856,6 +853,13 @@
    "fuente": "Andalucía Información",
    "fecha": "2026-10-16T10:26:01+00:00",
    "partido": "Vox"
+  },
+  {
+   "titulo": "Feijóo promete una investigación sobre Ceuta y las patrulleras marroquíes si llega al Gobierno",
+   "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNzB2dFVlMXoyWmxzYTZhSGh1X3NXYm4zR3k3SC1lcTFlcHhlTE1YdGNpdVRqcHNqWlZiU0doWk9KUkxuNmtBOHhoLXY2ZmoxUkZJZnRwRHIzUUFnOF9rejRHQWZQc1JkSGpuQXIwaFMzaXdPS0hubkFQVXVlS1NaVENZUEtsYmZoaW9RYWtUZGtnUVFaWWl5aklTMi1SZl9VVk9zVW9hXzhrNERQYlZneXlUSk90d21ZNzZiWkJic2tQY3ZibGlMV0lnWnZPQ3VjU3JDRE9ISWZFRl9WTGw5bjREM3RvZGNOTE9KMmtZcl9JY3VMQ0FrU2p6ZkwzT0pTbEl6WEtuckVfclnSAZACQVVfeXFMUGNRTlh0Yl9hSkVodkhyLUpnWUFXZEpNRk5fVm5nR2hQalVWSGMwaFJpQU9JTHJaTm1OQWZlcFZRT1VRcVRuc1NtSU41THJsRFc0V0IyMTJhMzF6bTFxc2xvdEc1dXdHTzRIeVhtUXhWelhVTEhVQldUcDdlN0tZZGJWd1dPc2JTeHdhWnNmNm5xM0xmSVVHRTJybWFGdHJrQmlud1FNNzd0RUtwem92TnFnVzlNeTRzSkgxUi0tNWRNV1VCSVM5TDVObUcwVFRGTWtfT0lWOUowdFpYczNWZnV5WThqaEE5SktFTG5iTnlWZWVINGpFRk1idzhiU0lkX3Znb0JUWk4xYm1NbDItWks?oc=5",
+   "fuente": "Telemadrid",
+   "fecha": "2026-10-15T14:58:39+00:00",
+   "partido": "PP"
   },
   {
    "titulo": "Redondo lamenta que CyL sea la única comunidad sin ley LGTBI: \"El veto de Vox y la pasividad del PP la impiden\"",
@@ -884,13 +888,6 @@
    "fuente": "El Debate",
    "fecha": "2026-10-15T11:20:11+00:00",
    "partido": "Sumar"
-  },
-  {
-   "titulo": "Feijóo anuncia una investigación sobre Ceuta si llega a Moncloa: “Al final, todo se sabrá”",
-   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNTZzcm82cGJNWFk1Y19CV0lhMlhuU3VNWTZDMGRXOEhvOGwzOW1YS0tYVE5Ucy1vZHp3RUlydG5rX1RZV25SdktkNUxWZEk0R3BZOHBkYUhSLUVVc1BrMTB5cnIyYXZoNy1vT1lvbTcwTkJVOWNjMXMxRXFkRGI5ejZQdnZURXJRS1RoMU00YkNEdGN0WDkzek8zTjN4U0lKdG85TEZpdmtZUdIBrwFBVV95cUxNLTlNVnVTNkFTMlFPYnZQalVsMGZlN3V3THpmMmdSZUh6MkVpbU5DTnFsdVdYM1VuMHdyeVRkR2VvcTRWMEItd0pvUkJZYjdjbEIwYUNLLU00ejZhT1RCZWNzZmJqZE5yQjlpM2FSZnM2UjhzYTBiemEySndhUXdTQXpZMk41ZUk2SDVCdmF1am53ZGV5MTFxa2FmWnp0Uk1FQUg5Tko1cV9LSjU1VldB?oc=5",
-   "fuente": "El Periódico Extremadura",
-   "fecha": "2026-10-15T10:18:30+00:00",
-   "partido": "PP"
   },
   {
    "titulo": "El Consejo Científico del ERC se reúne en Madrid para debatir el futuro de la investigación europea",
