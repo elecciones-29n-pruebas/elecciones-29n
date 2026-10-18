@@ -64,6 +64,9 @@ Senado: `data/config.json` > `senado` lleva los senadores que designan las comun
 
 Polémicas (`ordenar_polemicas()` en `scripts/noticias.py`): solo las de los últimos 7 días (Google News cuela cosas de hace meses aunque se le pida la última semana), apuntadas al partido al que afectan y no al que las denuncia (`papeles()` mira si el partido va detrás de «investigar a», «condena a», «pide a»… o si es el que denuncia, pide o ejerce la acusación popular), sin titulares repetidos, con una sola por historia y partido (dos titulares del mismo partido que comparten dos palabras propias) y como mucho 4 por partido. El log dice cuántas se quedan fuera y por qué.
 
+Versión 70, la leyenda de la gráfica con logos:
+- La leyenda de la gráfica de Encuestas deja de dibujarla Chart.js y pasa a HTML (`#leyenda-tendencia`, `pintarLeyendaTendencia()`), con el logo de cada partido. Tocar un partido lo oculta o lo enseña, con su línea, su franja, sus puntos y su rombo de 2023, igual que hacía la leyenda de antes. En la vista por bloques sale el punto de color del bloque.
+
 Versión 69, logos también en Noticias:
 - Las burbujas de «De quién se habla» llevan el logo debajo del número en vez del nombre (la chapa si no hay logo), las etiquetas de partido de las noticias y de la portada llevan el logo delante del nombre, y en Polémicas van en los chips de la tira y delante del sello de cada polémica.
 

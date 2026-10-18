@@ -1150,11 +1150,22 @@ function pintarTendencia() {
   const fEje = corto ? new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short" }) : new Intl.DateTimeFormat("es-ES", { month: "short", year: "2-digit" });
   const ultimos = {}; // para que la leyenda enseñe una entrada por serie y el tooltip no repita
   graficoTendencia = new Chart($("#grafico-tendencia"), { data: { datasets }, options: { ...op, animation: { duration: 600, easing: "easeOutQuart" }, interaction: { mode: "nearest", axis: "xy", intersect: false }, onHover: (ev, items, chart) => leerTendencia(ev, items, chart), events: ["mousemove", "mouseout", "touchstart", "touchmove", "click"],
-    plugins: { ...op.plugins, legend: { ...op.plugins.legend, labels: { ...op.plugins.legend.labels, color: tinta, pointStyleWidth: 10, boxHeight: 8, filter: (it, data) => { const d = data.datasets[it.datasetIndex]; if (d.auxiliar || d.esPunto && !enc.filtro) return false; if (ultimos[d.label] != null && ultimos[d.label] !== it.datasetIndex) return false; ultimos[d.label] = it.datasetIndex; return true; } } },
+    plugins: { ...op.plugins, legend: { display: false },
       tooltip: { enabled: false } },
     scales: { x: { type: "linear", min: x0 - margenX, max: x1 + margenX, ticks: { color: gris, maxRotation: 0, autoSkipPadding: 24, callback: (v) => fEje.format(fechaDesdeDia(v)).replace(" de ", " ") }, grid: { display: false } },
       y: { min: 0, suggestedMax: enc.medida === "esc" ? 190 : undefined, ticks: { color: gris, callback: (v) => enc.medida === "pct" ? `${v} %` : v }, grid: { color: css.getPropertyValue("--linea").trim() } } } }, plugins: [rayaLectura] });
   lectura.x = null; pintarLectura(null);
+  pintarLeyendaTendencia(series);
+}
+/* La leyenda de la gráfica, en HTML para que lleve los logos. Tocar un partido lo oculta o lo enseña (sus líneas, franja y puntos). */
+function pintarLeyendaTendencia(series) {
+  const cont = $("#leyenda-tendencia"); if (!cont || !graficoTendencia) return;
+  const ch = graficoTendencia, visible = (s) => ch.data.datasets.some((d, i) => (d.label === s.nombre || d.label === `${s.nombre} +` || d.label === `${s.nombre} −`) && ch.isDatasetVisible(i));
+  cont.replaceChildren(...series.map((s) => el("button", { type: "button", class: `ley-serie${visible(s) ? "" : " apagada"}`, style: { "--c": s.color }, "aria-pressed": visible(s) ? "true" : "false", onclick: () => {
+    const on = !visible(s);
+    ch.data.datasets.forEach((d, i) => { if (d.label === s.nombre || d.label === `${s.nombre} +` || d.label === `${s.nombre} −` || d.label === `${s.nombre} en 2023`) ch.setDatasetVisibility(i, on); });
+    ch.update(); contar("Oculta un partido en la gráfica"); pintarLeyendaTendencia(series); } },
+    s.partidos && s.partidos.length === 1 && D.config.partidos[s.k] ? insignia(s.k, "mini") : el("i", { class: "punto", style: { background: s.color } }), el("span", {}, s.nombre))));
 }
 
 /* ---------- Lectura al pie de la gráfica ----------

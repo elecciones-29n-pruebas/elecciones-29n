@@ -943,7 +943,8 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .lectura { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 8px 8px 4px; border-top: 1px solid var(--linea); min-height: 44px; }
 .lectura .lf { font-size: .78rem; font-weight: 700; color: var(--gris); flex-basis: 100%; }
 .lectura .lvals { display: flex; flex-wrap: wrap; gap: 6px 8px; }
-.lchip { display: inline-flex; align-items: center; gap: 6px; font-size: .86rem; padding: 3px 10px 3px 7px; border-radius: 999px; background: color-mix(in srgb, var(--c) 12%, #fff); border: 1px solid color-mix(in srgb, var(--c) 35%, #fff); white-space: nowrap; }
+.lchip { display: inline-flex; align-items: center; gap: 6px; font-size: .86rem; padding: 3px 10px 3px 7px; border-radius: 999px; background: color-mix(in srgb, var(--c) 12%, #fff); border: 1px solid color-mix(in srgb, var(--c) 35%, #fff); max-width: 100%; }
+.lchip b { white-space: nowrap; }
 .lchip i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
 .lchip b { font-weight: 800; }
 /* Tarjetas de Hoy, con dibujo y fondo de color */
@@ -1159,3 +1160,9 @@ h2.con-logo::before { display: none; }
 .pol-sup .insignia { margin-right: 2px; }
 .burbuja .insignia.burbuja-logo { height: calc(var(--t) * .3); max-width: 80%; border: 0; background: transparent; padding: 0; }
 .burbuja.activa .insignia.burbuja-logo { background: #fff; border-radius: 4px; padding: 1px 3px; }
+.leyenda-grafica { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 6px; padding: 6px 8px 2px; }
+.ley-serie { display: inline-flex; align-items: center; gap: 5px; border: 1.5px solid transparent; background: transparent; border-radius: 999px; padding: 2px 9px 2px 3px; font: inherit; font-size: .84rem; font-weight: 700; color: var(--tinta); cursor: pointer; }
+.ley-serie:hover { border-color: var(--linea); }
+.ley-serie.apagada { opacity: .4; text-decoration: line-through; }
+.ley-serie .punto { width: 12px; height: 12px; }
+#caja-tendencia .lienzo { height: 350px; }
