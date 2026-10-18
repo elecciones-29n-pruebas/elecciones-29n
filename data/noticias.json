@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-10-18T18:06:20+00:00",
+ "actualizado": "2026-10-18T20:43:13+00:00",
  "generales": [
   {
-   "titulo": "El Grupo Popular subraya que el equipo de Gobierno tiene entre sus prioridades el mantenimiento y conservación del Acueducto de Segovia",
-   "enlace": "https://www.larazon.es/castilla-y-leon/grupo-popular-subraya-que-equipo-gobierno-tiene-sus-prioridades-mantenimiento-conservacion-acueducto-segovia_202610186ad505a9fb06971aad0773ff.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-18T19:45:13+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2023/04/19/8926E088-293D-4B4C-841A-56231D736187/acueducto-segovia_96.jpg?crop=2048,1152,x0,y91&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Elecciones generales 29N, última hora en directo | Vox pide al TC que inadmita el recurso del Defensor del Pueblo por la 'ley de nietos'",
+   "titulo": "Elecciones generales del 29-N, en directo | Vox pide al TC que inadmita el recurso del Defensor del Pueblo por la 'ley de nietos'",
    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
    "fuente": "El Español",
-   "fecha": "2026-10-18T19:30:00+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11346332.jpg?p=w:1706/h:960&h=KmimV17I"
+   "fecha": "2026-10-18T21:15:00+02:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11370485.jpg?p=w:1706/h:960&h=OZTrVipG"
+  },
+  {
+   "titulo": "Perro serás, mas Perro enamorado",
+   "enlace": "https://www.eldiario.es/politica/perro-seras-perro-enamorado_129_13595463.html",
+   "fuente": "elDiario.es",
+   "fecha": "2026-10-18T19:47:29+00:00",
+   "imagen": "https://static.eldiario.es/clip/8f21e669-2619-48b5-9994-885862d9298f_16-9-discover-aspect-ratio_default_0_x925y524.jpg"
   },
   {
    "titulo": "Feijóo encarga a Albiol una ley 'antiokupación' y pone el foco en Cataluña para «impulsar» el cambio de Gobierno",
@@ -35,6 +35,13 @@
    "fuente": "Nueva Tribuna",
    "fecha": "2026-10-18T18:23:39+02:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/07/30/2026073010492462809.jpg"
+  },
+  {
+   "titulo": "El PP trolea a Sánchez y Begoña por copiar su beso electoral a la pareja corrupta de los Kirchner",
+   "enlace": "https://okdiario.com/espana/pp-trolea-sanchez-compara-beso-electoral-begona-kirchner-20575866",
+   "fuente": "OKdiario",
+   "fecha": "2026-10-18T17:44:25+02:00",
+   "imagen": "https://okdiario.com/img/2026/10/18/el-pp-trolea-a-sanchez-y-compara-su-beso-electoral-interior-1.jpg"
   },
   {
    "titulo": "Trias receta a Junts ser “hábil” y hablar con PSOE y PP si beneficia a Catalunya",
@@ -63,36 +70,28 @@
    "fuente": "Europa Press",
    "fecha": "2026-10-18T10:05:33+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261018120533_120.jpg"
-  },
-  {
-   "titulo": "Un frente de izquierdas y otro de derechas se disputarán a cara de perro el control del Senado",
-   "enlace": "https://elpais.com/espana/2026-10-18/un-frente-de-izquierdas-y-otro-de-derechas-se-disputaran-a-cara-de-perro-el-control-del-senado.html",
-   "fuente": "El País",
-   "fecha": "2026-10-18T03:30:01+00:00",
-   "imagen": "https://imagenes.elpais.com/resizer/v2/BVIDDBEGVRHKREXEX56LKVBZ5Y.jpg?auth=33face65287c9357d19e34d21c07620d950f4fb65ec59c6ca40e5416db7109c0"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo encarga a Albiol una ley 'antiokupación' y pone el foco en Cataluña para «impulsar» el cambio de Gobierno",
-    "enlace": "https://www.abc.es/espana/cataluna/feijoo-encarga-albiol-ley-antiokupacion-pone-foco-20261018125206-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T19:25:29+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/feijoo99-Rkzl8D8JX1bU1wTtCeAV2DN-1200x840@diario_abc.jpg"
+    "titulo": "Ester Muñoz visita Valladolid para mantener un encuentro con simpatizantes del PP",
+    "enlace": "https://www.larazon.es/castilla-y-leon/ester-munoz-visita-valladolid-mantener-encuentro-simpatizantes_202610186ad51037b79b18452fc920b2.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-18T20:30:15+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/18/67F3BC5B-0999-4D21-BB47-9DB496D5E046/portavoz-partido-popular-congreso-diputados-ester-munoz-visita-valladolid-mantener-encuentro-simpatizantes-acompanada-otros-conrado-iscar-jesus-julio-_96.jpg?crop=1600,900,x0,y63&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Feijóo ante la demagogia de Sánchez: «Pensiones, sí. Joyas en cajas fuertes, no. Sanidad pública, sí. Chistorras, no»",
+    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONUxGUmtUdkItWUVqU1RnYTlIeFEzdVppRFJxZzBuQ25kbWh3ME5zd0J1bnJuUFlBTTJFZ1BfUUpqSFc4VkJnNlBhVXFjcjhzTXhqMVlXdHNLMXZZMzNCYXp3QmY5RUZVbzZtc0h5Z0l1eEh5SnhRRFVnbFZ6OVc1WmhPVTBjc1RrZG9fSTkxX3JYU3VSTTRlMWtZMHZZdHJpaEE3QUU3R0hSWnk5bGpUdE9BeFJjRGk1Vk1NVlBxMjhTSm5ER3gzN2tTQnNSaUlWM2RnUFZvZDJEQTVnS3lpckhoNVhXZlI2MGZxbFZ2UXEzZ3RIbjAyMTRVNTl6d9IB_gFBVV95cUxONUxGUmtUdkItWUVqU1RnYTlIeFEzdVppRFJxZzBuQ25kbWh3ME5zd0J1bnJuUFlBTTJFZ1BfUUpqSFc4VkJnNlBhVXFjcjhzTXhqMVlXdHNLMXZZMzNCYXp3QmY5RUZVbzZtc0h5Z0l1eEh5SnhRRFVnbFZ6OVc1WmhPVTBjc1RrZG9fSTkxX3JYU3VSTTRlMWtZMHZZdHJpaEE3QUU3R0hSWnk5bGpUdE9BeFJjRGk1Vk1NVlBxMjhTSm5ER3gzN2tTQnNSaUlWM2RnUFZvZDJEQTVnS3lpckhoNVhXZlI2MGZxbFZ2UXEzZ3RIbjAyMTRVNTl6dw?oc=5",
+    "fuente": "ALERTA El Diario de Cantabria",
+    "fecha": "2026-10-18T18:34:30+00:00"
    },
    {
     "titulo": "Elecciones generales 29N, en directo | Feijóo afirma que el 29N se elige entre \"vender y defender España\" y apunta al \"clan Sánchez\": \"Todo se va a saber\"",
     "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTTEtNXpYbHBzQXlwZFhGQnhtTTdfVmxkTVBIN01LNFNsMmtRU1BJWmNhVk5wYVFqQ2tQU2xTeXZsX0hGRndOanI2TkpkVHJtbDVxUWZTVjJuLUc5VEZYOG9haWNqX1NnRlVTQS1YdHRmSVRPYlBDZk1DcDNVT3hGS0NGOXJxbHk3YW4wY3U1U1MzZ3IxVlhLV05ldlNLNWkyc3RocElLN3pUcW5fSXFqeFlRLTBaM2FVN1BwYTBuSjByRFpoc21TdHY2MVROb1ZUcEx4eUhTTnRtM095aGY1RjNCTDF0amlQLTRMMmRrWnA5aUlHblZMR28xbnUzZGxrU3V4WQ?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-18T17:30:09+00:00"
-   },
-   {
-    "titulo": "Feijóo promete una nueva ley antiocupaciones de la mano de Albiol tras las elecciones del 29-N",
-    "enlace": "https://www.lavanguardia.com/politica/20261018/11661983/feijoo-promete-nueva-ley-antiocupaciones-mano-albiol-elecciones-29-n.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-18T17:05:18+00:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/18/6ad49d1f86834.r_d.2067-1354-1051.jpeg"
    },
    {
     "titulo": "Feijóo encarga a Albiol una ley para echar a los okupas en 48 horas",
@@ -115,51 +114,51 @@
   ],
   "PSOE": [
    {
-    "titulo": "Bernabé faltó a la reunión de coordinación de emergencias por la inminente DANA para asistir al acto de Sánchez en Madrid el sábado",
-    "enlace": "https://okdiario.com/comunidad-valenciana/bernabe-falto-reunion-coordinacion-emergencias-inminente-dana-asistir-acto-sanchez-madrid-sabado-20575231",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-18T19:48:45+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/18/frame-bernabe-02.jpg"
+    "titulo": "Torres admite que en Ceuta \"hubo quiebra de la soberanía territorial\" pero no explica el apagón del veraneo de Sánchez",
+    "enlace": "https://www.elespanol.com/espana/20261018/torres-admite-ceuta-quiebra-soberania-territorial-no-explica-apagon-veraneo-sanchez/1003744425148_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-18T22:42:14+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380953.jpg?p=w:1706/h:960&h=BabjYzjM"
    },
    {
     "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
     "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDZ1eUEydlpmWmxicmZTWlVQSzJsX3N5RTFDSXI0TS16QW92anRqTVRXSmw5ejhMd2gwcnQxYV9STW8yNHlURGk3T1YwRUgtVFBjMU1ZZHB4QWlwWDRlR25iM1B1QzNTbk52RkhuNjRrMFZpVmlqTjRXUmlMSmtSRU1GcXBpX0FLc3ZCU2p0ZlkwM1VNcXpibnNWVldXYlc0M1Nsb3p3M0I0VDNRRlhvYUVveTdSQXpf0gG-AUFVX3lxTE4taWdIRGJfN2tJS1FPbVFhdDRwOE1NelBEd3I2ZVVqSHExMkxUMFAwZ2pxdzZsLXc4SE1uZmxwU0Y2VVo5eFdVSWpXTlBSVTFvdmhPTWR4dXdnZGZEb3o1aS1XWm1ZTGZtLWdMOHRxNnhubHpvUFdaX3dodkVBTjZ1TDRhZl9mbVVwUnFqUHFzUzV2Y252SGctMjFrQVY2RzBDQmI0UTQ5ZzFOTWNTX1BoR2wtMVYtS2xhTUhCQ3c?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-10-18T17:40:25+00:00"
+    "fecha": "2026-10-18T20:40:55+00:00"
    },
    {
-    "titulo": "Elecciones generales 29N, en directo | Feijóo afirma que el 29N se elige entre \"vender y defender España\" y apunta al \"clan Sánchez\": \"Todo se va a saber\"",
-    "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTTEtNXpYbHBzQXlwZFhGQnhtTTdfVmxkTVBIN01LNFNsMmtRU1BJWmNhVk5wYVFqQ2tQU2xTeXZsX0hGRndOanI2TkpkVHJtbDVxUWZTVjJuLUc5VEZYOG9haWNqX1NnRlVTQS1YdHRmSVRPYlBDZk1DcDNVT3hGS0NGOXJxbHk3YW4wY3U1U1MzZ3IxVlhLV05ldlNLNWkyc3RocElLN3pUcW5fSXFqeFlRLTBaM2FVN1BwYTBuSjByRFpoc21TdHY2MVROb1ZUcEx4eUhTTnRtM095aGY1RjNCTDF0amlQLTRMMmRrWnA5aUlHblZMR28xbnUzZGxrU3V4WQ?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-18T17:30:09+00:00"
+    "titulo": "El PSOE cancela el acto de Sánchez en Toledo sin explicar los motivos ni anunciar nueva fecha",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUEVZRkJvWXlRZDNJczR0MnRmWUtIZENrLUJNTXA4RllibkxzYXlCVU91cHAzYzNNQkZQS2psQkdWcVJzNVVCQXctNXZSNDhjS1NKNkh5SWpDei1LcktHTHVXT2RpdjRtemhnMEpaaldpNlBPM21fZEdabmJ1QlFKQ21CckhLdDBPNElHamdxMFBZeWNwVklYeHRZUjR4Y01lZzhSaEVXVTg0Mm9vYXY5QWRCbUJVVVhZZ0ZBZ1pibkFFMVpmRGpRYkRBYVNGY1HSAdQBQVVfeXFMTzM1UGU3WFBaQVg1RW1YZ1VfOUVuaW5kSXBTb1p0STl6czNlN2RlRXgtR1lMRlltTlAzbzEyeFFlNGN5VlpmbmRkVTVFMG1ZV3R2SFp3ZmdEZEJSNVpoUENmUVAyT05reHg5aENBRF9qcjJ0dDhBdmpIaWp1bVJtMHNYUzhRcXhZWmVNb21BcFJGNVlON0h1UUVVRVpGZ0twVHBob0xtLTdQbTZPMklaODJwY0l3QjdxT2dDX2tzOFpkVzdIdTQxbEFWQ0p1Tm9xd3hoU1A?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-18T19:54:00+00:00"
    },
    {
-    "titulo": "El PSOE celebra en Yeste un multitudinario Consejo Comarcal",
-    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMTV4RG1MaVgybWV3Wkp1aHJ2Yk1VMW5YM0N3azZlRWlUbGVYTHFDdkJXNE40WUQ3a3E1UW5ONDgwcDMyOW9TZ1NiTTJwdW1KVFFOaTA1X0FLejhGYWNvTjFwNnAzX01JaGRNemlTQnFnTWdDUUNqejVsNEVUMnlpZFNOWHNRbVEtOXFEVExrWXFJaE45dHg1cHlUbjg0eEt1ZW1WcmVDUW5aMm1Pa3hfLVB1Vm9jUTBaWExmU0huTllIcmp1VU40WmZjcllTVUs1YmFTT3RNcC1GVzJ1VGdJ?oc=5",
-    "fuente": "La Tribuna de Albacete",
-    "fecha": "2026-10-18T17:23:31+00:00"
+    "titulo": "La empresaria que dijo haber llevado 90.000 euros a Ferraz se libra de ser procesada por blanqueo en otra causa",
+    "enlace": "https://www.eldiario.es/politica/empresaria-dijo-haber-llevado-90-000-euros-ferraz-libra-procesada-blanqueo-causa_1_13568204.html",
+    "fuente": "elDiario.es",
+    "fecha": "2026-10-18T19:47:28+00:00",
+    "imagen": "https://static.eldiario.es/clip/f182895e-36c2-4db7-ab35-de3885bc8a67_16-9-discover-aspect-ratio_default_1153455.jpg"
    },
    {
-    "titulo": "El PSOE designa a Riduan Moh como candidato al Congreso por Melilla",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU0dEQ0NSYVFwWnphUGRVcUdKOU5aUzE3WjdsQUc2OHBycV94NUM0dUg0MGRVNFd4Y0s3VmlZbUR5VTl5ZGJqSmJCcUdReENEbzlCSVU1N1J3VTcxX2x4QmFkNDU3SFp3cFpHVThxZnh6V3RGSHFLVWNjenBQN0N2OUVGZkQ1RnFiSFNQZ2l5OWVESE9mOE5NV0FhRHMwZ3NabU5SV2tSMkZnNHFwZWF3SzlHN0o?oc=5",
-    "fuente": "RTVE.es",
-    "fecha": "2026-10-18T16:23:35+00:00"
+    "titulo": "El PSOE ama a Begoña",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUd2SzZpV3B0N19nOUJweUJIZ2xBOWlTaTVqOGRvOVUxb3M4NWJRdWVPSWxOT05ZcEZHRnV1RUZVNHFvSnd1ZjdKb3dxT0dIVkZ1Vnk0OV9EVEI4cUJwRUd1b25Iak9jTDQ3SnRRYkRkeTd3eEhtcURCWXE3eTlMaEhqY3RTcGZZckNwWmxVQlF6TTB1aUUybzNaVWtkb03SAaoBQVVfeXFMTk1JUUE5X2lmMm1ZOUt2WTU4bzdEVkFaZ0xoNGYtQWRyc3J2N05fTDFiczctUThnNUJSb19BOVhwRl9MU0NkT0FITTk3Q1FlemMxeUZMVGlsY2JkMGs1aE1zcDJNbXd1UkFLZkhua2lhdlhBTWlmUlRsNTlyUjBteTdyQkFwbmk3WnQwbWZ4NzdiT3B2eS1wczJuenRhNXExbjFDMEFMR1JsbFE?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-10-18T19:11:36+00:00"
    },
    {
-    "titulo": "Vox Córdoba acusa a Pedro Sánchez de querer robar las elecciones mediante la Ley de Nietos",
-    "enlace": "https://www.eldebate.com/espana/la-voz-de-cordoba/actualidad/20261018/vox-cordoba-acusa-pedro-sanchez-querer-robar-elecciones-mediante-ley-nietos_470965.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-18T15:22:45+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/05/01/69f4f394081f4.jpeg"
+    "titulo": "Badanelli acusa al Gobierno de Pedro Sánchez de \"alterar el proceso electoral con la Ley de Nietos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPdjFha05Pblktak5kZjNvS1RKbEhPVThqcVZzRTYwME9DWEN0a0kyUlZGZDdWSWxkOUl6RXRtYURCa0hFTlU2TWZCRGx2eFV2S3pvaTFCLTVQNFVrODA5c3FlT0JEREFVdS1ocW9ndXdfWWZlQlo1dWdMQUs5YWNGSjZrVWV2S21BbFVUdnlKLWtyTFluRXpwRnhtbDNmbVJnT1JaRm4wRW5NODFtSlFJbU01NHBYUUNHcWJ5bWJvTDZqRHFfa3hqM3ltTmxKWFNBTlBvc21qanZXYUVIWnc2REdFcER2dmJud0pnc3RvZ21BXzc4dWkxVVRYVzJCMmowZmpnNm1USEVxbkQ1bWxhV9IBlgJBVV95cUxQVWJJYmdYQklod3ZER0JSdktLel9paTAxT0oxUFZvYjVOZUNzRkpDWjhsWC1qejBOWVExOUFSWVpJWFlQcEtkNmZ1dlhrd3U4R0lLNmZJdzRZM25XMmkxNFZ3b092c2hEdWFndkZkRGZXcEt1bVVWWTZ3ci1HWGU4NFZLdlA0Z2lOaTRnTWhqaVVsS1JSWW1YUFlmXzhMdVprSExNTURmcmFhRk9ONjBmTE51R211X2ZNdUxPdXdfU0tuSU9DakpSY0J4VkRkbVpQWlRUR3lWRXJOVVBKUkRpbm53d1ozelE3ejRnSmRqVmVoTHBaTDljVlVDY1VJMlV1cVUyMUhDX2dsbDNKaEZSbHZ3aVdLQQ?oc=5",
+    "fuente": "Cordoba Hoy",
+    "fecha": "2026-10-18T18:57:58+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Vox también pide al TC que inadmita el recurso del Defensor del Pueblo contra la suspensión de votos CERA del Supremo",
-    "enlace": "https://www.abc.es/espana/vox-pide-tc-inadmita-recurso-defensor-pueblo-20261018162344-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T18:32:32+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/SantiagoAbascalCeuta-RCf2sT8XwLuuY210QoWpzUJ-1200x840@diario_abc.jpg"
+    "titulo": "Vox estalla tras el caso de la anciana muerta en Burgos y urge a deportar a quienes están en España «solo para delinquir»",
+    "enlace": "https://www.eldebate.com/espana/castilla-y-leon/20261018/vox-estalla-caso-anciana-muerta-burgos-urge-deportar-quienes-estan-espana-solo-delinquir_470987.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-18T18:31:04+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/18/6ad4f310e6c96.r_d.1709-725-0.jpeg"
    },
    {
     "titulo": "Vox pide al TC que inadmita el recurso de Gabilondo sobre la 'ley de nietos': \"Es prematuro y se limita a discrepar\"",
@@ -181,17 +180,17 @@
     "fecha": "2026-10-18T16:28:00+00:00"
    },
    {
+    "titulo": "Feijóo, Illa y Abascal elevan el tono de la precampaña",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWkyU2FCeHc1aGV4RnpEOC1QOTV3NGh5Ql9sZ1FjQk5jRjg2d25hblpVek9HQWRTS1AwS01kUnZjWm5OMEotWmtmdUtsWVVGdXBCQlJpS0JlNEJ5bTRuRUFncTdiTjl1MURhQXJaWFg1ekRVZFdNQkd6emVRRjNGY2hhVEhhWmlVb3Z1c0RqMXJwREF1eWpzZEFRVDd5ZmE3Tm5hR2xn?oc=5",
+    "fuente": "Canal Extremadura",
+    "fecha": "2026-10-18T15:51:36+00:00"
+   },
+   {
     "titulo": "Vox Córdoba acusa a Pedro Sánchez de querer robar las elecciones mediante la Ley de Nietos",
     "enlace": "https://www.eldebate.com/espana/la-voz-de-cordoba/actualidad/20261018/vox-cordoba-acusa-pedro-sanchez-querer-robar-elecciones-mediante-ley-nietos_470965.html",
     "fuente": "El Debate",
     "fecha": "2026-10-18T15:22:45+00:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/05/01/69f4f394081f4.jpeg"
-   },
-   {
-    "titulo": "Abascal acusa a Sánchez de preparar trampas electorales",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNajF6djZJUmNsSzZjdFJ5QXBNazJid2FPS1I3SlJqTmVIald4eDYtNXlxOFBvaXVvdUQ4VDZ5UDVwWmZtdkYyamhWOURZcnlDT0prTF92REJFVGY5NTg5S2hOaDM5Zl9rM2owWFpDQ1BiZEphelNtc2R0NDd3c3dQMUtxQ2cyQXhqUmRLLXg4VmVUNlpvSVhreEFCa2NyclFKRnRvTm8xWGVhbjFsMkNDejJ6UVJMd0ttN2dYa3YxeFNLenBOMVNfbTVld2pqRDJf?oc=5",
-    "fuente": "Madrid Actual",
-    "fecha": "2026-10-18T14:51:47+00:00"
    }
   ],
   "Sumar": [
@@ -236,6 +235,12 @@
   ],
   "Podemos": [
    {
+    "titulo": "Irene Montero, dispuesta a dar un paso atrás para ceder el liderazgo a Pablo Iglesias “si eso facilita las cosas con el Frente Amplio”",
+    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdlU3Z2RtVlMwUzBlNE5CdE1Iai13MWFSUFYtS3ZpTjd3OTJFSEpHOHR1OVRDY0w1d0pHd0NIaU9SbDJrMUplbTVGU0p5R3gxT1hsY2ZXRklkcDBkLThtSHExZDBqNVZacFc0MDlTUXJYV1IzeVR5NkpEaGpWWmlaNTRlemp0dlRKUUxqZDZLY0trVnh3ckJpZnFnWTZieEVHTFI3VnZoaS1FUFY4U20xMmRmNEJOelhsQVJjTXdRT1Zyd1lGT3hzbzBmRTUyNW1aQXlNRms4U1FhRzktMkxpd3dmdG5SSXdsel9WUWVuM0lWVFpPOXV3RzhGeWZkQQ?oc=5",
+    "fuente": "El Mundo Today",
+    "fecha": "2026-10-18T18:14:20+00:00"
+   },
+   {
     "titulo": "Irene Montero y Rufián exhiben su alianza con un primer acto conjunto en Barcelona",
     "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRVFySmN5STBUdTRQeThiMDJTbnM5aDNOSXlsWVRyMHlCREc4UU50c2pwRVMtSVFmV280TjItRUVQbERMMTFsQ3FBTHBhU3QtWGNvMXIyT0VNWjRBdm9mQW9Ra3k2U3h0RGQ5WkdFV2FRTk1HV0xfNGFEa3o5NnlRVTdWY2xjQUdta0wxU2VJUGx3VHFhV0Nrd3kzZlZPQ2o1WlRfNXpKc0VJTkl6dlNJODdWRG13c2xoUmRUUWJnZkh1SnBhdWtSajhHR0hHTXkwdnRZTjhTQ0x3RndSX0w0NHJDT29TR0Vmc1VwV3FkTTU?oc=5",
     "fuente": "PressDigital",
@@ -246,12 +251,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGh0a0Fid2N6b3NsbmlFRmFRWDVBa2h3UkdRV2xBYVUxcmFPWTdSWlpaQnMxQ21jczNBbzVDOUZLQk9OT0RPX0cydkxrLW9rSmd2OUE0cGs2MEZuVHVObmFSQjdwLVZLQkRtb1RkbkxVYnF1eUZIalpyUm43YmpKeEJ3czRmTDBjMmlUd3hSWkszUmZkSFdSQTZQUGN6alRFblRVNDR3bDdkSkdaWHllQ2xPWFhDVkpNeTV4WWdGdkIzei1VMURGYjdLNlrSAcwBQVVfeXFMUHRodGtBYndjem9zbG5pRUZhUVg1QWtod1JHUVdsQWFVMXJhT1k3UlpaWkJzMUNtY3MzQW81QzlGS0JPTk9ET19HMnZMay1va0pndjlBNHBrNjBGblR1Tm5hUkI3cC1WS0JEbW9UZG5MVWJxdXlGSGpaclJuN2JqSnhCd3M0ZkwwYzJpVHd4UlpLM1JmZEhXUkE2UFBjempURW5UVTQ0d2w3ZEpHWlh5ZUNsT1hYQ1ZKTXk1eFlnRnZCM3otVTFERmI3SzZa?oc=5",
     "fuente": "MARCA",
     "fecha": "2026-10-18T15:45:42+00:00"
-   },
-   {
-    "titulo": "Irene Montero, dispuesta a dar un paso atrás para ceder el liderazgo a Pablo Iglesias “si eso facilita las cosas con el Frente Amplio”",
-    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdlU3Z2RtVlMwUzBlNE5CdE1Iai13MWFSUFYtS3ZpTjd3OTJFSEpHOHR1OVRDY0w1d0pHd0NIaU9SbDJrMUplbTVGU0p5R3gxT1hsY2ZXRklkcDBkLThtSHExZDBqNVZacFc0MDlTUXJYV1IzeVR5NkpEaGpWWmlaNTRlemp0dlRKUUxqZDZLY0trVnh3ckJpZnFnWTZieEVHTFI3VnZoaS1FUFY4U20xMmRmNEJOelhsQVJjTXdRT1Zyd1lGT3hzbzBmRTUyNW1aQXlNRms4U1FhRzktMkxpd3dmdG5SSXdsel9WUWVuM0lWVFpPOXV3RzhGeWZkQQ?oc=5",
-    "fuente": "El Mundo Today",
-    "fecha": "2026-10-18T15:10:37+00:00"
    },
    {
     "titulo": "Irene Montero y Rufián estrenan alianza con su primer acto de precampaña conjunto el próximo sábado en Barcelona",
@@ -273,6 +272,12 @@
    }
   ],
   "SALF": [
+   {
+    "titulo": "Alvise Pérez asegura haber triplicado en Guadalajara los avales necesarios para concurrir a las elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNDlSYWxXNzNMa1JxTjg3cEZPREpUa1lJcEYxcGFndHZzaGYxVHVXbkJPYV9FR0lWTGlxLVBQOUxjLTNFZGFtMmhOUklLOURsUklwamZVRHJNbmp1U3VZeTY1MnEzdTBUTFNJSktDOWlYSmhkLXdDOHMwcC1uNnNDX285MkYwM0NEVDloZG5IX1lzdjRUd0NNOEJiZ1FuNnBiTHBDZzBMS1JGOGpJVGFzMnJMaHhGOE1QdlFFN0JxeWRuZnNUT0tFQi1aYUpHd1dMRUdmVDNB?oc=5",
+    "fuente": "Alcarria TV",
+    "fecha": "2026-10-18T18:56:15+00:00"
+   },
    {
     "titulo": "Se Acabó La Fiesta concurrirá a las próximas elecciones generales por Melilla - El Faro de Melilla",
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSU5SdUloaFMybUZxajBkWG9DWG9VNWlQaV8wSTlsRngtZzh6NFZCXzl6M19aOWY1SDBPcnZtWW9pVzVSdjA0bFc4a1FnekJLYlVJTkJmRXhoa182bTlkOWNLc0tkZWxmQzY0NDdwU2dwanQ2OVZjU0NuLVBPY0NCT2RQeFo0M1pzNVNkb29YRjhSWW5Ud196aDZmNDREcFp1RC1UcE1zVmrSAa4BQVVfeXFMTVpTeEJ4VXVhQl93cDU2UTBZSzJ5RzFBcDFWMEktSWVUamF6TXVqQllMTnNOQnZ3NGxieTZ1dlFHMGxnQ0cxb2dPMFlBMk04NndFREVJMjdvcXlVMTd5amZQNkNQM1N3LXVBcWYxblpjV2RZV0MwbEJPN1FYTTJkcVpRSTdyMGljMDN3U3N5U3ZWaFlNc0JmSjJmM2dwRC1wZ2thWW0waUxVOUZJY1h3?oc=5",
@@ -302,12 +307,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRjB4dFhxYTBoN1l4ZnZTOWVQa0cxZXBDYzhoTGtiOU03YjRhU2lFVE1TdmxRcjlkT3lQaldSVWYwR2JuX3NZZk4xS2pOZXlvVFdCaUFCeEJNS2VZLTN6X0w0RXdkVl9iT1JzNFpkQUEtMVRXZEpjblpRTmdRc1NSamExeTl3VW4yZ04ydHZ0ZTRMT0sySm5oTEk2VjlwWFZ3amFfcmFiSjBuVUhoelNmUE1xTjVRSkxiTGMxRVVsYTl0SjBiMUNqeDhjYUpodnh3Vjhz?oc=5",
     "fuente": "Nueva Alcarria.com",
     "fecha": "2026-10-17T14:37:00+00:00"
-   },
-   {
-    "titulo": "Se Acabó La Fiesta comienza a organizarse en Albacete",
-    "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnNWpfcHpDUWFMN3UzN2UxaDh2MThWalc3MDRaVUZxMXVvSVRfeVRUaDBGS3F5OGZjdGxsQ3BaRS1nbHlsS05mYXV3TGlXdHVIMHhwbUlKdlZsdURxQkRvYQ?oc=5",
-    "fuente": "masquealba",
-    "fecha": "2026-10-17T06:55:36+00:00"
    }
   ],
   "ERC": [
@@ -468,6 +467,12 @@
   ],
   "BNG": [
    {
+    "titulo": "Ana Pontón reclama a Alfonso Rueda que adelante las elecciones gallegas",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM09jTGVqUHZJUjdGaGlLdkR1WmtEbnRLY0t2clQ0VHlFN0JqMTZyS3d5bUdfOUNJZUEtV01CUDZRaTlWT2NwUUdORThBWDZKUXYyU19oaGc4RTZaYWcxZHBybzh3MWpKZmxGU2ZxZGRDS1FsejFHNmxjcmpZZHYtaDlKQWZKUlN5OWZNamFCUjBxeW1BM2ZjNHowcmRjajd1TlR1Snc2UkxaQ2hBNnRtQUhENldPRE5tT1lzY2hUSGkwUElMbFZBZEs4bWt4QQ?oc=5",
+    "fuente": "El Ideal Gallego",
+    "fecha": "2026-10-18T18:49:39+00:00"
+   },
+   {
     "titulo": "Adelantar las autonómicas, el desafío que lanza Pontón a Rueda",
     "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNEFtekZmd3ZmbEdhenYzeTJkZGRMQ20zTVBRTWN0MkxXMnRSSlVrMngwaXNfd2NoTmVfOTBMUE5QYTJKTVQxczZ5MVV6SVZNOVpFTTZtbnpJMXQ1NlZ3LVZGRzBTLTVsSE5IMGpuay1NY280OVZLQ1VBMFlKeFVMOHVCa1JfVXhRMWdOUlZRMlJIcXY0dm5YVFdwdC1UdzQ3ak9LRXJPdjRhU1pRdkJjTjMtZw?oc=5",
     "fuente": "GaliciaPress",
@@ -496,12 +501,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSlpZd1RzR2dHYWlfUVF0eE9tSElKaE9RUzRDMHZlckxaRzRadmcwQlJjUkVlTjVnZDFHVGh0NEtrVExEYlp1UGR2bC1KSVJZck5kRVJXWDhmb2R5aHhDUUhneEFCeGswMElITWtXZUNiekxVUWI5V3VTTjBuaVBGdVhTVzVzZmZuMXY1Uzd4aVA2elN6ZHJrOWdDZUtKbXcxcU5CY2JFTGs3azE4TElDSEt1V09HOFEzbXVDNGUzcmMyVlU4YXZwaUdZU0dGRjlnN1ZmTGlnaUFmSW4zNjdudUNrdVptdG9QUnc?oc=5",
     "fuente": "GaliciaPress",
     "fecha": "2026-10-18T10:56:00+00:00"
-   },
-   {
-    "titulo": "El BNG tacha de \"ridículas\" las rebajas del IRPF previstas en Galicia y acusa a la Xunta de hacer \"política para ricos\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcEhHZFdrSDlxTnZ5SVdWN2p1ZFItQjh1UHVTeXdqcVY4a3lSdHVQZzZnQ0dZbTFtcFVmXzl2MlRLbS1OT2xfWHJpSWF6RUZGMG5JS2VEYXo1UFBKckt4THkzeGU1QUN2emZKYzNuRVBBdjNNeG1lQ2ktOFBxdTVnWUJvYjhLSnY0MGtTaWJ6WHA5Y2JHWW53MDFxU2hPT3ZvS1JaTmxUNzRjbWlPUmJFaV85aGtxcjhnTjk3bEh4Z2tCWDZTcmZxcGJpY0oxVk1pMGVOcnd2ZUZ5b2toXzQ3WEVn?oc=5",
-    "fuente": "GaliciaPress",
-    "fecha": "2026-10-18T10:13:00+00:00"
    }
   ],
   "CCa": [
@@ -509,7 +508,7 @@
     "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
     "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDZ1eUEydlpmWmxicmZTWlVQSzJsX3N5RTFDSXI0TS16QW92anRqTVRXSmw5ejhMd2gwcnQxYV9STW8yNHlURGk3T1YwRUgtVFBjMU1ZZHB4QWlwWDRlR25iM1B1QzNTbk52RkhuNjRrMFZpVmlqTjRXUmlMSmtSRU1GcXBpX0FLc3ZCU2p0ZlkwM1VNcXpibnNWVldXYlc0M1Nsb3p3M0I0VDNRRlhvYUVveTdSQXpf0gG-AUFVX3lxTE4taWdIRGJfN2tJS1FPbVFhdDRwOE1NelBEd3I2ZVVqSHExMkxUMFAwZ2pxdzZsLXc4SE1uZmxwU0Y2VVo5eFdVSWpXTlBSVTFvdmhPTWR4dXdnZGZEb3o1aS1XWm1ZTGZtLWdMOHRxNnhubHpvUFdaX3dodkVBTjZ1TDRhZl9mbVVwUnFqUHFzUzV2Y252SGctMjFrQVY2RzBDQmI0UTQ5ZzFOTWNTX1BoR2wtMVYtS2xhTUhCQ3c?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-10-18T17:40:25+00:00"
+    "fecha": "2026-10-18T20:40:55+00:00"
    },
    {
     "titulo": "A la caza del diputado en Las Palmas: Primero Canarias y CC van unidas el 29-N",
@@ -608,16 +607,16 @@
   ],
   "AA": [
    {
+    "titulo": "Adelante Andalucía sitúa a Ana Jiménez al frente de su lista al Congreso por Málaga para el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSjVtQmxrS3F1SDJPMW92cDluNHlYc3g2bjhPRk83dDZwaEtld1Bxc3hhcWxCMEFVcWpCVG83ZHdGMXpDSVd4eDhtSUcyVlBVUXFKS1c0ZDdVSGIybnR3NWFRb3ptZk1WME4yQU1TQ0YxTGRaY1Q2ZktJWGRUOUlXWjdXcEJLRVYtVWw3LXR0NWZCVzFVb2YzamRteFlDbXYtWGxxV0FOamRKTHdzSUM3WDd5UFhyQkItdEdZcVFmMXdUX1ByZHh6NjJtVlpmZ2JydTBSTVR3RHJaTjhX0gHcAUFVX3lxTE5KNW1CbGtLcXVIMk8xb3ZwOW40eVhzeDZuOE9GTzd0NnBoS2V3UHFzeGFxbEIwQVVxakJUbzdkd0YxekNJV3h4OG1JRzJWUFVRcUpLVzRkN1VIYjJudHc1YVFvem1mTVYwTjJBTVNDRjFMZFpjVDZmS0lYZFQ5SVdaN1dwQktFVi1VbDctdHQ1ZkJXMVVvZjNqZG14WUNtdi1YbHFXQU5qZEpMd3NJQzdYN3lQWHJCQi10R1lxUWYxd1RfUHJkeHo2Mm1WWmZnYnJ1MFJNVHdEclpOOFc?oc=5",
+    "fuente": "Teleprensa",
+    "fecha": "2026-10-17T21:02:28+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía elige a Ana Jiménez para liderar su lista al Congreso por Málaga el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNenFaeWxnR0NrUkRXcnR4eGhxR0JEb0kyaVZaY0VWd0tOVEZNM1BrQkhyUHRXOFkwUmt2bGlsdDNQcFd1Zkh1VkNfdmIwSkt1cHM5dmhreXBNSFFPbjZqYXZNN2J5WTREdk5Zb2N1NHdsSWd4TjNCY0J0Nm9tdGFIYU16VzZia3BQLVMtZ1pEY1BMc3QyQnF0WU5UcWNyM0NsYk83X1RsTkJwamwyak5qTXBXNkEzVEd0akI1Z2ZVakNPcGvSAcgBQVVfeXFMUDZTS3h5TWJzS3N0ZzV5RDdXM2paSnlFbjhZN3pkMjdFdkpFWXZZUUlhUzZTVHp2SWphSTBKdHlvTGVrYWhXNmYyVEN4U1c5aFhGVHJ0Zzh6clJwb2JZNXRoY2Y0QUFveGRIcjA5UmhXSVVPSXNWTE5UZ0ZjSHJQRU5MZXJiX0o5MnRoYm9jSjlvVDVoV3RXZ3R5NWIzN1AwanZzY0ZhREZOODJoZnlsMXA1bExId2hsbUNVWUQyVEpIbWJiTllUbVI?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-17T21:00:28+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía sitúa a Ana Jiménez al frente de su lista al Congreso por Málaga para el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeXRQY2hNM0RRaFNJZzZiZ0VucjRla01GNDZOcGVfb2tYbV9IYTRWeHhkQXh5ZVpqdENoaTdhenBxTVE4TXBNcmhYcjE4Qm1wUUxZZ0o1WS1FeGhreU4tSlpVRlF1TFEwdjBhRU4yOXVpRmc3UmVPdHh4MDBvMmxhOE1NM0ZXeHN5ZXIwRDRNMWxSbWNYc3BzcXh0dWpkNEpJUE1EdUZucTBSVm1YZ0RDWGR5QXM5cHYtbi1MZHhEUWp2bHpHRlBmTThISDc1cU0?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-17T21:00:00+00:00"
    },
    {
     "titulo": "Adelante Andalucía supera las 1.500 firmas en Jerez para presentarse a las elecciones generales del 29 de noviembre",
@@ -829,6 +828,13 @@
    "fuente": "Ultima Hora",
    "fecha": "2026-10-18T02:48:00+00:00",
    "partido": "Vox"
+  },
+  {
+   "titulo": "El PP urge al PSOE a forzar la dimisión de Joaquín Martínez Salmerón",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0w4SWtKQmZCSF91d2pSR09JVUU3QlVabGFrbEd5X09sWGJNUndKUHVDN093THBZdklBRF93VXplN0VkcEVEZE9xWnpuUzJvb0RUcy1pRDM3cTJCZnU2S2RZYXZJZmItNDlNWjZGLU1SaFNwRlphUGxXa3lFeklncDdKRnlYT1ZqZmtWVUl2a29WNVRxWEVCWk9kaDRCeG5JLWNxOEJlNlpaSjFuYmJFNTNVWdIBuAFBVV95cUxPUlpuaDdJUW1qYVQ1TGVLTktjLTl0ZHdrQVlBYTdmT0ZTNTZCNUc4eVk4cWFDSkNhMzdZZWxzdC0zak5pWW5IUVhDVm5QUF9UQzFURW03YjZ1Q0I0QnFaYnQ3VFQwdG5aNE1qU2ZORlU0NGktNXhhWkxQLVV6LVVOb2dLdWw2dkdLWjN6S1hnSG5fa09wM2JXQzktNWZHaXNyeDRCZXlxWXBvZlg0TkVtTHl6Z0preFha?oc=5",
+   "fuente": "La Verdad",
+   "fecha": "2026-10-17T18:05:35+00:00",
+   "partido": "PSOE"
   },
   {
    "titulo": "La polémica frase de Gabriel Rufián (44 años) sobre la cultura: «Prefiero llenar tiktoks que bibliotecas»",
