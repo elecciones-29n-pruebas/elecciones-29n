@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T16:31:06+00:00",
+ "actualizado": "2026-10-18T16:42:40+00:00",
  "generales": [
   {
    "titulo": "Elecciones generales 29N, última hora en directo | Vox pide al TC que inadmita el recurso del Defensor del Pueblo por la ley de nietos",
@@ -16,7 +16,7 @@
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/07/30/2026073010492462809.jpg"
   },
   {
-   "titulo": "El PP trolea a Sánchez y compara su beso electoral a Begoña con el de los Kirchner",
+   "titulo": "El PP trolea a Sánchez y Begoña por copiar su beso electoral a la pareja corrupta de los Kirchner",
    "enlace": "https://okdiario.com/espana/pp-trolea-sanchez-compara-beso-electoral-begona-kirchner-20575866",
    "fuente": "OKdiario",
    "fecha": "2026-10-18T17:44:25+02:00",
@@ -44,13 +44,6 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2025/05/19/682b552fc56a5.jpeg"
   },
   {
-   "titulo": "Albert Rivera, sobre las elecciones del 29-N: \"No creo que sorprenda a nadie si digo que no voy a votar a Pedro Sánchez\"",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-18/albert-rivera-elecciones-sorprenda-nadie-votar-pedro-sanchez_4447426/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-18T12:39:00+02:00",
-   "imagen": "https://images.ecestaticos.com/LhrjN18sjDOwbW8LLj1xYl6cvf8=/5x2:2273x1515/1338x892/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4c2%2F6ce%2Fe09%2F4c26cee09070182407d52ef9a68badfe.jpg"
-  },
-  {
    "titulo": "Feijóo responde a la crisis de vivienda con la promesa de una ley antiocupación que le encargará a Albiol si gobierna",
    "enlace": "https://www.infolibre.es/politica/fuera-48-horas-si-si-feijoo-responde-crisis-vivienda-promesa-ley-antiocupacion-le-encargara-albiol_1_2238661.html",
    "fuente": "infoLibre",
@@ -70,12 +63,19 @@
    "fuente": "El País",
    "fecha": "2026-10-18T03:30:01+00:00",
    "imagen": "https://imagenes.elpais.com/resizer/v2/BVIDDBEGVRHKREXEX56LKVBZ5Y.jpg?auth=33face65287c9357d19e34d21c07620d950f4fb65ec59c6ca40e5416db7109c0"
+  },
+  {
+   "titulo": "El PP arranca con tropiezos la precampaña hacia las elecciones del 29N",
+   "enlace": "https://www.eldiario.es/politica/pp-arranca-tropiezos-precampana-elecciones-29n_1_13592479.html",
+   "fuente": "elDiario.es",
+   "fecha": "2026-10-17T20:11:42+00:00",
+   "imagen": "https://static.eldiario.es/clip/2b28605f-8b01-4acd-9a85-1221a517c673_16-9-discover-aspect-ratio_default_1153483.jpg"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP trolea a Sánchez y compara su beso electoral a Begoña con el de los Kirchner",
+    "titulo": "El PP trolea a Sánchez y Begoña por copiar su beso electoral a la pareja corrupta de los Kirchner",
     "enlace": "https://okdiario.com/espana/pp-trolea-sanchez-compara-beso-electoral-begona-kirchner-20575866",
     "fuente": "OKdiario",
     "fecha": "2026-10-18T17:44:25+02:00",
@@ -115,7 +115,7 @@
   ],
   "PSOE": [
    {
-    "titulo": "El PP trolea a Sánchez y compara su beso electoral a Begoña con el de los Kirchner",
+    "titulo": "El PP trolea a Sánchez y Begoña por copiar su beso electoral a la pareja corrupta de los Kirchner",
     "enlace": "https://okdiario.com/espana/pp-trolea-sanchez-compara-beso-electoral-begona-kirchner-20575866",
     "fuente": "OKdiario",
     "fecha": "2026-10-18T17:44:25+02:00",
@@ -135,17 +135,16 @@
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/05/01/69f4f394081f4.jpeg"
    },
    {
-    "titulo": "Vivas asegura que no ha vuelto a hablar con Sánchez desde la visita del presidente a Ceuta",
-    "enlace": "https://www.elconfidencial.com/espana/2026-10-18/crisis-migratoria-ceuta-marruecos-1hms-1svm_4447467/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-10-18T14:40:00+02:00",
-    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/c27/d00/c27d0064a048e3792072e5d67d9874f4/vivas-situa-entre-8-000-y-11-000-los-migrantes-que-siguen-en-ceuta-y-exige-su-retorno-aqui-no-va-a-haber-papeles.jpg?mtime=1786194506"
-   },
-   {
     "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
     "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDZ1eUEydlpmWmxicmZTWlVQSzJsX3N5RTFDSXI0TS16QW92anRqTVRXSmw5ejhMd2gwcnQxYV9STW8yNHlURGk3T1YwRUgtVFBjMU1ZZHB4QWlwWDRlR25iM1B1QzNTbk52RkhuNjRrMFZpVmlqTjRXUmlMSmtSRU1GcXBpX0FLc3ZCU2p0ZlkwM1VNcXpibnNWVldXYlc0M1Nsb3p3M0I0VDNRRlhvYUVveTdSQXpf0gG-AUFVX3lxTE4taWdIRGJfN2tJS1FPbVFhdDRwOE1NelBEd3I2ZVVqSHExMkxUMFAwZ2pxdzZsLXc4SE1uZmxwU0Y2VVo5eFdVSWpXTlBSVTFvdmhPTWR4dXdnZGZEb3o1aS1XWm1ZTGZtLWdMOHRxNnhubHpvUFdaX3dodkVBTjZ1TDRhZl9mbVVwUnFqUHFzUzV2Y252SGctMjFrQVY2RzBDQmI0UTQ5ZzFOTWNTX1BoR2wtMVYtS2xhTUhCQ3c?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-18T14:39:05+00:00"
+   },
+   {
+    "titulo": "Elecciones generales 29N, en directo | Feijóo afirma que el 29N se elige entre \"vender y defender España\" y apunta al \"clan Sánchez\": \"Todo se va a saber\"",
+    "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTTEtNXpYbHBzQXlwZFhGQnhtTTdfVmxkTVBIN01LNFNsMmtRU1BJWmNhVk5wYVFqQ2tQU2xTeXZsX0hGRndOanI2TkpkVHJtbDVxUWZTVjJuLUc5VEZYOG9haWNqX1NnRlVTQS1YdHRmSVRPYlBDZk1DcDNVT3hGS0NGOXJxbHk3YW4wY3U1U1MzZ3IxVlhLV05ldlNLNWkyc3RocElLN3pUcW5fSXFqeFlRLTBaM2FVN1BwYTBuSjByRFpoc21TdHY2MVROb1ZUcEx4eUhTTnRtM095aGY1RjNCTDF0amlQLTRMMmRrWnA5aUlHblZMR28xbnUzZGxrU3V4WQ?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-18T14:32:56+00:00"
    },
    {
     "titulo": "Del \"soy amigo de un narco y no lo sabía\" al \"pase lo que pase, vota PSOE\": las redes, el altavoz para el 29N que siempre está de campaña",
@@ -176,12 +175,6 @@
     "fecha": "2026-10-18T14:51:47+00:00"
    },
    {
-    "titulo": "Abascal afirma que Sánchez usará \"milicias\" y alerta de que las elecciones no serán limpias",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONC12TzhwcXp4S0otSUZGcGZrSkdCMzdrR1RMdzRUalFUdXFZaGRucnVTS0w1Y000Zm5vRWN6QkxUajJ2bDVxY2dLMThfZU1ET0ZmMGVwY2w1dGNjMlVSSVdaWmFBY0xKYnI0QnJSa3NLVDJHNmFGMDNXTXhnVzY1MmJ1U1ZCNlB6cmtmOF9Tb2lpOGVJUGNVSlMtOTZFbmp0WURUYkxWS1ZaRllpb1FjYms5MGU2LXR1bGFrMFU1N0djVVJBdWc?oc=5",
-    "fuente": "Revista Capital",
-    "fecha": "2026-10-18T14:25:26+00:00"
-   },
-   {
     "titulo": "Elecciones generales 2026: Vox pide al Constitucional que frene el recurso del Defensor del Pueblo por la ley de nietos",
     "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNXlsRFdZUnFfenMwR3NiS3JVRkl3enlkRGVsOWxPaVl5MjF6aE5PT2lUdWlkeXkwZzhaN1otMjBadF9aZzhKSnJGbTJNMFAyNGd1eVhCTkE1b1drek5QazR5S2VsbHkzRk1NTEpJQzRrbnlsX3JWS1B6VXJkZ05HdUdHT0FTOFhiOFVjQlZRczUwSVk5MThiaXdwS1hnc01QREpfYUJOMkRvTkY2Z1dlYnFmdGtoZDZjZFphQnFR0gHDAUFVX3lxTE5mbXRNN1NrMndhNk9iRWVlZzdUeFhIbmplVE1RVi1McDEzNzdRM2h0bWV6Y1NfR3VNQTBPT1Vtck9FdU91cmlVU3hpMHFIUnRITnRuMmdHdERCdE4tLWhWMHVBejVwbldtemRKOENEM1ZhSUNkNnBXZ1FXOWtFczRTMjM2QnlLSDRRSm5TcW81T19KbERSWWg0Z3RXSTRFZXRpQktUMmJBQXo5ekpnVW9xUHV3X084bFNQUkZTOF9vY3Vpbw?oc=5",
     "fuente": "Diario de León",
@@ -192,6 +185,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTnhkc1JBQnNpMTdiZWVDdVBJcktHdUZWZV81Skw4MUxXa0syeld5dDYxMmhfWGVMdUppQVk2c1B5Y2habGtFdldETG9XVHV6Q2JmWlZYa0IxU3pyWVpteWR0dGVkbTJiRG1XdVg5MXdWcktPYlZtNm5qcV84blFuSGpydm4xbGxmUXZOeG53bWZuMVNHTVk3enp1blBUZzAtZ3RPazJFS0dSSE5zZklJeTBIWFdBVXBlS0F1TmVvTnp5NEtIcXdVdjFhcVB3OE5Ra0xqdk44X1M?oc=5",
     "fuente": "Radio Televisión Canaria",
     "fecha": "2026-10-18T14:21:14+00:00"
+   },
+   {
+    "titulo": "Vox pide al Tribunal Constitucional que inadmita el recurso del Defensor del Pueblo por la ley de nietos",
+    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQcl9IZ1VNMTNJX1QtWWhiLUdyaFplNnBVTndKZWExbUVLbkt1NUFKNFprbGgzaFRpeENOUURXM0ZSR3FkUGViWjJVczFPZGc2XzlWQXNhUE9URC1icTlqX1RRb3JjTG9sOFpKb3JfdENMdFB4MElTX05feEdCMjFCSGJlc3lZZktFbTRrcVQ3X1hEc1MtMVVtR3B0NnhrY1FwemdBczhHZXJoS3lWc3ZXM1QwdTUtQ1l1aE55bk1Pa0xHYUM1UF90Q0E5bHRpbEZndnNFVTRUQlJIV3JUcURJZkZkZ0pQM1ZPOGpyYXJNbWpuYTdlalHSAfYBQVVfeXFMUHJfSGdVTTEzSV9ULVloYi1HcmhaZTZwVU53SmVhMW1FS25LdTVBSjRaa2xoM2hUaXhDTlFEVzNGUkdxZFBlYloyVXMxT2RnNl85VkFzYVBPVEQtYnE5al9UUW9yY0xvbDhaSm9yX3RDTHRQeDBJU19OX3hHQjIxQkhiZXN5WWZLRW00a3FUN19YRHNTLTFVbUdwdDZ4a2NRcHpnQXM4R2VyaEt5VnN2VzNUMHU1LUNZdWhOeW5NT2tMR2FDNVBfdENBOWx0aWxGZ3ZzRVU0VEJSSFdyVHFESWZGZGdKUDNWTzhqcmFyTW1qbmE3ZWpR?oc=5",
+    "fuente": "Onda Cero",
+    "fecha": "2026-10-18T14:08:34+00:00"
    }
   ],
   "Sumar": [
