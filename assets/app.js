@@ -20,6 +20,21 @@ function el(tag, attrs = {}, ...hijos) {
 }
 const color = (k) => D.config.partidos[k]?.color || "#8A93A3";
 const nombre = (k) => D.config.partidos[k]?.nombre || k;
+/* La insignia de un partido: su logo (config.partidos[k].logo, un fichero en assets/logos/) o, si no lo tiene, una chapa
+   redonda con sus siglas en su color. Mismo tamaño y forma para todos, que ninguno destaque por tener logo. */
+const SIGLAS = { PP: "PP", PSOE: "PSOE", Vox: "VOX", Sumar: "FA", Podemos: "POD", SALF: "SALF", ERC: "ERC", Junts: "JxC", Bildu: "EHB", PNV: "PNV", BNG: "BNG", CCa: "CC", UPN: "UPN", AC: "AC", AA: "AA" };
+const siglas = (k) => D.config.partidos[k]?.siglas || SIGLAS[k] || String(k).slice(0, 4).toUpperCase();
+/* En la tira de partidos y en la ficha hay sitio para el logo entero (alto fijo, ancho el que sea). Sin logo, la chapa. */
+function logoTira(k, clase = "logo-tira") {
+  const p = D.config.partidos[k];
+  if (!p?.logo) return insignia(k, "mini");
+  return el("img", { class: clase, src: p.logo, alt: "", loading: "lazy", onerror: (ev) => { ev.target.replaceWith(insignia(k, "mini")); } });
+}
+function insignia(k, clase = "") {
+  const p = D.config.partidos[k];
+  if (p?.logo) return el("img", { class: `insignia logo ${clase}`, src: p.logo, alt: "", loading: "lazy", style: { "--c": color(k) }, onerror: (ev) => { ev.target.replaceWith(el("span", { class: `insignia chapa ${clase}`, style: { "--c": color(k) }, "aria-hidden": "true" }, siglas(k))); } });
+  return el("span", { class: `insignia chapa ${clase}${siglas(k).length > 3 ? " larga" : ""}`, style: { "--c": color(k) }, "aria-hidden": "true" }, siglas(k));
+}
 /* El nombre de una lista en una provincia: si en esa comunidad va en coalición con otros (config.coaliciones), el de la coalición */
 const coalicionEn = (ccaa, k) => (D.config?.coaliciones || []).find((c) => c.ccaa === ccaa && c.a === k);
 const nombreEn = (k, ccaa) => coalicionEn(ccaa, k)?.nombre || nombre(k);
@@ -541,7 +556,7 @@ function pintarBarrasVotos(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 1), max = Math.max(...o.map((k) => m.media[k]), 1), ch = chispasFoco(o);
   const fila = (k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0, abierta = votos.abierto === k, pk = D.prob?.partidos?.[k];
     const b = el("button", { type: "button", class: `fila-v${abierta ? " abierta" : ""}`, "aria-expanded": abierta ? "true" : "false", style: { "--c": color(k) }, onclick: () => { votos.abierto = abierta ? null : k; contar("Toca un partido en Hoy"); pintarBarrasVotos(m, m7, proy); } },
-      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "nom" }, insignia(k), nombre(k)),
       el("span", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%` } })),
       el("span", { class: "num num-sube" }, `${fmt1.format(m.media[k])} %`), el("small", { class: d ? (d > 0 ? "sube" : "baja") : "igual" }, d ? `${d > 0 ? "▲" : "▼"} ${fmt1.format(Math.abs(d))}` : "="));
     if (!abierta) return b;
@@ -635,7 +650,7 @@ function pintarPortada(m, m7, proy, g) {
   arcos($("#arcos"), esc, esc7);
   const orden = ordenar(esc).filter((k) => esc[k] > 0);
   $("#arcos-leyenda").replaceChildren(...orden.map((k) => { const d = esc7 ? esc[k] - (esc7[k] || 0) : 0;
-    return el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
+    return el("span", {}, insignia(k, "mini"), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
 }
 /* El hemiciclo de arcos: un semianillo, cada partido un tramo proporcional a sus asientos, en el orden del hemiciclo.
    Los de 14 asientos o más llevan nombre, número y cambio dentro. Los pequeños van juntos en «otros» si no caben. */
@@ -909,7 +924,7 @@ function pintarListaPartidos(m, m7, proy) {
   const grandes = o.filter((k) => m.media[k] >= 5 || k === foco.k), resto = o.length - grandes.length;
   const fila = (k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0;
     const marca = D.config.partidos[k]?.aviso?.texto ? el("button", { type: "button", class: "marca-aviso", "aria-label": `Ver el aviso sobre ${nombre(k)}`, onclick: () => { const t = document.getElementById(`aviso-${k}`); if (!t) return; t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); } }, "aviso") : null;
-    return el("div", { class: "fila-p" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k), marca),
+    return el("div", { class: "fila-p" }, el("div", { class: "nom" }, insignia(k), nombre(k), marca),
       el("div", { class: "pct num-sube" }, `${fmt1.format(m.media[k])} %`, el("small", { class: d ? (d > 0 ? "sube" : "baja") : "" }, d ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
       el("div", { class: "esc" }, D.prob?.partidos?.[k] ? (D.prob.partidos[k].p10 === D.prob.partidos[k].p90 ? `${D.prob.partidos[k].p90} ${D.prob.partidos[k].p90 === 1 ? "asiento" : "asientos"}` : `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos`) : `${proy.total[k] || 0} asientos`)); };
@@ -1541,7 +1556,7 @@ function pintarBarrasSim() {
     const r = el("input", { type: "range", min: "0", max: String(max), step: "0.1", value: v.toFixed(1), "aria-label": `${nombre(k)}, ${fmt1.format(v)} %`, style: { "--c": color(k), "--p": `${v / max * 100}%` } });
     r.addEventListener("input", () => { moverVoto(k, +r.value); });
     r.addEventListener("change", () => contar("Arrastra un partido en Y si"));
-    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
+    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, insignia(k), nombre(k)), r,
       el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="),
       el("span", { class: "esc" }, el("b", {}, "–"), el("small", {}, ""))); }));
   const sits = situaciones(sim.base).filter((x) => x.id !== "media");
@@ -1577,7 +1592,7 @@ function asientosEnFilas(sel, tot, base, unidad) {
 /* La leyenda bajo un hemiciclo de arcos: todos los partidos con asiento, con el cambio */
 function leyendaArcos(cont, esc, base) {
   cont.replaceChildren(...ordenar(esc).filter((k) => esc[k] > 0).map((k) => { const d = base ? esc[k] - (base[k] || 0) : 0;
-    return el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
+    return el("span", {}, insignia(k, "mini"), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
 }
 function pintarArcosSim() {
   const proy = sim.ultimaProy, tot = proy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
@@ -1761,7 +1776,7 @@ function pintarSenadoHoy(proy) {
   // Listas conjuntas solo al Senado: aquí cuentan dentro del partido que encabeza
   const csn = D.config.coaliciones_senado || [];
   $("#sen-nota-coalicion").textContent = csn.map((c) => `${c.nombre}, la lista conjunta de ${lista([c.a, ...c.de].map(nombre))}, cuenta aquí dentro de ${nombre(c.a)}. ${c.nota || ""}`).join(" ");
-  $("#sen-arcos-leyenda").replaceChildren(...ordenar(con).filter((k) => con[k] > 0).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, con[k]), des[k] ? el("small", {}, ` ${tot[k] || 0}+${des[k]}`) : null)));
+  $("#sen-arcos-leyenda").replaceChildren(...ordenar(con).filter((k) => con[k] > 0).map((k) => el("span", {}, insignia(k, "mini"), `${nombre(k)} `, el("b", {}, con[k]), des[k] ? el("small", {}, ` ${tot[k] || 0}+${des[k]}`) : null)));
   // El anillo con la probabilidad
   if (S && p1 != null) {
     const Rr = 36, L = 2 * Math.PI * Rr, p = Math.max(0, Math.min(1, p1));
@@ -1784,7 +1799,7 @@ function pintarSenadoHoy(proy) {
   const maxL = Math.max(...ordenar(con).map((k) => franja(k)[1]), M) * 1.05;
   $("#sen-lista").replaceChildren(...ordenar(con).filter((k) => con[k] > 0).map((k) => { const [a, b] = franja(k);
     return el("button", { type: "button", class: `sen-fila${senado.marcado === k ? " marcada" : ""}`, style: { "--c": color(k) }, "aria-label": `${nombre(k)}, ${con[k]} senadores`, onclick: () => { senado.marcado = senado.marcado === k ? null : k; resalta(senado.marcado ? [k] : null); document.querySelectorAll("#sen-lista .sen-fila").forEach((f) => f.classList.toggle("marcada", f.dataset.k === senado.marcado)); }, "data-k": k },
-      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "nom" }, insignia(k), nombre(k)),
       el("span", { class: "pista" }, el("i", { class: "franja", style: { left: `${a / maxL * 100}%`, width: `${Math.max(0.5, (b - a) / maxL * 100)}%` } }), el("i", { class: "valor", style: { width: `${con[k] / maxL * 100}%` } }), el("i", { class: "raya", style: { left: `${M / maxL * 100}%` } })),
       el("span", { class: "num" }, String(con[k])), el("small", {}, S?.[k] && b > a ? `${a}–${b}` : des[k] ? `${tot[k] || 0}+${des[k]}` : "")); }));
   const d = D.config.senado, conNombre = ordenar(des).filter((k) => k !== "Otros");
@@ -1826,7 +1841,7 @@ function pintarBarrasSen() {
     const r = el("input", { type: "range", min: "0", max: String(max), step: "0.1", value: v.toFixed(1), "aria-label": `${nombre(k)}, ${fmt1.format(v)} %`, style: { "--c": color(k), "--p": `${v / max * 100}%` } });
     r.addEventListener("input", () => moverVotoSen(k, +r.value));
     r.addEventListener("change", () => contar("Arrastra un partido en el Senado"));
-    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
+    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, insignia(k), nombre(k)), r,
       el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="),
       el("span", { class: "esc" }, el("b", {}, "–"), el("small", {}, ""))); }));
   $("#sen-atajos").replaceChildren(el("button", { type: "button", class: "atajo volver", onclick: () => { senado.tocado = false; senado.valores = { ...senado.base }; pintarBarrasSen(); recalcularSen(); } }, "Volver a hoy"));
@@ -1916,14 +1931,14 @@ function pintarFoco(ctx) {
   const chispas = chispasFoco(partidos);
   const fila = el("div", { class: "fila" }, el("button", { type: "button", "aria-pressed": k ? "false" : "true", onclick: () => elegirFoco(null) }, "Todos"),
     ...partidos.map((x) => el("button", { type: "button", "data-k": x, "aria-pressed": k === x ? "true" : "false", style: k === x ? { ...sobre(color(x)), borderColor: sobre(color(x)).background } : null, onclick: () => elegirFoco(k === x ? null : x) },
-      el("i", { class: "punto", style: { background: k === x ? sobre(color(x)).color : color(x) } }), nombre(x), chispas[x] ? el("svg", { class: "chispa", viewBox: "0 0 34 14", "aria-hidden": "true", html: `<polyline points="${chispas[x]}"/>` }) : null)));
+      logoTira(x), nombre(x), chispas[x] ? el("svg", { class: "chispa", viewBox: "0 0 34 14", "aria-hidden": "true", html: `<polyline points="${chispas[x]}"/>` }) : null)));
   poner($("#foco-tira"), el("div", { class: "eti" }, el("span", {}, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"),
     k ? botonEnlace("Copiar enlace", () => enlaceA({ partido: k, pestana: pestanaActual })) : null), carril(fila, donde), k ? notaAviso(k, { class: "foco-aviso" }) : null);
   const caja = (id) => $(`#foco-${id}`);
   for (const id of ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias"]) caja(id).replaceChildren();
   graficoFoco?.destroy(); graficoFoco = null;
   if (!k) return;
-  const col = color(k), art = (titulo, ...hijos) => el("article", { class: "pregunta foco", style: { "--c": col } }, el("h2", {}, titulo), ...hijos);
+  const col = color(k), art = (titulo, ...hijos) => el("article", { class: "pregunta foco", style: { "--c": col } }, el("h2", { class: Array.isArray(titulo) ? "con-logo" : "" }, ...(Array.isArray(titulo) ? titulo : [titulo])), ...hijos);
   const X = proy.total[k] || 0, pp = P?.partidos?.[k], pos = ordenar(m.media).indexOf(k) + 1, d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0;
   const der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
 
@@ -1935,7 +1950,7 @@ function pintarFoco(ctx) {
   if (pp && (pp.p_mayoria >= 0.001 || pos <= 2)) ag.push(agujaFija("Mayoría absoluta sin nadie más", pp.p_mayoria, col));
   for (const e of [der, izq]) if (e && e.partidos.length > 1 && e.partidos.includes(k)) ag.push(agujaFija(`Mayoría de ${nombreEsc(e)}`, e.p, col));
   if (pp && pp.p10 === 0 && pp.histograma) { const tot = Object.values(pp.histograma).reduce((a, b) => a + b, 0); if (tot) ag.push(agujaFija("Entrar en el Congreso", 1 - (pp.histograma[0] || 0) / tot, col)); }
-  caja("hoy").append(art(`${nombre(k)}, de un vistazo`,
+  caja("hoy").append(art([D.config.partidos[k]?.logo ? logoTira(k, "logo-ficha") : null, `${nombre(k)}, de un vistazo`],
     el("p", { class: "respuesta" }, el("b", {}, `${fmt1.format(m.media[k])} % de los votos.`), ` Es el ${ORDINAL[pos] || `número ${pos}`} en la media de encuestas y ${d ? `${d > 0 ? "sube" : "baja"} ${fmt1.format(Math.abs(d))} ${Math.abs(d) === 1 ? "punto" : "puntos"} esta semana` : "está igual que la semana pasada"}.`),
     hemi,
     el("p", { class: "arco-txt" }, el("i", { style: { background: col } }), `${nombre(k)}, ${X} de 350 asientos`),
