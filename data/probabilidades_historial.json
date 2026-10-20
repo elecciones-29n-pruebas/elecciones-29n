@@ -355,11 +355,11 @@
  {
   "fecha": "2026-10-20",
   "escenarios": {
-   "pp": 0.0017,
-   "pp_vox": 0.9143,
-   "izq_socios": 0.0629
+   "pp": 0.0016,
+   "pp_vox": 0.9141,
+   "izq_socios": 0.0634
   },
-  "bloqueo": 0.0228,
+  "bloqueo": 0.0225,
   "p50": {
    "PP": 132,
    "PSOE": 105,
