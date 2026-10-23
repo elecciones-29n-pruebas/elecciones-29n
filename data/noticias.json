@@ -1,40 +1,68 @@
 {
- "actualizado": "2026-10-23T01:31:03+00:00",
+ "actualizado": "2026-10-23T07:32:01+00:00",
  "generales": [
   {
-   "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
-   "enlace": "https://www.larazon.es/espana/feijoo-abascal-ultiman-pacto-senado-cruce-sondeos_202610236adab2d41e66613d9f19b5c0.html",
+   "titulo": "Elecciones generales 29N, en directo: PP y Vox negocian un pacto para el Senado mientras PSOE y Frente Amplio ultiman sus candidaturas",
+   "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-vox-negocian-pacto-senado-mientras-psoe-frente-amplio-ultiman-sus-candidaturas_202610236adadcfe658beb674b241f5e.html",
    "fuente": "La Razón",
-   "fecha": "2026-10-23T03:05:24+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/15/71590313-8317-4F38-8735-C06EAE9606FB/alberto-nunez-feijoo_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   "fecha": "2026-10-23T09:30:19+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/22/80028693-C3DC-4FCE-8236-02AAE3A828D8/96.jpg?crop=1920,1080,x0,y116&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
-   "titulo": "Génova cierra una «renovación silenciosa» más profunda de lo esperado para el 29N",
-   "enlace": "https://www.abc.es/espana/genova-cierra-renovacion-silenciosa-profunda-esperado-29n-20261023025045-nt.html",
+   "titulo": "Última hora de las huelgas, elecciones generales del 29-N y actualidad política hoy | Feijóo acusa a Sánchez de «agitar el miedo» para evitar que se hable de sus «innumerables escándalos»",
+   "enlace": "https://okdiario.com/espana/ultima-hora-huelgas-elecciones-generales-del-29-n-actualidad-politica-hoy-feijoo-acusa-sanchez-agitar-miedo-evitar-que-hable-sus-innumerables-escandalos-20613170",
+   "fuente": "OKdiario",
+   "fecha": "2026-10-23T09:26:05+02:00",
+   "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
+  },
+  {
+   "titulo": "Feijóo, dispuesto a “corresponder” a Vox si renuncia a presentarse a determinadas provincias en el Senado",
+   "enlace": "https://www.lavanguardia.com/politica/20261023/11666170/feijoo-dispuesto-corresponder-vox-renuncia-presentar-determinadas-provincias-senado.html",
+   "fuente": "La Vanguardia",
+   "fecha": "2026-10-23T09:05:25+02:00",
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/21/6ad8920c4c63c.jpeg"
+  },
+  {
+   "titulo": "El resultado de las elecciones del 29N en España si solo votasen las amas de casa: porcentajes de PP, PSOE, Vox y el resto de partidos",
+   "enlace": "https://www.abc.es/espana/resultado-elecciones-29n-espana-solo-votasen-amas-20261023051500-nt.html",
    "fuente": "ABC",
-   "fecha": "2026-10-23T02:51:35+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1515149174-RcWTAFaX8LaiqJ6UVHDwghN-1200x840@diario_abc.jpg"
+   "fecha": "2026-10-23T09:04:08+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/ama-casa-RL7yRFgdmC3BPXavCM5mt6J-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "\"¿Será un psicópata?\": Candela Peña pregunta a Sánchez, entre elogios a \"Bego\", si se presenta porque \"mola\" estar en Moncloa",
-   "enlace": "https://www.elespanol.com/espana/politica/20261023/psicopata-candela-pena-pregunta-sanchez-elogios-bego-presenta-mola-moncloa/1003744431855_0.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-23T01:06:56+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11385069.jpg?p=c:1599:899:nowe:0:54/w:1706/h:960&h=3o5yKbnd"
+   "titulo": "Feijóo defiende que Vox no se presente al Senado en las provincias donde no logra escaño y que PP corresponda el \"gesto\"",
+   "enlace": "https://www.europapress.es/nacional/noticia-feijoo-defiende-vox-no-presente-senado-provincias-donde-no-logra-escano-pp-corresponda-gesto-20261023085550.html",
+   "fuente": "Europa Press",
+   "fecha": "2026-10-23T06:55:50+00:00",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261023085550_120.jpg"
   },
   {
-   "titulo": "Sánchez es un toro muy toreado hasta para Broncano",
-   "enlace": "https://www.eldiario.es/politica/sanchez-toro-toreado-broncano_129_13608282.html",
+   "titulo": "Última hora sobre la actualidad política, en directo",
+   "enlace": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13608465.html",
    "fuente": "elDiario.es",
-   "fecha": "2026-10-22T23:07:03+00:00",
-   "imagen": "https://static.eldiario.es/clip/db140d06-15d3-4e73-81b4-e492de41aca3_16-9-discover-aspect-ratio_default_0_x702y293.jpg"
+   "fecha": "2026-10-23T06:24:13+00:00",
+   "imagen": "https://static.eldiario.es/clip/36ba8bb1-221a-4e45-b7bd-4c8ef258b68a_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
-   "titulo": "La promesa de Sánchez a Broncano si gana las elecciones: \"Cuatro años más de 'La Revuelta' si el programa quiere\"",
-   "enlace": "https://www.20minutos.es/nacional/pedro-sanchez-revuelta-directo-presidente-gobierno-acude-por-primera-vez-programa-david-broncano_7052299_6.html",
+   "titulo": "Feijóo incorpora a su lista del 29N una mezcla de perfil moderado y combativo para seducir al centro y contener a Vox",
+   "enlace": "https://www.20minutos.es/nacional/feijoo-recluta-perfiles-combativos-moderados-para-seducir-centro-contener-vox_7052276_0.html",
    "fuente": "20minutos",
-   "fecha": "2026-10-22T20:00:49+02:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada76dc70fa62-24034123.png"
+   "fecha": "2026-10-23T06:16:09+02:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/22/6ada49daa8a239-37591233.r_d.444-680.jpeg"
+  },
+  {
+   "titulo": "Deepfake, conspiranoia y mierdificación: el factor X en las elecciones generales del 29 de noviembre",
+   "enlace": "https://www.elsaltodiario.com/politica/deepfake-conspiranoia-mierdificacion-factor-x-twitter-elecciones-generales?utm_source=feed",
+   "fuente": "El Salto",
+   "fecha": "2026-10-23T04:53:00+00:00",
+   "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/8b025b31/54350005105_1c48f015c2_o.jpg?v=63911246257"
+  },
+  {
+   "titulo": "Feijóo se refuerza en el Congreso: portavoces de la línea dura, veteranos y experiencia de gestión con miras al Gobierno",
+   "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-23/feijoo-se-refuerza-en-el-congreso-portavoces-de-la-linea-dura-veteranos-y-experiencia-de-gestion-con-miras-al-gobierno.html",
+   "fuente": "El País",
+   "fecha": "2026-10-23T03:30:01+00:00",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/SEHXRWFMVRC5HIMOD4PGRPWC2I.jpg?auth=638e955aa1684d8ce60d32a8eee3aeb6662efc9d6cb2518d0c952ad4d693f1e7"
   },
   {
    "titulo": "Las diez píldoras del día de la campaña electoral",
@@ -42,38 +70,31 @@
    "fuente": "Nueva Tribuna",
    "fecha": "2026-10-22T19:33:34+02:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/22/2026102219361647967.jpg"
-  },
-  {
-   "titulo": "Sánchez acepta un \"cara a cara\" con Feijóo y el PP rechaza que el debate a cuatro sea en RTVE",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-22/psoe-acepta-debates-electorales-en-tve-1tps_4450985/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-22T18:40:00+02:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/93d/041/93d0418e07ca578ccee05873d5522d0a/el-plan-privado-de-pensiones-de-sanchez-de-48-000-a-105-000-euros-mientras-el-psoe-hace-bandera-del-sistema-publico.jpg?mtime=1792620108"
-  },
-  {
-   "titulo": "Montesinos en Alicante y Albalat, en Castellón: las listas del PP obligan a cambiar el Consell",
-   "enlace": "https://www.lavanguardia.com/local/valencia/20261022/11665718/montesinos-alicante-albalat-castellon-listas-pp-obligan-cambiar-consell.html",
-   "fuente": "La Vanguardia",
-   "fecha": "2026-10-22T17:58:49+02:00",
-   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2024/03/12/65f05d1ca9a67.r_d.3244-2859-757.jpeg"
-  },
-  {
-   "titulo": "Felipe González cree que Sánchez tiene opciones en los comicios generales “si Milei visita España 15 veces más”",
-   "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-22/gonzalez-confirma-que-votara-en-blanco-el-29-n-y-ve-opciones-para-sanchez-si-milei-visita-espana-15-veces-mas.html",
-   "fuente": "El País",
-   "fecha": "2026-10-22T13:33:44+00:00",
-   "imagen": "https://imagenes.elpais.com/resizer/v2/O32LT66C7RHXXM6LZADKCH7VWI.jpg?auth=e0e59a3e02eaf250850ee43fa6a948d12c9bd43612883a1101cf3fb918b20b63"
-  },
-  {
-   "titulo": "Felipe González dice que votará en blanco e ironiza: \"Si nos visita 15 veces más Milei es posible que gane Sánchez\"",
-   "enlace": "https://www.europapress.es/andalucia/malaga-00356/noticia-gonzalez-dice-votara-blanco-ironiza-si-nos-visita-15-veces-mas-milei-posible-gane-sanchez-20261022150052.html",
-   "fuente": "Europa Press",
-   "fecha": "2026-10-22T13:00:52+00:00",
-   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261022150052_120.jpg"
   }
  ],
  "partidos": {
   "PP": [
+   {
+    "titulo": "Feijóo afirma que negocia con Abascal para que Vox se retire de provincias al Senado: «Depende de ellos»",
+    "enlace": "https://www.eldebate.com/espana/20261023/feijoo-afirma-negocia-abascal-vox-retire-provincias-senado-depende-ellos_472899.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-23T09:30:31+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/23/6adb0b9418ac8.r_d.561-271-0.png"
+   },
+   {
+    "titulo": "Feijóo, dispuesto a “corresponder” a Vox si renuncia a presentarse a determinadas provincias en el Senado",
+    "enlace": "https://www.lavanguardia.com/politica/20261023/11666170/feijoo-dispuesto-corresponder-vox-renuncia-presentar-determinadas-provincias-senado.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-23T09:05:25+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/21/6ad8920c4c63c.jpeg"
+   },
+   {
+    "titulo": "Feijóo se refuerza en el Congreso: portavoces de la línea dura, veteranos y experiencia de gestión con miras al Gobierno",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-23/feijoo-se-refuerza-en-el-congreso-portavoces-de-la-linea-dura-veteranos-y-experiencia-de-gestion-con-miras-al-gobierno.html",
+    "fuente": "El País",
+    "fecha": "2026-10-23T03:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/SEHXRWFMVRC5HIMOD4PGRPWC2I.jpg?auth=638e955aa1684d8ce60d32a8eee3aeb6662efc9d6cb2518d0c952ad4d693f1e7"
+   },
    {
     "titulo": "El pacto PP-Vox en el Senado: los 3/5 de la Cámara y una factura política desigual",
     "enlace": "https://www.larazon.es/espana/pacto-ppvox-senado-35-camara-factura-politica-desigual_202610236adab52cf655b65cc38564d5.html",
@@ -93,29 +114,30 @@
     "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd2VFMjVBbkNqMzJjdGFtX1R2UEttUFVVaTRmdWtUU1JZRHZzajZTY3dxNkYyT2QwU0NsZVBSaUUwUkJFQllPYUg2YTdOaVpoVklyRHBWaDZSRlF1VEdXMXJrQVplYXdORW9FekJKckFGcVFaLU1tOVJYTlg0cmdNRktUQThqVW5ZcHN3M1pUZTNXMndr0gGoAUFVX3lxTE03blYtM01VTVltbXY1Q1pHc0E2eG9RQUFkb3JuTnQ2NFMwT0huZ042WXRkbGNnTXNHc2FEeVhISjRZbllCZWhiZGVBMWxYYVQ4ZzNKUWVkUEFOQk4zRHJhSmJQUG9IbVJlYWlTXzNiTlJBbzRlVElpTUozYVhncEVJRmlaOTFwc2hfbjB4UWxFS2E5SWxFLVpiTTFwWTNTODRXU3FOZGg1eA?oc=5",
     "fuente": "La Razón",
     "fecha": "2026-10-22T22:30:25+00:00"
-   },
-   {
-    "titulo": "Un diputado del PP acusa a las \"feministas\" de estar \"calladas como puertas\" ante la violaciones en Ceuta y el caso Ábalos",
-    "enlace": "https://www.lasexta.com/noticias/nacional/diputado-acusa-feministas-estar-calladas-como-puertas-violaciones-ceuta-caso-abalos_202610226ada6771f655b65cc38540e9.html",
-    "fuente": "laSexta",
-    "fecha": "2026-10-22T21:43:45+02:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/22/40D133F5-7CF2-4DFA-9C69-6C390F376D84/hipolito-pacheco_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Feijóo lo quiere todo: Álvarez de Toledo y Sémper, dos mundos en una misma lista para crecer tanto por su derecha como por el centro",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxObTJXMkc3dW92YWdYcG1OWHVMeGZmdEFFV2xkcVhGTEdRWTJuX2VtNG9oZ0Y2MjJhbnd5ZmRnSnBVaFFpN1NhRm9LUVhXM2hRRmNKWG5saEU1dGZPb1QwWlhkRHd6NXlyS1JGZFJTZ0ZIOUJ5SGlRblp4VWU1eUxGUUoxbDlzaUxEc1c5U21GN2lPM216YlYtSjVSblgteXhLckdpTWNlZTFDX0lpd2FReU02Ml8tSl8wZk1mQVBzNHhHdmJzN1E0am41ZEQ3eUV1OTNlazZGTUpBYzMzU05sdUxJemZ6Yks1NDJPVkNXa25sVHpTSVhQRWpoSWMwT0t3eDlYeHU4Sl9kUzjSAYsCQVVfeXFMTWdOekQ1d1hMVGQ1MzBBZGdpcGRRbTVac21rQ3QwQXcwaHFOaFlwb19mN2ZadGFJTFFMTzRJQ1JXb016eElFTERpQlJESFpZTWg4Y2ktSjFPT3dPeHozN1lQNTRETzJGOVoxTjNtMEoxRmVKYzZJYlloR0JfWUZEeEg2S211dkZ1VUVyejAzUnhBcjZ1TnhkNU0zRlJUVHBTVHkzWFRDQURiME5yMS1wdldXS3RHRHVaaFZDek1QTWZZMW1ERDRabU54RG1OQ01UTVpNNzhJNU5SMDZSSVlVUE9LUnlPclJldVdrd09CdldqZmRfanhVRUhtYXllZFlHbWVaY3V3ZDkxTk80?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-22T19:13:21+00:00"
-   },
-   {
-    "titulo": "Choque entre PSOE y PP por un vídeo generado con IA en el que dirigentes socialistas admiten delitos de corrupción",
-    "enlace": "https://www.20minutos.es/nacional/choque-entre-psoe-pp-por-un-video-generado-con-ia-que-dirigentes-socialistas-admiten-delitos-corrupcion_7052277_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-22T18:54:17+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada3b40485d80-42209046.png"
    }
   ],
   "PSOE": [
+   {
+    "titulo": "Elecciones generales 29N, en directo: PP y Vox negocian un pacto para el Senado mientras PSOE y Frente Amplio ultiman sus candidaturas",
+    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-vox-negocian-pacto-senado-mientras-psoe-frente-amplio-ultiman-sus-candidaturas_202610236adadcfe658beb674b241f5e.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T09:30:19+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/22/80028693-C3DC-4FCE-8236-02AAE3A828D8/96.jpg?crop=1920,1080,x0,y116&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Sánchez y Feijóo reabren la pugna por los debates de la campaña del 29-N en televisión",
+    "enlace": "https://www.lavanguardia.com/politica/20261023/11665840/sanchez-feijoo-reabren-pugna-debates-campana-29-n-television.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-23T06:00:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2023/07/11/64ac83ef6d02e.r_d.2146-1317-0.jpeg"
+   },
+   {
+    "titulo": "El vídeo del PP contra el PSOE agita el debate sobre los límites de la IA en la batalla política",
+    "enlace": "https://elpais.com/espana/2026-10-23/el-video-del-pp-contra-el-psoe-agita-el-debate-sobre-los-limites-de-la-ia-en-la-batalla-politica.html",
+    "fuente": "El País",
+    "fecha": "2026-10-23T03:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/FTMLQ6AANVANDJUETPFQ4VYTMQ.jpg?auth=aa5fdda1f4399262482f338707ecf3afd521a2673b9da965ccf1526dadaff690"
+   },
    {
     "titulo": "¿Dónde están las 260.000 viviendas prometidas por Sánchez?",
     "enlace": "https://www.larazon.es/economia/donde-estan-260000-viviendas-prometidas-sanchez_202610236acf8093bafd3d73635fb3d3.html",
@@ -128,35 +150,37 @@
     "enlace": "https://www.20minutos.es/nacional/sanchez-apela-voto-util-dice-que-sabia-que-apuesta-rufian-no-iba-volar_7052364_0.html",
     "fuente": "20minutos",
     "fecha": "2026-10-23T00:00:33+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada71f6384887-36247628.jpeg"
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/23/6adaf977a5cd85-63486584.png"
    },
    {
     "titulo": "Sánchez regala un ajedrez a Broncano y el presentador responde: “No tenemos nada para ti, que así empezó lo de Zapatero”",
     "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWnQ3WER6SFp4ckpLY3JLM2lOSm4yaEVKVXEtc2xiazNrQWFjMUxibjgwZm5zYjVSc2NBcEdkTlRMUklCbUc1Zld0QTM1UC1vR1dJMW02bTdGV2owbzJXcmxFQUo5Wm1BdU1yQVl2SGppMGN6LTNiLS1uQzAycTR2YXNvX3V0cHBmbmFWSFNOZk82bmloT1FxWUduSzdmTU5NOTB4bjg2a0FpWHZZOU91THpmT2Y5STlYR0gzV2Q0bGwzdWNKUXI0OWFjWjF5LS1IeFpQeFR0bVlWRHMza21ic09wUTcwZXV5ZHdrTktXMWzSAYsCQVVfeXFMTWw0QlVOQ05oNFJpQXlVbVpEek80TDd4U3o1S2s1WmF0QVJ5TXNRMkx0b0VLVGZkZW1WbHVuUXcyTWNWSjE2ak9WQXQzNWV1SFBoNlJzUnBoVEdOM2llV2hXS0hrY294MjNRekJUQWhkeV9FQUtxdjk5a0s3VnJZT1A0bHJiUkt2TmZVUmlOLUpwbzZnZjdlcHpOR01HOFRXWVM2TG4zUUNWQnZ1WS1jLVdtNFMycG13WUI4N1ZkRUQ0QTFUSTVkaE1BZ0N2dU1nNFBHQXhRTzJNN1dKbUFGaVNTeDJIODNiX05rRlpETElHYm0zWUVfS3RVbEgzWEdOX0lUbzhXZ0FRT3RR?oc=5",
     "fuente": "Infobae",
     "fecha": "2026-10-22T23:54:21+00:00"
-   },
-   {
-    "titulo": "Pedro Sánchez ha recomendado desde 'La Revuelta' que apagues el móvil cinco minutos al día por tu seguridad y esto no es una idea tan descabellada",
-    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQU050UHRQbGI5US13dkp6VnBmNmlJZmtkRldjdjZxYjdZVURnUlZhU0Vjd1FoYkNFWmVKcE5tNjZ3RzgxV0RhSkhJaWplMXU2U1RlMGpnQUVfYnhRVlpEV0l6LVVWZXh4Sy1MX3c2QlhHRjBreDRjSUhTaldGZ1M1WGRpOERoNjlmQjdaMTh2NVhQczdYNzlzdFhpS18wUFNwYnNsOEx1N1NnbWJHUGdCMGZBQmdlbG1BX2FXTjZxSGFOOE5zYUNkZElqWnJRcFV6aUtzdzd5Z3NkbVgzN2dsRVdMZko3SXl2WVhJZGxkUG5WOHRqeE9UNHJZX0t6UHlLVTJjRGx1LU9HS1QwM29jRVV3MXdsSWNxMFZlZ1ljYjdpRU9RTkJYcUFoeUEwbzQ?oc=5",
-    "fuente": "La Razón",
-    "fecha": "2026-10-22T23:29:00+00:00"
-   },
-   {
-    "titulo": "Sánchez es un toro muy toreado hasta para Broncano",
-    "enlace": "https://www.eldiario.es/politica/sanchez-toro-toreado-broncano_129_13608282.html",
-    "fuente": "elDiario.es",
-    "fecha": "2026-10-22T23:07:03+00:00",
-    "imagen": "https://static.eldiario.es/clip/db140d06-15d3-4e73-81b4-e492de41aca3_16-9-discover-aspect-ratio_default_0_x702y293.jpg"
-   },
-   {
-    "titulo": "Pedro Sánchez revela en 'La Revuelta' cómo es su vida sexual con Begoña Gómez: \"Tenemos una vida sexual activa y sana\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVUdScnRGUGh6ckZvdWstWFdQTzhLN19qclp5U3NCQW9EYWtmbmFBMEUzQ2pRcFIwZGNOanplU0dhWVJUSFNaWXJZQ1hZNXR5UFBsRnBjWmxTeDRXRkNGRHF4MGVtcFhYejhlVVBRVHZKTWpUd3RsOXltb0dJdTcyOFpzY1NaYkU5QW0xcXB4MVB3SkRjbk8zNEVDVzViRklyOHZSN1VMNjJndHFkS210OGJ2Rm1XYmpjSDJmdHZxYWpqOTJLQkJZVXNpNnd6dDhfNzB1VEgybWpIclNBOENtY3JpWWNMdFZzcm5nWlZaTjc4VzjSAfMBQVVfeXFMTm5pOU8ya1ZLUEJjQ096Y0d0cXFRaFFuVGNJQU9VMVZaczdHbnV3M0pLUGlaVkNsVmFNaTItYTZSbm5Qay1mVTFLMnBOdVVTMThfT1A4QmlIVERZWm93YlNwZW5raW5sbEdMeFN0M2RONnBsRmY4eFB4NmdPbjdOeV9UUklBYW5RSmNFR2lkaUM0MDhhZmNHNHVFdFhKM3VEWVk0WmEzUHppTkhVUkNaYTFmWVBkcnZGQ1FodjJTOVlNSlRDcmtxRzlwQmtWdTdneUZLMkluYWFhS0FUZDY1SkE3RHJLUG5fdXlJcEJRZ0tTNnYw?oc=5",
-    "fuente": "MARCA",
-    "fecha": "2026-10-22T22:53:23+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Feijóo afirma que negocia con Abascal para que Vox se retire de provincias al Senado: «Depende de ellos»",
+    "enlace": "https://www.eldebate.com/espana/20261023/feijoo-afirma-negocia-abascal-vox-retire-provincias-senado-depende-ellos_472899.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-23T09:30:31+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/23/6adb0b9418ac8.r_d.561-271-0.png"
+   },
+   {
+    "titulo": "Feijóo, dispuesto a “corresponder” a Vox si renuncia a presentarse a determinadas provincias en el Senado",
+    "enlace": "https://www.lavanguardia.com/politica/20261023/11666170/feijoo-dispuesto-corresponder-vox-renuncia-presentar-determinadas-provincias-senado.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-23T09:05:25+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/21/6ad8920c4c63c.jpeg"
+   },
+   {
+    "titulo": "El estupor de los dos historiadores usados por el PP y Vox para proteger una cruz franquista: “¿Cómo voy a decir yo algo así?”",
+    "enlace": "https://elpais.com/espana/2026-10-23/el-estupor-de-los-dos-historiadores-usados-por-el-pp-y-vox-para-proteger-una-cruz-franquista-como-voy-a-decir-yo-algo-asi.html",
+    "fuente": "El País",
+    "fecha": "2026-10-23T03:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/SLNADRFROJDKFLCWFTXU3R46SA.jpg?auth=1c412ba1bab3ab5b833175dd97a385bf652567fb988b6c94a7e07957ed2518eb"
+   },
    {
     "titulo": "El pacto PP-Vox en el Senado: los 3/5 de la Cámara y una factura política desigual",
     "enlace": "https://www.larazon.es/espana/pacto-ppvox-senado-35-camara-factura-politica-desigual_202610236adab52cf655b65cc38564d5.html",
@@ -176,29 +200,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSUlGTmI1aGxmWGJyOEJzdnN3eEt3cUxrSVVyZERTUC1CQVMwYTdKc2RmazQtMU9ZWkNmY0FNV05tcXR0LUpCN1ZZVElIOEhhNC1tWUJ3NDdweVZIcFN6eUtscTF3Qzl6YXJoUnZTQkZVS1NhMVVCVktSZGR5VEY4cHJvWmNnU1dLUkg5MGhGM09pNkpoSVFEVEw4NHp2VzhjMXFMZHZETV9aMHhQMFBKWGtvRlF4dmd1TzNfeVFfa2IwZ1U2QmlEatIBzgFBVV95cUxNUXBIa2k4ZGh6UExrbXhtb1BMQkRTUHRvYVotZngzLXNfazg0QjhBVzlybUJVWGRwdU1Dc2JYZ0w0eTV6bVA0TF8zTUpxTU02Um90eUwzX19kbnlFRzR3WGlYbFRSZEVpLVBKN2NuTmpfVF96QWN5SnRtbXd0UmRHU2IxTVJpNl9PdXFpY1ZiTlZNRTRDbF9NcEp3NzdwLTVDQzJDb3JnQXdYWnczNE8xajl5YUs3UV9pVmZ6dTFMZkFfOTVhYzZ4MENmVThvQQ?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-22T21:38:41+00:00"
-   },
-   {
-    "titulo": "Tensión en el Parlamento andaluz: el vicepresidente de Vox llama \"sinvergüenza\" a María Jesús Montero durante el pleno",
-    "enlace": "https://www.lasexta.com/noticias/nacional/tension-parlamento-andaluz-vicepresidente-vox-llama-sinverguenza-maria-jesus-montero-pleno_202610226ada64e7f655b65cc3853f34.html",
-    "fuente": "laSexta",
-    "fecha": "2026-10-22T21:32:55+02:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/22/569BDAD0-7001-4217-B58A-2FD9484605DE/manuel-gavira-vox-vicepresidente-andalucia-juanma-moreno-sesion-control_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Vox pide al PP que se aparte en dos provincias a cambio de su retirada en circunscripciones clave para el Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa1kyemx4V0RxOUtER3piU2NiR2VqODVfLXBIY1JhQ3BxYWFCNzJvWGQyQlhMM1BMZlNDR0UzQmxSczhzY29FUnNWX0dGcHFtVDlRN1lzQ3d6eThadldpU3M2a0RMbUNaRi1BTFhqTlRzbzFLQVZteGpUSlVFMWQ5eGZTbDBsN1J6NjVrd0dULTRtVngycnNhZWxxUdIBmwFBVV95cUxOVVpMYU1zUm41R08yTzNaU2wxTndCeDBsd2x6Ri1sNFVuaFRrNUNkODhMbTlxSzFqdW9uaXM1WExmck1hSmctak5QWDBSWHFKQ3VJUG0ySEJOUkwwei12Z0JkbGVHR0NRbi1yVEJYTW81dGMxX1BIem00YWc2VzVaRVVHZ2R0dFVDV3QwanNpMk5OemRhcGVjS1dfSQ?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-22T20:46:17+00:00"
-   },
-   {
-    "titulo": "Vox atribuye las protestas contra sus actos a violencia organizada desde la Moncloa",
-    "enlace": "https://www.lavanguardia.com/politica/20261022/11665811/vox-atribuye-protestas-actos-violencia-organizada-moncloa.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-22T19:55:34+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/22/6ada4cebca7c1.jpeg"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "Revuelo en los Comunes tras fulminar Colau a la excandidata de Sumar en Barcelona",
+    "enlace": "https://theobjective.com/espana/politica/2026-10-23/revuelo-comunes-colau-aina-vidal-sumar/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-23T03:25:00+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/aina-vidal.jpg"
+   },
    {
     "titulo": "Más Madrid pregunta a Ayuso si prefiere que la gente «prenda fuego» a la Real Casa de Correos",
     "enlace": "https://www.abc.es/espana/madrid/madrid-pregunta-ayuso-prefiere-gente-prenda-fuego-20261022164956-nt.html",
@@ -230,15 +241,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnRfR2tCYmxyMlJvVmlNQmpuS0s2OVR3bUdvSlVSNngxY3hGaDkwbDlrR01XZUVXQ2d2S2Q4UVJUUEp5b0h4dWNqRzRoQXZXMm56YjFmRTVMdWZKOTl0VE5ybEdvQ1hLMkNCcUNWS0lySEpHNVRBWHRhb180bVhsZjZNVVhjbW5SZGFMeVo2SjhzQnp2dm81bkMxczNGQdIBowFBVV95cUxPT09EYUNwRXJWZGZud2JReXhFSm9wTXZ4amZlTkN6bnA4RWRlYUJCeVVhNFZjSF9Pd01KZ0lRMnVBQnpLWnBpMTJYQl9Dd3VtM0NhX0VrWWlTdFlQUXRBZHZ6VmhvZS1rQmFJaUNXQ2ZBVGY4OGlJc1N6VENsZEFELS1WNy1BN2dKMVF6b2VGbmN4VkY5ZkpzanRqZ2Uzb0ZVNXdr?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-21T23:30:22+00:00"
-   },
-   {
-    "titulo": "PSOE y Movimiento Sumar reprochan al alcalde de Toledo mirar al Congreso mientras la ciudad \"espera soluciones\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTU1hb0dLNU5IczhjcUl5bldEZnVmT3NwNnRjWWppRWc4WUpDMzdCbW9fT0VpX0x1Q09fRTU2RldRSkF5UVBuNklNZDloenNQdTZ1czVkYzFiaFBoZGlXV00zLXJWS3VVT2hrbF9XTFVfb0xseXV5LTBCVW9pZlIyeXhzSjdxLWJ4Vk02VmpjUXU3ZDJ2MFpmaUItV2xkamJTUlJRRnVlMXJLNzZaRVM2VEdCUTVGM1JUMTZTYXBORnpOSlhBX0NXdEVBTmJWcjVtZmtGMXFHV21kV1ZlMmEtS0pERjlVVHhsc2FNZzZoZ9IB7wFBVV95cUxQTU1hb0dLNU5IczhjcUl5bldEZnVmT3NwNnRjWWppRWc4WUpDMzdCbW9fT0VpX0x1Q09fRTU2RldRSkF5UVBuNklNZDloenNQdTZ1czVkYzFiaFBoZGlXV00zLXJWS3VVT2hrbF9XTFVfb0xseXV5LTBCVW9pZlIyeXhzSjdxLWJ4Vk02VmpjUXU3ZDJ2MFpmaUItV2xkamJTUlJRRnVlMXJLNzZaRVM2VEdCUTVGM1JUMTZTYXBORnpOSlhBX0NXdEVBTmJWcjVtZmtGMXFHV21kV1ZlMmEtS0pERjlVVHhsc2FNZzZoZw?oc=5",
-    "fuente": "elDiario.es",
-    "fecha": "2026-10-21T11:58:28+00:00"
    }
   ],
   "Podemos": [
+   {
+    "titulo": "Colau pregunta a Irene Montero tras la ruptura de la izquierda: «¿’Juego de Tronos’ o ‘Friends’?»",
+    "enlace": "https://theobjective.com/espana/politica/2026-10-23/colau-irene-montero-izquierda/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-23T06:16:03+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/ada-colau-en-el-programa-el-perro-andaluz.jpg"
+   },
    {
     "titulo": "Dimite el coordinador de Podemos Aragón por discrepancias con la dirección estatal",
     "enlace": "https://www.eldebate.com/espana/20261022/dimite-coordinador-podemos-aragon-discrepancias-direccion-estatal_472837.html",
@@ -269,12 +281,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ0lVY3NOcG01ejVMZHQxWnJKVThoRHRUZVA1dENRMndDRXRTdEUwamhKNHpWb2pGNnNxU3RGXzJKYmEyR2drbDNJWEMyNmRzdGRFeWZmXzE3cENLaExiMWlmc3FYZmd6akpfTTlUU2N6c3ppNHl1N3VZcE9jSEpQRXBVVlVTelBWU2xXUVJLUlk0U2pfN0Uyc3FHcTBxSHk4ZlZFZjFzRE96ODdhRHFJNXVVSzh1WmvSAbwBQVVfeXFMTXhVeUlvSF9OcE55dndjdUd3S25JZmN6QklCaXRxaGdEVW1qQm1hQmdyaXRlUm54V095OW5HZ2ZrZ2R2NXFMNlVYS2xTUkVMZlBmRHJlNmMweWxhazdpVEVmcVk3Wmh0NW9zVTh1UWQ0aWVfcjdfSE1SQ1NlRmN4NDE3ZnlIVzRGV1lCZTNZbXVBeTJGNGgybWR6WXZzRVRkMUh3S1RtYlZucEg2Y3J1SlNnTV9kaDNqYXFQdEM?oc=5",
     "fuente": "elDiario.es",
     "fecha": "2026-10-22T14:41:50+00:00"
-   },
-   {
-    "titulo": "En vídeo | Dimite la dirección de Podemos Aragón en plena crisis por la falta de unión en la izquierda para las elecciones generales del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVnRIdEJPSTFmSDEyQWdxNzlLdElqN3IyZFZncE42U2dleHRDTWNOaTVLQmE0TVFmNHNqYlQ3VVBpUVRUcVRFUTFyTVBpQ1JxNmszSEhUbmJTWjJQOEsyOGJWUTF0M29ZWXY0bUFsQ3paQXlpYnlfRzNnaUtIeGFFa3o3MEJJU0NVeVgwS3B3M0dsclhWUGMzM2Z1bDlnVk1QOVF3WVZOQXhxMmt4T2hWeNIBtgFBVV95cUxPZXl3VnNiRWhodFZJRGhFLTFDdURXV0VfaUg2RWlKazQ0ZHZoZVFTODZhb1JreXZlSy1nSWpDbldqeGgwMVV3U2hZdUZFQlhCR25GRTlwN29CWV9oNnUzX2Jta05zX0xlWU0zLU84cFZfUDZvOThXN180QkIwdUFrMHpQT0ZISFloNGFZdjdXSkhld1FTODBPVzhMT09UMFBIdlNKZkxXTjFCV2hGSnY4REVmMkFkdw?oc=5",
-    "fuente": "El Periódico de Aragón",
-    "fecha": "2026-10-22T14:24:33+00:00"
    }
   ],
   "SALF": [
@@ -317,11 +323,18 @@
   ],
   "ERC": [
    {
+    "titulo": "El Parlament desentierra el lazo amarillo del 'procés', con Junqueras y otros amnistiados ya en las listas para el 29-N",
+    "enlace": "https://www.elespanol.com/espana/politica/20261023/parlament-desentierra-lazo-amarillo-proces-junqueras-amnistiados-listas/1003744431805_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-23T05:00:00+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11384980.jpg?p=w:1706/h:960&h=0QifTW-q"
+   },
+   {
     "titulo": "Sánchez apela al voto útil y dice que sabía que la apuesta de Rufián \"no iba a volar\"",
     "enlace": "https://www.20minutos.es/nacional/sanchez-apela-voto-util-dice-que-sabia-que-apuesta-rufian-no-iba-volar_7052364_0.html",
     "fuente": "20minutos",
     "fecha": "2026-10-23T00:00:33+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada71f6384887-36247628.jpeg"
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/23/6adaf977a5cd85-63486584.png"
    },
    {
     "titulo": "Iván Redondo sobre Gabriel Rufián y Ada Colau: \"Es un superrival\"",
@@ -346,12 +359,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUtpb3F2TXpnR2lVNVNmNTJBZXpIM2N1LUU5N3FqMlI0RTR1QnJCeV9hTms5cHVZbDh6SmlQX2xjNmJSV0ZoX253Ym5oX3hjUWhXa1RfdDJNSm9iaE9qdjc3RGpsTVdjVDVvX0IwcEJQZjBmczYxNng1OUUtMENLNVp5UXM0Vm16eUY1OVpEZkY1dXFIZlp3RXdMY1ZxN2FHcXFwdtIBpAFBVV95cUxNYUtpb3F2TXpnR2lVNVNmNTJBZXpIM2N1LUU5N3FqMlI0RTR1QnJCeV9hTms5cHVZbDh6SmlQX2xjNmJSV0ZoX253Ym5oX3hjUWhXa1RfdDJNSm9iaE9qdjc3RGpsTVdjVDVvX0IwcEJQZjBmczYxNng1OUUtMENLNVp5UXM0Vm16eUY1OVpEZkY1dXFIZlp3RXdMY1ZxN2FHcXFwdg?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-10-22T04:00:55+00:00"
-   },
-   {
-    "titulo": "El submarino: Rufián, vigilado",
-    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnhSWmJEblN0MzhUbWVZQVg4SzJOS3Bia0tnY0llenFnY1lQcmtHdjBndHU1V3FGYkZIR3AzZXMzVWNGc1VRUUM0X2tnOF9TQzRITHY4a0NsMjBDWGlySXlrSHhMSkY4NHBCN1RkQkk0RkdfQmhfTkRURGZfZ1VKZElrMElxS3V3QWNsZEhWeE9PRXN6TGUxdVZzM3p6OXfSAbMBQVVfeXFMTU83bVJwZlpTTXc5dVkzRUZXNmRWS21kYTkyOWdXZ2pBYnZDU3I4aDRaal90TFV2UWc5aHEtdEtfQ3ZoUm1CRDZQZ1ViR1Q4QW1TNW1vY2NBbWlZY3ZTdVBOQjJoNHRQSzVjUjA4dWhuVnYtRzNCV2FSazRLWDZhMzFndGgzU3NWYm1PT2pHSElmZjRlR043bnRxRDRhenpKN0tkQWU1Q3FORkhqbThNYTlaMk0?oc=5",
-    "fuente": "La Razón",
-    "fecha": "2026-10-21T22:20:15+00:00"
    }
   ],
   "Junts": [
@@ -587,6 +594,13 @@
    }
   ],
   "AC": [
+   {
+    "titulo": "\"He defendido más los derechos humanos yo cerrando 'teterías' marroquíes que ustedes con mil panfletos\": Las polémicas declaraciones de Sílvia Orriols",
+    "enlace": "https://www.larazon.es/espana/defendido-mas-derechos-humanos-cerrando-teterias-marroquies-que-ustedes-mil-panfletos-polemicas-declaraciones-silvia-orriols-b50m_202610236adb08261e66613d9f1a1a28.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T09:09:26+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2025/08/22/759DC3E5-5227-4A11-9B85-6100F0E55282/silvia-orriols-lider-alianca-catalana_96.jpg?crop=6000,3375,x0,y559&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
    {
     "titulo": "En Orriols se juega a lo que diga Roger Brugué (3-1)",
     "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWnlKTllrd3I1MTN0QklRNy1SN0QxWi1KdUNOZTJzN0ZYQzY5SWVkSy1wWF9laEtSNFFWVndLSFdhMmRTck81Q1dCS1h6YjBWenRtaWdKS1VMQThyZVJXSFhYbnoxTmRaWGlnZ2hnLUNnVUxPaXpnZHl4cjNGU0RtaHFoVE1yYy1iVlhnRzdQSjdXWExiZ2otMW1fMy05d9IBngFBVV95cUxPWnlKTllrd3I1MTN0QklRNy1SN0QxWi1KdUNOZTJzN0ZYQzY5SWVkSy1wWF9laEtSNFFWVndLSFdhMmRTck81Q1dCS1h6YjBWenRtaWdKS1VMQThyZVJXSFhYbnoxTmRaWGlnZ2hnLUNnVUxPaXpnZHl4cjNGU0RtaHFoVE1yYy1iVlhnRzdQSjdXWExiZ2otMW1fMy05dw?oc=5",

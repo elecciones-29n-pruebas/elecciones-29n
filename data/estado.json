@@ -1,39 +1,41 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-23T01:30:33+00:00",
-  "mensaje": "516 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-10-23T01:30:33+00:00",
+  "hora": "2026-10-23T07:31:34+00:00",
+  "mensaje": "517 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-10-23T07:31:34+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "IMOP/El Confidencial 2026-10-16"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-23T01:31:03.206Z",
+  "hora": "2026-10-23T07:32:00.939Z",
   "mensaje": "10000 repeticiones, faltan 37 días",
-  "ultima_buena": "2026-10-23T01:31:03.206Z",
+  "ultima_buena": "2026-10-23T07:32:00.939Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-23T01:31:28+00:00",
-  "mensaje": "10 titulares del día, 83 por partido, 13 polémicas",
-  "ultima_buena": "2026-10-23T01:31:28+00:00",
+  "hora": "2026-10-23T07:54:06+00:00",
+  "mensaje": "10 titulares del día, 84 por partido, 13 polémicas",
+  "ultima_buena": "2026-10-23T07:54:06+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-10-23T01:31:28+00:00"
+  "hora": "2026-10-23T07:54:06+00:00"
  },
  "avisado": {},
  "fiabilidad": {
