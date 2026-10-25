@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-25T11:27:08+00:00",
-  "mensaje": "518 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-10-25T11:27:08+00:00",
+  "hora": "2026-10-25T16:17:21+00:00",
+  "mensaje": "519 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-10-25T16:17:21+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -11,31 +11,31 @@
    ],
    "corregidas": [],
    "nuevas": [
-    "PSOE 2026-10-25"
+    "EM-Analytics/Electomanía 2026-10-23"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-25T11:27:41.174Z",
+  "hora": "2026-10-25T16:17:50.122Z",
   "mensaje": "10000 repeticiones, faltan 35 días",
-  "ultima_buena": "2026-10-25T11:27:41.174Z",
+  "ultima_buena": "2026-10-25T16:17:50.122Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-25T11:28:08+00:00",
-  "mensaje": "10 titulares del día, 90 por partido, 13 polémicas",
-  "ultima_buena": "2026-10-25T11:28:08+00:00",
+  "hora": "2026-10-25T16:18:19+00:00",
+  "mensaje": "10 titulares del día, 90 por partido, 12 polémicas",
+  "ultima_buena": "2026-10-25T16:18:19+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-10-25T11:28:08+00:00"
+  "hora": "2026-10-25T16:18:19+00:00"
  },
  "avisado": {},
  "fiabilidad": {
