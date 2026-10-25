@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-25T19:36:24+00:00",
+ "actualizado": "2026-10-25T22:32:49+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1381885827,
+ "revision": 1381976557,
  "partidos": [
   "PP",
   "PSOE",
@@ -80,6 +80,32 @@
    "encargo": "Electomanía",
    "id": "electopanel-2026-10-23-4309",
    "primera_vez": "2026-10-25T16:17:21+00:00"
+  },
+  {
+   "empresa": "Ateneo del Dato/elDiario.es",
+   "inicio": "2026-10-20",
+   "fin": "2026-10-22",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 31.1,
+    "PSOE": 27.6,
+    "Vox": 19.8,
+    "Sumar": 6.8,
+    "Podemos": 2.7
+   },
+   "escanos": {
+    "PP": 126.5,
+    "PSOE": 109.5,
+    "Vox": 70.5,
+    "Sumar": 14.0,
+    "Podemos": 1.5
+   },
+   "empresa_base": "Ateneo del Dato",
+   "clave": "ateneodeldato",
+   "encargo": "elDiario.es",
+   "id": "ateneodeldato-2026-10-22-0",
+   "primera_vez": "2026-10-25T22:32:49+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
