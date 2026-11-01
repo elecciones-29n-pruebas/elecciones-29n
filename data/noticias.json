@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-11-01T18:56:52+00:00",
+ "actualizado": "2026-11-01T22:50:25+00:00",
  "generales": [
   {
-   "titulo": "Elecciones generales del 29N en España, en directo | Última hora del adelanto electoral y Pedro Sánchez, sondeos, encuestas y voto por correo",
+   "titulo": "Elecciones generales del 29-N en España, en directo | Última hora del adelanto electoral y Pedro Sánchez, sondeos, encuestas y voto por correo",
    "enlace": "https://www.elespanol.com/espana/20261101/elecciones-generales-directo-ultima-hora-adelanto-electoral-pedro-sanchez-sondeos-encuestas-voto-correo-espana-2026-partidos/1003744442496_10.html",
    "fuente": "El Español",
-   "fecha": "2026-11-01T19:31:00+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11387206.jpg?p=c:3998:2253:nowe:0:229/w:1706/h:960&h=ydwS40Nj"
+   "fecha": "2026-11-01T21:32:00+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11386775.jpg?p=c:1365:768:nowe:402:512/w:1706/h:960&h=rLz3pT2E"
   },
   {
-   "titulo": "Uno de cada tres diputados gallegos no repite en las listas del 29N",
-   "enlace": "https://www.abc.es/espana/galicia/tres-diputados-gallegos-repetira-listas-elecciones-29n-20261101112458-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-01T18:35:44+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/01/EuropaPress_5955416_papeletas_electorales_universitat_barcelona_12_mayo_2024_barcelona-RocDq0YfwkJJGeIUhYhNiDO-1200x840@diario_abc.jpg"
+   "titulo": "Jordi Wild entrevistará a los cuatro candidatos a la presidencia sin preguntas pactadas y con dos verificadores en plató: fecha, formato y todo lo que se sabe de las entrevistas del 29N",
+   "enlace": "https://okdiario.com/cool/jordi-wild-entrevistara-cuatro-candidatos-presidencia-sin-preguntas-pactadas-dos-verificadores-plato-fecha-formato-todo-lo-que-sabe-entrevistas-del-29n-20631696",
+   "fuente": "OKdiario",
+   "fecha": "2026-11-01T21:00:51+01:00",
+   "imagen": "https://okdiario.com/img/2026/10/26/diseno-sin-titulo-57.jpg"
   },
   {
    "titulo": "Feijóo reúne este lunes a la cúpula del PP y reanuda la campaña tras el luto por Urda",
@@ -75,6 +75,18 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
+    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVGpRdUtiQlJtR3VVYmJZNXNnbEc2OXU4S0xPc1JjM0ZLWTZnN3dMNFEyZnNHcm1OamI4SHZjbHpDMzQ5a1hlOERCMHg1SXI5UDFNU0JqMmNGOXpOdV81OVBiLTBDcFRsZG1ySmZ0NnB6RGpySzJ3ald2eUhCRHN2elc5a3FLUi12ak5tbjUydHN4Y1N1TVJkT09vc0lnbmVtcEpfTEIwYUZwUkhoWFBOZEpHSjRsOVYtUHZnRTlPRklqU3ZDQVAzMjhKMXUyNW1NSXdWbm1vZmtZVl9C?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-11-01T19:05:00+00:00"
+   },
+   {
+    "titulo": "Feijóo, ante la oportunidad de presentarse como un presidente del Gobierno 'in pectore'",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa3lsXzdzYldsSDZObTdxU1BNWXNhUWlvdmN6MXRTdWxZTHJDenpMS1VxN0o0Q0hNWnhtZHlYN1NxVjY4ODE5UjdVYUthNFRjWkNjSGZJUVVpbHBYNlF1RE94RC11cTAzTXEtYTM3dEswYlZkal9HSF9BWlVhcVhmdzQ5T2gxQ1F6U2xNNm1uYUtSM1hKOTkyVzR4STdjcUp3REJPbmJia2lHQ2t0QjVkdVhibnFmN2EwMWZoN0JHZjRjMmFMYzQ1OFNvaGFuS0ll?oc=5",
+    "fuente": "El Independiente",
+    "fecha": "2026-11-01T18:32:20+00:00"
+   },
+   {
     "titulo": "Feijóo reúne este lunes a la cúpula del PP y reanuda la campaña tras el luto por Urda",
     "enlace": "https://www.20minutos.es/nacional/feijoo-reune-este-lunes-cupula-pp-reanuda-campana-tras-luto-por-urda_7056035_0.html",
     "fuente": "20minutos",
@@ -82,7 +94,13 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/01/6ae774b13a3cc5-01889142.jpeg"
    },
    {
-    "titulo": "Primer sondeo tras la tragedia: PP y Vox amplían su ventaja y Sánchez sigue cayendo pese a vaciar al Frente Amplio",
+    "titulo": "Primera encuesta de elecciones generales tras Urda: Feijóo gana dos escaños, Sánchez pierde dos y Vox suma uno, según SocioMétrica",
+    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVDNTOXlDeHFmZmhIQmtoVlBNd0p2YUttT3pwVnhEejFnakd6ZWVHS1ptYkNRZUtla2NycEc3cjhuTWI1SGg0ZGt3ZEc3ZDZnSi14eHA2d0U1XzdvOUdkMWsxeWFQZm5XNEVDZXlzcUtHRHhRZVFQUHpuSGxHRjNuak51R2ZfRlFvdDlpOWxveVBCSjU1U0s1MHNYRjZ3WmpaLVVn0gGoAUFVX3lxTE93dmhwMlZLbFh4d05tM1BtZk9mQUx1MU95VHNpb1JaWWZlY2xSTnJtZ2ttcm16WDB6d2NQWExrSEdEd2hGOEZHUFN0ZVlRWWVYQnpMUmdKd01uMFZabFk4YzQtd0VueDdSeHlmQ0RLV0dzRzNFN19ub0ZEdEFJNlphc0kxVXBic1RoR3o3blI2MWo4NklhY205cDBKMGZEU193UGtSWGpGaw?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-01T18:20:00+00:00"
+   },
+   {
+    "titulo": "Primer sondeo tras la tragedia de Urda: PP con UPN sube a 139 escaños y Vox a 64; el PSOE cae a 106 y el Frente Amplio a 5",
     "enlace": "https://www.elespanol.com/espana/politica/20261101/primer-sondeo-tragedia-pp-vox-amplian-ventaja-sanchez-sigue-cayendo-pese-vaciar-frente-amplio/1003744442810_0.html",
     "fuente": "El Español",
     "fecha": "2026-11-01T17:59:58+01:00",
@@ -94,40 +112,33 @@
     "fuente": "El Debate",
     "fecha": "2026-11-01T16:29:04+00:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/01/6ae767fceffa7.r_d.1364-315-0.jpeg"
-   },
+   }
+  ],
+  "PSOE": [
    {
-    "titulo": "Razón frente a emoción y la paradoja del 29N: la frialdad de Feijóo puede convertirse en su mayor fortaleza",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZGJBeUNkQ3lFb3VYUkRwLS1jbm42Yi1XRFJ0MFpHWlk4bE5GTmR0TW50QUEtUW5vR2psa3lYQnFDSldZSmUyenZjSmFFWXI0VWlDQU4zbjdFSFNqeEtlS01HRGFsSWo3MmNvOXVrbGFfYWdMbmRpZ2FPUzNlc1Q4dUw5TW5lQnNmMFFDUVdEdDFRcEFHbzJQRWRYaGtLaTNPVG9DUlMwRzRaR0NSZUJvWVBfOVJlVlowVEU0M2xHdXo5aWFYMTlSRzFiWF9OYm11dU1XNnlIOWx2N0HSAeABQVVfeXFMUE9naHpadWtSYTYzYWRLaXlYQmVUaEliUWpDeks4NTdMcXF6M0I3UkJtVk5ub1JUNE1iVFQ1bzFqN3IwTDhSb0R0ZjVLSXVieUpldDV3ZlNmMWZPUHl2V3VoTlF6Z3gyWVhBeDhVbG9zd3Qtd19XWDFVRV8yYVcwelQ1Y2s5YmNvYXJIeEdUV2N4NVhPU1RWXy1ORUtUUkVfM1Z0X3libFpUUXpFTmJRZ3BiMzc1N2pxZ0FkT3NGTWFrWUlJR0x2dE9oUUJ5a2FwbU9Ec25LWm5aenlfMHRGZFA?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-01T14:46:34+00:00"
-   },
-   {
-    "titulo": "El PP se une a Vox y anuncia que se personará como acusación particular en la causa judicial del accidente de Urda",
-    "enlace": "https://www.eldiario.es/politica/pp-une-vox-anuncia-personara-acusacion-particular-causa-judicial-accidente-urda_1_13630675.html",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-01T14:22:18+00:00",
-    "imagen": "https://static.eldiario.es/clip/c1e8058c-6e04-4d65-a2a3-d33fa3f7cc3a_16-9-discover-aspect-ratio_default_0_x962y588.jpg"
+    "titulo": "Elecciones generales del 29-N en España, en directo | Última hora del adelanto electoral y Pedro Sánchez, sondeos, encuestas y voto por correo",
+    "enlace": "https://www.elespanol.com/espana/20261101/elecciones-generales-directo-ultima-hora-adelanto-electoral-pedro-sanchez-sondeos-encuestas-voto-correo-espana-2026-partidos/1003744442496_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-01T21:32:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11386775.jpg?p=c:1365:768:nowe:402:512/w:1706/h:960&h=rLz3pT2E"
    },
    {
     "titulo": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVGpRdUtiQlJtR3VVYmJZNXNnbEc2OXU4S0xPc1JjM0ZLWTZnN3dMNFEyZnNHcm1OamI4SHZjbHpDMzQ5a1hlOERCMHg1SXI5UDFNU0JqMmNGOXpOdV81OVBiLTBDcFRsZG1ySmZ0NnB6RGpySzJ3ald2eUhCRHN2elc5a3FLUi12ak5tbjUydHN4Y1N1TVJkT09vc0lnbmVtcEpfTEIwYUZwUkhoWFBOZEpHSjRsOVYtUHZnRTlPRklqU3ZDQVAzMjhKMXUyNW1NSXdWbm1vZmtZVl9C?oc=5",
     "fuente": "PressDigital",
-    "fecha": "2026-11-01T13:05:00+00:00"
-   }
-  ],
-  "PSOE": [
-   {
-    "titulo": "Elecciones generales del 29N en España, en directo | Última hora del adelanto electoral y Pedro Sánchez, sondeos, encuestas y voto por correo",
-    "enlace": "https://www.elespanol.com/espana/20261101/elecciones-generales-directo-ultima-hora-adelanto-electoral-pedro-sanchez-sondeos-encuestas-voto-correo-espana-2026-partidos/1003744442496_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-11-01T19:31:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11387206.jpg?p=c:3998:2253:nowe:0:229/w:1706/h:960&h=ydwS40Nj"
+    "fecha": "2026-11-01T19:05:00+00:00"
    },
    {
-    "titulo": "Primera encuesta sobre elecciones generales tras Urda: PP y Vox ganan escaños y el PSOE cae, según SocioMétrica",
+    "titulo": "La historia demuestra que sin un triunfo rotundo del PSC en Catalunya es casi imposible un Gobierno del PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWDNyNmxZQ05DQzhJSUhndXJST2txS3dIdzNaUnBoSThaSVV3Z2Iwa0xXdEVEMlBMa29oalpOQjFPdlBTZWR0ZEdmaksxekcwRWstS29Fd25aeXBfcjBPcEM4cVZPV3dJdVZha0pjS0dtQngzdHhvNk11SUROLXdHOUoyN0trY0FLbU5EY1Q0dUc4ZFFuVGNVa2Y0YW9iNUIzWmFQc2FoSmJac1MwZlV1ZlhhODhRT3JRSS1ZRGFZNjI?oc=5",
+    "fuente": "Diario Público",
+    "fecha": "2026-11-01T18:25:00+00:00"
+   },
+   {
+    "titulo": "Primera encuesta de elecciones generales tras Urda: Feijóo gana dos escaños, Sánchez pierde dos y Vox suma uno, según SocioMétrica",
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVDNTOXlDeHFmZmhIQmtoVlBNd0p2YUttT3pwVnhEejFnakd6ZWVHS1ptYkNRZUtla2NycEc3cjhuTWI1SGg0ZGt3ZEc3ZDZnSi14eHA2d0U1XzdvOUdkMWsxeWFQZm5XNEVDZXlzcUtHRHhRZVFQUHpuSGxHRjNuak51R2ZfRlFvdDlpOWxveVBCSjU1U0s1MHNYRjZ3WmpaLVVn0gGoAUFVX3lxTE93dmhwMlZLbFh4d05tM1BtZk9mQUx1MU95VHNpb1JaWWZlY2xSTnJtZ2ttcm16WDB6d2NQWExrSEdEd2hGOEZHUFN0ZVlRWWVYQnpMUmdKd01uMFZabFk4YzQtd0VueDdSeHlmQ0RLV0dzRzNFN19ub0ZEdEFJNlphc0kxVXBic1RoR3o3blI2MWo4NklhY205cDBKMGZEU193UGtSWGpGaw?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-11-01T18:20:36+00:00"
+    "fecha": "2026-11-01T18:20:00+00:00"
    },
    {
     "titulo": "Sánchez retoma este lunes 2 de noviembre su agenda tras el accidente de Urda con un foro europeo en Barcelona",
@@ -137,37 +148,43 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/01/6ae76f13b6d3d4-44015946.jpeg"
    },
    {
-    "titulo": "Agüimes entra en noviembre con un escenario electoral más abierto: el PSOE prepara sus primarias y aumenta la competencia política",
-    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYTVFVlEtVnBTQVUwWXM1V21CaXdHOG1yMmwxN0hyZDd2cXNvSEhuWTg1ZzYtMnFaMXhIbnlPdFdFRlBBU0FLRW8zeDVFeHg4cmFZVlhiUU9aOTFSWmRpbFoyR1VPcWxOakpLTnJMNUFBZXRKY0xaYVI5cnBLUzFacjRibUVwbkFuam9wbEVlVjlfc0FsQUt4aS1pWnFiOFpQbWxBLVJ0WDQydHEtRW0wRFNIVTJCSnVXcVBwMjE1X1VzemptWWo1STlRZzB0MUZneHluMzAwdEdTMENKdHh3MEF2RGJuSUxYX2c?oc=5",
-    "fuente": "www.returcan.com",
-    "fecha": "2026-11-01T13:23:58+00:00"
-   },
-   {
-    "titulo": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
-    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVGpRdUtiQlJtR3VVYmJZNXNnbEc2OXU4S0xPc1JjM0ZLWTZnN3dMNFEyZnNHcm1OamI4SHZjbHpDMzQ5a1hlOERCMHg1SXI5UDFNU0JqMmNGOXpOdV81OVBiLTBDcFRsZG1ySmZ0NnB6RGpySzJ3ald2eUhCRHN2elc5a3FLUi12ak5tbjUydHN4Y1N1TVJkT09vc0lnbmVtcEpfTEIwYUZwUkhoWFBOZEpHSjRsOVYtUHZnRTlPRklqU3ZDQVAzMjhKMXUyNW1NSXdWbm1vZmtZVl9C?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-01T13:05:00+00:00"
-   },
-   {
-    "titulo": "Narciso Michavila sobre el PSOE: «Van a tener los votos que se merecen»",
-    "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOckFlcGM1ZUV2dEFEQkp1U1NSTVhJVUtlaVJpM1g3bUZxaG00bnU2eWF0RHR4QzZKeFNxcGM1bmVXdWxNRkdzUVRfVXdxRzFZVmNvbDBSbmlDdkNKcnFpTnFFX2xWYlRkMnVpYTZyWGptX2VBbklUY1lQeGtrUW5JN1pXR2dBZzJuUDJoOVZ6dW5hajZldkE?oc=5",
-    "fuente": "BilbaoHiria",
-    "fecha": "2026-11-01T13:00:00+00:00"
+    "titulo": "Primer sondeo tras la tragedia: PP y Vox amplían su ventaja y Sánchez sigue cayendo pese a vaciar al Frente Amplio",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQi1Db1hIRzVQWUtVSHJ5ZTVPWTZ1SDhnMWhOMkp5NS1NV0c4SWRpc1FNZkIxZGxwN2ZYbGhHZmxxc0U5QUxMLXA0ZHY3WDlJVWQ5TVNMUngwV0R3RGZBOXJVemdJczFlZ1BwZFhqSHZiYk9ZTVFTWW1aZ1dtVzNJRDFJNkpVMGZ4ZUJrdkMtUF9IMzl6X3ltTjF4NlJZVnJPbm1FaDRvN0ptbGdTMWRHVC1oajA3RVJMeGFNRGs3clB1RDRpcjlaOVJpUHpvV2p0VEJMTGprNnBpZTk5TURYNE1rTWdLREhncXhPTmV5X0dCZTl5c1hKdNIB_gFBVV95cUxPQk1pbl94Vm1iamFacEh4T1dfUjBtX0Z0WWNXeDBrdmZ3UmhKSDJUTUhXblhhQ2xxVjNhOV9TSFN4ZHZyWFVZZzljajdRcVVXaDh4UlR2ZmNIOHpiZ0k1M0FpSHlqbWNkQUxmckFDWXJ3UF9CS3VxLVU3M0Rtc2pLTVRFVEYtYkxPV3V3Z1VuRUNYeGtwd0F2UE9JcTZGSmZhUDMwZFU1aUdwZkYxNGY3a1p1ejdiSU1Nb0dseDRtWkNlR1QtbUdlLTJTbFZqc2JKUm44VWtuNk92b1k0VGVaZDZveHlVdlFya0swNXhvOGRqUVZrZXNsWlhaWGJndw?oc=5",
+    "fuente": "El Español",
+    "fecha": "2026-11-01T16:59:58+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Primera encuesta sobre elecciones generales tras Urda: PP y Vox ganan escaños y el PSOE cae, según SocioMétrica",
+    "titulo": "La primera encuesta después de Urda sepulta la remontada de Sánchez y afianza la victoria del PP y Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNXl6MzA0dXpRQmM4dmpuVjdDT01jakFPam9hMkZWb1dMRVc0SzlfcGFBQ05OSG9ERkZnOEEwRjNyTUEzT3N1VWkyaGdxem9HTkFiSk83WUJVQUdWLThlQ1ZienVSOERBVVhJWjNZajlTeUJ6MF9KSTFaX0ZhR2lYeERhYmJEOGlrcE5KR05sM3RrR1hhQV9sU01uMV9Ma0hva01NRm05VVZhcHVaUkpEZThKcm9mc0JQdzU1V2FGSnNLWnI3UmNrTDAyQkp4ZW9v?oc=5",
+    "fuente": "El Nacional.cat",
+    "fecha": "2026-11-01T21:16:33+00:00"
+   },
+   {
+    "titulo": "Vox señala al Gobierno de Sánchez por la invasión de Ceuta: «Es el mayor fracaso institucional de la historia reciente»",
+    "enlace": "https://okdiario.com/espana/vox-senala-gobierno-sanchez-invasion-ceuta-mayor-fracaso-institucional-historia-reciente-20679970",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-01T20:44:57+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/01/imagen_recortada-89.jpg"
+   },
+   {
+    "titulo": "Míriam Nogueras asegura que \"los votos de Junts nunca irán al bloque del PP y Vox\"",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GMlBOVDhaalhNTEdZYXNnTUdjWFFPazZxNHJKTHF6aHdrdlpMdERlUGJnR0pmeENHUnZuR09Sa2FsQ2Z1N0tDZ3Jad3h3YzlsN0V6ajg5RXlzdG1YUHg3MVhfd3FCeVFRM3UxNUpUdGRoQVRjNU8zbU5qLXjSAXxBVV95cUxPZ2ctWWtzZ1pkYlEwU2NYQ0RIRmdJeUNyaTdwUER2R29idUNnQWQxRDZMMTllVlhxbUx5QVdHVE1ocmZIRXpqdHJXT3RjRDl1Qm1TNG5TU1dYSkFnbThURFNOTGdhc3NTeC1OSkRHT3dKd0lMV080cEJxNGhm?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-01T18:26:00+00:00"
+   },
+   {
+    "titulo": "Primera encuesta de elecciones generales tras Urda: Feijóo gana dos escaños, Sánchez pierde dos y Vox suma uno, según SocioMétrica",
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVDNTOXlDeHFmZmhIQmtoVlBNd0p2YUttT3pwVnhEejFnakd6ZWVHS1ptYkNRZUtla2NycEc3cjhuTWI1SGg0ZGt3ZEc3ZDZnSi14eHA2d0U1XzdvOUdkMWsxeWFQZm5XNEVDZXlzcUtHRHhRZVFQUHpuSGxHRjNuak51R2ZfRlFvdDlpOWxveVBCSjU1U0s1MHNYRjZ3WmpaLVVn0gGoAUFVX3lxTE93dmhwMlZLbFh4d05tM1BtZk9mQUx1MU95VHNpb1JaWWZlY2xSTnJtZ2ttcm16WDB6d2NQWExrSEdEd2hGOEZHUFN0ZVlRWWVYQnpMUmdKd01uMFZabFk4YzQtd0VueDdSeHlmQ0RLV0dzRzNFN19ub0ZEdEFJNlphc0kxVXBic1RoR3o3blI2MWo4NklhY205cDBKMGZEU193UGtSWGpGaw?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-11-01T18:20:36+00:00"
+    "fecha": "2026-11-01T18:20:00+00:00"
    },
    {
     "titulo": "Primer sondeo tras la tragedia: PP y Vox amplían su ventaja y Sánchez sigue cayendo pese a vaciar al Frente Amplio",
-    "enlace": "https://www.elespanol.com/espana/politica/20261101/primer-sondeo-tragedia-pp-vox-amplian-ventaja-sanchez-sigue-cayendo-pese-vaciar-frente-amplio/1003744442810_0.html",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQi1Db1hIRzVQWUtVSHJ5ZTVPWTZ1SDhnMWhOMkp5NS1NV0c4SWRpc1FNZkIxZGxwN2ZYbGhHZmxxc0U5QUxMLXA0ZHY3WDlJVWQ5TVNMUngwV0R3RGZBOXJVemdJczFlZ1BwZFhqSHZiYk9ZTVFTWW1aZ1dtVzNJRDFJNkpVMGZ4ZUJrdkMtUF9IMzl6X3ltTjF4NlJZVnJPbm1FaDRvN0ptbGdTMWRHVC1oajA3RVJMeGFNRGs3clB1RDRpcjlaOVJpUHpvV2p0VEJMTGprNnBpZTk5TURYNE1rTWdLREhncXhPTmV5X0dCZTl5c1hKdNIB_gFBVV95cUxPQk1pbl94Vm1iamFacEh4T1dfUjBtX0Z0WWNXeDBrdmZ3UmhKSDJUTUhXblhhQ2xxVjNhOV9TSFN4ZHZyWFVZZzljajdRcVVXaDh4UlR2ZmNIOHpiZ0k1M0FpSHlqbWNkQUxmckFDWXJ3UF9CS3VxLVU3M0Rtc2pLTVRFVEYtYkxPV3V3Z1VuRUNYeGtwd0F2UE9JcTZGSmZhUDMwZFU1aUdwZkYxNGY3a1p1ejdiSU1Nb0dseDRtWkNlR1QtbUdlLTJTbFZqc2JKUm44VWtuNk92b1k0VGVaZDZveHlVdlFya0swNXhvOGRqUVZrZXNsWlhaWGJndw?oc=5",
     "fuente": "El Español",
-    "fecha": "2026-11-01T17:59:58+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11391971.png?h=5t1mnCW-"
+    "fecha": "2026-11-01T16:59:58+00:00"
    },
    {
     "titulo": "El PP se une a Vox y anuncia que se personará como acusación particular en la causa judicial del accidente de Urda",
@@ -175,28 +192,21 @@
     "fuente": "elDiario.es",
     "fecha": "2026-11-01T14:22:18+00:00",
     "imagen": "https://static.eldiario.es/clip/c1e8058c-6e04-4d65-a2a3-d33fa3f7cc3a_16-9-discover-aspect-ratio_default_0_x962y588.jpg"
-   },
-   {
-    "titulo": "El PP se suma a Vox y se personará en la causa sobre el accidente de Urda",
-    "enlace": "https://www.lavanguardia.com/politica/20261101/11673396/pp-suma-vox-personara-causa-sobre-accidente-urda.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-01T14:08:11+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/01/6ae7500629ecb.jpeg"
-   },
-   {
-    "titulo": "La Fiscalía de Baleares se querella contra Pedro Bestard (Vox) por el presunto uso indebido de coches oficiales",
-    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU3FKTnhHblVHMWJzcHpEWVJyTlVQS3dfbm1MdkJqbVNaV1NDS0VFaUVXb0d4cmFWUWJyYkRWU3R0OWVZWENzclBQUHJ0LUtqcW1rRUQxZ1k4dHhPNlhQQUpuWDV3STY4Y2J4cTdVTWZGVURsZ3dKRkwyMEpoeWVydTRrRy12d0xLemdtRXFweVlodEo4ZGJPemRidFlZQ0VZc3owMmdvTzBZbGdmN09fOV9tRi1nWVFwTy1BdFJRX1JLM3VUR0RITjVUSWdWMFZuczZ1QlJ1a0lWWHRMWDFj0gHkAUFVX3lxTE1zaUY0MENFNGpid0JUMDUyN1ZxQi1nOGVaWDJmMk92dnJEWGlDUU8zLW1CdjlUOXRaYWdsNDBPb1ZpNGp1MUlwcDljS3ZtTnRKdG9ycXpfZGxmdWJLVHJhVDE1dHptaGlzUWZySUF6VG5VRVVsVlc4dzFWTGxGYm45U015VTlQc1ZVX1NJZnpMRkhZSUxVTXRKMHFGZkN2V0d4VHNpNFJqdF9vWHVrNzJTR200VGo1dUJtSDVwc3ROcHdNWklDRGxrdlpzYTRVUTVRN0RZM1hmc1lPRUFHb2dxZzN2Xw?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-01T12:42:26+00:00"
-   },
-   {
-    "titulo": "Feijóo tiende la mano a una Cataluña \"decepcionada\" y justifica sus pactos con Vox: \"España está en fallo sistémico\"",
-    "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNdlNZcllTVnJ6TGp6UkVNYW5GTUkzQkp1MzFxbUxOMkw1X2ZLb0NSS3RHSVFWTU1DU0JkMGpDR1dfTkJMSEVXYWpDR19uUmV1M3FHQ1RzWm5WZWR5cGdRU3NtOGZha1FkV2JKQzJjZy10azBFbm9NTXZUck1oTmU0c2wyTjktSDZEVlhEejNMRUdVa2NTbzJsMDBBY0JmNGtOUHNRR1g4M3p1a2VCbGxhNFJYWWw5akJhR0UwX2pZOWZFd2ZiazlndjUwdV9EcVhRakszMlZtaW1XdmhUbUozUzJTZF9Od20yc0NQT2ZPTEh3Z19VRGZadDk5MXBtWjZTSnpaSFQ2Y9IBhwJBVV95cUxOdENnc1FOUS16OWdnSFY1WjVOalN0MnpubkNSamU5c21OaHVnMHl3MDYxclJweTRSSFBrdlNOM0hGZHZhRG4xYzZIdW43dkFFcmlockRhT0xHeFE3Qmp1cmxpbXpqRHpabmxXWXlFOXRWN2FPQ0poVkMzcGNDTjBybnNVYmZQQ05MQmU3SzNtd0FYMGY1UjBUV3JLeWJSWm93RzY1anZGNTVXTUhEWU0tSGtNRGtVcjVKM3lmc1VCWXlDdUxzeWZYbXQxQkxCM2RoQTJESW1jdW1qTUNCN2h4WWYzTmNJRmR2RHRXY204UzdvaXdxVWpWaEd4V1JZLXNTSUpwT1dMbw?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-01T12:35:11+00:00"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "FA y Podemos pugnan por la herencia de Sumar",
+    "enlace": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBVUTE1UEU5YVFsYVhkLWw0alNoQUwtWko2VV83WHhMM0dnazc3d1dzY2hmRHgydXdhUk9F?oc=5",
+    "fuente": "Howl.Link",
+    "fecha": "2026-11-01T13:02:05+00:00"
+   },
+   {
+    "titulo": "Frente Amplio y Podemos pugnan en la JEC por la herencia de Sumar en los tiempos de RTVE",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVERuSnVnVEhHTFg2Z3czMnhhQVQ4UHpuaC1IaGs5OUd0c2xQQWNQZUpjNTJyQ2U4cDl2S24ybzlyeVRodjBRLVdRV1V2WHBWNi1fWWtITkk3QnNLV3o2Rm1ZdTlMVENQeDI3TmpUWGtSSTdSaWxfSnozTVFDMDdFang5WjdnY0thcGJPbXc0ZnNBeGtUc0JubVRtZFpUbmttMmwxaWU3bkU0M1U1NmlDQk85a2xrNi1pcDRHX2NTMkVINmR2?oc=5",
+    "fuente": "Revista Capital",
+    "fecha": "2026-11-01T12:30:13+00:00"
+   },
    {
     "titulo": "El Frente Amplio se aleja de la estrategia de Sumar tras el accidente de Urda: la formación endurece el tono con el PSOE de cara al 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQNGVTNnFPYUVQR2FSd25kM3ZWeWNkcTlfdnN6OG81YnJ4RFp3NU8ybmh0UXJiUWRSdVdwVFJIejlpMUFmODhTNGJtbjZOU2VNWTd1WS1FQ1FWVU1CMHZNSUotWnByNUZPaVF2LU9Rdjl2TWVnaVF6NnhlTlIzVDRKeXBZMWQwcUw1Nmt0SXJmLWEyZmJVTXdFcjRiMDQ2SlI2RXk1UDRLNWdLbVBEcFpIRDQwWVdPalJTdnlPR0NDSXBSOVpUMEhyZ0VFSC1ab2FnY0xsMmlFS3FYS2JZLWFXbzEtZVVZeWZfUEZPYjhPd0dXWHlUNGVlM2wzTDI3VmhBV3lHU3dHQy1iTzB3eG9nNFVBZ25KdElEZWZmRGwyckNjdl9Vbm1GLXpqTlfSAawCQVVfeXFMUDRlUzZxT2FFUEdhUnduZDN2VnljZHE5X3ZzejhvNWJyeERadzVPMm5odFFyYlFkUnVXcFRSSHo5aTFBZjg4UzRibW42TlNlTVk3dVktRUNRVlVNQjB2TUlKLVpwcjVGT2lRdi1PUXY5dk1lZ2lRejZ4ZU5SM1Q0SnlwWTFkMHFMNTZrdElyZi1hMmZiVU13RXI0YjA0NkpSNkV5NVA0SzVnS21QRHBaSEQ0MFlXT2pSU3Z5T0dDQ0lwUjlaVDBIcmdFRUgtWm9hZ2NMbDJpRUtxWEtiWS1hV28xLWVVWXlmX1BGT2I4T3dHV1h5VDRlZTNsM0wyN1ZoQVd5R1N3R0MtYk8wd3hvZzRVQWduSnRJRGVmZkRsMnJDY3ZfVW5tRi16ak5X?oc=5",
@@ -221,18 +231,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYlk5dk1lQ1N5RHdHMVFoa0sxU3pfd1lQNUpzTGRoa21jVVJiZFBKQ3paZ2NRX2NJLUZycXdXX3YwVEt5WmEwMUZiQ2doTkd4Q3VMWTVJNnR0U0NrNU9RMTRkekVYZjE1bkpPSzg3SmdkLS1lUjN6R1ItYndiR0VCdnBYOGtHNzh3MEdoU2ZfbF9XRE1JQng5M1VQdHpzVU5RVnpiaWJGOUw1NVhyNWxQQkZCb2JweUtOWEh2eUttLWlORXIyTWdqcXh1WE9LbVV1TVFONVNhcWM3Q0lxUEE?oc=5",
     "fuente": "eltelescopiodigital",
     "fecha": "2026-11-01T05:37:30+00:00"
-   },
-   {
-    "titulo": "El PSOE incorpora a 27 dirigentes de IU, 12 de Sumar, 3 de CHA y 2 de Más Madrid a sus listas conjuntas al Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQVZEVHVLMEh6RnRHQWI2NENjTWpTdTNnU3lPZkktelhDMjAxZUdXakNGNWZrQWVxbEpHZ2dZYk11X3hSVGRTOWNPV3lEWFJOeE1CSFZZMXVYTW41cy01TjNkYUMyQ01vMDYyR0NwTjdaakxPTjlVUXZHQ05YcUdaQjFJUGFYSDJDS1lqZE5NWERZNk9VXzFNcmhYeHNpc25aVHBvVTAyTWthbnNoeWhPZXFqdjZyWlJURTZjU2t0aGNGa1Z5MUNnMkg0cWtZbERhMFl0eFRReEtRVkXSAeABQVVfeXFMUHp4bkx0VnEzX0haVDhGV05DcjJRdWdkaElGcFVMekF0QVV0b0lKWmMzVFJqZTZxZGJoSFNpUUY2dkVrZ3hPMDh5SzhyZ0Z0by1CNXRycXpEWGNFNXBvaUZ1T19pMnVSb0UwZVl5V3JxQmhfNndubWpRV2VIM2I5c205TkZMZk0xME9xcHhOUlpxN2ZtbUJuNnN4WFRQLTM5bGlUcnljcFE3R2l3OXptc0JTRDFkNWpWSExzVkl6MzBZOHhpQzE2ZXN0ZTdWSGM2LUlmeFI4bDdqTll2NXd0M2k?oc=5",
-    "fuente": "Diario Red",
-    "fecha": "2026-11-01T05:00:00+00:00"
-   },
-   {
-    "titulo": "El espacio de Podemos y Sumar: de ganar las generales en Euskadi a ser última opción en diez años",
-    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQekRER3ljMHJIaGd3Rk1yTHB2bXM3aWVMbzFCYjUxOWxMNzRGU3JLSGtCVVduaWVTVVdnVEN4d25FVVVGT1RQU2Y3b3dsazltdUhKaldWclk4TW1vODBJVlE5UFRwcjRwRDRTSFZmVHhFVTUzYlNCWmtRaEl6TE5RQ0NRc091dVNLdzVmSWtiQlV4N25zZ2NsNE9lZGVJNFg1emV3ZVJPWWhKcXNqTDhfeGxCcXRDWmtIQUhtOTU2RGM4T1B6dDUxYTNNONIBywFBVV95cUxQekRER3ljMHJIaGd3Rk1yTHB2bXM3aWVMbzFCYjUxOWxMNzRGU3JLSGtCVVduaWVTVVdnVEN4d25FVVVGT1RQU2Y3b3dsazltdUhKaldWclk4TW1vODBJVlE5UFRwcjRwRDRTSFZmVHhFVTUzYlNCWmtRaEl6TE5RQ0NRc091dVNLdzVmSWtiQlV4N25zZ2NsNE9lZGVJNFg1emV3ZVJPWWhKcXNqTDhfeGxCcXRDWmtIQUhtOTU2RGM4T1B6dDUxYTNNOA?oc=5",
-    "fuente": "Crónica Vasca",
-    "fecha": "2026-11-01T04:00:00+00:00"
    }
   ],
   "Podemos": [
@@ -327,8 +325,8 @@
     "fecha": "2026-11-01T12:50:00+00:00"
    },
    {
-    "titulo": "Míriam Nogueras 'garantiza' que con Junts 'ni Colau ni Abascal serán ministros' y aparece Rufián con dos golpes de hemeroteca y un tuit",
-    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3lhSGdwNEplMjBrQW1jaGxWcmRnMkg5LVpyRk91aHk5eEJqZGRJRXpPbDFGTVJtWVJuTkdRSEZpTS0wQzBvSzlicGZYSWNjalJRWVN2V1lhTGhhV2VBX1Y1TU40T2MzZF9jajVCMjdIYkN6dXQ0a0VuSzNMLVpfa3pVdUFDNy1UVW5CQU1GVEFZcEdHbnY5dDlrRGVFOGhIUXFEMmlFdmtRX2JTUWlCU1pEX3ozc3BjcG5wWVNFdmtsbFd2V1ktNEFya1ZBeHQ3WjB4dUg2Uzhwa2lKbVZ3dnp2ZE01TGJ5?oc=5",
+    "titulo": "Míriam Nogueras \"garantiza\" que con Junts \"ni Colau ni Abascal serán ministros\" y aparece Rufián con dos golpes de hemeroteca y un tuit",
+    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3lhSGdwNEplMjBrQW1jaGxWcmRnMkg5LVpyRk91aHk5eEJqZGRJRXpPbDFGTVJtWVJuTkdRSEZpTS0wQzBvSzlicGZYSWNjalJRWVN2V1lhTGhhV2VBX1Y1TU40T2MzZF9jajVCMjdIYkN6dXQ0a0VuSzNMLVpfa3pVdUFDNy1UVW5CQU1GVEFZcEdHbnY5dDlrRGVFOGhIUXFEMmlFdmtRX2JTUWlCU1pEX3ozc3BjcG5wWVNFdmtsbFd2V1ktNEFya1ZBeHQ3WjB4dUg2Uzhwa2lKbVZ3dnp2ZE01TGJ50gH8AUFVX3lxTE85SkJBVUpfTHIybW82V2FtbHQxUU9wdHp3enBvdk9qb3V0X3VrcldNdGpkMjJEbW9UQTNnc2FVYTRhYVJkTVQzZmZrNFdxMVE3V095am5BZEdib2JocTFsTXVYS1gtdDlYZXlHc1VudUFPa2VBT1dLN09zQ3pqQ2lKZEFSRlZ1bWd2Uk1Ma096QnFsREVCeU95dGlTQVl3enpHemdzZENxSlZJNDltWlVOT1FMOVVmaEVaWFBVN1QzLUJTbHRraHFVM3NUTFhPVGFaOXVhQjNpeVp2cGNVaTBOLTREdmJiUE00dnN5UU1kOGNVZklucXczYy1IVg?oc=5",
     "fuente": "El HuffPost",
     "fecha": "2026-11-01T11:43:34+00:00"
    },
@@ -356,11 +354,11 @@
     "titulo": "Míriam Nogueras asegura que \"los votos de Junts nunca irán al bloque del PP y Vox\"",
     "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GMlBOVDhaalhNTEdZYXNnTUdjWFFPazZxNHJKTHF6aHdrdlpMdERlUGJnR0pmeENHUnZuR09Sa2FsQ2Z1N0tDZ3Jad3h3YzlsN0V6ajg5RXlzdG1YUHg3MVhfd3FCeVFRM3UxNUpUdGRoQVRjNU8zbU5qLXjSAXxBVV95cUxPZ2ctWWtzZ1pkYlEwU2NYQ0RIRmdJeUNyaTdwUER2R29idUNnQWQxRDZMMTllVlhxbUx5QVdHVE1ocmZIRXpqdHJXT3RjRDl1Qm1TNG5TU1dYSkFnbThURFNOTGdhc3NTeC1OSkRHT3dKd0lMV080cEJxNGhm?oc=5",
     "fuente": "El Mundo",
-    "fecha": "2026-11-01T18:08:33+00:00"
+    "fecha": "2026-11-01T18:26:00+00:00"
    },
    {
     "titulo": "Junts maniobra para cargarse a Jordi Martí pese a ganar las primarias",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdGFnTzJiOXh3MzQtY05jQnZ0eHY3b3JDSVBaWHdEcG53Yy1nY1hvQzgtYVRWM19CbGU2M2haTUtGakdJRzQzM3d4aXh3NzNBeU9yVlFzMndGVVkwb3Z3MlN4ZVNyT0FaT21tRXRuTUd6M1lvcngyT3VZR1VYRzFCNnFONlk2ekZRUUlCVWlQYUFyRUdMSnozdC1NRnlUVlVndkxpWWR2VnZoQzExYTVHVUIwejRUS1BpTG9KRE5mSEJiN2dZ0gHKAUFVX3lxTFA0bXlMUWVVSUMzZGs1T1lhNm5yY2gzekNpM09IS0xzRktnWjZ0VjdRSEEwZUZzaUxDXzduLTZNRDhyQlpDSWpBU25zQjNnNHNFSHFIX2diVUlNNjh3aGxCUURuQUFZYzREWlB2X3FjQTF5Um9jZDRXSkdTSy03WEM3MzMydGNXYUF6QVl0emV1dVRoZ2JqUnRvdGx2RXFvV3R0d3RGTmdpNnJCclFmd3VYenFsS20xRnhpSC14emc4UGE4Q09ZUWV0a1E?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNG15TFFlVUlDM2RrNU9ZYTZucmNoM3pDaTNPSEtMc0ZLZ1o2dFY3UUhBMGVGc2lMQ183bi02TUQ4ckJaQ0lqQVNuc0IzZzRzRUhxSF9nYlVJTTY4d2hsQlFEbkFBWWM0RFpQdl9xY0ExeVJvY2Q0V0pHU0stN1hDNzMzMnRjV2FBekFZdHpldXVUaGdialJ0b3RsdkVxb1d0dHd0Rk5naTZyQnJRZnd1WHpxbEttMUZ4aUgteHpnOFBhOENPWVFldGtR0gHKAUFVX3lxTFA0bXlMUWVVSUMzZGs1T1lhNm5yY2gzekNpM09IS0xzRktnWjZ0VjdRSEEwZUZzaUxDXzduLTZNRDhyQlpDSWpBU25zQjNnNHNFSHFIX2diVUlNNjh3aGxCUURuQUFZYzREWlB2X3FjQTF5Um9jZDRXSkdTSy03WEM3MzMydGNXYUF6QVl0emV1dVRoZ2JqUnRvdGx2RXFvV3R0d3RGTmdpNnJCclFmd3VYenFsS20xRnhpSC14emc4UGE4Q09ZUWV0a1E?oc=5",
     "fuente": "Crónica Global",
     "fecha": "2026-11-01T16:17:37+00:00"
    },
@@ -380,15 +378,15 @@
    },
    {
     "titulo": "Nogueras (Junts) responde a Feijóo vindicando haber forzado al PSOE a hacer lo que no querían",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNczQ3QVp1aEVVU3o2NkxHMG5uYW1CR0lETHJXNnZqelNJcUpsV00xdG5GcGF0djFpQUQ4WUtLVnVENDJIck1qT1dyVklfV2w2ZU5QRk5oU2d1ZWw0LUExR0pkaGtPWFIwT2xKSWJaSUNRWWZvUDdGRFkydFAwSWVCeTVMTDNRT1lSMzFoQUZ3Z3RLZGd5WTJ5bndIdi1raW94b01ONVlSM3h2aHRoTXRfQjRac090T1Zjb2fSAboBQVVfeXFMTXM0N0FadWhFVVN6NjZMRzBubmFtQkdJRExyVzZ2anpTSXFKbFdNMXRuRnBhdHYxaUFEOFlLS1Z1RDQySHJNak9XclZJX1dsNmVOUEZOaFNndWVsNC1BMUdKZGhrT1hSME9sSkliWklDUVlmb1A3RkRZMnRQMEllQnk1TEwzUU9ZUjMxaEFGd2d0S2RneVkyeW53SHYta2lveG9NTjVZUjN4dmh0aE10X0I0WnNPdE9WY29n?oc=5",
-    "fuente": "El Diario Vasco",
+    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSnJaTlJqUUYwUE9XM0pOMnY3R01xRXF6Vms2TzB2VjVFbzlVUHdOdHUyaHFfWU5vQ1kzdDB1MzY2SVluMHZtU1F1VUFfc3dZVFlFeXhndmVlUG9jS3RfTXhJaDZfc3RPdWp0YXlmZHYtTDZRZjhGbzU5NllvM3EycVJUNGhfbDNZR080TWVlZGQ2QU1hd0hqOXJEVXVONnNhMGZONlpOQTZRVHJNcEdOY0xqUVJ6d9IBtgFBVV95cUxNSnJaTlJqUUYwUE9XM0pOMnY3R01xRXF6Vms2TzB2VjVFbzlVUHdOdHUyaHFfWU5vQ1kzdDB1MzY2SVluMHZtU1F1VUFfc3dZVFlFeXhndmVlUG9jS3RfTXhJaDZfc3RPdWp0YXlmZHYtTDZRZjhGbzU5NllvM3EycVJUNGhfbDNZR080TWVlZGQ2QU1hd0hqOXJEVXVONnNhMGZONlpOQTZRVHJNcEdOY0xqUVJ6dw?oc=5",
+    "fuente": "Canarias7",
     "fecha": "2026-11-01T12:55:19+00:00"
    },
    {
-    "titulo": "Nogueras (Junts) responde a Feijóo: \"Forzamos al PSOE a hacer lo que no querían\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVVpyZU5BZjh6V1NiaGlpeXZ2V3ZmcU1kbHJoakJ3bnJvYlpvbWs1d2JzSU8tVzNZS1k4bmxtQ1FWVlpuZDdKeHFDQTEwTm9CMkNNcWFXWU56a3RLSk5KSEJVNWp5Q09QOFN2RlRMNmZUTkFnZWtnVjFYSlRmcHJ0WWhiMmN6TENtckNlVUZMRWdDYWxmSzhic3ZGSlJCeUZ3bEFVeUdrY1M3aW8tbDViVWdTODNZaUhiblJLa1pPZlRwcTN4eVQ1R1ZtNUtCTWE2RF9mTEhIbkxGZ0xsVlHSAeMBQVVfeXFMUFV0QkQ2WDZlZ2tuNWNWNHpJWkNXeGJjZVlva09SQTJ2LXZXbTNZZlZxeGs3ZHY0em14YmhjeUlXWTFSVjd5LU5KU2NuM2N0VzlNRjlxOC1aVUM4cTVPWjNYUEc5WnlfY0JPRlh4TmZnVDNaamNRR3E3c18yd0t2QV9SV01OX1MzZE5DZmFheW5GMlRhMDBiWHpsOE5vV2JUZEJCQnNOMDl3dUI5clF1YW1SXzFtSjVLSk1raW1ZOEJmSzBNOG9YS2NaOGE1LWRkMlBCdkd6eTRBOWdDNWxLbC05emc?oc=5",
-    "fuente": "Córdoba Buenas Noticias",
-    "fecha": "2026-11-01T12:14:53+00:00"
+    "titulo": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNl9iV3d1ME9IcGNHUlpDc3FRWmZ3cXlZXzNhSXBxQW5kVHBsd1VqMk0tbldKdW8yRXlTYzR6TkRaSkt3dU16VEduUm1IaTAxTEN5TVczMFNLYTZqSm0zcHlJODZkMkZBd1hsOEFGcWZTQmJlRUdKRllzVnNGWVFKTU5RRkdPRmRBMmRBUFJRdEdQUW1aWlozTlZab3l0cFhKOC1pd1ZLQTgwa3lXbXJSY3RQZmVyQ2lITXhjd25nQkwtU3RwRk9xWGZiYkFjRDY2eXVnaU1mYlhZQnNDMlAycW1wMEVMWmZtX3BhSU16elJMWnlURTFOOdIB-AFBVV95cUxQNl9iV3d1ME9IcGNHUlpDc3FRWmZ3cXlZXzNhSXBxQW5kVHBsd1VqMk0tbldKdW8yRXlTYzR6TkRaSkt3dU16VEduUm1IaTAxTEN5TVczMFNLYTZqSm0zcHlJODZkMkZBd1hsOEFGcWZTQmJlRUdKRllzVnNGWVFKTU5RRkdPRmRBMmRBUFJRdEdQUW1aWlozTlZab3l0cFhKOC1pd1ZLQTgwa3lXbXJSY3RQZmVyQ2lITXhjd25nQkwtU3RwRk9xWGZiYkFjRDY2eXVnaU1mYlhZQnNDMlAycW1wMEVMWmZtX3BhSU16elJMWnlURTFOOQ?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-11-01T12:01:00+00:00"
    }
   ],
   "Bildu": [
@@ -397,6 +395,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbTJCbTBIelhiRnZxc1NFZ0NLT0FQZ255blZNcUVnbnNlVHV2anhVZk1qVnNoZFgxazlQdFNBZGd2dEw2TUVRTE9FZk5yZTFZRll2ZzRWZlhxTldCQ0R4YmhfajFpNWFKMk9lNHdBRWNlSFE5Mnd5TVVoRVk1YlhKTXh3SEhnZ0JkMVRobE1zNDBlS29qaTBtaFJyaWtSTWVGZFdXYkFoTUloTkExRHpkRG9HOU9wYm9hZEJfaGUyOFc3MWZCVUlHN3JPVzJwOGxpbURvOTBPaG5qcUpmWmVYSDFFWFdDNERYNF9NaEZaYw?oc=5",
     "fuente": "Noticias de Almería",
     "fecha": "2026-10-31T16:59:49+00:00"
+   },
+   {
+    "titulo": "Rodríguez (EH Bildu) rechaza la violencia como \"vía para enfrentar al fascismo\" y llama a la movilización pacífica",
+    "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNR3AyNFU0ZVdYN2w4Rk9xM1UtSHNEZGE0MjJwVjFiR2Fna0pNdkVVUjNzS1o4YXlJWXFHTk5ub3RzTWxTNmwyYU9UdHVzUFFxZmxNZDBrQk05ZzZBdnZlTWVUOUFOVWh4eXBVTDJkaVY2eURILXJ4UDIzeW1EQ19RQ05ES2diTGNfeEY5dWZRZW4tZ0hIUlA0UUxzS2dRdjlGYmdBU2gzMnI3OTZZRzdfXy0tRGEzTlBBRHpMOW1rOGlOVXVPa1E4YWhFYmRnVUxodTlLa3l3UGxPVzJBVHRfYjUxRkpFd3hJTk5EaWwxbHdrRGJsS2o2YzFmUzVlc0pfWV85YW05aVQ4dFNtS3dj0gGPAkFVX3lxTE1HcDI0VTRlV1g3bDhGT3EzVS1Ic0RkYTQyMnBWMWJHYWdrSk12RVVSM3NLWjhheUlZcUdOTm5vdHNNbFM2bDJhT1R0dXNQUXFmbE1kMGtCTTlnNkF2dmVNZVQ5QU5VaHh5cFVMMmRpVjZ5REgtcnhQMjN5bURDX1FDTkRLZ2JMY194Rjl1ZlFlbi1nSEhSUDRRTHNLZ1F2OUZiZ0FTaDMycjc5NllHN19fLS1EYTNOUEFEekw5bWs4aU5VdU9rUThhaEViZGdVTGh1OUtreXdQbE9XMkFUdF9iNTFGSkV3eElOTkRpbDFsd2tEYmxLajZjMWZTNWVzSl9ZXzlhbTlpVDh0U21Ld2M?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-31T16:39:04+00:00"
    },
    {
     "titulo": "Rodríguez (EH Bildu) descarta la violencia y reclama una respuesta pacífica frente al fascismo",
@@ -421,15 +425,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUXFsWjA5Q29uTXJhLVVZVFRVdFRYWWZndWl6NDM2VGZnVlAzTkoxTTlkY3FWaE1iSzBDaFhwOFQ5d1BFOFVHTno3eEJIOEczaDlqRmdFLThNZndiMUdtTVhwc1RGN3NQUkM4QnV4aVVIcTItVDlMOVE4VF9qYmlucTRaRDVodG11MG1ueWpTZ2pQc080TEtpYzlzUElfcGVpSE80THZtdmc1Tkh2ZDQtV0hQLW9jbHh4NjB3dzZyVHQ4ak05NU8yc3VLNjJJRVZ2R1pXNHR3b0U?oc=5",
     "fuente": "ORAIN",
     "fecha": "2026-10-31T13:31:55+00:00"
-   },
-   {
-    "titulo": "EH Bildu alerta: si vence la ultraderecha peligran el pueblo, el autogobierno y el euskera",
-    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZWlJUG5Rd19rQjJyRU5GVnlyZTJFSlllYmItQV9HcGhJWUdQNElDeC10ZnYzT3dUekFzWG01UkRyTHlTQVFod3V0Skh3THNLUzdrNDgtRW80ckF4WlR6bXoxMm1TUTdyeUl4dzBRWGRSdzZOM1ViMGRMQWg5MUNLX2dfclVOOUt6MkkzRmppTGoyX1Y4WWxSNmdvRGRGdXBvU3BzQ3dHOVRJZVQ2UkwtcHBESFp3YzFZZ0pNOFNWcUPSAcYBQVVfeXFMT0xvX1JTTmVPVGxWWkJUdGJ6SkpkYlQteDkxeWZlR2NZZjFQUEZ3eFdsb1V4bElBU3FnQVhyZ1NLTUJ4ZTFnbFNXZXpRYXV5ZF94NUxjaUlmZ3l0VTVkeXlJU0hwbTFGa1phX0o5blJId3FRM0NVVWc0cTNMalVTemh4eVRKRm1fYUZ6cHlfclRnWmI3cjFJcmxTdy16RVVjcWNKb2NIZ2xzVnRQQ3A2d1ZxTENVa2xrNnlkS0hyZWhXbUtxZWZ3?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-31T13:22:30+00:00"
    }
   ],
   "PNV": [
+   {
+    "titulo": "El Gobierno desvió 1 millón del presupuesto para el sistema de seguridad ASFA a pagar el apoyo del PNV",
+    "enlace": "https://okdiario.com/espana/gobierno-desvio-1-millon-del-presupuesto-sistema-seguridad-asfa-pagar-apoyo-del-pnv-20668413",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-01T20:38:46+01:00",
+    "imagen": "https://okdiario.com/img/2026/10/01/el-gobierno-destino-1-millon-interior.jpg"
+   },
    {
     "titulo": "El líder del PP vasco descarta que Feijóo vaya a gobernar con el apoyo del PNV: «Es una parte del PSOE»",
     "enlace": "https://www.eldebate.com/espana/pais-vasco/20261101/lider-pp-vasco-descarta-feijoo-vaya-gobernar-apoyo-pnv-parte-psoe_476194.html",
@@ -456,16 +461,10 @@
     "fecha": "2026-11-01T10:52:34+00:00"
    },
    {
-    "titulo": "El ciclo electoral vasco empieza con Bildu disparado en las encuestas y el PNV en retroceso",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeVRjWks4RDdTU3BNeS1yY2ZCM3p4dlY3dS1Pc1U1MFRCdmNta0swUkFQLUl0QjZvVUhqazhnU3kzVkpJLVUxTnlVMTRtaW1yQUJ1MlAzcWlaX21keEIxN2ZIZXN2c19ZZFZIaUZpcWdDLUpEN1NfUkllQlY4Xy0zNnB3OTRBVkZqUk1kZFZ1ZXozRUU5eTRRQXlDQW9lcGIxbndNZjZBRDFKamFjM2VEY3ktZ1p4Y1A3VVhFak5rRE83LUdsUXlVejZjYWpCV2g50gHQAUFVX3lxTE15VGNaSzhEN1NTcE15LXJjZkIzenh2Vjd1LU9zVTUwVEJ2Y21rSzBSQVAtSXRCNm9VSGprOGdTeTNWSkktVTFOeVUxNG1pbXJBQnUyUDNxaVpfbWR4QjE3Zkhlc3ZzX1lkVkhpRmlxZ0MtSkQ3U19SSWVCVjhfLTM2cHc5NEFWRmpSTWRkVnVlejNFRTl5NFFBeUNBb2VwYjFud01mNkFEMUpqYWMzZURjeS1nWnhjUDdVWEVqTmtETzctR2xReVV6NmNhakJXaDk?oc=5",
-    "fuente": "Crónica Vasca",
-    "fecha": "2026-11-01T04:00:00+00:00"
-   },
-   {
-    "titulo": "El trauma de la escisión sigue vivo en el PNV cuarenta años después",
-    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZThJUENPa2xJcV8wTGV0QzFMY2IwbTNTdXZHMld4NTNQYjNDaGVad1dabjZYTC1ZS1RocmRDMTl5aXNwOFZMbVhmdzJqTHlnQU1PV1cwUkhXaEdOV0E2MG5hdGotSXlBQ1VMX3I0aEtSeTRqc3JaU3FtdTYxWEZBaThzcGxZeWRPa3ZDWE5VVHZ6YzBwc04xMmlaWkVXQ3pnNDUydGplM2hzeFhCM044V1BqTHU3RXlYZDhwZXljQ194RE05eTAwQ3NXOGhadG02SjRUMEJPclNSMlFNcjNYdVk0SXdod9IB5gFBVV95cUxOZThJUENPa2xJcV8wTGV0QzFMY2IwbTNTdXZHMld4NTNQYjNDaGVad1dabjZYTC1ZS1RocmRDMTl5aXNwOFZMbVhmdzJqTHlnQU1PV1cwUkhXaEdOV0E2MG5hdGotSXlBQ1VMX3I0aEtSeTRqc3JaU3FtdTYxWEZBaThzcGxZeWRPa3ZDWE5VVHZ6YzBwc04xMmlaWkVXQ3pnNDUydGplM2hzeFhCM044V1BqTHU3RXlYZDhwZXljQ194RE05eTAwQ3NXOGhadG02SjRUMEJPclNSMlFNcjNYdVk0SXdodw?oc=5",
-    "fuente": "naiz:",
-    "fecha": "2026-10-31T23:00:00+00:00"
+    "titulo": "El PNV exige dimisión de Puente o cese de Sánchez tras tragedia ferroviaria",
+    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZTNMazk1SlJFQVRrcGlUZmtpYzBzRUNKcmJyT1Z4YTBKZTNKT1dNX1A0MjFJZW10YTc5QVVrLUEwbjFwQzFHaGJHQVBYSEVGYnU0NENraFhoaWRkaEx1Vm1lY3JiSm8xa0FXbzlrd1pHMDhNdHlFUm5uQUM3Y2FDWkoyYTB0X3FodEdnQkdUMDJ1UEtUOGNkUFhZR1BqazQzYTB3TQ?oc=5",
+    "fuente": "Espacio Diario",
+    "fecha": "2026-11-01T09:47:24+00:00"
    }
   ],
   "BNG": [
@@ -540,6 +539,13 @@
     "fecha": "2026-11-01T18:01:28+00:00"
    },
    {
+    "titulo": "Primer sondeo tras la tragedia de Urda: PP con UPN sube a 139 escaños y Vox a 64; el PSOE cae a 106 y el Frente Amplio a 5",
+    "enlace": "https://www.elespanol.com/espana/politica/20261101/primer-sondeo-tragedia-pp-vox-amplian-ventaja-sanchez-sigue-cayendo-pese-vaciar-frente-amplio/1003744442810_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-01T17:59:58+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11391971.png?h=5t1mnCW-"
+   },
+   {
     "titulo": "UPN promete recuperar el homenaje a Pablo Sarasate el 1 de noviembre",
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOV01LOF93N1FJcXE2ZDNVdU5VYzVlX2RqOXFQMkFaRGtGM21CUm8xR01OdFd4T3NGZUlXZ01BeDdoS3dxbEJ5WHdmZlpMZjRuelNxN29aNEkwQnJqcG9yWDg2Q3pZLUNheFpDa0RyUHF6c00xQnRfeTAwV3IzYmVzSnJKODdnRFN1Zll3ejJjLTFKcG5ZM0ZqeVQ4bTBVZTlQT29icVdKeEVaM1NNRkxHbUZhcWxHNzM5aXJMNWdzb3pBaDZCamxfeTA3ZVdQZXBXTjNsdTh6aXQyUDdlSF9zT0xR?oc=5",
     "fuente": "Diario de Navarra",
@@ -550,12 +556,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd3QzWGoyUzFBMk9MRWttVWFFRXp2bnJBTkVaSGo2UjZfREQ2NnVqR1NzOUFIcnlHbVpsZk40Y2R0Q0pyMlFoSGF1U3NuYkI0LXZ2NjV1S1J1WHFGLVRhT1VtQ2djR0tTZzNZc3RQZzRtWE10LUl2S2hlVVBMbTBZcmdwcjFNbi11MC1oYTkwaVNXdFhfM2h3UzVVRkd3RHVvMURGZGotczM0d2VPUFpCRmhzbmY1d3M0dlBjeDNR?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-10-30T12:09:55+00:00"
-   },
-   {
-    "titulo": "Dueña de UPC y UPN supera los 40,000 alumnos virtuales en Perú y advierte más competencia",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOektrejZFZ3NBeTNpWHZMbXFPSG5PcVh2OEtQNENReWVqZ2R5VzBSUS1YOXdVdFk1VFN1a2FZY0RPZkdicGFhZDVQUTg4aHNxay1UZ3NaYXJZUDBKUVpwaUFUY3dTRXNCWWdnalJLWlFOVXRFc0FNZldmT1psSWN3aEFmOW9WLVNDQ29BNHJjWUp0bHN1NGNjQ2NnbVpXSG5UMlZWYkhxNmVIbEdQZ09YNWItRGw1eXZuRFVJbUFDNm5sVjZySWJvemR0MlpyZ1BQT3g0VmNISkE5NjA?oc=5",
-    "fuente": "Gestión",
-    "fecha": "2026-10-30T10:30:00+00:00"
    }
   ],
   "AC": [
@@ -570,6 +570,24 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdHhOelVvekp0dHNtMU1EaWxFcUZabm1Jbkd1SDdMU3hleUFxNWw2T2x0MExNWWJZNnBWSnB3cFcwRUFyTHlHb3I3LWVfLS1CMm55dHJwTFJ2Qk1lbkNrTnVuZm42MEJWN1FFRU1TQjI4UFY2elZGTXYtN3ZXUGlfU2RFVUxtRGhfaDllUTRqbGxBV3pBdUNQY0x5R0p5d3A4Z1dOemY3Q0VVbXB3NzV3Y2M4N1F3N0JqcXI3R21mM3RYVGVNaHU2SGtXemZTTlpVSGJKbjNJRUxWeVNrTzFaRm1QQdIB6AFBVV95cUxPNU9taWFsSFVCWTJ2WmdUWGFuTzQ0WUhRZVk2ak9xOWNaT24ybzRlRFZoQ0UwUXExWUNsXzk5dDFCU2tpaDFfdWhyVndzXzVxNUdnYWtaNHRiMmd1ZFJrVUFTdnNRT1FTZWhadGhyN1MxbnM5Z0RrMXRoNHJyZG5lU29QSnZqNTc3T0ZXWktmaHU2S3BUSFBqcWh2ZmExQzB0M21VWV9GaVRCRGR6dHVDdGdOaWJHQ1FVSlllSUxXb0YwMGQ5UGpOdFBuNEJsVm91SFlZOWxzTTVDTHZlTDVPcHVLMlJlN1RW?oc=5",
     "fuente": "El Español",
     "fecha": "2026-11-01T04:00:00+00:00"
+   },
+   {
+    "titulo": "El Levante más endeble en Orriols",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ2k4bGs3Y0JHcEVQRW5qc0ZUTXVmTmloX1NfQmlzdmVIZWthM0FPdkV1b0VUWmR6WTVBSVV1Q0NpSWxxN0pqUTB4YUozdWZHQS0wQTBiUU1Lb1AyRkRtc1FHS1M1dHVwRTV1d2JRdkVJZ094S290NmxYSHA1MHpVSTlzMzV5cFg1RkZaTU51aEJXM0HSAZMBQVVfeXFMT2dpOGxrN2NCR3BFUEVuanNGVE11Zk5paF9TX0Jpc3ZlSGVrYTNBT3ZFdW9FVFpkelk1QUlVdUNDaUlscTdKalEweGFKM3VmR0EtMEEwYlFNS29QMkZEbXNRR0tTNXR1cEU1dXdiUXZFSWdPeEtvdDZsWEhwNTB6VUk5czM1eXBYNUZGWk1OdWhCVzNB?oc=5",
+    "fuente": "Las Provincias",
+    "fecha": "2026-10-31T17:40:09+00:00"
+   },
+   {
+    "titulo": "Silvia Orriols: \"La mayoría de menores marroquíes tienen DNI español, pero lo que importa saber es, si son delincuentes, cuántos tienen progenitores extranjeros\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQWkQxdFlUd3UyVTZaXzA4VXo0VnMxcm5oZGpuekRCQUVMZmtRVlhONk9HcTlCcFROZDRSUm45UXJ0RWROMnA3TjB6ZEJVVUZoZHl6VXo2T1JxRWtGbHRxeGNGQ19CdGlGYlpzcGpOWWNENkhla2I3S0ZUWWR4aEpXbzZKM0puNUQ3V1VNNjhuUlRuQTBfMnRHYmRod1M3YkxTQk80U2RzVHZxUkhwRDVMSmdBeWd3VDdRU3BvZ2hrZU9xaVVrdUN0OHV3YThJY3MyYnJoZVlTdy1ja3ZZQ0swTkFZQlE1RVpLaVFyT3F6NzJFS2E0YWliZHE5Wjd3Q0Z1UFhpelpYMEhscFRNS2o1NDdON2k1MWh0TV9zb0JzQlctMmRRdUhsemp0cVZkTnRScGttYnhFZ1IzRGh4ZFpsQzczMTVEM3Jf0gHIAkFVX3lxTFBaRDF0WVR3dTJVNlpfMDhVejRWczFybmhkam56REJBRUxma1FWWE42T0dxOUJwVE5kNFJSbjlRcnRFZE4ycDdOMHpkQlVVRmhkeXpVejZPUnFFa0ZsdHF4Y0ZDX0J0aUZiWnNwak5ZY0Q2SGVrYjdLRlRZZHhoSldvNkozSm41RDdXVU02OG5SVG5BMF8ydEdiZGh3UzdiTFNCTzRTZHNUdnFSSHBENUxKZ0F5Z3dUN1FTcG9naGtlT3FpVWt1Q3Q4dXdhOEljczJicmhlWVN3LWNrdllDSzBOQVlCUTVFWktpUXJPcXo3MkVLYTRhaWJkcTlaN3dDRnVQWGl6WlgwSGxwVE1LajU0N043aTUxaHRNX3NvQnNCVy0yZFF1SGx6anRxVmROdFJwa21ieEVnUjNEaHhkWmxDNzMxNUQzcl8?oc=5",
+    "fuente": "La Razón",
+    "fecha": "2026-10-31T06:00:18+00:00"
+   },
+   {
+    "titulo": "Jordi Aragonès: \"Si Aliança Catalana gobierna, en seis meses recuperaremos el orden en Ciutat Vella\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNU19vb0tpV2dUNnRlUFhCOWhkRTREUGRUVDBkZUR6c0RYQnU2SlFVNDlGdHRibkd6QnI5eWJud2NUc1ZnMjdVaXg4M3pEYVFXS3VVcnJuOHJiY3BsWDk1eGIyR1J1Skg3V1h3cUZ3RVR6Szc2a092bldhMzg1dWtuVm9mZlZZSGJXRUlpM3Z0RzNPMEhaV2FhemlJMEtuOUFmWDRTZW1vT3BtUUdvNnUwUklpRFZCanB6b1pKd0s0WnEwcjZKR0dKVDQ2a3RQZTdwX25NQVFBVk9FaXltV3VJN2ZVdnFMXzc0eS1uQ0VTRFhQVmg4UTFtQ05MZDhTQdIBgwJBVV95cUxPVEVqb3Z3Qk8xT2M5TDcwd1AyVnhWYlVKeGtrcUZaU2JIcEI4TXFqbEhmcWw4VmNJRlpjRG5lZmZVZ1BLR3owNXhNMk5yYlAyZ1RudUM4d0ExOVpKdmtWZ1poRVNfX2NxVTJ1NHhxVW9RZGpKNGRPdk9ycmJCOFBqZGdydDllQ0FvSV9oTm9oQThkR0QyOHVVd0JmZEV0SEdGY05kcVNuakxwSnJiR2dIX0NxNWtSdjh6RzFrUE5rV0VYRWItMi1YS0VDdmE0b2k5Z1BZTkE2Z3Nsdzc3WG43bnNZbXhXQnFQVlVuaDdYS2owQ0tLZzUwOUV2SFVwcVZhbk5z?oc=5",
+    "fuente": "Metrópoli Abierta",
+    "fecha": "2026-10-31T05:00:00+00:00"
    },
    {
     "titulo": "¿Una Aliança Catalana en el País Vasco? Así es el partido que se dará a conocer en enero y mira al BSW alemán",
@@ -617,7 +635,14 @@
     "fecha": "2026-10-30T15:04:53+00:00"
    }
   ],
-  "Vox": [],
+  "Vox": [
+   {
+    "titulo": "¿«PP y Vox votaron juntos en contra de determinadas medidas relacionadas con Renfe y con la protección de los precios del transporte»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNy14a2plaEhHeHZlR3V6NDJhOU9hd0FySHpwWW12MHh1ZHBLS2xKMVhnaTJfNDgzVUd4LWJUZEphZk4wY3RMVjM2M0UwcFpXdlp5dy1OajhNUDNfdzVkS2Z3N3E4N041UXRlNG5TV2pfTXFuZDhKMHhneFBTRXVtcy1oczV3YVlOeE1KemNNdWRfYWFBNDdSNlRtaW8wWlhTTUcyUkV1d2U0Z1plR2RsQ251ZDE2WFVTUUdyRkp1Slk0d0ZFYmtxeGs4QUU0bUFaRlZ1WjluYmFpR29FbjltOC10ZUJaYzJ2OUxISWFla1FNeXh0QUxR?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-30T15:04:53+00:00"
+   }
+  ],
   "Sumar": [
    {
     "titulo": "Desde que Yolanda Díaz es ministra el SMI ha subido un 28,5%, 37 puntos menos de lo que dice Urtasun",
@@ -704,18 +729,6 @@
  },
  "verificaciones_generales": [
   {
-   "titulo": "¿Te ha tocado mesa el 29N y no puedes ir? Descubre en este juego online qué causas están justificadas",
-   "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91ZGZWNWo3dWgwZV9JdVZDSGV6b1BKLXdJVDlTY1NKWjdrNVVDTUt1WEM0ZnIxcHUzckdBbjB1RkJpSjQ5bjVCOTRMVkJtMWVsMlcxZUFUTTN0T1k4SkhxeEZySVpPRzJtMkg0eFVxZFBpUldYTFE?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-11-01T06:08:48+00:00"
-  },
-  {
-   "titulo": "Verificatón29N: Newtral convoca a universidades de toda España para verificar la campaña electoral",
-   "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yemlQNkswbGRlWHRaS1hBSS1TS08xQkI0UVpmMWV4MjhIS2lJNWhMV1ItVVRrajB2M0x4WkY1WFdMb2tCMEdpUUs1SjNSRlR3cW5IcE91MlNRM0NNcUFveGx2amdNY3U0QUw2Y1pQcWNnQ3NYNFRpR3pR?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-10-31T08:16:47+00:00"
-  },
-  {
    "titulo": "La renovación (o no) en las listas al Congreso: estos son los candidatos de cara a las elecciones del 29N",
    "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mcWtCTGN0cTgwNHNYcXdXdUNGbERPR2Q2bGRoWUx3N2JsUjJ2V3RGdS1SVEx6Z1p0bDBBcVNoZWdZR3BHUm9KY1ZUM2JLbGVXYURfQTNvYWprQnhCZ2NzQndKZk9FelVMZGpoMHBOZnN1UTJJNUNuWDl0SWVwZnM?oc=5",
    "fuente": "Newtral",
@@ -750,6 +763,18 @@
    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ0pSWXZfellmcHF6c0FWTm1kelc2NWV3emZYODVkam9GMUd2UVhCOWlMUnZ2QUxGSmVpS3VIVjBUMWZQYlRJVzlleG11WXlOeGNDUVVTTzhDVi1nY0stcXRITy1RZEMwYnBCN2NfaUJLOGVKUEpFbE9YOGlOTDM5RWdlcHFyTVNUSnhvbXdZMExLQWhidUs2bTJtX3BvdkszaXp6TF9zZVliY1VRSlE2dmpic3loZlhPSmZPcl9DcHNDZlk3dG5QY2dnYWkyNG9hejRnN0lWSENDWHlFZTBkaWNyMHVzbzMxV3FPQ1JYSUc0UDg?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-10-29T12:56:00+00:00"
+  },
+  {
+   "titulo": "Por qué hay más votantes que habitantes en algunas ciudades de Brasil y por qué no indica que haya habido fraude electoral",
+   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVU5uZ016NUZDUVZZQ25ERS16eUZXQWRlNTVZTkhGMFZIT3RKTmtWUERDYk1MdlE0MEtuSVB2SFRBUGtVOE0telgwMUZXRmM3RlRkalZNU0ZrN19xVFNaSGtwQXBEX01xUmVacGJVbEZ4YVZiWTFwOFhiTzhIWUxyTTBtcTJRaWxkM2lFdHo1LW00czFqOWduLXhvVTRVbnJPM01ERVB4RzJ2a2UxbGk5MlVIQm5QRlhJWEN0cGEtVm5yVFJlMDVzRXB1dlctMGZXOHpmY2ZYQlAxWHV4Q3BOU0FrRUY1VDdvMS13T0xXenA?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-10-29T11:17:08+00:00"
+  },
+  {
+   "titulo": "¿«Irene Montero y Gabriel Rufián asisten a La Revuelta y hablan de sexo»?",
+   "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObW15QkVIanFrOGx6VjFzUXdSNEV6SWthWnlWeWU5UnJKZjVwSnZ5RU1DYUw4VmNzdnI1M0VVZmFZelRmWGUtaVNTeElBLXIxWHVDUkJQMi00NXczYWc1cUVxQ1lSWGFpMFFLTGFlZTdiajhleVNZOTJpXzdvb2Roall6eWdnYTVhSTM0dXNRcHBBcjBWQ28xeUVHTUJNdzdmOWM3aU13?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-10-28T16:07:10+00:00"
   }
  ],
  "polemicas": [
@@ -764,7 +789,7 @@
    "titulo": "Un vicepresidente de Vox, bajo la lupa de la Fiscalía por utilizar tres coches oficiales",
    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdDlsX05xbUJVQUVaWVNPNWo2NjBvN2g3cEtJVlprMHVNdThTOHdmclk3amtPS3hEUDlMbGlrdDhtZEZOaXRUdWx3bk1mWER6cy11NmhhQldqSkRwQkQ4Q0FxZVFaZVY2UTRlZFNXN1ZwNFhqSmlJOFgya0FtV0xnVlJLZzJEYUR0YjJJR1V2aWNpUWVzWkhNNGtSU2s3TXNCWGQ5Z0Uxa2M3VFVvU2xXQl9BdGVkYkhMOHJrNVlnckEwUnVQY0hvadIBzgFBVV95cUxPWThzV0RPbFMyNzZmNmtid1B2dmVNWkpHY1pqSXhGX2VsZDFCNS1yTF9vcnlIU3U4NEhCQ3JLVDkwdjRla2JaWTBhZEtWYl9RSDBub1FMc2ZLbE5MQ1BlZWZQQTNsaExhdjc2T1RjdTgta2tNQUFweEF4RklSc1lscDU0ajJhLTFrWV90U1JybnFpTUsxR256M1R5WUZPZ2h4WnJDNXZzOXo0XzJCRTRkdURwSVJnQjhVNWl3d2lmcnRiM0hCd05sR0JhRlczdw?oc=5",
    "fuente": "Diario de Avisos",
-   "fecha": "2026-11-01T16:48:59+00:00",
+   "fecha": "2026-11-01T17:17:39+00:00",
    "partido": "Vox"
   },
   {
@@ -829,13 +854,6 @@
    "fuente": "Diario Público",
    "fecha": "2026-10-29T11:44:11+00:00",
    "partido": "PP"
-  },
-  {
-   "titulo": "«Desorden total»: bronca en el PSOE por los cambios obligados en sus listas al Senado",
-   "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSk9mVmFmaS1BRzJXRjJ2X2YzZXRVOW5neE81c2wzX2NxbTFST2pfTlNwYzdrZjNnLTNUSXIwZm5mMzNHNE9UYWtCMEpfQS0wUjlfcVFSaWI5SjdGTGxrbDdjNU5VYlQwT3lOcTFDal9CRnNsYW5DNDdDcjUyUTRZVlhST28tU09XM2F5d0J2bU7SAZYBQVVfeXFMUDNkSTU4ZS1CYmp6Z1NHU2RwOHVYeGxINnl6V2RHZ1FEeXNINDNUdURKX2stRnRlYy1lZ0t2VmFoZFhUNjBQNExRdDdhY3drdllkME1iZy0tUndZZ2tJd1g5WV9HUU1JTzVTdi15SUxUQ0ZWbnZTNG5BajNkRkpXUFFBV3FxOUZMTEJuWGpBeTVsYjdhTVJ3?oc=5",
-   "fuente": "The Objective",
-   "fecha": "2026-10-28T04:25:00+00:00",
-   "partido": "PSOE"
   },
   {
    "titulo": "Más Madrid: la \"polémica\" conducta de Tesh Sidi en su grupo parlamentario",
