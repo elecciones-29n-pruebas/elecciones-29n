@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-03T18:26:42+00:00",
-  "mensaje": "528 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-03T18:26:42+00:00",
+  "hora": "2026-11-03T23:59:07+00:00",
+  "mensaje": "528 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-11-03T23:59:07+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -15,32 +15,30 @@
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": [
-    "More in Common 2026-10-25"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-03T18:27:37.437Z",
-  "mensaje": "10000 repeticiones, faltan 26 días",
-  "ultima_buena": "2026-11-03T18:27:37.437Z",
+  "hora": "2026-11-03T23:59:59.276Z",
+  "mensaje": "10000 repeticiones, faltan 25 días",
+  "ultima_buena": "2026-11-03T23:59:59.276Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-03T18:28:08+00:00",
+  "hora": "2026-11-04T00:00:32+00:00",
   "mensaje": "10 titulares del día, 80 por partido, 15 polémicas",
-  "ultima_buena": "2026-11-03T18:28:08+00:00",
+  "ultima_buena": "2026-11-04T00:00:32+00:00",
   "detalle": {
    "medios": 17
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-11-03T18:28:08+00:00"
+  "hora": "2026-11-04T00:00:32+00:00"
  },
  "avisado": {},
  "fiabilidad": {
