@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-06T15:02:25+00:00",
-  "mensaje": "529 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-06T15:02:25+00:00",
+  "hora": "2026-11-06T20:53:49+00:00",
+  "mensaje": "530 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-06T20:53:49+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -15,35 +15,33 @@
     "IMOP/El Confidencial 2026-10-16",
     "Sigma Dos/Antena 3 2023-11-27"
    ],
-   "corregidas": [
-    "SW Demoscopia/La Séptima 2026-11-04"
-   ],
+   "corregidas": [],
    "nuevas": [
-    "Celeste-Tel/Onda Cero 2026-11-03"
+    "SW Demoscopia/La Séptima 2026-11-05"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-06T15:03:16.567Z",
+  "hora": "2026-11-06T20:54:38.813Z",
   "mensaje": "10000 repeticiones, faltan 23 días",
-  "ultima_buena": "2026-11-06T15:03:16.567Z",
+  "ultima_buena": "2026-11-06T20:54:38.813Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-06T15:03:44+00:00",
-  "mensaje": "10 titulares del día, 90 por partido, 21 polémicas",
-  "ultima_buena": "2026-11-06T15:03:44+00:00",
+  "hora": "2026-11-06T20:55:04+00:00",
+  "mensaje": "10 titulares del día, 90 por partido, 23 polémicas",
+  "ultima_buena": "2026-11-06T20:55:04+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-11-06T15:03:44+00:00"
+  "hora": "2026-11-06T20:55:04+00:00"
  },
  "avisado": {},
  "fiabilidad": {
