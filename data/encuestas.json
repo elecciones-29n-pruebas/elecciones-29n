@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-08T21:10:26+00:00",
+ "actualizado": "2026-11-09T00:54:23+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384553381,
+ "revision": 1384580585,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,98 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "40dB/Prisa",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-09",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 29.9,
+    "Vox": 18.0,
+    "Sumar": 10.0,
+    "Podemos": 1.2
+   },
+   "escanos": {
+    "PP": 130.5,
+    "PSOE": 119.0,
+    "Vox": 61.0,
+    "Sumar": 18.0,
+    "Podemos": 0.0
+   },
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "encargo": "Prisa",
+   "id": "40db-2026-11-09-0",
+   "primera_vez": "2026-11-09T00:54:23+00:00"
+  },
+  {
+   "empresa": "SocioMétrica/El Español",
+   "inicio": "2026-09-01",
+   "fin": "2026-11-08",
+   "muestra": 5460,
+   "participacion": null,
+   "pct": {
+    "PP": 32.3,
+    "PSOE": 27.7,
+    "Vox": 18.9,
+    "Sumar": 5.9,
+    "ERC": 2.4,
+    "Junts": 1.4,
+    "Bildu": 1.6,
+    "PNV": 0.8,
+    "BNG": 1.0,
+    "CCa": 0.5,
+    "AA": 1.7,
+    "Podemos": 1.2,
+    "SALF": 2.2
+   },
+   "escanos": {
+    "PP": 136.0,
+    "PSOE": 108.0,
+    "Vox": 66.0,
+    "Sumar": 8.0,
+    "ERC": 9.0,
+    "Junts": 6.0,
+    "Bildu": 8.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "encargo": "El Español",
+   "id": "sociometrica-2026-11-08-5460",
+   "primera_vez": "2026-11-09T00:54:23+00:00"
+  },
+  {
+   "empresa": "SW Demoscopia/La Séptima",
+   "inicio": "2026-11-07",
+   "fin": "2026-11-07",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 28.7,
+    "PSOE": 31.0,
+    "Vox": 17.3,
+    "Sumar": 15.2
+   },
+   "escanos": {
+    "PP": 116.0,
+    "PSOE": 128.0,
+    "Vox": 62.0,
+    "Sumar": 26.0
+   },
+   "empresa_base": "SW Demoscopia",
+   "clave": "swdemoscopia",
+   "encargo": "La Séptima",
+   "id": "swdemoscopia-2026-11-07-0",
+   "primera_vez": "2026-11-09T00:54:23+00:00"
+  },
   {
    "empresa": "EM-Analytics/Electomanía",
    "inicio": "2026-11-01",
@@ -62,6 +154,70 @@
    "encargo": "Electomanía",
    "id": "electopanel-2026-11-06-1860",
    "primera_vez": "2026-11-08T17:03:31+00:00"
+  },
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-10-30",
+   "fin": "2026-11-06",
+   "muestra": 4172,
+   "participacion": null,
+   "pct": {
+    "PP": 31.0,
+    "PSOE": 25.2,
+    "Vox": 19.4,
+    "Sumar": 8.1,
+    "ERC": 2.9,
+    "Junts": 1.2,
+    "Bildu": 1.3,
+    "PNV": 0.9,
+    "BNG": 1.0,
+    "CCa": 0.4,
+    "AA": 1.6,
+    "Podemos": 1.6
+   },
+   "escanos": {
+    "PP": 134.0,
+    "PSOE": 103.5,
+    "Vox": 66.0,
+    "Sumar": 14.5,
+    "ERC": 8.5,
+    "Junts": 5.5,
+    "Bildu": 7.0,
+    "PNV": 5.0,
+    "BNG": 2.0,
+    "CCa": 0.5,
+    "AA": 3.5,
+    "Podemos": 0.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-11-06-4172",
+   "primera_vez": "2026-11-09T00:54:23+00:00"
+  },
+  {
+   "empresa": "GAD3/ABC",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-05",
+   "muestra": 1502,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 25.9,
+    "Vox": 18.6,
+    "Sumar": 15.0
+   },
+   "escanos": {
+    "PP": 136.0,
+    "PSOE": 103.0,
+    "Vox": 63.0,
+    "Sumar": 24.0
+   },
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "encargo": "ABC",
+   "id": "gad3-2026-11-05-1502",
+   "primera_vez": "2026-11-09T00:54:23+00:00"
   },
   {
    "empresa": "Ateneo del Dato/elDiario.es",
