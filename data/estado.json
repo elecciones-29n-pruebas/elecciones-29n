@@ -1,48 +1,52 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-09T07:58:05+00:00",
-  "mensaje": "536 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-09T07:58:05+00:00",
+  "hora": "2026-11-09T18:47:38+00:00",
+  "mensaje": "535 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-09T18:47:38+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
+    "SW Demoscopia/La Séptima 2026-11-07",
     "IMOP/El Confidencial 2026-11-06",
     "SW Demoscopia/La Séptima 2026-11-06",
+    "NC Report/La Razón 2026-11-05",
     "SW Demoscopia/La Séptima 2026-11-05",
     "Sondaxe/La Voz de Galicia 2026-11-04",
     "SW Demoscopia/La Séptima 2026-11-04",
+    "Data10/Okdiario 2026-11-03",
     "NC Report/La Razón 2026-10-29",
-    "Sondaxe/La Voz de Galicia 2026-10-28",
-    "Hamalgama Métrica/Vozpópuli 2026-10-28",
-    "NC Report/La Razón 2026-10-24",
-    "IMOP/El Confidencial 2026-10-16"
+    "Sondaxe/La Voz de Galicia 2026-10-28"
    ],
-   "corregidas": [],
-   "nuevas": []
+   "corregidas": [
+    "GAD3/Vocento 2026-11-05"
+   ],
+   "nuevas": [
+    "40dB/Prisa 2026-11-04"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-09T07:58:46.379Z",
+  "hora": "2026-11-09T18:48:27.281Z",
   "mensaje": "10000 repeticiones, faltan 20 días",
-  "ultima_buena": "2026-11-09T07:58:46.379Z",
+  "ultima_buena": "2026-11-09T18:48:27.281Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-09T07:59:11+00:00",
-  "mensaje": "10 titulares del día, 89 por partido, 23 polémicas",
-  "ultima_buena": "2026-11-09T07:59:11+00:00",
+  "hora": "2026-11-09T18:48:54+00:00",
+  "mensaje": "10 titulares del día, 88 por partido, 25 polémicas",
+  "ultima_buena": "2026-11-09T18:48:54+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-11-09T07:59:12+00:00"
+  "hora": "2026-11-09T18:48:55+00:00"
  },
  "avisado": {},
  "fiabilidad": {
