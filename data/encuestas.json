@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-09T18:47:38+00:00",
+ "actualizado": "2026-11-10T02:07:57+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384699873,
+ "revision": 1384744286,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,39 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "SW Demoscopia/La Séptima",
+   "inicio": "2026-10-26",
+   "fin": "2026-11-08",
+   "muestra": 5500,
+   "participacion": null,
+   "pct": {
+    "PP": 28.5,
+    "PSOE": 31.1,
+    "Vox": 17.3,
+    "Sumar": 15.2
+   },
+   "escanos": {
+    "PP": 116.0,
+    "PSOE": 128.0,
+    "Vox": 63.0,
+    "Sumar": 26.0,
+    "ERC": 10.0,
+    "Junts": 4.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "SW Demoscopia",
+   "clave": "swdemoscopia",
+   "encargo": "La Séptima",
+   "id": "swdemoscopia-2026-11-08-5500",
+   "primera_vez": "2026-11-10T02:07:57+00:00"
+  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-09-01",
