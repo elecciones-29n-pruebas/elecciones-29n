@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-10T09:49:06+00:00",
-  "mensaje": "536 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-10T09:49:06+00:00",
+  "hora": "2026-11-10T17:50:05+00:00",
+  "mensaje": "536 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-11-10T17:50:05+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,32 +19,30 @@
     "NC Report/La Razón 2026-10-29"
    ],
    "corregidas": [],
-   "nuevas": [
-    "DYM/Henneo 2026-11-06"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-10T09:49:47.188Z",
+  "hora": "2026-11-10T17:50:51.696Z",
   "mensaje": "10000 repeticiones, faltan 19 días",
-  "ultima_buena": "2026-11-10T09:49:47.188Z",
+  "ultima_buena": "2026-11-10T17:50:51.696Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-10T09:50:10+00:00",
-  "mensaje": "10 titulares del día, 86 por partido, 24 polémicas",
-  "ultima_buena": "2026-11-10T09:50:10+00:00",
+  "hora": "2026-11-10T17:51:13+00:00",
+  "mensaje": "10 titulares del día, 89 por partido, 26 polémicas",
+  "ultima_buena": "2026-11-10T17:51:13+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-11-10T09:50:10+00:00"
+  "hora": "2026-11-10T17:51:13+00:00"
  },
  "avisado": {},
  "fiabilidad": {
