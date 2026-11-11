@@ -1,26 +1,47 @@
 {
- "actualizado": "2026-11-10T23:20:00+00:00",
+ "actualizado": "2026-11-11T06:17:35+00:00",
  "generales": [
   {
-   "titulo": "No es la encuesta, es el encuestador",
-   "enlace": "https://www.elmundo.es/espana/2026/11/11/6af36d8afdddffc3368b4570.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-11T00:00:31+01:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/04/19/17766116154918.jpg"
+   "titulo": "Ultima hora de la huelga general y actualidad de las elecciones generales del 29-N, en directo",
+   "enlace": "https://okdiario.com/espana/ultima-hora-huelga-general-actualidad-elecciones-generales-del-29-n-directo-20748233",
+   "fuente": "OKdiario",
+   "fecha": "2026-11-11T07:06:41+01:00",
+   "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
   },
   {
-   "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
-   "enlace": "https://www.abc.es/espana/misa-funeral-catedral-toledo-victimas-tren-urda-20261110175926-di.html",
+   "titulo": "Críticos del PSOE andaluz cuestionan la huelga como eje de la campaña",
+   "enlace": "https://www.abc.es/espana/andalucia/criticos-psoe-andaluz-cuestionan-huelga-eje-campana-20261111070310-nts.html",
    "fuente": "ABC",
-   "fecha": "2026-11-10T23:53:14+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/10/1520037009-U201157731614t1E-U40269132776ENE-1200x840@diario_abc.jpg"
+   "fecha": "2026-11-11T07:03:10+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/11/vivienda-andalucia-sevilla-RsNdbrfvQeBzTaGKA9G7irL-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "Feijóo acusa a Sánchez de no respetar \"a los muertos\" de Urda y denuncia la \"difamación\" de Koldo al PP ante los tribunales",
-   "enlace": "https://www.elespanol.com/espana/politica/20261110/feijoo-acusa-sanchez-no-respetar-muertos-urda-lleva-juez-difamacion-koldo-pp/1003744453358_0.html",
+   "titulo": "Elecciones generales del 29N: última hora de la precampaña electoral de Feijóo, Sánchez, Abascal y resto de candidatos",
+   "enlace": "https://www.lavanguardia.com/politica/20261111/11680591/elecciones-generales-29n-ultima-hora-precampana-electoral-feijoo-sanchez-abascal-resto-candidatos-hoy-miercoles-11-noviembre-en-directo.html",
+   "fuente": "La Vanguardia",
+   "fecha": "2026-11-11T07:00:00+01:00",
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/10/6af30fb8242b3.jpeg"
+  },
+  {
+   "titulo": "Los primeros Presupuestos de PP y Vox, marcados por el 11-N: la Cámara votará las enmiendas con la oposición en huelga",
+   "enlace": "https://www.elespanol.com/espana/andalucia/20261111/primeros-presupuestos-pp-vox-marcados-camara-votara-enmiendas-oposicion-huelga/1003744453142_0.html",
    "fuente": "El Español",
-   "fecha": "2026-11-10T23:27:02+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11398394.png?p=w:1706/h:960&h=6ByHy2dg"
+   "fecha": "2026-11-11T06:50:00+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11398226.jpg?p=c:1727:973:nowe:44:360/w:1706/h:960&h=mBO_ZAk4"
+  },
+  {
+   "titulo": "Sevilla, el granero de votos que se le escapa al PSOE y donde Sánchez intensifica la campaña: \"Es un problema\"",
+   "enlace": "https://www.20minutos.es/nacional/sevilla-granero-votos-que-se-le-escapa-psoe-donde-sanchez-intensifica-campana-es-un-problema_7059514_0.html",
+   "fuente": "20minutos",
+   "fecha": "2026-11-11T05:43:57+01:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/10/6aca299feff774-82820655.jpeg"
+  },
+  {
+   "titulo": "José Ignacio García, líder de Adelante Andalucía: “Lo mejor que tiene el PSOE es que no gobierne el PP”",
+   "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-11/jose-ignacio-garcia-lider-de-adelante-andalucia-lo-mejor-que-tiene-el-psoe-es-que-no-gobierne-el-pp.html",
+   "fuente": "El País",
+   "fecha": "2026-11-11T04:30:01+00:00",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/7B5PKL3Y4NHBLHUNO4LFU5KQM4.jpg?auth=eff4ff5d26b3e92bcf1f1af5bbc1412ba138f39f76db40cd24f4041dda89fe12"
   },
   {
    "titulo": "Las diez píldoras del día",
@@ -37,32 +58,11 @@
    "imagen": "https://static.eldiario.es/clip/28bc3786-2046-4791-8c45-91a2aa8721ad_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
-   "titulo": "Todas las excusas del PP para oponerse a la huelga general: de electoral e inoportuna a cargar contra los convocantes",
-   "enlace": "https://www.lasexta.com/noticias/nacional/todas-excusas-oponerse-huelga-general-electoral-inoportuna-cargar-convocantes_202611106af3870dea8d89799780def6.html",
-   "fuente": "laSexta",
-   "fecha": "2026-11-10T22:05:17+01:00",
-   "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/10/859900D9-43BA-4D2A-AE8F-7B0C225F3D96/todas-excusas-oponerse-huelga-general-electoral-inoportuna-cargar-convocantes_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "\"Prioridad\" para ayudas según el arraigo, ley del concebido no nacido y PAU común en todo el país: la parte social del programa del PP",
-   "enlace": "https://www.20minutos.es/nacional/prioridad-para-ayudas-segun-arraigo-ley-concebido-no-nacido-pau-comun-todo-pais-parte-social-programa-pp_7059480_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-11-10T20:12:47+01:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/10/6af32e5660cfc9-67550913.jpeg"
-  },
-  {
-   "titulo": "Ada Colau en 'La Revuelta', hoy en directo | Última hora de la entrevista de David Broncano",
-   "enlace": "https://www.lavanguardia.com/politica/20261110/11681084/entrevista-ada-colau-la-revuelta-david-broncano-ultima-hora-hoy-en-directo.html",
-   "fuente": "La Vanguardia",
-   "fecha": "2026-11-10T20:00:02+01:00",
-   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/10/6af3903299eae.jpeg"
-  },
-  {
-   "titulo": "Moncloa exprime la maquinaria del Consejo de Ministros con dos extra en campaña y sin descartar el indulto al exfiscal general",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-10/consejos-ministros-medidas-sociales-1tps_4462111/",
+   "titulo": "11-N: la \"huelga política\" que se puso en marcha tras una llamada de Yolanda Díaz a los jefes de los sindicatos",
+   "enlace": "https://www.elconfidencial.com/espana/2026-11-10/11n-huelga-politica-llamada-yolanda-diaz-sindicatos_4462508/",
    "fuente": "El Confidencial",
-   "fecha": "2026-11-10T16:36:00+01:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/e2b/f87/e2bf8735c796671afd2bd5daad3fd1d3/limite-100-escanos-el-objetivo-de-sanchez-para-aguantar-en-el-psoe-frente-a-un-triple-via-crucis.jpg?mtime=1793958812"
+   "fecha": "2026-11-10T20:13:00+01:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/292/d27/292d27e8da4b43f5727415efa9f695f3/puente-admitio-antes-de-dimitir-que-las-grandes-medidas-que-sanchez-prometio-tras-adamuz-estaban-sin-cumplir.jpg?mtime=1794243709"
   },
   {
    "titulo": "Feijóo reunirá el ingreso mínimo vital y subsidios en una \"renta de activación\" vinculada a la búsqueda de empleo",
@@ -75,122 +75,126 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
-    "enlace": "https://www.abc.es/espana/misa-funeral-catedral-toledo-victimas-tren-urda-20261110175926-di.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-10T23:53:14+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/10/1520037009-U201157731614t1E-U40269132776ENE-1200x840@diario_abc.jpg"
+    "titulo": "Elecciones generales del 29N: última hora de la precampaña electoral de Feijóo, Sánchez, Abascal y resto de candidatos",
+    "enlace": "https://www.lavanguardia.com/politica/20261111/11680591/elecciones-generales-29n-ultima-hora-precampana-electoral-feijoo-sanchez-abascal-resto-candidatos-hoy-miercoles-11-noviembre-en-directo.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-11T07:00:00+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/10/6af30fb8242b3.jpeg"
    },
    {
-    "titulo": "Todas las excusas del PP para oponerse a la huelga general: de electoral e inoportuna a cargar contra los convocantes",
-    "enlace": "https://www.lasexta.com/noticias/nacional/todas-excusas-oponerse-huelga-general-electoral-inoportuna-cargar-convocantes_202611106af3870dea8d89799780def6.html",
-    "fuente": "laSexta",
-    "fecha": "2026-11-10T22:05:17+01:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/10/859900D9-43BA-4D2A-AE8F-7B0C225F3D96/todas-excusas-oponerse-huelga-general-electoral-inoportuna-cargar-convocantes_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Los primeros Presupuestos de PP y Vox, marcados por el 11-N: la Cámara votará las enmiendas con la oposición en huelga",
+    "enlace": "https://www.elespanol.com/espana/andalucia/20261111/primeros-presupuestos-pp-vox-marcados-camara-votara-enmiendas-oposicion-huelga/1003744453142_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-11T06:50:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11398226.jpg?p=c:1727:973:nowe:44:360/w:1706/h:960&h=mBO_ZAk4"
    },
    {
-    "titulo": "\"Arraigo real\", la prioridad de Feijóo: la promesa del PP que lleva el aroma de la ultraderecha de Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdXh6akhUNkhSU3RrUVd0QjV4UmlRSGtSWHg5STRtb0o2RDh6cjhUcmZ4SWlRTFdQdUpLYi1lSzUzY1JzcHpGcFhhUDNhZFU0YnhwcnRzN3U4Y3UxT2dZakxDZEpYZ3BIRE9hcUZZT185ajBDUHZCbFN3R0ZQcDdwWjQydVJMRzlhelAxQmNRVkt6cXYwd3duUHlHMGpBdlB0SjdOYy10RFVGOXkxTU03a0l6MGxodFFJdEd4T01tdm85N0hSZkJYV1A4a3Z0aWduTG4wS1BVbUVwNGdYdHluQTBrVE5VQnRD0gHoAUFVX3lxTE1lUmFZcmw3dVp0cXN1Q3BOMFhoMjVIYmVHWDlvanlybWY0UmgwdUFmN1BSUy1Cek94Y05nZDJiY2Y1OU1TbE5iT2lFQzR2UTc5dzZrcEJEcngzdW54eEZ2WWMyRnplYjI3YlNOY0wxMDFPQWI2ODkxSWZrT01LM2VvbS1weHh5Q3A0aGFudFdvQ2NlTW1ZcmVHUWM0ZFgzSUVCU1QtLXFWRTFzSjZYSHgxLXhXTTZqVnlUQnNsb0NmeVpuZ3NMWS13Z3RFbW5DcXoxeXdlcTFiREgxM0pUWlBjRUpmeVo4TmM?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-10T20:19:41+00:00"
+    "titulo": "El patrimonio de Sánchez, Feijóo, Abascal y Colau",
+    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVQzczJTeEZJOVFMc1lTZkx6M0RIdUg2enpDNVBwZUdzYng2eGF2WlNZQkl3SVdzNS1UTmx6aTI2ckJqUDBGcjRIa21GQ2lBMDNQdHlqT3FTWm9hWVVkTWtBRy11M2d0QzVEUWh3ZmhRejRTdng4X0Y5RFRZUmlfX0t6Q0ZzRDNhdGpyQ2NVVVRzN0YzZlMxVXZVeHRRNnlTdmVXRDJiWm8wTnEwNmNmazFtbXdncTVoZjN3N3Z30gHLAUFVX3lxTE84QmZfdDZORmNiNUZxbEI3NERNS1NSWFNkRzFPZmtHejR0U1ZRTm1aaVV4cVdjMV94bWMtQnJmaWM0ZGNFZlhtMktSX0Y5a0RrMWNjOFo3Q2FWU3BHdGVteUNsR0tVOFFVUTc0SGZ2UnVtUVRMQU5YN2lUU00wVmdnbGF1MUR3bk5seGU5b2hEbHRwSVFyaFVJS1FiaWZUQWZ6X3RGTXotRUljWENDRWhoaVBJTk9pR0w5aGQtZ04xeGZNWTkySmIyNkNF?oc=5",
+    "fuente": "Mundo Deportivo",
+    "fecha": "2026-11-11T06:00:00+00:00"
    },
    {
-    "titulo": "\"Prioridad\" para ayudas según el arraigo, ley del concebido no nacido y PAU común en todo el país: la parte social del programa del PP",
-    "enlace": "https://www.20minutos.es/nacional/prioridad-para-ayudas-segun-arraigo-ley-concebido-no-nacido-pau-comun-todo-pais-parte-social-programa-pp_7059480_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-10T20:12:47+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/10/6af32e5660cfc9-67550913.jpeg"
+    "titulo": "Qué pasará con el Ingreso Mínimo Vital si gobierna Feijóo: así funcionaría la nueva renta de activación",
+    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOY25Ec21NZDdqN0dZV1JEX2tYcS04MmIwMGJTSXQ1NV84Y1prZllDVGFtWnB3VmktY0xhZGhkOVZ0Q2toTHE0V2ZFdEY0b1lia05KZWVqREo5Z0pVT25wZGpuQjcyS2RuV3k2dkJPd0VfT1hsVjk5Q1J0cnF3Q1V5cExNVTFwakYxN0V4TkZpSnNjQTVhdnhvNHhYOVVUMDhMN2R2QlVVdExibVJRLVlGcXk2WWRVYmZ2YmxBOUZIZFRSNzJkN1ZmVWpWbEhKYkxFdDhsZVo2OWdCX2FZT0ZqcU5PQjRSSUpQdEJLZWxlZWcycWJfN0NiUm9SZXpFQdIB_gFBVV95cUxOSURZc1gwTGk1Qjg1cVdCSHlaZ21HeXRSVFV3S2U5VUl1b05TWTU0SWRKeHNjTVlXeFNhbFhUZTlyWXk0WURoMUk1dERqMHk4dWdlR1ZHdFU2M2hzU3lyTk5peDhBMnhNU0N2ZS00allUTUl6U05tQXFKclB1Mlk1Sm81eTVxYkZUeFFlY0lnNGxqbnZEcGRSZWxGRDExSzAwZmVDSFdHcGNqRWRqMjNLN1NoLXJzOHpVTzJhRnV5UjhRMDRkV0E2emJjNTB1OHRDNUFnX1N4UEg5RnhmNU1kTGdqU25zVEhtN0M5ZDlyRHRudC15THFURHozTkZwZw?oc=5",
+    "fuente": "Onda Cero",
+    "fecha": "2026-11-11T05:00:55+00:00"
    },
    {
-    "titulo": "El mensaje de un comandante a Feijóo en pleno vuelo: \"Enhorabuena y mucha suerte\"",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTRmMHF2NTIwQ3Z2MXJ5a2I5Y3d3Uy0tVlV6cDRJOFZqNWhvRUdLS0VVOVdxVFVnQkk2eVVNV0Rrb3NrUkJLS3ZzU1pRUDhtTW9sX2VWQUo4QUs3QXlZMVNNRnhPOFlQdHNuRkptZ3pEdW0xVHB1VlJILVM3V3dyUmk4aE82X2otWjloMWNBeVUtenAxdlZxVXdyaUw1YTVKenkxMkIwOGFBVmx6NjF0bFRFSFdBZVgyZlJmbFBKQWxzTFdQYTRxcGU3eDDSAeABQVVfeXFMTlcwTzROV3ItMzRHdWlfZ0tNSGc4N1owaVRfeThMZVN2cTJrWnh5SXMzYUNkR0lnQmVVMTBBNFltM0Fuek54cjBnMHF6dXE1V204cWZZM2R5VzFCdEdCdTltbzNubDhBNEtYTzJJMkk3blA3ZnJ6eHZYejdYWW9mOVpHdXZkTG45QmEtYmxadUV4M2VMUy10UVlmX1hHemVXdWNsV294Tlh6cVlMSVFmY2NibS1xNWo0VHNhTTBRVHBwM3pKYnF2Tko4R2QxRFJWMmFxaHdPX0FJZFppRk9RZlc?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-11-10T20:05:37+00:00"
+    "titulo": "José Ignacio García, líder de Adelante Andalucía: “Lo mejor que tiene el PSOE es que no gobierne el PP”",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-11/jose-ignacio-garcia-lider-de-adelante-andalucia-lo-mejor-que-tiene-el-psoe-es-que-no-gobierne-el-pp.html",
+    "fuente": "El País",
+    "fecha": "2026-11-11T04:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/7B5PKL3Y4NHBLHUNO4LFU5KQM4.jpg?auth=eff4ff5d26b3e92bcf1f1af5bbc1412ba138f39f76db40cd24f4041dda89fe12"
    },
    {
-    "titulo": "Feijóo promete reducir aforamientos y endurecer penas por malversación: \"No indultaré a condenados por corrupción\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb05BQXFITDlQNnpNZjV5ZnhLWHZFUmh4VkhDYXF1X0tCaHJOTUMxc0x4ekJCY1FweFRPdnM2ZlowYzhOTzRHWnBQak5LYkRNNkp4d3hYUzljWG5rLTlQZV92WndjdDNTcWVrajRGOTZ4NjZNb3hEYU5qVW5uRnJMSnFjMmZkTFBPMm1xMkFOaUI3N0dYeEJwNzlFT0FEelJuaDNUNDhyYXZseHRDTHVrUHJLR0ZaOV9WVEozY19DenVIOHM1c3ZPSElWXzlqcXItcXR1T0x3bU9uc2FuRm0zYjU2STRPLWNiUEVrYUM5dkJNbk5FYzJr?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-10T19:26:00+00:00"
+    "titulo": "PIMEC arropa a Feijóo en la presentación del programa del PP con 300 representantes de la sociedad civil",
+    "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYkIxWHJMMVNWLVNfZjdpVy1WRFpSOENTYzFBbFZpYjlIbEhqT0pVN2o2ZVJmVFFWU0lHeGVyLXRFeVotVGhlYWlURUtZdFUyNVBLNFdpRXRBYkNDbE5OMzRJTVNNbklOd1N0T20tajkwUzlGVFkzeEhjeXZZR013b05R0gGHAUFVX3lxTE1UWS1nWE5ldUxkOVpYczM3UjBvZHJSV3VGUTJxcDJIUk1HRjAtbldqVzNPcHVlLU1QdEhTc3hhaUtpUEU1T1BFUkY5Y290YmdEUzZPVDlhS1lqTEYwdElOcDBUVG1mTjNMNWtINmhBNjFxbTAtdkVRbUV3T2RTWmVuYU1NcDAxRQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-11T04:00:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
-    "enlace": "https://www.abc.es/espana/misa-funeral-catedral-toledo-victimas-tren-urda-20261110175926-di.html",
+    "titulo": "Críticos del PSOE andaluz cuestionan la huelga como eje de la campaña",
+    "enlace": "https://www.abc.es/espana/andalucia/criticos-psoe-andaluz-cuestionan-huelga-eje-campana-20261111070310-nts.html",
     "fuente": "ABC",
-    "fecha": "2026-11-10T23:53:14+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/10/1520037009-U201157731614t1E-U40269132776ENE-1200x840@diario_abc.jpg"
+    "fecha": "2026-11-11T07:03:10+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/11/vivienda-andalucia-sevilla-RsNdbrfvQeBzTaGKA9G7irL-1200x840@diario_abc.jpg"
    },
    {
-    "titulo": "Colau en 'La Revuelta': “Una prioridad es que no haya Gobierno facha, y otra que el PSOE no sea connivente con la especulación\"",
-    "enlace": "https://www.eldiario.es/politica/colau-revuelta-prioridad-no-haya-gobierno-facha-psoe-no-tenga-connivencia-especulacion_1_13654090.html",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-10T22:55:31+00:00",
-    "imagen": "https://static.eldiario.es/clip/28bc3786-2046-4791-8c45-91a2aa8721ad_16-9-discover-aspect-ratio_default_0.jpg"
+    "titulo": "Elecciones generales del 29N: última hora de la precampaña electoral de Feijóo, Sánchez, Abascal y resto de candidatos",
+    "enlace": "https://www.lavanguardia.com/politica/20261111/11680591/elecciones-generales-29n-ultima-hora-precampana-electoral-feijoo-sanchez-abascal-resto-candidatos-hoy-miercoles-11-noviembre-en-directo.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-11T07:00:00+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/10/6af30fb8242b3.jpeg"
    },
    {
-    "titulo": "El PSOE de Ceuta presenta a sus candidatos con Abdelah como estrella: “Es nuestro momento”",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZmxOaVFCUTJkd0NTa09WTDM3QV8yZkdBY1Jmd2ItODJRS2VMVFBaVzR3a05xMFFYRTFmc2N0R2FoYm1hdWFYdFFPcnFTendSRERGYVJaclRidzNfcjNFam5iYzhWRlAyLTJxRjJBdTh3STJ3Q0VhRUZQYXRPZUdTVl9ZY3hHOUJGMnE3YkdPVFlzYkxKMUZfbkFtVlFLUQ?oc=5",
-    "fuente": "El Pueblo de Ceuta",
-    "fecha": "2026-11-10T21:01:00+00:00"
+    "titulo": "Encuesta SW Demoscopia: el PSOE, primero; PP y Vox, en 178 escaños",
+    "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXhGN1ptVW1hVE5EMlpwUUI3NXlEcWwxa3FtcFBqNjlvVnUxc25Id0NobUdqNjhocGtDMjRVdVg5SlpWQUZ2M3E4R09nX05MZFhLWlNiSXJZNW4yZE5HVUVyZUNqUzlTVW5DV0F2Unp5VjEtTjBpUmNtNjZoaDR1VnYzck1qT1c2VVRpYlNR?oc=5",
+    "fuente": "enpapel.es",
+    "fecha": "2026-11-11T05:51:43+00:00"
    },
    {
-    "titulo": "El PSOE consolida la tendencia de subida en la encuesta de La Séptima ante un PP que baja a costa de Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQnFmcjd5bFJoQkZTMGtndW1xU3dIZ2l4ZnlyU0hSaE9VdEZKR3FRWkNLZDNmVzBKU1UwVlZGM1BHSHJrVlZ4TFpqSE1ZRDlHVWFlYWVZc3pWNEM3T1ZMV01pSnd2V29IcjVWaFpWR0ZjOW9LYlFmQllNU2JUMDU3TWNHN1BXN21Ha2ZYWnV2a1NWSkhrNjl6VzRsZzE0bmlHVi1NOTl5ZEdfZldRRWxiQzVNMk1xU2wy0gG-AUFVX3lxTFBEOUNHZUNHZ3Y3RXc3ZFYzSnotOTZ1eFBUZ3p1aXpZZUFTbS1TcUpMMWNabU5Pd1VBWExWYnM4YU55M1RGanotV0NoR29fU2V1aFhSWXNJUUpzQlJFY3ZHaHI5ZDZfVnFJS2pNQkJOc04tcG1ZUWhkQjJNM3Z6ZEJqMUVTeVhYNlBPNEVjRFdITk5GMWlsWDR2a2ptTmoyeDMwdkIzU1VzTXFyUk1uVnRuOV80RnhlTk5laEJOMnc?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-11-10T20:22:00+00:00"
+    "titulo": "José Ignacio García, líder de Adelante Andalucía: “Lo mejor que tiene el PSOE es que no gobierne el PP”",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-11/jose-ignacio-garcia-lider-de-adelante-andalucia-lo-mejor-que-tiene-el-psoe-es-que-no-gobierne-el-pp.html",
+    "fuente": "El País",
+    "fecha": "2026-11-11T04:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/7B5PKL3Y4NHBLHUNO4LFU5KQM4.jpg?auth=eff4ff5d26b3e92bcf1f1af5bbc1412ba138f39f76db40cd24f4041dda89fe12"
+   },
+   {
+    "titulo": "Encuestas elecciones generales 29N en Castilla-La Mancha: resultados de PSOE, PP y Vox y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/castilla-la-mancha/encuestas-elecciones-generales-29n-castillala-mancha-resultados-20261111051500-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-11T04:15:20+00:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/11/newspaint-1794324235350-1200x840-R7IIhdx2XGWa2HoEtFDQQtI-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Encuestas elecciones generales 2026, hoy 10 de noviembre | Vox sube tras su entrevista en 'La Revuelta' y PSOE gana tres escaños en seis días, según La Séptima",
     "enlace": "https://news.google.com/rss/articles/CBMingJBVV95cUxNaXNzdHdVRkdLQU04NzRPNXd0VzJuT28xSzVPYy1CMldvLXVweGtDZkxkOVMzSnJjaDRLblpVb1N6YTNSMzhyWnBucUd5TjZ3MGRfYjdBc1NpaUxkQzF4LWI5NW1jOV84amk3Z2F5UUxYc0VsMUZNcmJSWGdwRjBBT0VoQ3RlckNqdkUwM2F5bkRDa3ZrTW50NWRncXJ6dy15eUpjOVNBcVpIRzVWcE5uQ19ZVVRZcmFKTU1jY2pIbGppZVZsZ3JCNFZHMVZ1YzBaYmVPNnBzemNna1p3VWktSlVZdTY0VVF5WVZKVV9ZazRWRlJfNjk3VGF4bFpRcUpEcnpMRjB5X2Z2UkJCRUtIV0Z3UXhDbTdNcF82cEJn0gGrAkFVX3lxTFAwRjJzcWp5NVJDSXZIVGNjTmIxU2VJa3ZsMng0M3NqOGd0UGdVRXU1RWJjZXVENXV5dnFfNktpVFBfRkVlRjV3NzEwWE1xOTRQNkxUUXVEc2x0WXFDNDVfTUMzM2F4OW5MbGY2c09qb19mTjN4cktGTWFXV1VXby03eG1iUW80dklrcU1CN2VlTWFMWVRwT3k5YnVjeEhHZ1Z0RGozcDhGRmtTaFhPd2JRRWdybzRqSU5xejM2eXdseHNFdmZQVUxxOFhzN3JQQ2tUT01pQmpaeldXVFI0M3VSY3RNNzdaaU5oc3hUSWN0MDJ3a2xHRkdxVDlwTmRqVlM4aDRFU1ZjT3NNUHEyMGpJQW1iRm1fRmxMa3NkUnVlRHhJMkw5LUpjR2tZ?oc=5",
     "fuente": "Mundo Deportivo",
-    "fecha": "2026-11-10T20:01:44+00:00"
-   },
-   {
-    "titulo": "¿Está Pedro Sánchez engordando a Vox para volver a ganar las elecciones?",
-    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXZ5N1hYb181TjFaSF9hRGNvaldMZEFYc19jaWlMTDYxcWFmdmUxbldCMlM0bThJaEstbGNjR0hJZFVuSS1Hc0otLVJBMVhQRXdkMWRZNTQxSTNFZVY3NzROVnZPUmE5S0JyS3Z1aUgwSWVfQmJ0aDVVdjM4bUdJelRadkdqRkxCbmRRRTNPelZfWUtZZUhpY0hWclZzOTZjTWRrTzR6dG5TTE1ZWUw2YVprcmJsSXhHUzdhUVR4N2NFS1k?oc=5",
-    "fuente": "El Periódico de Aquí",
-    "fecha": "2026-11-10T19:55:16+00:00"
+    "fecha": "2026-11-10T22:48:29+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Bolaños respalda la huelga general, defiende a Broncano y llama «franquista» a Abascal",
-    "enlace": "https://www.eldebate.com/espana/20261111/bolanos-respalda-huelga-general-defiende-broncano-llama-franquista-abascal_479481.html",
+    "titulo": "Elecciones generales del 29N: última hora de la precampaña electoral de Feijóo, Sánchez, Abascal y resto de candidatos",
+    "enlace": "https://www.lavanguardia.com/politica/20261111/11680591/elecciones-generales-29n-ultima-hora-precampana-electoral-feijoo-sanchez-abascal-resto-candidatos-hoy-miercoles-11-noviembre-en-directo.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-11T07:00:00+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/10/6af30fb8242b3.jpeg"
+   },
+   {
+    "titulo": "Los primeros Presupuestos de PP y Vox, marcados por el 11-N: la Cámara votará las enmiendas con la oposición en huelga",
+    "enlace": "https://www.elespanol.com/espana/andalucia/20261111/primeros-presupuestos-pp-vox-marcados-camara-votara-enmiendas-oposicion-huelga/1003744453142_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-11T06:50:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11398226.jpg?p=c:1727:973:nowe:44:360/w:1706/h:960&h=mBO_ZAk4"
+   },
+   {
+    "titulo": "El patrimonio de Sánchez, Feijóo, Abascal y Colau",
+    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVQzczJTeEZJOVFMc1lTZkx6M0RIdUg2enpDNVBwZUdzYng2eGF2WlNZQkl3SVdzNS1UTmx6aTI2ckJqUDBGcjRIa21GQ2lBMDNQdHlqT3FTWm9hWVVkTWtBRy11M2d0QzVEUWh3ZmhRejRTdng4X0Y5RFRZUmlfX0t6Q0ZzRDNhdGpyQ2NVVVRzN0YzZlMxVXZVeHRRNnlTdmVXRDJiWm8wTnEwNmNmazFtbXdncTVoZjN3N3Z30gHLAUFVX3lxTE84QmZfdDZORmNiNUZxbEI3NERNS1NSWFNkRzFPZmtHejR0U1ZRTm1aaVV4cVdjMV94bWMtQnJmaWM0ZGNFZlhtMktSX0Y5a0RrMWNjOFo3Q2FWU3BHdGVteUNsR0tVOFFVUTc0SGZ2UnVtUVRMQU5YN2lUU00wVmdnbGF1MUR3bk5seGU5b2hEbHRwSVFyaFVJS1FiaWZUQWZ6X3RGTXotRUljWENDRWhoaVBJTk9pR0w5aGQtZ04xeGZNWTkySmIyNkNF?oc=5",
+    "fuente": "Mundo Deportivo",
+    "fecha": "2026-11-11T06:00:00+00:00"
+   },
+   {
+    "titulo": "Encuestas electorales para el 29N: el PP gana, Vox empata con el PSOE y Compromís resiste en la Comunidad Valenciana",
+    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQnVnck1fR1BDbHhrWC01V0hoTk1lV0x5M25tUW9zSExwaHNabTRyblpUcUlZWEhCY0R3R1hGaXgxakRhOVk1SzFLa1B3UTFuNWVBUjJ5UmxOdDN6d2NUX3VnYTQ3QUcwc1lOQ2NXeUk4b3I5WUsxTWxaTm8xaFhGcjMtMG40R2UwQUh1YlA0dzZlVEY1eGJnYmJEdjdGY2xQOXA2UHR5UnVhQzl3NFYxbVU4dWFIcG1WTTI4ZGp6OW0zazBqZ2pRTHJSUHMxR0JRWEpsX0R5LVdzWEVsSDVTbEU5YXlfRlBoRC1EQ3FETnU4QzdH0gH6AUFVX3lxTE11M2dMTDludDdrVmJtYW1lb3gzTEtCa1BkRll0QXFUOEZvTDVDcG5SbUNFejNUMmwzbnB5bWtSRGdsTmlPbEpNWFJER3pvajUwTVNPQmdKYm1qb2tOVUhXQjFMQUZnSXhaNWRyUnFhN2JvZVc4SW43SDljTUJQbTVtOHF5VncxWW00dkdWUFZwc0hSaFpGZ2RDZTFHYjc0Mm14WTJlcVRnWlY2TkJkdV9tcUltbTVrUERvUWg2MlRzcVBVdmJvMk9wTnI2TGhnbF9tVUltVllZR196T3hNMm94aWNjRFMtQU5PcW52RWlwM3Z6UzRvd0JGX0E?oc=5",
     "fuente": "El Debate",
-    "fecha": "2026-11-11T00:15:44+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/11/6af3a4985ae4b.r_d.935-407-0.png"
+    "fecha": "2026-11-11T05:54:01+00:00"
    },
    {
-    "titulo": "Ada Colau carga contra Abascal en La Revuelta: \"Muchas mentiras, bulos y ofensas\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdEFxSXBsVjMybXd1cTZtQUJHLVEycTV1Q3ljRUhVdnd0UUFsb3RIODRzbWpoV1RZV3BwSUVpMGdwYlFZdnhUajFVWFRYQjhpUXVVRDJDVjhYc3N2MU8tVlpCdERsZDZ3aEpBNHJ3UWxwYkd4V21pTU5ZbHZJNUFWcGhOcG9ieWVxcEYtOHpRWjBESUprTjZZcXJwWjRacHdMakFCcVpUN3Ntc1pVNVJaOEJkc3V0Rm1mX3Uxb3RuQXZFSXhQNU54M9IBzgFBVV95cUxNSFZac1Q0NkRTcmgydlJoSC1xTmR6R2tkT0xENnN5d3FnTjRzaG8ydzRjSnFlNWwtSTFPSk1uZVk5R3AwS2k4WFZZZlFIeWlhdzlUUGh1T0VaMGpNckRtMWVXemVoTmtKQVg4bVpBTXVTeHUzd1paTWYxb3FMLUQ2OFRrVWNsTXl5QXJEUzZBckJVNGszQVpfR3FsYjI5MUV3bkJiUFJOQzF5alUwRzJ4djlNbkRiNnhfcGw4ZEJUTEZHSWxpM0Qtd2NXTmxBQQ?oc=5",
-    "fuente": "heraldo.es",
-    "fecha": "2026-11-10T22:55:31+00:00"
+    "titulo": "Los bulos de Abascal en ‘La Revuelta’",
+    "enlace": "https://www.infolibre.es/politica/bulos-abascal-revuelta_1_2239765.html",
+    "fuente": "infoLibre",
+    "fecha": "2026-11-11T05:01:21+00:00",
+    "imagen": "https://static.infolibre.es/clip/e0a9464a-5265-45fb-8923-b6fc0bd212ab_16-9-aspect-ratio_default_0.jpg"
    },
    {
-    "titulo": "Colau critica que Abascal esparció «muchos bulos» en 'La Revuelta' y pide desmentirle con votos progresistas",
-    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeDhIZFpFOG9tR1p4ejFXQnloUGdCZ21YVXNmZ1M3bGV3UGJza3NfZm9WUFNrQ3VCUFRERGoyd0JDR0RWcUNseW5GeWpHdm9rY0xkdGw0aGlzRENvbmFUemlvQUpaTkxqbUJmaUt4WEZUS0RpcXRVU1JkUEMwLU4zZ2pxYWxfbVNBS1A4UGs2c1p5Wk5XZENwSVJ5NUZxRl9IZ3huejRlTVY4LVVtZWtUQjlsMTJuY05xSU1wWkNrcXZzalc2RkVQQnl2UGZZeTQxa05OU1RJclZtU0lkbHQxWjNEMXZocl9CeG5hcW52bm45ZUtX0gH0AUFVX3lxTE83c1psaUtFZFc3T2drdnRTUjZ6WFJIc0JFVWVUU042YkltMmpqQkJiZ2RtZ253UDc3YlpMd0RHbFo0SGJ4dXVtbUZ6aGRGR3FNbW42dTFDT3hTV0hwamRITnNUeWNEVjVYZGRyRlAzcnFRRlpXU0d5aGdFT2pHZndQNjdpZmtGQ2VlR0Nzd2JNNkdvQXJabVBwS2otMjBJWHk0dHgzRHNfaGJseVFtRGZ4X0dYN2dRd2htb1VyS0RsVkowc0o3NmJyVmRzVm95TU42ejBrdzlVdEI3dW5sUGZRT3VFTDR6ZWQ0ZWhDS3FkSWVtTGE?oc=5",
-    "fuente": "Ultima Hora",
-    "fecha": "2026-11-10T22:37:00+00:00"
-   },
-   {
-    "titulo": "Ampliación | Colau arremete contra los “muchos bulos” de Abascal en La Revuelta y llama a frenarlos con votos progresistas",
-    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNc2oxamhhRUF2SE1rbFE1WTAxRlN4U1BvaUxSVVhvN3NsT0tiSjEzTnctVFZDSzRWdU9YdUNfdmdHVy0yQkZlMldLRDFrSzk5UXc1OV9CbGV1eXdKaXVGbnJ0ZzlDbmFZc0lSTW5fS2cyNURBclRkckpBaDdYdV91NENhYnB6cHdHZ1B6VldRbkgxa2xWdzRUb2dJZ21jQURKb2dCNFU1SzNuR1pqRzdBQmo2TnRwQUZPYTZxV2lqM2ZtOURsX0pla0lna1psRzkxR3NHcDhzY2E5Z1RwWHBBZjJuS3lJbzRG0gHuAUFVX3lxTE9GOUIwSHhDWVc2VUZMc18zcE9tYWJ2T1Joa3h4UFFEbGJwTjJlZmtUazdzMnpiT0N3RmZUdUN3bWVCdElFSzVzRHl2bWhkX2V1eUZscFZINlhOUWdZVnZ6X0dfdVZrenY4QkhTVmlGVGFGNWJCdVNubDNpOFJwd3hrcE95aUpTNGxKVE03eXZjcWR5LTQtMUh5R25jUENjeFhhc3hpQ3U3cmZDY2xtTjlEX2QwS1hhQlIxUnk0ZjdVR095WjJHWjltTUFFR3hueVI1a2tvMmFZMWRfS1BreXhXTXB3MUp2eTRfZEl1SUE?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-10T22:30:34+00:00"
-   },
-   {
-    "titulo": "Colau reivindica la huelga general por la vivienda en 'La Revuelta' y carga contra los \"bulos\" de Abascal",
-    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVkF4MkRhaUlEeGlKaTI3NGpzZ0xJc29GbjJYY1ZkUU9HamFYU05hUjJrNVZTano5NXEtTU5zQm15VUNIbnJDRmFXN2pQTko0cWwwY3NZR2lKSFBpZ0hTYTFNeWt0ZmFzbVY1Zjg4eTd1bWtRTkpZakxodkl2NDJXRnlOZlgyT3doWnkwa1phOWdEZWZPRzd1VlZ5VDViRGV6ZnNIeVppZFNTY1JlUHM0Q0hiZHV2S2huRndGbzZyanRTQnZiUHBIUmgwb0VBTjdidWFJ0gHYAUFVX3lxTE9zQXNLdzQ4d0FOMFlJQmliR0x5SGVoa1NhcmlBa2Y3NllWdEs4VlZTZk5KYzFYbGQzLTAzN2RyU0tTb251QjNyeXpTNXNBblBDWUZRbjhidEszcExUSFJlcTl0S0Q2UzZBMDNUb0huVmRUZDk4VEs1b3o2WTVpaUxwZm9oTUdCUXJIVjdjWXpsTEIxRHYtZ0V0bjJ0MVNwclFYa1NQV1V4b0llWW56RGtuOVBWWjU4aEhiY3NmTWxwMEtnSGpFLUVTWHNVUFVEanJWVzBiNlU1MA?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-10T21:50:00+00:00"
-   },
-   {
-    "titulo": "Colau acusa a Abascal de difundir bulos y ofensas y llama a frenarlo con el voto progresista",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGx3c0xxTnoyZE5jdjUxaUpOSzdlV0JPZDdRaVN4dFdDRGtxZ21SemtWNl9VcWxvenBGVC1VMXZWX29yWUZxUWM0OW5tOFEtY1VjLWpxQ25zcUk5c1dJX0RaT2xVTDBOTm9LbGJvSmJPakJKNXRsUFpZT1RRU1FlYUZ3U1pGVXhlVjVMVllvckJCMkIxQ2NVT3JxekFwb3BzRkYyYi1FMUhhT3RGZkptZFhubmI3dmVBdXFiMVEwdkIyWUNvakHSAcsBQVVfeXFMT0ZiX0liWWJ4aWw1UGNTNGdoTV9xSWE1cnlONk1GTUxfWnZlQUJsV1RQWHFIVmt6MlNZbDNKMmpxdVBlSkRJMTBMdjhGQlZCcDBSSmVkVnFQZzdSa0NjQTZVd0xGS2d0YVNRVjNldTRsY0U0WUJua2EwME4xd2U3cGJEalI4ZHg1b0hTVkJ3eGQwRGtQZHdmVmZzOFYxbDQ3RndpYkxHTUVsT0djblJzdXVPNExZMkJrZTM5NUp5bWlfcnhTeU1WQmFlb0E?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-10T21:48:32+00:00"
+    "titulo": "Los guiños a Vox en el programa electoral del PP",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTNzcDdhX3ZoQTBwc19fanZHSHVKRWx2SlIyc2xEZHU5alRDd1hPR2o4Sm10Q0JkZlB2V0Fzb25qZjJIRThvUGN5a3EyQWlxaFZDQmtHcHFBMW1qUWJZbXNKWjZySXNkYXN5VkJwR19NcUZoZkRHMTJDdW9ZNEE2WE42ZzN1bzUwVXNvdlVLV0R2ekY2bmt4atIBrAFBVV95cUxPQkJMVlBrZ0FoN3pzeTRwNDVVZi1wTTZoaHZ5S29RY29HSUJRU1NVeS0yVERjNWt0aF9nbkdlV0t2SzNSQlNYVVg2RVFNbkROWmsta0xsTnh3TlhjblB4bHZUWDhSZ09sTmR5WW9rVmUzMkktWEtrMnFOUm1SNENTMUhWLVE3T3A5T2h1Wk1XbHFWdkxicUlSTjZMTmhobTI2b2kwWWVkUTJhZUZz?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-11-11T04:30:01+00:00"
    }
   ],
   "Sumar": [
@@ -215,8 +219,8 @@
    },
    {
     "titulo": "Más Madrid apoya a Broncano y avisa de la dificultad de desnaturalizar a Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVkRhbTltZE52R0pCRnpHanJnNUZQZUh5UGhUakpXSmJqVGZvV1JZWGVTOC1NTG40YzZwNUhhdHNtYmFYajhjdm9GUUREWUZpVFkxSUROc3dBYmtSeXFQMnFmSjdKdldFLXNsRWJWck15Wk82MVM4dFZlS2pHcG11c1JrUmotbGJVOVNEd3pESnJYaTdha3U0bHRCeU1uVG4zYU5NOFE3VXpFRkdOQW5XQnoxb9IBuAFBVV95cUxQM2hBcTJ6cGl3U0dVNDFxa2gwRmtBdWxpNmltYmZWYzFwcVMySW5lTURzNEZLUU80aE1pTHZMMGpjeHhkSnduU09NdWllaWNvZGYySGtWaVl1eHV4TGZpMm45NHNZTjdYeS13eTFKOHM2dEpsVE9WTjVxYTdHUzdqRko1d01SUXZZSnpyajhfSlB6YTV2V3U0U0JjcEJvb2VIa1gyX2ZqRFJQZURqOHZrYkVNWkxITWtp?oc=5",
-    "fuente": "El Diario Vasco",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkNZWUJhMUtmN0pZUV93WVRxU29GdXVuMURkVkduX1BuQThrck9GS28yZTNTaXpMaFBNRmpjd3NkbnFHWFRybFN1Skt0MGtJREVkandadkk5bS1RTGhoZjMyRjZ1cDFxSTUwWTYybGtocHZzZno2QTgzZUxZVTJxWDZQSkw5MDdMMi0wRW5LNlFMRWdiVHExX1FmM1gyZUZCUkFWMW9TblItblF6NEkw0gG0AUFVX3lxTE5yQkpNLXozRW8xTmtlNW9ZTmRqUDg0cU5VNDVpUjdvVDF1VUFINXdoZnBsLVZSbUZIczktem9ob0RKMXNnZi1mQ2FrR2owYzR0LWEzUFZPMENhZE0yYmRGdkJ6aFozdTR6aERZTFA5aW1rdjdvN2wwM2w4OGVBUnBmTHYySUVQLTZCeWZhQnIyTWM1cWMybUdlRVQxSHkxWHFLcVh1Z3dJSjBWSHFmOFo0R2ZFcw?oc=5",
+    "fuente": "Canarias7",
     "fecha": "2026-11-10T13:20:42+00:00"
    },
    {
@@ -234,16 +238,10 @@
   ],
   "Podemos": [
    {
-    "titulo": "Irene Montero propone un \"impuestazo\" del 15% a los beneficios de las grandes empresas contaminantes",
-    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQam5taGRRNnFfOHk3OVhiaE9OY1F5VnhQUjlwYjN1UGhGeTFVZVRWTmhCVEpsYm5ldVFyaGV5S293OG1qYkRTamgwQ21KQmNRMURaMVBTemFrREV2SlZKZFFSN2xSSWtGeHpTS25mbTZOdHZBWE41QlBLT2hCZDRmeDU0cC00Rm1PNlltUGpENFV3UmpkbGw2Uk5SamtBNUN5TlAwenBqbWc1SGE4WDBMVEtNRGI0aldHbmktTHZGVU9QLWxvSEg2eW1lTl9ZUl9DdmtFR1RfbnZPZw?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-10T22:48:00+00:00"
-   },
-   {
     "titulo": "Podemos inicia campaña en Madrid con Irene Montero",
     "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTF0bDdqRTVNNlowY2hIWkRCUTh0MGc1dXloZDZCWDJTdDV1Vm9jN1lqaDJTUWVwMFZjOWl5RVBKUk9kVnZ4VlM4VEdBVTJCTmZYUUpYdzZZSEhKQ2JSV0JIRk5kNFVqVm84bXctX1VqX29lRlVsaXBHS0lZSGIxNDZWMkc4ZzE2TkhoSnNR?oc=5",
     "fuente": "El Periódico de Ceuta",
-    "fecha": "2026-11-10T22:08:12+00:00"
+    "fecha": "2026-11-10T22:14:43+00:00"
    },
    {
     "titulo": "Irene Montero abre la campaña en Madrid y sus primeros actos serán en Baleares, Canarias y Andalucía",
@@ -252,23 +250,29 @@
     "fecha": "2026-11-10T21:55:00+00:00"
    },
    {
-    "titulo": "Ione Belarra va de cráneo: se graba haciendo el pino para protestar por la entrevista de Abascal en ‘La Revuelta’",
-    "enlace": "https://okdiario.com/espana/ione-belarra-va-craneo-graba-haciendo-pino-protestar-entrevista-abascal-revuelta-20746720",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-10T20:14:54+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/10/belarra.jpg"
+    "titulo": "Irene Montero plantea un impuestazo del 15% a los beneficios de las grandes empresas más contaminantes",
+    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPamcxakw3TURucVJmendoOEpkMDhTUXdhUjBTWFZMeDlPSGQ5d212YXhENXV0cjZNQXFkbXltTzM2YXNRREZxOFBDZU50VlBuXzJtZTNrc0xaTEZLaXNvSTBOcV93emF4SXlpM2NPcWprSlNUZ1FuRXRaV2ZnRWtzWXVkUjhfblpBRkhGeUt4dVp3T0VYaUxiUkZ2U283dnRsUm03UjhSVUxLa05EYmxYd3N1eUF3emVLSVB2b2JQMlZpQkppdTdpVlI1MTNlNlZQYVHSAdcBQVVfeXFMT2pmZWk2YlZjVGswd0ZKX2pOYXhoNVFDYUFRcUlZY2pEX2xpTkFiSDgtSkN2QVc1a3BUS3d6cnBpck1SUzhhSlllZlBKRGNEUUFBRWVyM0tEU08wQTZVZG9WUkVJY3R5TGZoQktLWTZqdHczQ1FwX1JoOEZzYmNqU2tXN0Z0MkhtVER0NUg3RFl1X2NpNEJiS2lDZmZWY3NkaGNBX3MzczFPRXRiVlJtNUJUcnNXbm9pd1ZMYjJCY2J3NEdTWmJaa2dJT0xTc2pwREJTdTVwbUE?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-10T17:05:01+00:00"
    },
    {
-    "titulo": "Irene Montero censura la postura de PP y Vox: \"Serían defensores de los esclavistas cuando existía la esclavitud\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVGN0SWMwX0hzcmFCYnltVTlnUGZjOGwyZ28wZ0xuN3h3VHppMzhlYmdHQ0FzalI0VlVnLWpYbmc2T1dRa2xnalFzdm02eWZfWlF4bXNROGJGNWFiRER4U1B6X1V2NWswVE13NGJ5Zm8ySnNZWFpFRllvRk5NMHMzbmpaUFNjUkg2bFRSNmZtU1A3bUxpekRqRXM2ZlBzWUN1b3J0clN0LVEzWXQySkRmcV9JcEo5YUNabEY2NW00ZXN0TWk4YzBSVDFPQjdsNnJ5eGZMM2FYNWRPQXNqaEplVXlkUndhekl2MjA0WjZ3?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-10T19:41:00+00:00"
+    "titulo": "Belarra y Lobato dan la clave de la entrevista de Broncano a Abascal: \"No se habría hecho sin permiso del PSOE\"... \"Engordar a Vox no es de izquierdas\"",
+    "enlace": "https://www.elespanol.com/espana/politica/20261110/belarra-desvela-enigma-entrevista-abascal-broncano-nunca-hecho-sin-visto-bueno-psoe-sanchez-quiere-dar-visibilidad-vox/1003744452796_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-10T17:04:15+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11398008.png?p=w:1706/h:960&h=fnrGsd-x"
    },
    {
-    "titulo": "Podemos critica que se lleve a Abascal a 'La Revuelta' para alimentar \"el monstruo\" buscando que el PSOE crezca en votos",
-    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLWxBR1g3WlNZYWNGaVIxbVJja3NJZ2dEWWlMNUwycmxIUXZkZFIwVG5VLWNNd1dWVENxcGstTVU4bzZna1FOa2w2UXdLUDVFX0JSSnlMeExDbnBuUlQwczN1cWF3Qnk5Y0xJZnVNbTJ5U1NvQ3ZlVmI1VHJ2bHYxbFhKcWJtX20wam9PdzctZmVmQTh5TWItLWpBWmdaUGh4MWgtNFBCazNIS2dHM3ppWDd2Z2NHU1Q4Z0U2YTFwTm54ckVlSHlFQnlQOUd2c21iUGhhaFhzMDlQc0EzUVlBdTFScw?oc=5",
+    "titulo": "Irene Montero propone un \"impuestazo\" del 15% a los beneficios de las grandes empresas contaminantes",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQam5taGRRNnFfOHk3OVhiaE9OY1F5VnhQUjlwYjN1UGhGeTFVZVRWTmhCVEpsYm5ldVFyaGV5S293OG1qYkRTamgwQ21KQmNRMURaMVBTemFrREV2SlZKZFFSN2xSSWtGeHpTS25mbTZOdHZBWE41QlBLT2hCZDRmeDU0cC00Rm1PNlltUGpENFV3UmpkbGw2Uk5SamtBNUN5TlAwenBqbWc1SGE4WDBMVEtNRGI0aldHbmktTHZGVU9QLWxvSEg2eW1lTl9ZUl9DdmtFR1RfbnZPZw?oc=5",
     "fuente": "PressDigital",
-    "fecha": "2026-11-10T19:13:00+00:00"
+    "fecha": "2026-11-10T16:47:00+00:00"
+   },
+   {
+    "titulo": "Irene Montero estará en Las Palmas de Gran Canaria en un mitin de Unidad del Pueblo Canario",
+    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWUx3RDJPMjNQN2NrUFkyYl9WblhwTHR2NnhSTE50Q2QzNXFFWE10OWk2eE5vQUw2dEZ6d0VFOTBCSGFVa3YwRTFKRzVFaWVsUU1uYU5UaTdVNXdVSE1HUW9UODdzUzl0TVB3SzdmLWc0TUxPbkFuTDZUa3JfTzRsLXB6SUNQZncyTnJadkE5eG9xSktjMVVxZ08zTjdfRko1WXBRX0l5UEtXOE1nMUpYSFJrONIBuAFBVV95cUxOVVR0c3ZtX0pSM0hoZjAxTEtIZnBudWo2dVdVak5wVWVaUXVBR0hsQ3d5c1JyQnNuT19aX2dxYzBtYWJ4cC1adEhoVzRvcGdCNFdiSkd1MXlRVGdCZFYxUHE0d2xtYzFhLUNsQy1ucjVvNmtZd0VOTVZvbnFiU3Ywd2RRaEU5dXhoZ1duZlc2YzJRbFdRU0hrUG1Dend4MWxTMFBESWpmRXctUE51Mkd3STg2N1daQk1t?oc=5",
+    "fuente": "elDiario.es",
+    "fecha": "2026-11-10T16:43:30+00:00"
    }
   ],
   "SALF": [
@@ -311,11 +315,10 @@
   ],
   "ERC": [
    {
-    "titulo": "Broncano admite que «infravaloró» a Abascal y se ríe de la entrevista: «Soy quien más ha decepcionado a la izquierda después de Rufián",
-    "enlace": "https://okdiario.com/espana/broncano-revuelta-entrevista-abascal-unica-persona-que-decepcionado-mas-izquierda-despues-rufian-soy-yo-20747458",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-10T23:01:43+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/10/santiago-abascal-y-david-broncano-tve..jpg"
+    "titulo": "Gabriel Rufián encabezará la lista de ERC en la elecciones del 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QdXhpZEdwQmY5VEEyU3Uxb2txUWVBcFVoSkFSdGt2dGlJZUpGWTFpSVd6TXp6eFVzbEk5WUtKWkR4c3d5RGxOWEVxN3ExX3hJVVFtUVptM0lDZDdsWFlWRkx0UW4xNTY0blBiSm9YemYxTVJOWHl5ag?oc=5",
+    "fuente": "GranadaDigital",
+    "fecha": "2026-11-11T00:49:02+00:00"
    },
    {
     "titulo": "ERC exige para el 29N las competencias sanitarias \"pendientes\" y con los \"recursos económicos y humanos necesarios\"",
@@ -350,6 +353,13 @@
   ],
   "Junts": [
    {
+    "titulo": "Miriam Nogueras, la ‘working girl’ de Junts",
+    "enlace": "https://www.lavanguardia.com/politica/20261111/11681038/miriam-nogueras-working-girl-junts.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-11T06:00:00+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/10/6af3517cc0b5b.jpeg"
+   },
+   {
     "titulo": "Míriam Nogueras (Junts), al presidente de RTVE: \"Espero una rectificación, porque sino estaremos hablando de censura de un medio público que pagamos entre todos\"",
     "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOMlFoSnlwbDFnTmJqV0g2STQzdFdtWHQyRzdLUjVBWng5WWpKX0lWN1ZMOXZMR0VUcm9qSGwzY1l4T0NzalJKT3VHRV9uaE04bnhGTy1zZV8ySl9ERXk2cTlQdHVsT0c3aW5ybXc4X1J2WjJnQWZTVFhSUFI0LUFuOUVHVklKUEJmSDhmVXdCN1lUSzZBSEFJN0FqMlhGSHBFYWluWThWTGNrOVhiNUg3aGQ1T2pVbHhhb2Z5S2VVWVdESWlLTFpIWXpqYXE1aEV2RXBhVEFOX20wa25aY0lkZXVYRlZyX2M5V003bHhNdV9qMFo2WWhST1JHdTc3RUxnWTdrZ0ZMeExuUlQ3Z0ZXeUtn0gGfAkFVX3lxTE0xNFlXRkY4SnJpakszSW9VQTlSTjFTUXVvWE5iZ1NrWWszV0ZRQ21aT2Y0cjd5UEI2WTB4OGIxZkJFQVFNbHh2b2RWX0VYRzltS1hWWnZRcU9NR0ZvdWhHdDBqZV93YnNLeGlic0FXdUo0VjZGY0ZPZXhoejhTWW5YOW5jSkJCUk1LUU00blJUZk1sN1hmSnZqbk1SblZfVUgxRG1XS0pZa0Zubmd2TTlvVklmNTRLMWFPRVVqZ1BJVUtRYmlEY2pEcFNoVDhCT0lwVGFEVE1DVzl2b0hPdzR4OWxTaUpkdVFSOG9BZUNkbUQxaGd6ME9yZDYzY3VPQ0s4UXJoSWp4eXBRV1Y5Skh4SzVjWTJ3UUk1RnNpNVgw?oc=5",
     "fuente": "Mundo Deportivo",
@@ -380,12 +390,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd1ctV0c0ZHI2WGNUU2xQZGJHMndGVElaeXBhUXZFZHlXRnNWbjlybmR3RjBnWk1aRTRScEhXbUJnS0o1SkJhV2ZDNEhnUEpoMThWMml2TnZ1VWZfTmFnUDIyRjJsRlFNUHpQaVZhTTh2N1BRaWtmNWpsLXhfQ3hzN0tibnBObHlfM2JEbUQyRVY4ZlAwRV9xNXNVeWpqdEVuNElyczRYSEVfaURDUGxDLWt3d1gzSGhJM3I4VVhJR2V1U1RIM1F5MjNETU93X3h1X3lkNnV5d25RS3p2bzlB?oc=5",
     "fuente": "El Món",
     "fecha": "2026-11-10T15:02:27+00:00"
-   },
-   {
-    "titulo": "Junts denuncia promesas incumplidas en vivienda pública tras ocho años de gobierno",
-    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWDhLb05VOEZoUlVweUhNajJvN2E1YmYzc0dpb1RGM0RZVnNPa0FEbjBJYVpMTkNRaVZNb1pXYlRjZVlLVnNEWnNmcl9lWDVhNzdIYmtKOUNuX2lVTlUtRHZfVDRBUW1uUGplQmVORmJ6WTlfOFhENEZ4R0p5NndjSG1qbnh6eHFWUXMzUlNqTEtCYXpNM1VrRjg1aXJ5dl9RMjFrblZqcjc3SmhBMXc?oc=5",
-    "fuente": "Espacio Diario",
-    "fecha": "2026-11-10T13:13:35+00:00"
    }
   ],
   "Bildu": [
@@ -428,11 +432,10 @@
   ],
   "PNV": [
    {
-    "titulo": "El PNV asegura que al PSOE le interesa «dar visibilidad a la ultraderecha»",
-    "enlace": "https://theobjective.com/espana/politica/2026-11-10/pnv-asegura-psoe-dar-visibilidad-abascal/",
-    "fuente": "The Objective",
-    "fecha": "2026-11-10T21:04:02+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/04/aitor-esteban-pnv-alquileres.jpg"
+    "titulo": "PNV dice que la entrevista a Abascal favorece a Vox y al PSOE, a quien acusa de dar \"visibilidad\" a la ultraderecha",
+    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdXZ5YVZ4c2hWQm84ejJTUm5PYnlYTVNpRTZLT0IzV04yREwxeUJWOERWeUdqUzYtR05pWllsbmYtNmNyeGYzNzFmdmd1cHpDY3lGR3JlR0xoeVdCZ3I0ZTZ4am1yc2xBSDVtZ3p5M29tdllvWHlGckpZNjRCUVBOQ2xRbmk0dVB0M3dCUzlyV0xpUE5oTlBIU2lhN0tBbW5UT3B3a1p4eFBoNUFBNTF3a2JvbzNQUHdmWDc2SThjTEhmV0hYM0JpLWx1dklqall6ZnZ6a3FDTUpPa3Q1Ykd5Y3NOZ3MtUQ?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-11-10T20:37:00+00:00"
    },
    {
     "titulo": "El PNV presenta el 11-N sus candidatos a las elecciones de mayo en plena huelga general",
@@ -512,13 +515,6 @@
     "fecha": "2026-11-10T19:34:35+00:00"
    },
    {
-    "titulo": "Clavijo cifra en 7.500 los inmigrantes llegados a Canarias este mes y anuncia ayudas económicas para El Hierro",
-    "enlace": "https://www.eldebate.com/espana/20261110/clavijo-cifra-7500-inmigrantes-llegados-canarias-este-mes-anuncia-ayudas-economicas-hierro_479281.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-10T14:30:12+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/08/6aefb518b437c.jpeg"
-   },
-   {
     "titulo": "Coalición Canaria exige acciones urgentes en El Hierro y acceso a datos de inteligencia sobre rutas migratorias",
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMks0elFJRldlWTZhbjFxRDh3TU5RbmpzaUJUal95NWVyeExtTWpIMW9uaWxBTmVIb3RKWVREbWtTU1BQalR1ZF9vSU40Wm41aDhRbE5ad1BMWHFuelFreWpYTkxBZWJBeVU2eW51dGZmdUlCOVV6Sm93Z045dVZJX29yYkcwSkNueHZVRE0wSk82YklOcTRmOUdyQ25WZ05oRlV0Ym52bW1JUXNBd1FLREQ5SmhKVG82NWJ1TW5VM2liQXlyUkszcVBXMVdYSjV3cjAzM0FmMkFWdjRVMUEw0gHkAUFVX3lxTE95MWU4TkpDX2tXcEdqajdNMy1wOXFxZEg3ZktBUDFSNlZ1YTZtSGJHUGZsb2d6UWVQSDN1YTRab001S1hRaTF4eGNFam40VG9LU25Xd0duWjhKcHh1U0VoZThKblVqZlRURkl6YUlrZFBFWkVCNjVsUldwR2wxWEFiZUhHVkJmLUhQTS1odGYtQkZUSXZaTlljT0xUSUwzZG9SQTRHcXJlR282VnVIZ1ppYnJaN2lMMF9QR3V6RjM1Q2twUE5NZkZ2Y0FxMHpZWHBiZ3lpRUVCQXY4NXRXd3kxNUQyWg?oc=5",
     "fuente": "Demócrata",
@@ -529,6 +525,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0TWNISV9ISnBNME0zaE5zRmNJRk1CMXRkdEhmRUJMaDQyaGdVTl9PaTdDOG5TVE8zcXpOWW8tcjlPV2V1a3RxT3BMaVc5ODFQM2Y0MWR0Qnl0RldjcDZEQWJFYXFweGJOQUNZcUNFelRqUQ?oc=5",
     "fuente": "Canarias en Pleno",
     "fecha": "2026-11-10T04:48:20+00:00"
+   },
+   {
+    "titulo": "Nueva Canarias apuesta por Unidad del Pueblo Canario y se diferencia de la alianza entre CC y Primero Canarias",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVl9QM2pGM25MOWpRMDJuTVB0Ti1oMkt6YVVSampVMWtmcXNnOHRXbG8tSmR0VjdJcUN2QjU0QTlJbmljTzc1YVozTXFsN3ViTkV1WktCWm12LTZxLWdHTFN0NHRFQzFZQ3dRejRGREo0ajJsRldWUHZCSFlKQnFlbHFnSEM2Rng5ZzdUZTQ1am5HWHdTXzZhOERXNVBjZElxb0NESElhU1BLdHItaThLbUtLV3F1QjVraER6dVJaR0JBUGJqRm1Pem5RU2g?oc=5",
+    "fuente": "RETURCAN",
+    "fecha": "2026-11-09T18:36:11+00:00"
    },
    {
     "titulo": "Coalición Canaria sitúa a Vox como línea roja mientras defiende su proyecto electoral para el 29-N",
@@ -549,6 +551,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVE4WVE2eUJQczBraXlsODhLSnA3TkJiaHBJV0d4eXhGekotZGo3Y3lvNGp1dlA3bzlBWXdIWVlIT00yT19Wc3FyUGRZSnQ0cERUSzktSHY1N01sd0ZmaFV5ei1veXZVckYyWHFYVXdicmJPeUlTYWxpWjVFWXc5Z2lSZklQZnhQTXlfd0gtVHE2WGFSRzBMajRPRjBraTFjb29wQVBkbnVsN0llQ0ZDeDctdXg0ZVF2Vm9DUEYwNGpqaU9F?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-10T17:40:40+00:00"
+   },
+   {
+    "titulo": "UPN no apoyará el plan de convivencia de Pamplona y lo tacha de «operación de blanqueamiento mutuo» de PSN y Bildu",
+    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUGMwZDZSWm5ESTlFSnpXdjgwS0tVaUpBcUMxb0F5MnF1VlNOSGJQRnlzeW9LeGZ5X1J4em9iY1hlS1dHcWFjVkR4TkdxY1hFNDBwQ3czRVZOZkRjcVdEeG9yeXQ5V3NIamJ3aUZEM3pMNW04RE91VjN3NzlRYXVxdFNOM2pmVUFDSGk4Ti1xbDhYUFZfNDJWd3Q2NG1sSDNULVJzRmVOLUJwRWZDelNES2NWOXczVWQxN1RwaWZpVXBnYm1LVlMtbDNXckgxNFBDNDhmcnBpbnVJV2NHZ2FZNWtoYTRxT19kVl9NZQ?oc=5",
+    "fuente": "Pamplona Actual",
+    "fecha": "2026-11-10T16:47:16+00:00"
    },
    {
     "titulo": "Fotos de la presentación del lema y la campaña de UPN-PP para las elecciones del 29N",
@@ -573,12 +581,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2dENndSeDBlZm04R2RKMzdSUW16allFdUZBcjEwSHVsV29yWFFBYjlXWUxXdkoydHQxT1NYVkFNVDU3bXFTS3oyNml2NTdnOFZOeXAwZTBxUUljbzdVNEx5UjQ2ZExHTFZDNkRPWVZfSkVrNzg0TjNSQlJiX3FPOHR5SFB1cWp2SHZBVGkyNW9CaDh3cnl3S09lZlk3dzhvTUtwTG1aX25PT05CUzRfRE5WQUFfVDBSOERuUTg4Ykp5N1RKdWdfMTVPRUE?oc=5",
     "fuente": "Europa Press",
     "fecha": "2026-11-10T11:55:15+00:00"
-   },
-   {
-    "titulo": "UPN-PP basan su campaña en la foralidad de Navarra, la mejora de los servicios públicos y la honradez en la gestión",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPc09ncmFOOHJoWlBLM1c5OHlldmJMajUyQTlaZ1FVZXNGaHpDUXQtNktWbDVlMHlGNjVRNUVxMlAzQWVqT1IxRldBWkg1RW03OEVKdG90d1hPV2l1bllRaHNWRi1Gd2V5MlNIblZ2bFFDVHA4ejNlSEE5MmJIaGJGQ1FZYVZXa2ExMWJUV3dDSHROS2locWNuNGxoYWwwMVlJRlJ3YTVYTXc4U2EtWEFFSkhScjczenRVUW5xaW5LLW1JWGVaelpEVXBHRG5Yb01HMVJrOFFtei1NbUg5YW1sSkh3ck9hdS1wTHp3?oc=5",
-    "fuente": "Diario de Navarra",
-    "fecha": "2026-11-10T11:49:52+00:00"
    }
   ],
   "AC": [
@@ -612,26 +614,27 @@
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFB5THh5TXFEV1BjOXNwLW1QREVRMkNSMUdVczVpMkFSazBDRjlxaFdhMDh4dW40Mm9TTXZWNmIxUk02a0w0LVBHQlhSRGtGZUVXdUhBdmxzU18zczdhdnBvdXVaQzIta3lxbGU0V3FxUEVIRGEzM0x5VTBKa1c4UXgyY3VuVlYybGVPVkp2cXpMWGo3SFdWSE1weDlKb0xPR0llZ0FvSldkaV84OFgtdi1zaGZ1VjBHRTRsNUNMVmJuOTJoZmpuWEZNRG7SAdIBQVVfeXFMTWtwRlB0YWFab2lnRmJ5VmF3YVR3QmV2d3NtOHFPSWVzMUxZY09LbTlfYzRLLWhQajcydWloaWUtSlhPOEpoSUJJMkVBc1ZMNm9rRHIxd3hrMlJlR2wxMjlEeDFpcEpuRlNaTDJudjBtOC1wMG9tRHFOMHlrWV85Sm1YeTA3bHNMWUZVNXRpbF93eFFMejlBdy1IWFBTc0pEcUNhWGd4LXhucXFiR2lnT2pCQUdVRlNSVEJmZmJHUkNLdjJLNDVPV3I3dGdSX3IwYlZR?oc=5",
     "fuente": "La Ciutat",
     "fecha": "2026-11-08T12:50:23+00:00"
-   },
-   {
-    "titulo": "¿Adónde irá el voto de Aliança Catalana? La gran incógnita del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV3ZVWFBoLV9rMjNNQ28wVnpCOTNtZmlKczFhdUF0WDY2SXJHTWpLSW9SRmhlVEVBM2h2U3BENW43T21mM0FrRFdJQ3QwaURhSm5sa05sakRtUUpXVjFFb0EwSktwazZ2VHQyTGVYWGRMQV9WNVpRQWVuSlZtWWJvRlp1OFRScmYzMWdIbldubWtDRlhSNmRoQWlnbjNqZmUwUGtpMlp5RHNDcEc1ODhxakhn0gG3AUFVX3lxTE5SS3lxRGQ0dDBUa2d1b1IzU28yR2FSa1dSSTJWZUVtNmxobGJzSm9YNTllb1FPb2Z0LU5IQjlwYnIyaXdmMm5RZGRMR0VpRi1GdmV0Nkcwb1BjNUJoMHE4Nk91el9ocDNhbEhIM2ZJWU1EZHU0djh4a1JFZ2pMaUZyQ3AzaXBIaGxRU1FmZWVnOXMwejdLcVJRT3ZFSUFmNkhjWnZmY1hsTkdSNmw0VVA1OHFCQVppMA?oc=5",
-    "fuente": "Vozpopuli",
-    "fecha": "2026-11-08T03:45:00+00:00"
    }
   ],
   "AA": [
    {
+    "titulo": "José Ignacio García, líder de Adelante Andalucía: “Lo mejor que tiene el PSOE es que no gobierne el PP”",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-11/jose-ignacio-garcia-lider-de-adelante-andalucia-lo-mejor-que-tiene-el-psoe-es-que-no-gobierne-el-pp.html",
+    "fuente": "El País",
+    "fecha": "2026-11-11T04:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/7B5PKL3Y4NHBLHUNO4LFU5KQM4.jpg?auth=eff4ff5d26b3e92bcf1f1af5bbc1412ba138f39f76db40cd24f4041dda89fe12"
+   },
+   {
     "titulo": "Adelante Andalucía abrirá su campaña electoral en el Campo de Gibraltar con asambleas en Los Barrios y San Roque",
     "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMlBwcnIzUHhuOW5EeGVsbkxfdXZmd0l6RTRJUFN6dUZ5UjZrb2xWY2l5Zk1sRnVwa000S2JJcWtncThxcDJoZWtER1daU2pkRWxKQ1hxUDJSNVhXdWdPaHZ2WW16MEI0Q1gzcThtUUdxSnNTQW1CQlpUVU9fYU5LODJWT2Y1eGZLS09rWklTdURRS3FtckFpUS1QNFdZaV83MnE3VjN4d3NsLXdMQ0ZmRlJKdVEyaHk3T2lPWTFUb1JxRzFVNmh3ZkZON1RUcnBlY054Yw?oc=5",
     "fuente": "Cadiznoticias",
-    "fecha": "2026-11-10T20:30:05+00:00"
+    "fecha": "2026-11-10T20:47:41+00:00"
    },
    {
     "titulo": "El programa electoral de Adelante Andalucía reúne 719 medidas para el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbDY5cnBBaDNyVzJhZTdTdWxJbUNQWHExMndKTlJaWnJzWVhjbzRQSk5ubHZfZm9hb3pIa3VGQUNWcGlrU05SUGRYMHdHQnA2SnVHZUpTaHI4RzJ4b1Z6VEEyeHRvLThhS3JBLUFHcW8yb0tXb1R1Qzh5S1h5bWVmUUVfYnRmYzZPaHJEcVdKaUVHSVlJclFCN0lBVmRXRGFT?oc=5",
     "fuente": "Cadiznoticias",
-    "fecha": "2026-11-10T18:08:41+00:00"
+    "fecha": "2026-11-10T18:09:24+00:00"
    },
    {
     "titulo": "Programa electoral de Adelante Andalucía para el 29-N: \"Hay que alejarse de las disputas políticas y centrarse en los problemas cotidianos de la gente\"",
@@ -650,12 +653,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbnB1cjUtQVZNZ01ZRURJQ2lOZFRiMlZsTElrbUtnY0RLZXVUeU1ZSW1tYjNJTGhTa0tXYVFSdkMwUTBXX2sxS3oxdWJ2TGx3UEhjLVJNRDJIM3JGaFRZVmNtWGRLR1Bfd3g0V0xWMlRjVGk4eWVMUUNSdGthMm9OdEg1TXdmWk1wRWxxbjE3OTc2eDlyUjUySGRWRGFkVlc3SXF6Uk41clpvZnJlWmNaMUJwSi1QWHBHdF9jcDdmX0hKUjg?oc=5",
     "fuente": "Sevilla Actualidad",
     "fecha": "2026-11-10T15:12:03+00:00"
-   },
-   {
-    "titulo": "Descárgate el programa electoral de Adelante Andalucía para el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSWZBcWZaY2lBTnFZaHhTdGJjejNHckZ6eFpDYnpGUnBxbnlva254MkRzSlBwSllqOEJxR1Q4c19hXzNyb2UyMGZoZEVES0doZm5FTm5JczZ2ZmR6cEYtSVRENTFaYTZGSk01cE1JbWQyTWRZdGZPUjdzZTNEdHdQUk1vVmJzQXF4cXZiQVItbjk5WDdaZWx6R3NEZDl3TzZ5eHJ1eXlKMUNYNndnRGs0c3Nyb2R2YnU2ckE?oc=5",
-    "fuente": "Portal de Cádiz",
-    "fecha": "2026-11-10T14:30:44+00:00"
    }
   ]
  },
@@ -755,6 +752,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1feFprRmVLVXZldDY4VWl6dmdhR1BLZFllUEpnNUtLMTdZNzlxSHY1Qkl5UUNFdkl3c3FZYl9CQmVaUWVWMUV3SFlUYXZpT1Fub3IzX1J5SFh3QmYxaDdwR29NOVQtUUNESlJfRWhNbFE?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-11-04T14:43:31+00:00"
+   },
+   {
+    "titulo": "¿«Irene Montero y Gabriel Rufián asisten a La Revuelta y hablan de sexo»?",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObW15QkVIanFrOGx6VjFzUXdSNEV6SWthWnlWeWU5UnJKZjVwSnZ5RU1DYUw4VmNzdnI1M0VVZmFZelRmWGUtaVNTeElBLXIxWHVDUkJQMi00NXczYWc1cUVxQ1lSWGFpMFFLTGFlZTdiajhleVNZOTJpXzdvb2Roall6eWdnYTVhSTM0dXNRcHBBcjBWQ28xeUVHTUJNdzdmOWM3aU13?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-28T16:07:10+00:00"
    }
   ],
   "Junts": [
@@ -838,6 +841,13 @@
  ],
  "polemicas": [
   {
+   "titulo": "PP y Vox votan unas conclusiones \"durísimas\" contra Sánchez del Álamo en la Comisión de Investigación sobre Turismo",
+   "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmdySm1BbHdCVnFqUTY2N2tVTWxlUmVoQW4yckRiMTZ0aGhtMW9DMm5sd3F4NGNUZGRNbFd1anV1TGY5VUh5alFVOGQ3bUtIZ3ZxRzJkX0FuSGJ0Q1RiLXkyOTF1THp6ZmFCNm5obC1VN2RZOEJ2TnlqTlphR2k1WE1iU2VJV1IxalAxa2E1YWxnaXlCYnFpSkdzTF9qWXNUYndIcHJDVdIBrAFBVV95cUxPazFRUFR4eHRMdGh5THJ4LW1GM1Q4a1ZvbE10U2ZjMmszaTZmV2xoUVZtLVRfbXZCWGNaZldLdjk1eFNrdW5JMHd5LXNmbmlFYV9HM3VtOFk4ejhRWDdySXh3Y3lHVGVZQWpzMmVpWXZkN3lfXy1ETElpMG5FdTAzdjd2bTFKSWhsY2EyVVhjVjUtM2RFMnpXWEhTU0ZCYTM2aEdibkVjdDc5MmF6?oc=5",
+   "fuente": "La Opinión de Murcia",
+   "fecha": "2026-11-11T05:05:14+00:00",
+   "partido": "PSOE"
+  },
+  {
    "titulo": "David Broncano rompe el tono de la entrevista con Santiago Abascal y se ve obligado a pedir disculpas: \"No has tenido huevos\"",
    "enlace": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVTJTYXpoYXJPNWg3MThTRWhzOVg2UzIzcHdtNDF2RWR5eFh0ZEhad3dKNnBhU2FkYjRLT01CeWlkc3d5cHBSOGJJRlA4bmpfdVpKOUk0T1hTblZWbGxmRG95eGl2cUxlQl9seFI5YUlhN0hMRE1YSUpCb3dyUDFjTGRGNVJPS19jSXRWTkJDNzJMRFhIWHI0R2ZleXZwcXNFQU1WZ1g4cmt1THhSc1M2bThiYjM3R0JIcmFsWnV6YW83NVdjaFl5R281Ymh5TEU0UHByMWdwdFV5MWowbFQ3WlRlclAxamh2S1BtUldvZGJiQ0ZIcW9lbUFVWGlwVllPMFA0QVcyOTVGcHJ4ZTJIZjZ3Z9IBoAJBVV95cUxPSHc3NGdUU1RjREJNemEwQTQxTXc1aHhBczgtZmxoOU1tSmtacjVhdm5RTnp3V0Yza1JIWkdqS2dTUGIyZUs0S2NqZEFoQTVsN3ZsSXQzSGFUYW5UVFkzdjlUMDEzd3JIWFdkbTBQUlRSLXp1OUpOMXdjUVlqeEtaVE56ellDbTFQSDZ4X1NEQ0VLZXNWWnZXUnNKeWlOVjR1NVJMZTF1VWJvV3JDQnE1a0o5SWlXNTZqQVhwbHZCaFBTREhEZnlYRzJSWnVoaUJpVmJBZlZtdjVxLUVSeTVPZTZMYUJ5bXhpdmJYUC1udlhCTW5IcENEYlhSNkNBWXFfUUhoVVhKTlZCSTVRaWo4ZTJoRUJkRHoxTU1MWlBzREE?oc=5",
    "fuente": "Mundo Deportivo",
@@ -855,7 +865,7 @@
    "titulo": "Más de 4,8 millones de espectadores vieron a Santiago Abascal en La Revuelta: en RDC analizaron la polémica que sacudió a España",
    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbDhEZUdHQUxfRlRyS1NrZTFPd0V6VURlUWFKM3JCLTRYTDJ5U0NlektjYVdjY3FnaVBsMEFCMFlMeUxIb1FpcWdfaHFQVW0tMXZoMjVUaVpNOTFrbEdOTF9qTTFHSmE0NmtYSHFsWnVYVWlHNk84cU9PWG1ZTXJPcGJWS0NEdV9hOTVzNUdjVE56V3Z5Z0V6alJYclFyaDV6aE9oblNmbjVIdEdMbDk4WExuVEREdGpIWll6cXU5ZktSYXhiRVNsOTRjSmQ1eDIxdnQ4MEhKUGpGdFZSR3dRaW16UDFHR3FGRFU4QldXVFduTGlURVJOTGpaTG1RQmhpZnBV?oc=5",
    "fuente": "Perfil",
-   "fecha": "2026-11-10T20:44:58+00:00",
+   "fecha": "2026-11-10T20:45:54+00:00",
    "partido": "Vox"
   },
   {
@@ -898,13 +908,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmxSMEl1TzhmeGxlZ1dnS3NLUnk5VEdOeEZiazFwbjNUSmlURlE5aU9ydWtrTVZWTHc5SUhXWUh4dUJfX1JKLXIwSDVCajBTaXZ1cTJHbHkzZXdxeC11Y0hfZUN2eXVBRXFXNjhPbmVKdWgxcXNXX1BzaFpuajQwZUdvZWNOZ283WUZ5UFZVdkZHekNsMk5zLWhwR2U3RWtJb3NXOC1YYk1VWnQtLTJ0eWhqZExxQ0hsWEVjZmJnUjFzcmJselZF0gHbAUFVX3lxTE5MdUFTb0N2b0loQy1IYlhYNENnWE40b0h1SWltdXVDa1ZBQ0lKcV85SWI3UFF3bnZ2V2hCSG9BNFV4M3ZWWUczbzRFNU5XbGNGSlpwVXRaTldYUmdmeUNYOEh5d2NFNVdVcEhlTEdjcjh0VEdxaFV4blJhWTI5MmJjWVpUT3JYVk5UUWFWY0Q3NnRsN0stSlVKcUxBRDgyZkdYdkRpM1IzWDNyOUpPaDJHLWM2bjdpSURMRFBmaXRmbWhDaFhOeWloX0FFUlBHSndPS3Z6U21CekZJOA?oc=5",
    "fuente": "El HuffPost",
    "fecha": "2026-11-09T21:52:17+00:00",
-   "partido": "PSOE"
-  },
-  {
-   "titulo": "Pedro Sánchez celebra el acuerdo para el debate electoral ante el veto del PP a RTVE y azota a Inda y 'Horizonte' en La Séptima: \"Programas terraplanistas\"",
-   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeEJQam40d1ZXRmswb1BpMVF5cV9HWHlEdFlWQTZyaElOVldpemlfOHNoVTZybW9TWFRKN2g2eHRSNDhtaGZpYklHSFNmNnBVekl3b1dwS2tBX2d1b2h4ZFE5RlJ0LUpKZHJTbFcxS3R3TlVUU1M4NWNJSjFuWUdkVGdqSzBBeGUwRHd5NTBmVzRiYlA5UDRoeDJuZl8zcHlMcmpIV3ZnT2l2UGRHXzMzNDRWZkxaNTNRbm1ERnJ1Y0szNzVCd2xuWHkzOEg5Smo1T3RaMHNra1ZmQll0UVVqSl9LVmg4aDJwWVNYRdIB7AFBVV95cUxNUG5meE5MaGZVZktHSUZHSDVnQTRKblBmT0xxTXNteER3N090M2VBdS1KV3R2R3I2YV8xbDAwSXdBQUZ5aWdvR1ZfYjJxb2hlX0U3ZDNWMVEyTUdubnUzV05mV1FYcmxmRDE3TnFiSWE1TmhDeUJxUFBqZlZZNjVGVW5WOHkwZkdfQlFRMVBpV0U3UFN6TzNWcXdNQi1FRTFNbVRhd2lnZ1dqY1Jxa0Q2TldUV2JGbENBMFFpSFN5enh2a0hwMmF1SF9sSXBFOHJfLTBpSFd3aGozS05KdHN5ZmVCVWNRNUw0dUY2Vg?oc=5",
-   "fuente": "El Periódico",
-   "fecha": "2026-11-09T21:33:09+00:00",
    "partido": "PSOE"
   },
   {
