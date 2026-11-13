@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-12T18:55:09+00:00",
-  "mensaje": "537 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-12T18:55:09+00:00",
+  "hora": "2026-11-13T00:22:13+00:00",
+  "mensaje": "538 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-13T00:22:13+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -20,31 +20,31 @@
    ],
    "corregidas": [],
    "nuevas": [
-    "CIS 2026-10-30"
+    "Sigma Dos/El Mundo 2026-11-11"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-12T18:55:58.928Z",
-  "mensaje": "10000 repeticiones, faltan 17 días",
-  "ultima_buena": "2026-11-12T18:55:58.928Z",
+  "hora": "2026-11-13T00:23:02.913Z",
+  "mensaje": "10000 repeticiones, faltan 16 días",
+  "ultima_buena": "2026-11-13T00:23:02.913Z",
   "detalle": {
-   "partidos": 14
+   "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-12T18:56:31+00:00",
-  "mensaje": "10 titulares del día, 88 por partido, 18 polémicas",
-  "ultima_buena": "2026-11-12T18:56:31+00:00",
+  "hora": "2026-11-13T00:23:36+00:00",
+  "mensaje": "10 titulares del día, 90 por partido, 18 polémicas",
+  "ultima_buena": "2026-11-13T00:23:36+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-11-12T18:56:31+00:00"
+  "hora": "2026-11-13T00:23:36+00:00"
  },
  "avisado": {},
  "fiabilidad": {
