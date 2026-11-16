@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-15T21:49:07+00:00",
+ "actualizado": "2026-11-16T02:06:18+00:00",
  "generales": [
+  {
+   "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+   "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-16T01:36:58+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "29: Mañueco pide al PP una marcha más para convencer a los indecisos",
    "enlace": "https://www.larazon.es/castilla-y-leon/29-manueco-pide-marcha-mas-convencer-indecisos_202611156afa0b24d3bddc0868b2bc3c.html",
@@ -14,13 +21,6 @@
    "fuente": "OKdiario",
    "fecha": "2026-11-15T21:52:56+01:00",
    "imagen": "https://okdiario.com/img/2026/11/15/frame-apoyos-vox.jpg"
-  },
-  {
-   "titulo": "Sánchez agitando la bandera",
-   "enlace": "https://www.abc.es/espana/juan-soto-ivars-sanchez-agitando-bandera-20261115210031-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-15T21:36:04+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/sanchez-bandera-k7zC-U403642595960jG-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Las claves del voto exterior del 29N: cómo se apartarán las papeletas de los 'nietos' en los consulados y en el escrutinio",
@@ -37,13 +37,6 @@
    "imagen": "https://imagenes.elpais.com/resizer/v2/55NSY5TQGFE5BO5IW5OUBLVM2Y.jpg?auth=f18f55479353141deb858df1586b3d4f759fa1b122a698551f1f1449e88acdae"
   },
   {
-   "titulo": "Sánchez reivindica a Carlos Cuerpo frente al \"equipo contrario\" de Feijóo y Abascal: \"Vamos a ganar las elecciones\"",
-   "enlace": "https://www.europapress.es/nacional/noticia-sanchez-reivindica-carlos-cuerpo-frente-equipo-contrario-feijoo-abascal-vamos-ganar-elecciones-20261115203237.html",
-   "fuente": "Europa Press",
-   "fecha": "2026-11-15T19:32:37+00:00",
-   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115203237_120.jpg"
-  },
-  {
    "titulo": "Las diez píldoras del día de la campaña electoral",
    "enlace": "https://www.nuevatribuna.es/actualidad/elecciones-podemos-frente-amplio-psoe-diez-pildoras-dia-campana-electoral/20261115185225256429.html",
    "fuente": "Nueva Tribuna",
@@ -56,6 +49,13 @@
    "fuente": "El Confidencial",
    "fecha": "2026-11-15T18:04:00+01:00",
    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
+  },
+  {
+   "titulo": "El PSOE incluye en el programa electoral la semana laboral de 37 horas y media y empezar a negociar bajarla a 35",
+   "enlace": "https://www.europapress.es/nacional/noticia-psoe-incluye-programa-electoral-semana-laboral-37-horas-media-empezar-negociar-bajarla-35-20261115180445.html",
+   "fuente": "Europa Press",
+   "fecha": "2026-11-15T17:04:45+00:00",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115180445_120.jpg"
   },
   {
    "titulo": "Horario y dónde ver el debate electoral entre Pedro Sánchez y Alberto Núñez Feijóo del 19 de noviembre",
@@ -74,6 +74,13 @@
  ],
  "partidos": {
   "PP": [
+   {
+    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-16T01:36:58+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "29: Mañueco pide al PP una marcha más para convencer a los indecisos",
     "enlace": "https://www.larazon.es/castilla-y-leon/29-manueco-pide-marcha-mas-convencer-indecisos_202611156afa0b24d3bddc0868b2bc3c.html",
@@ -105,16 +112,23 @@
     "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlItLXNKTW02UVFIbmhPZ0pJd2FvYllvWFdkYTBCWF9uVWY0Z3dHSXVHclVfQTdlM2kwMmF4ZXhkSV84VDU2aW9xLU5TdUpIWlp4dW05cE1oNmNmSTFpLTZVUjBHeWpWVmJvbTJybXE5X0F0aXBTQV9aZGl5YmQzNVJYOEN2ejhLX3dBQmE0T0E2emo4anVaU25jTk5PdXhBUXZpNjdXUmxvX3JzZU9Zc2FB?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-11-15T19:41:00+00:00"
-   },
-   {
-    "titulo": "Sánchez reivindica a Carlos Cuerpo frente al \"equipo contrario\" de Feijóo y Abascal: \"Vamos a ganar las elecciones\"",
-    "enlace": "https://www.europapress.es/nacional/noticia-sanchez-reivindica-carlos-cuerpo-frente-equipo-contrario-feijoo-abascal-vamos-ganar-elecciones-20261115203237.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-11-15T19:32:37+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115203237_120.jpg"
    }
   ],
   "PSOE": [
+   {
+    "titulo": "Causa de la financiación irregular del PSOE: las explicaciones de los técnicos del Tribunal de Cuentas no convencen a la UCO",
+    "enlace": "https://www.elmundo.es/espana/2026/11/16/6afa0cf3fc6c83a70f8b456e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-16T01:01:29+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947723473144.jpg"
+   },
+   {
+    "titulo": "Tellado pide a votantes socialistas que \"se queden en casa\" para \"no ser cómplices\" de PSOE y su corrupción",
+    "enlace": "https://www.20minutos.es/nacional/tellado-pide-votantes-socialistas-queden-casa-no-complices-corrupcion-psoe_7061384_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-15T22:18:08+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af772029926a5-49663525.jpeg"
+   },
    {
     "titulo": "Sánchez agitando la bandera",
     "enlace": "https://www.abc.es/espana/juan-soto-ivars-sanchez-agitando-bandera-20261115210031-nt.html",
@@ -139,22 +153,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNE5EbzhxNkxiQUVGT01aRE51ejJzWnBZWG9FclVucEFpMmoxR0xLeEJPNGgwSzNFdEppYi1oak1tbjZHVXRXcUdrMjU2UkF1dXIyRFltNlBqLWstcHdGZGItNkkyY1BWaHhFX2puUzg0aEpfd05hQkFpTzR1Zkx6MF96V20xOFNOMWtaTUFNMnU3NDFoTmlNS0NYV2xNOGV2UFU2dllmdE9mT0czNGduQXNQUmpTaWxYWEI1anVLSHpEaE5ZdndScjlzdExKRlE0TzZET0lRTHRvQUhDOHpoNWdBSWZmTklHVENtLU4wODNWXzZacEFIX283WWFmUdIBgwJBVV95cUxPc1BZZDVBQ3lIVFlyLV94ZVJpOXlSQVI2emIwOENXOEN3X2tsNkF3Vk5vWXNIRTFGZG9VTUl3eVF4VjBVVks5ajRCaHJVWEVsOERwTWJ2N21CTEdkdG5wSWhVeGU0SkJRZFpTSnRlNllqTFRfb3IxVFFzSVlOSlRhUTF5M3R3dkFOYUhzUXBrWWpXVGthRE12MlhhdHpELTVRVFBDVlI4U19kOUVjejlvOS1XNlBIR2NFVmhzWFlmUVlCVFRLY2VhTUtrWnh5TVkxUlNvUldnVndpaGRDdFIxRGxpVS15WEh1bFc0c09iM3kwMnVUdWE4ZXFhM2RMN1hYQnZz?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-15T20:37:27+00:00"
-   },
-   {
-    "titulo": "Tellado pide en Salamanca a quien no vote al PP que se quede en casa para «no ser cómplice» del PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb0xQbW1RVVpaU1RSakxzb0dWUi16UHZ5ZTgzczRybW8xRTI2Zi1zbV9wN2dCcWU2WXZUY29VS2FTSFByS0dfUmVKdk5nMUhEbGFaUVJZM2YzLW0zeWQ4N2ZOU1JRUmdQZ2tSS0F2em1sZmdCdmk0WGw5eFBEaXFrQ3FVdTVPNVh4dHNHS2VaQ3FpczFPcDA5M2Vmc1FyM0R0bHBnTmxMNWF0QjN4c09TeWFtajF4OTFG0gG-AUFVX3lxTE1BeWtmeVdhLVRNUzBlczJNWmR0NG1tRzJGN1VPYjNnaEoyVFRxOUUzaS1sLUxWcDNIZUc1c3hfTzZpT2I2bWJuQXc4N1JGbHZDMmVjVnljYk9CMk9vOGYzNG5hREctRnNyWUlZWjVQclM0djBFajhZNi01a3BlY2ZDNW1ULTkzTzAwelY3YURTR1JSdWNBY0FQVWZHZW9KS2dyQk01VWNycGV3TmdVNEl1SVZ1TVJpRmFiNHFiVVE?oc=5",
-    "fuente": "Diario de Castilla y León",
-    "fecha": "2026-11-15T20:15:27+00:00"
-   },
-   {
-    "titulo": "Sánchez y Chelo García Cortés para las campanadas de La Séptima o ‘La Peter’ en ‘Fuera de Control’",
-    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-15/sanchez-y-chelo-garcia-cortes-para-las-campanadas-de-la-septima-o-la-peter-en-fuera-de-control.html",
-    "fuente": "El País",
-    "fecha": "2026-11-15T19:56:07+00:00",
-    "imagen": "https://imagenes.elpais.com/resizer/v2/55NSY5TQGFE5BO5IW5OUBLVM2Y.jpg?auth=f18f55479353141deb858df1586b3d4f759fa1b122a698551f1f1449e88acdae"
    }
   ],
   "Vox": [
+   {
+    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-16T01:36:58+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "Figaredo insiste en que Vox y BNG pelean un escaño por A Coruña y bromea con que no hay protestas por ser domingo",
     "enlace": "https://www.20minutos.es/nacional/figaredo-insiste-vox-bng-pelean-escano-coruna_7061380_0.html",
@@ -186,13 +194,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaHBaa1c4MUJmZTdaNFVvcTNmNElOZkQ2M0dfSW9lbksyNHlWSzdhdlJqWWhVVVZrbmU2VFR4bV84VXRlVWE0ZjN5Ql9DMmdXcE42bUU0RDVSRE9UdzkzX041V0pURy10VVpPRHh0UjBjVWxmeWdPem91UG03Y2NOdWlOV3JuRkZWeGlqUzBybWdNSjBsWXRGYUxlM0p1TThhZjN5QTZ2Z0dvSjBqX3JpQkpnYkFuZTg3ME9XS1I5RETSAcYBQVVfeXFMTVBLeXJPYUNBT25Tajh5ZVlvN3BFS0VhNUxtVXI4bFo3ektDV2VzbzBWd0RxRWtScDVWbGJJV09nTTJWUWJSeC1yTE1rbWNMSUxoTVRIdVZuX2JLT3hBMkxMaVd0U3didF83SHIxUXpackxJRTJJTVhJc3BMTUZhVTNLcXFtbWJ0S2NsWTI4TnlOQWJ6TWVnOG5nX0VIR2tWbW9CSUZ5a2hLVUVMbmFGUm5lXzhMZXJTQ2tzT1paUm9teDlVaVZ3?oc=5",
     "fuente": "El Periódico Mediterráneo",
     "fecha": "2026-11-15T20:15:27+00:00"
-   },
-   {
-    "titulo": "Sánchez reivindica a Carlos Cuerpo frente al \"equipo contrario\" de Feijóo y Abascal: \"Vamos a ganar las elecciones\"",
-    "enlace": "https://www.europapress.es/nacional/noticia-sanchez-reivindica-carlos-cuerpo-frente-equipo-contrario-feijoo-abascal-vamos-ganar-elecciones-20261115203237.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-11-15T19:32:37+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115203237_120.jpg"
    }
   ],
   "Sumar": [
@@ -403,6 +404,13 @@
     "imagen": "https://okdiario.com/img/2026/11/15/abascal.jpg"
    },
    {
+    "titulo": "Sánchez sostiene que es «legítimo» pactar con Bildu en una entrevista en La Séptima",
+    "enlace": "https://theobjective.com/espana/politica/2026-11-15/sanchez-legitimo-pactar-bildu-vida-legislar/",
+    "fuente": "The Objective",
+    "fecha": "2026-11-15T18:18:17+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/sanchez-la-septima.jpg"
+   },
+   {
     "titulo": "EH Bildu: \"Si está en nuestra mano ni PP ni Vox gobernarán en Madrid, Navarra o Euskal Herria\"",
     "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOb0FOSENvdDRYVVJrdzRSY1VjT08yQThaTVpuaUFNb1F2MW42QU1yMDVST2MzNEIzYkNhdFZudFVKcFp0bEhMQmhVcTNZV1NLdU50cVUzTEJIVGhtTzB4U3BlWmRKVzlYUThNYWpRS0p6ckxrbmJja3ktajN1Y2dzQ1BkSDhVcXJjZEYwSExHdUplSkxjZm9MczFDU0E3OTRacDh3dWctSDAzTTlKXzZBTF9mVkVmNTYzUE4wSVJGQ2pMRmJucW5Qa05KN3pOelI2VTRBcHFndTcyZw?oc=5",
     "fuente": "Diario de Navarra",
@@ -426,12 +434,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWW8yUnJHMnZUN0FCUGI1Y25KTEt2Yll0UnRTR1BhOExDX2RPNmJMSWNFWVhUS1hFXzM3VTlHQUpXSndoUWZKQkFMaHBYOGxDU05tdTRPY1RteHlrLTgtS1dLNndpWlhuNHBTMFRVYURtSUpPNDlWdld2OFA2eEhOcjM5NkFxUGg4VjZWZlFURF9iNGZ2N21iNkFOZFpCRmJWeGtYODA4SmNsVHJxWHFtZ3pRVFZHUFZyTTN2UkdJSUlyTUtFV2ZQaWxUd3NnNUZrZy1PNjMzQjVwOVZTT3NHSjQ2LThVaFAwazF1MGdCdzBRclpz?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-15T14:44:34+00:00"
-   },
-   {
-    "titulo": "Feijóo pide a Sánchez que le diga a sus socios de EH Bildu que \"no violenten la campaña\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDU5NWxMT2FhOEVZWWVqVHBlZUd5R0lWVGRhWEtCMVFPRFE1V00wenFaYkdnZDA2YVk0TTducmkxaVBqMFNtLVdTd21MWDBkcGl0Q3MxMFRxOURjVGRmV2MtNk1oVjZDSGQxUVVpMGdZT2FYdzRLRFU2el9FQ0dWZWVSd2ZBdWcxRUU5OUttSEpybldGbkVVM1JR?oc=5",
-    "fuente": "Diario de Sevilla",
-    "fecha": "2026-11-15T13:12:03+00:00"
    }
   ],
   "PNV": [
@@ -520,7 +522,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-11-15/salvamento-maritimo-migrantes-tenerife-embarcaciones-irregulares-1tna-1tps_4465328/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-15T22:01:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794779149&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794794265&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Clavijo exige \"acelerar\" la ayuda a El Hierro y una \"respuesta inmediata\" del Estado ante el repunte histórico en la llegada de migrantes",
