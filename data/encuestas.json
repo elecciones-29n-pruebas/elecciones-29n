@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-16T02:05:50+00:00",
+ "actualizado": "2026-11-16T09:41:49+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385901831,
+ "revision": 1386000039,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,41 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "40dB/Prisa",
+   "inicio": "2026-11-10",
+   "fin": "2026-11-15",
+   "muestra": 2500,
+   "participacion": null,
+   "pct": {
+    "PP": 31.5,
+    "PSOE": 30.3,
+    "Vox": 18.0,
+    "Sumar": 5.4,
+    "Podemos": 1.1,
+    "SALF": 1.7
+   },
+   "escanos": {
+    "PP": 130.5,
+    "PSOE": 121.0,
+    "Vox": 60.5,
+    "Sumar": 9.5,
+    "ERC": 10.0,
+    "Junts": 3.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.5,
+    "SALF": 0.0
+   },
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "encargo": "Prisa",
+   "id": "40db-2026-11-15-2500",
+   "primera_vez": "2026-11-16T09:41:49+00:00"
+  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-09-01",
@@ -62,6 +97,46 @@
    "encargo": "El Español",
    "id": "sociometrica-2026-11-15-5923",
    "primera_vez": "2026-11-15T21:48:28+00:00"
+  },
+  {
+   "empresa": "Sondaxe/La Voz de Galicia",
+   "inicio": "2026-11-10",
+   "fin": "2026-11-14",
+   "muestra": 1000,
+   "participacion": null,
+   "pct": {
+    "PP": 30.2,
+    "PSOE": 26.7,
+    "Vox": 17.6,
+    "Sumar": 7.9,
+    "ERC": 2.7,
+    "Junts": 1.4,
+    "Bildu": 1.8,
+    "PNV": 1.0,
+    "BNG": 1.0,
+    "CCa": 0.4,
+    "AA": 1.8,
+    "Podemos": 2.2
+   },
+   "escanos": {
+    "PP": 127.0,
+    "PSOE": 109.0,
+    "Vox": 65.0,
+    "Sumar": 12.0,
+    "ERC": 11.0,
+    "Junts": 5.0,
+    "Bildu": 8.0,
+    "PNV": 5.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 2.0
+   },
+   "empresa_base": "Sondaxe",
+   "clave": "sondaxe",
+   "encargo": "La Voz de Galicia",
+   "id": "sondaxe-2026-11-14-1000",
+   "primera_vez": "2026-11-16T09:41:49+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -185,13 +260,13 @@
     "PP": 30.8,
     "PSOE": 26.4,
     "Vox": 18.2,
-    "Sumar": 12.8
+    "Sumar": 6.4
    },
    "escanos": {
     "PP": 130.0,
     "PSOE": 106.0,
     "Vox": 65.0,
-    "Sumar": 24.0,
+    "Sumar": 12.0,
     "ERC": 9.0,
     "Junts": 6.0,
     "Bildu": 9.0,
@@ -288,6 +363,34 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-13-5370",
    "primera_vez": "2026-11-15T01:54:56+00:00"
+  },
+  {
+   "empresa": "Target Point/El Debate",
+   "inicio": "2026-11-12",
+   "fin": "2026-11-12",
+   "muestra": 1013,
+   "participacion": null,
+   "pct": {
+    "PP": 30.6,
+    "PSOE": 27.0,
+    "Vox": 18.7,
+    "Sumar": 14.6,
+    "Podemos": 1.6,
+    "SALF": 2.1
+   },
+   "escanos": {
+    "PP": 127.0,
+    "PSOE": 112.0,
+    "Vox": 66.0,
+    "Sumar": 22.0,
+    "Podemos": 0.5,
+    "SALF": 0.0
+   },
+   "empresa_base": "Target Point",
+   "clave": "targetpoint",
+   "encargo": "El Debate",
+   "id": "targetpoint-2026-11-12-1013",
+   "primera_vez": "2026-11-16T09:41:49+00:00"
   },
   {
    "empresa": "40dB/Prisa",
