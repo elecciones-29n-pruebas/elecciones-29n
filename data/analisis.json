@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T11:42:06.621Z",
+ "actualizado": "2026-11-20T20:17:11.690Z",
  "media_bruta": {
   "PP": 31.321091188226326,
   "PSOE": 27.58932637527896,
@@ -48,10 +48,10 @@
   },
   "electopanel": {
    "empresa": "EM-Analytics",
-   "n": 66,
+   "n": 65,
    "sesgo": {
-    "PP": -0.4,
-    "PSOE": 0.5,
+    "PP": -0.38,
+    "PSOE": 0.51,
     "Vox": 0.85,
     "Sumar": -0.96,
     "ERC": -0.13
@@ -246,8 +246,8 @@
    "letra": "B",
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.4,
-    "PSOE": 0.5,
+    "PP": -0.38,
+    "PSOE": 0.51,
     "Vox": 0.85,
     "Sumar": -0.96,
     "ERC": -0.13
@@ -969,7 +969,7 @@
    "encargo": "Electomanía",
    "fin": "2026-11-12",
    "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PSOE baja 1.4 puntos respecto a lo esperado de esta empresa.",
+   "texto": "Algo fuera de lo habitual: PSOE baja 1.5 puntos respecto a lo esperado de esta empresa.",
    "nota": "B",
    "margen": 2.2,
    "detalle": [
@@ -982,8 +982,8 @@
     {
      "partido": "PSOE",
      "dado": 26.1,
-     "esperado": 27.5,
-     "diferencia": -1.4
+     "esperado": 27.6,
+     "diferencia": -1.5
     },
     {
      "partido": "Vox",
