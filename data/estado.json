@@ -1,59 +1,30 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-22T20:47:19+00:00",
-  "mensaje": "628 encuestas leídas, 75 nuevas",
-  "ultima_buena": "2026-11-22T20:47:19+00:00",
-  "detalle": {
-   "ignoradas": [],
-   "apartadas": [],
-   "corregidas": [],
-   "conservadas": 222,
-   "desdobladas": [
-    "Target Point/El Debate 2026-11-12",
-    "DYM/Henneo 2026-11-06",
-    "Ateneo del Dato/elDiario.es 2026-11-05",
-    "Target Point/El Debate 2026-10-30",
-    "Vox/The Objective 2026-10-27",
-    "More in Common 2026-10-25",
-    "Winston/Artículo14 2026-10-23",
-    "Ateneo del Dato/elDiario.es 2026-10-22"
-   ],
-   "nuevas": [
-    "SocioMétrica/El Español 2026-11-22",
-    "Data10/Okdiario 2026-11-21",
-    "Sondaxe/La Voz de Galicia 2026-11-21",
-    "40dB/Prisa 2026-11-21",
-    "EM-Analytics/Electomanía 2026-11-21",
-    "SW Demoscopia/La Séptima 2026-11-21",
-    "SocioMétrica/El Español 2026-11-21",
-    "Data10/Okdiario 2026-11-20",
-    "Sondaxe/La Voz de Galicia 2026-11-20",
-    "40dB/Prisa 2026-11-20"
-   ]
-  }
+  "hora": "2026-11-22T21:16:29+00:00",
+  "mensaje": "Veda electoral, no se leen ni se publican encuestas hasta el cierre de las urnas",
+  "ultima_buena": "2026-11-22T21:16:29+00:00",
+  "detalle": {}
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-22T20:47:54.087Z",
-  "mensaje": "10000 repeticiones, faltan 7 días",
-  "ultima_buena": "2026-11-22T20:47:54.087Z",
-  "detalle": {
-   "partidos": 13
-  }
+  "hora": "2026-11-22T21:16:29.567Z",
+  "mensaje": "Veda electoral, no se rehacen las probabilidades hasta el cierre de las urnas",
+  "ultima_buena": "2026-11-22T21:16:29.567Z",
+  "detalle": {}
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-22T20:48:19+00:00",
-  "mensaje": "10 titulares del día, 82 por partido, 17 polémicas",
-  "ultima_buena": "2026-11-22T20:48:19+00:00",
+  "hora": "2026-11-22T21:16:54+00:00",
+  "mensaje": "9 titulares del día, 69 por partido, 16 polémicas",
+  "ultima_buena": "2026-11-22T21:16:54+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": false,
-  "hora": "2026-11-22T20:48:19+00:00"
+  "hora": "2026-11-22T21:16:55+00:00"
  },
  "avisado": {},
  "fiabilidad": {
