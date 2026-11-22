@@ -1,12 +1,19 @@
 {
- "actualizado": "2026-11-22T19:38:57+00:00",
+ "actualizado": "2026-11-22T20:34:56+00:00",
  "generales": [
   {
-   "titulo": "Elecciones generales 29-N, en directo | Encuestas, sondeos, Pedro Sánchez y última hora de PP, PSOE, Vox y Frente Amplio",
+   "titulo": "Elecciones generales 29-N, en directo | Pedro Sánchez, encuestas, sondeos y última hora de PP, PSOE, Vox y Frente Amplio",
    "enlace": "https://www.elespanol.com/espana/20261122/elecciones-generales-directo-ultima-hora-campana-electoral-encuestas-actos-pp-psoe-vox-sondeos-voto-correo-2026-espana-partidos-pedro-sanchez-feijoo/1003744467714_10.html",
    "fuente": "El Español",
-   "fecha": "2026-11-22T20:31:00+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11407701.jpg?p=c:3998:2252:nowe:0:190/w:1706/h:960&h=xYd6N5w-"
+   "fecha": "2026-11-22T21:30:00+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11408000.jpg?p=w:1706/h:960&h=duGqeAiJ"
+  },
+  {
+   "titulo": "Rueda encara la última semana de campaña pidiendo llenar las urnas con «sentidiño a la gallega»",
+   "enlace": "https://www.abc.es/espana/galicia/rueda-encara-ultima-semana-campana-pidiendo-llenar-20261122212229-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-22T21:22:29+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/22/20261122_ARueda_Ribeira1.jpg-RYhQK5i0h7il7GyS1j4b46O-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "29N- María Pardo carga contra el “abandono” del Gobierno de Pedro Sánchez al medio rural en materia de seguridad",
@@ -16,18 +23,11 @@
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/2CC8AEF9-DBFC-4388-B243-F814417974EF/maria-pardo-junto-conrado-iscar-acto-campana-valladolid_96.jpg?crop=1600,900,x0,y144&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
-   "titulo": "Pedro Sánchez en Salvados con Gonzo en directo: Zapatero y el cara a cara son temas centrales de la entrevista previa al 29N",
+   "titulo": "Pedro Sánchez en Salvados con Gonzo en directo: Zapatero, Puigdemont y el cara a cara son temas centrales de la entrevista previa al 29N",
    "enlace": "https://www.lavanguardia.com/politica/20261122/11690345/entrevista-pedro-sanchez-salvados-gonzo-elecciones-29n-hoy-en-directo.html",
    "fuente": "La Vanguardia",
    "fecha": "2026-11-22T19:59:45+01:00",
-   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/22/6b03273ff3878.jpeg"
-  },
-  {
-   "titulo": "Chamorro (Vox) defiende la prioridad nacional, la remigración y la bajada de impuestos en Ciudad Real",
-   "enlace": "https://www.abc.es/espana/castilla-la-mancha/chamorro-vox-defiende-prioridad-nacional-remigracion-bajada-20261122194347-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-22T19:43:48+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/22/chamorro-mercadillo-miguelturra-Rhome63tJ0V2YtFTJLxQOMO-1200x840@diario_abc.jpg"
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/21/6b00d17b32033.jpeg"
   },
   {
    "titulo": "Sánchez muestra su apoyo a la candidata Carmela Silva tras pintadas e insultos en fachada",
@@ -69,21 +69,21 @@
    "enlace": "https://www.elconfidencial.com/espana/2026-11-10/encuestas-elecciones-generales-29n-mayoria-absoluta-graficos-cbtr_4460274/",
    "fuente": "El Confidencial",
    "fecha": "2026-11-22T10:30:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1795374928&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1795377655&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "Elecciones generales 29-N, en directo | Encuestas, sondeos, Pedro Sánchez y última hora de PP, PSOE, Vox y Frente Amplio",
+    "titulo": "Elecciones generales 29-N, en directo | Pedro Sánchez, encuestas, sondeos y última hora de PP, PSOE, Vox y Frente Amplio",
     "enlace": "https://www.elespanol.com/espana/20261122/elecciones-generales-directo-ultima-hora-campana-electoral-encuestas-actos-pp-psoe-vox-sondeos-voto-correo-2026-espana-partidos-pedro-sanchez-feijoo/1003744467714_10.html",
     "fuente": "El Español",
-    "fecha": "2026-11-22T20:31:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11407701.jpg?p=c:3998:2252:nowe:0:190/w:1706/h:960&h=xYd6N5w-"
+    "fecha": "2026-11-22T21:30:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11408000.jpg?p=w:1706/h:960&h=duGqeAiJ"
    },
    {
     "titulo": "Rueda considera, a una semana de las elecciones, que hay \"ganas de cambio\" de la mano de Feijóo",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOEYzM0o4eWlIMlJqdFl6RktXRzg5YTVUUG5HejZNN04zQXM0akdieDNpTk80ZG11ZWRFbUVtSjdCMGQ3RXhqVXJuTlZpeUlGMmtjWTRCWTdxTjluQ1AwZXlLZ1hpWTNFaTYwWDJ5YVo4VmFaZVZYVEhJNDh2ZEkzM2NMVUxMR3UybEIwbVZEa3dVUkRWb3JsNk85Q2tvVjg2Q2pWVjVzYk05QXgwTWw0RWNYa3U5REdXR1R4TEZmMkdpR1ZhWUtfWDMtdEZrcXVZc0pVdGtWWFRFd2s?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOEYzM0o4eWlIMlJqdFl6RktXRzg5YTVUUG5HejZNN04zQXM0akdieDNpTk80ZG11ZWRFbUVtSjdCMGQ3RXhqVXJuTlZpeUlGMmtjWTRCWTdxTjluQ1AwZXlLZ1hpWTNFaTYwWDJ5YVo4VmFaZVZYVEhJNDh2ZEkzM2NMVUxMR3UybEIwbVZEa3dVUkRWb3JsNk85Q2tvVjg2Q2pWVjVzYk05QXgwTWw0RWNYa3U5REdXR1R4TEZmMkdpR1ZhWUtfWDMtdEZrcXVZc0pVdGtWWFRFd2vSAfYBQVVfeXFMTkdWNEdnTUhNRnJFSE5GZ3NkTThmbnZYWFhNalFWWndocGJUc1pXZjNlU0pVWFNoSEl5SVBlNEk2TThSckI1UDdVRW5yWm5QV2VjNGdRRV9acHhWa1o4X19qRklWbmRoNExVVlNJdkV1eUJxT2hwS0l2VUJjZnV3cEJGd0RNWnFEeTJWbnlXajZ0czc1SUZjYzhWUjJBdWFwdjQ3c2dBMTZFYlRmT2ctYzVfaDZLVXVTRVdhaW5VcW05SFRDUnB6UTJWTzNFXzhKeWIxZm9OTGY1bTBYeXB2TFdSZ1VuYTN5bzJ1THB0LUM2aW43ZUp3?oc=5",
     "fuente": "Infobae",
     "fecha": "2026-11-22T19:16:00+00:00"
    },
@@ -100,10 +100,10 @@
     "fecha": "2026-11-22T18:52:28+00:00"
    },
    {
-    "titulo": "Alfonso Rueda pide concentrar el voto en el PP",
-    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaWRVbzJJWjdfSTBMRzdJN1FkRkxGemNmcERzaWdOcW9SWlFOZnM4ekdEdlBZQ0wxdW9HeVRTR2hfQndWVkhUTmE2LVF5aS1aN0lmY0ZldFlNWFhlOER5QkV0RVpOU01WMGt2X05pVk9qN2ZGTHRId2haeU0teEk3VER6WFdkY0s2SmFWUEFnQ1FVS0dkeGVIMjc3bERYTlFoRzlEbg?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-22T18:52:00+00:00"
+    "titulo": "Antón Baamonde: \"Feijóo no es una persona de ideas y su programa es lo que le digan\"",
+    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaXZLcDh6LURla21ZcjRsOXFSX2luYWVkRjFJNV9tUmdRdHE1UktYYkJZSlZMVzlyLUJXX29MNDVxN2dDcUVZSU1IMEtHUVNUSFhUNTZ1SklrWXVtR2w0LThTbnlLTVE5eXhVcHp2c25aREgyMGZEMTZBR2lvdHFjaC1uOWo3Vm5ZSlBrVGlSa1gwRzJq?oc=5",
+    "fuente": "Diario Público",
+    "fecha": "2026-11-22T18:45:00+00:00"
    },
    {
     "titulo": "El PP lidera las encuestas y podría sumar mayoría absoluta en las elecciones",
@@ -114,11 +114,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Elecciones generales 29-N, en directo | Encuestas, sondeos, Pedro Sánchez y última hora de PP, PSOE, Vox y Frente Amplio",
+    "titulo": "Elecciones generales 29-N, en directo | Pedro Sánchez, encuestas, sondeos y última hora de PP, PSOE, Vox y Frente Amplio",
     "enlace": "https://www.elespanol.com/espana/20261122/elecciones-generales-directo-ultima-hora-campana-electoral-encuestas-actos-pp-psoe-vox-sondeos-voto-correo-2026-espana-partidos-pedro-sanchez-feijoo/1003744467714_10.html",
     "fuente": "El Español",
-    "fecha": "2026-11-22T20:31:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11407701.jpg?p=c:3998:2252:nowe:0:190/w:1706/h:960&h=xYd6N5w-"
+    "fecha": "2026-11-22T21:30:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11408000.jpg?p=w:1706/h:960&h=duGqeAiJ"
    },
    {
     "titulo": "PSOE y Adelante Andalucía exigen a Ayuso que \"se lave la boca\" antes de hablar tras sus palabras sobre los \"garrapateros\"",
@@ -128,11 +128,17 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/11/22/245B5DA1-5C23-422E-B3A1-24470906255C/psoe-adelante-andalucia-exigen-ayuso-que-lave-boca-antes-hablar-andalucia-sus-palabras-garrapateros_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Pedro Sánchez en Salvados con Gonzo en directo: Zapatero y el cara a cara son temas centrales de la entrevista previa al 29N",
+    "titulo": "Pedro Sánchez en Salvados con Gonzo en directo: Zapatero, Puigdemont y el cara a cara son temas centrales de la entrevista previa al 29N",
     "enlace": "https://www.lavanguardia.com/politica/20261122/11690345/entrevista-pedro-sanchez-salvados-gonzo-elecciones-29n-hoy-en-directo.html",
     "fuente": "La Vanguardia",
     "fecha": "2026-11-22T19:59:45+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/22/6b03273ff3878.jpeg"
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/21/6b00d17b32033.jpeg"
+   },
+   {
+    "titulo": "Elecciones generales de 2023: PP ganó en la comarca, PP y PSOE subieron en votos, VOX bajó y Sumar-Compromís fue la cuarta fuerza",
+    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY0NDejVka29ZejRCTWpsVmRucDkySU9YUG1INno0bloxU05OemRQU1h2ZlFWSlA0M1BHRXJ6bHcydXlpTE5vQUt3OEtSM3ZBc2U2SWVlUXkzYk9FdzU2MXJMbkhYejVKaWZtZkRLRzdidlg1VkpJdGJtSlZaajlLWmZoY0FGdTYzWk5wME1VblJCczFOY2paam9XRGZQN0tfNUZvVEhtb0hmZjM5VnNnSFczVTYtMVJNZWYzYjhldHZySEtkT0lQSUM2OWhMLU13NFlibmRzZnRET0pqRWtoWDZKU05PMklSS2Jj?oc=5",
+    "fuente": "Versión Radio",
+    "fecha": "2026-11-22T19:41:26+00:00"
    },
    {
     "titulo": "Sánchez agita la remontada del PSOE en Murcia y pone el listón en 176 escaños",
@@ -141,25 +147,25 @@
     "fecha": "2026-11-22T19:14:47+00:00"
    },
    {
-    "titulo": "Ver en directo la entrevista a Pedro Sánchez en Salvados con Gonzo en laSexta",
-    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVXU5Q19fLUxPOWlpNXkycjZ4Ui1fSG90TEROaExaS2VhakhDVXJ0SzlSQjBvZmRoUllhdlp3cnVlU3REdDNqam0xZEJrekJGMU0wWW9CZkNRTFQ1Ul9VU3ZmZEwzcXNWRnE5dHNtZEQ4QmtrV2k1U3o4YzN6QWlrVGdxV1NvX0p2R3ZheFgtSk9RWFRBb0JPUGpLSGtEWkhZbEYzVS0wYmlRTHFLbDVxWmVIeHd5N2xGMm56VmtEZnpyVVlQaGF3RTFqZUlSb2NBQko2RkpZeXNzZ9IB2gFBVV95cUxPN0trVzJQVDRORGVyRjdvcklONUE3X094VWJIVFE3dHJkSnI3ZU1NMU5qeGV0QzNoTEpJVmJONjVpMDA1UGctek5JTk80REZ1NkU1UFBoMEJhaHhPaW0xbHNRVks4eEw2S3JSTjc5NVpZUWQ3MnF3N1hlOWNvU2lpSFBNVUxlMlF1UnRFZU1YMmx6R3dBb2pUUHM5OE14MERaUFViZVpXTHVydmdrZFNrSzNrSGxzNE95cFgzNjN5YjNNdU9GdnllOU1Cd2ZBWW9OSTJUNHBYUHFzZw?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-22T19:00:16+00:00"
-   },
-   {
-    "titulo": "Qué es Manychat y por qué el PSOE te pide que escribas “Programa” en Instagram",
-    "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNXZ4c3lCTDNMd1lrMkxlZHZLMkNYSnlnd3FXeHF4c1VtamVpUnJwRTFKMXBQMXFzYTVZZkZVSldKUEJOSVVkQVo2dFJoMWFmb2JESnE5X2RCRzRiY1RybUlMbmVHUVRjQTFRZWFZN0ZHRVpFOUZxakZZWWdQOXIzM1JLLXZaRHA1NEw2ZmQ0TQ?oc=5",
+    "titulo": "Michavila prevé más del 75% de participación el 29N y advierte: el PSOE sube, pero pierde opciones de gobernar",
+    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa2o0SkVlcmZPcmdIXzVMM0owa2s0Z0NFcVY5dHJadjRTTXBqWWlES3dSWlBoN2ZMcm1PRGFXREc2OEk0UlV0SGR4bVNFT2RqMGZ4MVpQTUotUGkyd2t6THNST2UxOHI0Q3FVQ3RvQ3JodU0wNHYzcFE0MFhnblhHMU1Wa3dWeVJrVWxOcWN3VFFxeU5xeF9VQ3dyd0TSAaIBQVVfeXFMTWVOd3YzSkMwb3pNRFd6Q0p2Sjk0S1pOMGNjbEdfRFJTb3hrUjJVSFo3Y0xPMkw3U09FcUdVZ2Y2dDZUWnlZQzl6bXZ2LWdPR0RQMERDZm5SSkFTYTZCSHA0dFU2V0dwcEV6cjZoVS1nRW5ZaDJGeVJRTTA3OU5aZHJPdkxpY05BYlJudl96Q2JnaVE1ZEUwTnE5bGc0dDlzX2NR?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-11-22T18:35:59+00:00"
+    "fecha": "2026-11-22T19:08:21+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Elecciones generales 29-N, en directo | Encuestas, sondeos, Pedro Sánchez y última hora de PP, PSOE, Vox y Frente Amplio",
+    "titulo": "Elecciones generales 29-N, en directo | Pedro Sánchez, encuestas, sondeos y última hora de PP, PSOE, Vox y Frente Amplio",
     "enlace": "https://www.elespanol.com/espana/20261122/elecciones-generales-directo-ultima-hora-campana-electoral-encuestas-actos-pp-psoe-vox-sondeos-voto-correo-2026-espana-partidos-pedro-sanchez-feijoo/1003744467714_10.html",
     "fuente": "El Español",
-    "fecha": "2026-11-22T20:31:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11407701.jpg?p=c:3998:2252:nowe:0:190/w:1706/h:960&h=xYd6N5w-"
+    "fecha": "2026-11-22T21:30:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11408000.jpg?p=w:1706/h:960&h=duGqeAiJ"
+   },
+   {
+    "titulo": "Elecciones en España: el PP sostiene la ventaja en los sondeos pero la gobernabilidad dependerá de Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVVZEQWxQTlk3RGJfdkU0M0xndUhlNDFlWXlMM0dyb24zQ1ZoaXBpVjBvTXhCb0ZZd3MzR01yc1NkaDA4QmhPTFpnaXdqVkhSU1lLdzVuSHAtYUtrUG1YaWZ3d2sxd1hQUllMNUdDQ0RoaXNCcExPWDNqWHpvb0ZhMk9DM2cwU29wMVRZMDZPb2FwbEtxN0lFdnBhcnBoX295TGNPQjhuY1YzVU9Sd3k1VVZGMUlqN3VobXNaQS1mYXA?oc=5",
+    "fuente": "La Voz del Interior",
+    "fecha": "2026-11-22T20:31:47+00:00"
    },
    {
     "titulo": "Ignacio Garriga visita Zamora para respaldar la campaña de Vox a una semana de las elecciones",
@@ -184,13 +190,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMWVmZTVCLW95bGNLb0R4MXdJaHdMZ1dnTkdjay1pRFJCRk00bmhmdDd2Q0V4UGFCU2lxbm1NZWFnODZKaVNGZlRYV2hLaWluc0EtSTBDSm9JeGdkSnBINXRSSGZoTURzUnpiRGFqc3N0ZUZrOE8tQ2loR3MySzBFZGtOampOYXVkSDVjeWlYaVFZY1VnZ0hka2VLc3JBcHk5NF8zQXJBTC1vU0xvemVmcEZ1S1FaMVlMRzRZZnNWUTM2MGdSaE4weTBKLXM2ZW_SAdQBQVVfeXFMTWo5T25xTTc1UFZoZ2xZUG83UzRxd004Q0wwSTdkX3RQai1WUzFzUEt0U1F4ckZKTUp0SmFsUThVYlVLTGNiOUd5TVdMbjg3RXp4amRXWDdZZ01rM1lHTWp2OHhBWjhYTXJFenNJR1h3aURqZWJ5akkwbXdoRW42NGpGbWs1SzJVaFBhZllwc0lzRWk4TzBmUnBOSDUwOXlZR3dJUlhNWXlnWW1ONVdBT0NyTHg4akZzTlA3QUJDWlB6LUttcFBNMVBwU0I2eDBBeUdrN1k?oc=5",
     "fuente": "El Correo de Burgos",
     "fecha": "2026-11-22T17:52:29+00:00"
-   },
-   {
-    "titulo": "Feijóo y Abascal cruzan sus caminos en la semana definitiva de la campaña electoral del 29N",
-    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261122/feijoo-abascal-cruzan-caminos-semana-definitiva-campana-electoral-29n_483885.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-22T17:15:51+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/22/6b031dafdf334.jpeg"
    }
   ],
   "Sumar": [
@@ -236,7 +235,7 @@
     "titulo": "Gabriel Rufián e Irene Montero vuelven a unir fuerzas en un mitin de ERC para \"frenar a la derecha\" y \"someter al PSOE\" tras las elecciones del 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9IQ2IxV3NIZUdVUWZwX0xCZ3k0aC1mYngwODRVbkJOQ2pUNl9PWU1QRzI5NzhPZm9LMC1zT1pqclRjeFMtQnhWeE5xOVlnWTJyMWpuSEpDRUpRbzU1WklRQm9ob0hLYlh6RTZ5a3dDQXFvdkVYelpoVlVnTjDSAXxBVV95cUxON0xrWXhQVl8ydlgtR0VLZzBNck0xYS1LeU1JMS1CLUpwNk1TUGVUeFRScDduVkY5SDJ3UTViVjZfYmxxd0FOeHRISWlCOUpoM1E3bjVrMjJLWTRMZnp3Wm51MlVlbGVMQ185WDMzazZJYlNBbUZqcDhnWmg2?oc=5",
     "fuente": "El Mundo",
-    "fecha": "2026-11-22T17:03:27+00:00"
+    "fecha": "2026-11-22T17:24:44+00:00"
    },
    {
     "titulo": "Irene Montero pide derogar la 'Ley Beckham' y carga contra los ricos como Figo que \"usan su riqueza para el negocio inmobiliario\"",
@@ -273,6 +272,12 @@
   "SALF": [],
   "ERC": [
    {
+    "titulo": "Gabriel Rufián e Irene Montero vuelven a unir fuerzas en un mitin de ERC para \"frenar a la derecha\" y \"someter al PSOE\" tras las elecciones del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9IQ2IxV3NIZUdVUWZwX0xCZ3k0aC1mYngwODRVbkJOQ2pUNl9PWU1QRzI5NzhPZm9LMC1zT1pqclRjeFMtQnhWeE5xOVlnWTJyMWpuSEpDRUpRbzU1WklRQm9ob0hLYlh6RTZ5a3dDQXFvdkVYelpoVlVnTjDSAXxBVV95cUxON0xrWXhQVl8ydlgtR0VLZzBNck0xYS1LeU1JMS1CLUpwNk1TUGVUeFRScDduVkY5SDJ3UTViVjZfYmxxd0FOeHRISWlCOUpoM1E3bjVrMjJLWTRMZnp3Wm51MlVlbGVMQ185WDMzazZJYlNBbUZqcDhnWmg2?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-22T17:24:44+00:00"
+   },
+   {
     "titulo": "Rufián apela al voto socialista ante un Sánchez que se deja \"avasallar\" por Feijóo: \"Hay que ir a votar con ganas\"",
     "enlace": "https://www.20minutos.es/nacional/rufian-apela-voto-socialista-ante-un-sanchez-que-se-deja-avasallar-por-feijoo-hay-que-ir-votar-con-ganas_7064281_0.html",
     "fuente": "20minutos",
@@ -287,14 +292,8 @@
     "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11407901.jpg?p=w:1706/h:960&h=hK_b6oah"
    },
    {
-    "titulo": "Gabriel Rufián e Irene Montero vuelven a unir fuerzas en un mitin de ERC para \"frenar a la derecha\" y \"someter al PSOE\" tras las elecciones del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9IQ2IxV3NIZUdVUWZwX0xCZ3k0aC1mYngwODRVbkJOQ2pUNl9PWU1QRzI5NzhPZm9LMC1zT1pqclRjeFMtQnhWeE5xOVlnWTJyMWpuSEpDRUpRbzU1WklRQm9ob0hLYlh6RTZ5a3dDQXFvdkVYelpoVlVnTjDSAXxBVV95cUxON0xrWXhQVl8ydlgtR0VLZzBNck0xYS1LeU1JMS1CLUpwNk1TUGVUeFRScDduVkY5SDJ3UTViVjZfYmxxd0FOeHRISWlCOUpoM1E3bjVrMjJLWTRMZnp3Wm51MlVlbGVMQ185WDMzazZJYlNBbUZqcDhnWmg2?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-22T17:03:27+00:00"
-   },
-   {
     "titulo": "ERC entroniza su apuesta por polarizar con el PSC en su acto central de campaña",
-    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUmhkcmtjbkV5ZmRtU3NuckhfR2hDYU45cUVqQVNsUXN2akEzZHhPUDdnUnB4dUtDQ2ZYRTg3SjhuVmhGM2Y1OEhFMHNJdlI0Wks1TTE2aHEyeklDR0JILWR2QTk4Ukt5cUxCdjFfdTY1MDh6bldoUzJDdWthSnhtX0loMGpNRXJjWENSMzVyNnF4eGxzNWF2VFYxQ0N2VnU1TlFlcmpISjczb0pHSGtjaXgtMkswNlhEZTBLMGVlY1VHTEVReDNnU01nZ085NTVIZWJqLTVXM3NRd9IB7gFBVV95cUxPS2JleGFOQlhObXNlN2xqdmsycmRSWnl4akN6MFNUVTRnVlZuZ1NjdkVkTFVwYTFSLW5YaThuZm9kNFl4cVJ6OUZNU1pjNm1HZDc2WkpIUFJlU0RxTjhGT0x6Q0JrRVZiMm1qNmFNdmt3WFhsSkRlZTZGLUEyVi1sTzFjaFJoV09fVHNJbGM3UTBpOXY4T0VRbGhQbmt1SHh0c1ZPZUdYSFJJNDFIUHFtbzRVYXF2ZXUyeDhpV3JaUFY1VEZyTGp0UVpWcVNsenlYWTJfRDEtNHpfclloR09UQVZzMnNkMVZZX1ltRkdR?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS2JleGFOQlhObXNlN2xqdmsycmRSWnl4akN6MFNUVTRnVlZuZ1NjdkVkTFVwYTFSLW5YaThuZm9kNFl4cVJ6OUZNU1pjNm1HZDc2WkpIUFJlU0RxTjhGT0x6Q0JrRVZiMm1qNmFNdmt3WFhsSkRlZTZGLUEyVi1sTzFjaFJoV09fVHNJbGM3UTBpOXY4T0VRbGhQbmt1SHh0c1ZPZUdYSFJJNDFIUHFtbzRVYXF2ZXUyeDhpV3JaUFY1VEZyTGp0UVpWcVNsenlYWTJfRDEtNHpfclloR09UQVZzMnNkMVZZX1ltRkdR0gHuAUFVX3lxTE9LYmV4YU5CWE5tc2U3bGp2azJyZFJaeXhqQ3owU1RVNGdWVm5nU2N2RWRMVXBhMVItblhpOG5mb2Q0WXhxUno5Rk1TWmM2bUdkNzZaSkhQUmVTRHFOOEZPTHpDQmtFVmIybWo2YU12a3dYWGxKRGVlNkYtQTJWLWxPMWNoUmhXT19Uc0lsYzdRMGk5djhPRVFsaFBua3VIeHRzVk9lR1hIUkk0MUhQcW1vNFVhcXZldTJ4OGlXclpQVjVURnJManRRWlZxU2x6eVhZMl9EMS00el9yWWhHT1RBVnMyc2QxVllfWW1GR1E?oc=5",
     "fuente": "EL PAÍS",
     "fecha": "2026-11-22T15:50:03+00:00"
    },
@@ -305,13 +304,26 @@
     "fecha": "2026-11-22T15:42:44+00:00"
    },
    {
-    "titulo": "ERC se encomienda al efecto Rufián para disputar el voto útil al PSC",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0M5ampuR2ZyeDlTWTk5RmlRaEhkQTY1SV9oY0pNTlZZbEEzazZYZF9hODEyOGpRRjA2TlNzdno3UVNmenVIU0NvXzBSZm9HdWdjVF9mM3BmVnpEbW5WeGhXaHE2YlVwXy1DRzVvVEdOS19LcjdaU3JZZElZYVpnVktXVFNxSnQ5Zzk1Ujh5R0hoSnB5cnlLcldlRFc1M01fT0daYmN2TlR0RUI2VnlHSXFsaElnUQ?oc=5",
-    "fuente": "Diari ARA",
-    "fecha": "2026-11-22T14:20:19+00:00"
+    "titulo": "Urtasun acusa a ERC de \"externalizar la política en el PSOE\" por rechazar estar en el Gobierno",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclpZODFIVzVXcjRja05oR1hkVlNJLXBMck16anl0UVR4V3c1dEx4dng3YjNTeEEyMXRxdmR1U2UwNWNnRFJqYVJoTmhHWXVHcGdxakNLMDJGeEFtMHJ2QVM2VkdRVXRPUDZlbVQ1SG5tV09zYTNYLXRCbnpFOC1fT1hDN1dzaHFOdFo3cWg3a05xR1BkbWFTajF2U0VTMWhfSHBSOG0xdGVZWHFGaEdn0gGvAUFVX3lxTE1lbURyejlhallQcFZXQmx6em5KV0YtZG9xejJUdXdJMlJ5bjhNbFRZVU1OMUlTd0FGRDZkUVhpOHRabVh2MEFUeFpydFZ6aGZSS3liOXdYTzctWGs4NmFaM0dDY2IzeUFuYm5hUGpkVkMyRGJaNmZCSnlaWnhnZHZBbzBZSkpEUnY4Q3VfYzlzUVRYVG5tMG1BMllWOVdWb201eXFCTkl0NWRMUW5YOVk?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-22T15:15:26+00:00"
    }
   ],
   "Junts": [
+   {
+    "titulo": "Pedro Sánchez en Salvados con Gonzo en directo: Zapatero, Puigdemont y el cara a cara son temas centrales de la entrevista previa al 29N",
+    "enlace": "https://www.lavanguardia.com/politica/20261122/11690345/entrevista-pedro-sanchez-salvados-gonzo-elecciones-29n-hoy-en-directo.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-22T19:59:45+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/21/6b00d17b32033.jpeg"
+   },
+   {
+    "titulo": "Junts reivindica a Pujol, Mas y Puigdemont en campaña electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTktwZXpiaVhwdm4tU01STzFuN3hKak8wNDJHSjFsZFJhaWk3WEF1YzRxUHJQbURDc1JJWWZZYWhERUl6dEtoU1lBRVNoU1FMYTV4WW1tTktFaUY1dWV0R0pRWXA0ZzdOVExkeXJOdkdtNXJBVmhyNkEtQ3l5aEk2RXdrbGJ1cm8weTNRaTN0MUZySEU?oc=5",
+    "fuente": "Espacio Diario",
+    "fecha": "2026-11-22T19:12:02+00:00"
+   },
    {
     "titulo": "Junts recupera el espíritu de Convergència con Jordi Pujol y Artur Mas para remontar las encuestas del 29-N",
     "enlace": "https://www.elmundo.es/cataluna/2026/11/22/6b02c6e121efa0ef0d8b457d.html",
@@ -337,21 +349,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTjNySVBXTGpEWFhFaHJibGhQeUhaOFVPNnU4SGkzbHlUUFc3Q3FYZndxVThGS0w5YWlPN3VqMWk0dG14STVDTW81YmlfdlFLT3BOcXI1OWRuSExobFlJOXNrLUJmb0VQMEc0UmlUNXlNSTk0NDJVUzNFdUhzZGtkTnJCSFl5YVlUdE9IUndMV1Vkb1h1ajJ4NFFqb2J4LWQxS1BKazFUTUdyTDc5dnfSAbMBQVVfeXFMTkxiSklIaUtWZ0pIOUhxenhTWWNQUGwzeDFtV0VXT1d5ZXZNenpPaEJUdjQ5X21hNDJaWjVnRmhJRG80dnVPaWdXVE1TdUtzaVpMNF94MVRfbHNzRzZoVWJXUnB5NzREZUZrTDdNelgwVFdJU2ZxNlJSdV95UFd3LVhLSE5PYjBiVmNvdWFHYlNEQmxjekVvaTVnei1jMl9VWWc1OWt2a3NGdUtaem1wbnZJNlk?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-22T14:36:24+00:00"
-   },
-   {
-    "titulo": "Nogueras (Junts) apela a concentrar el voto por Cataluña: \"No somos sucursalistas de nadie\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUTZ2eVpNOFdWWm9CckRDN1lqeG1CdU55UThWNmpLLVR6cUZ4bFNYX2RXMlR3SXgyREZmNmJXQlRKdWtwNEliUHVFRnlwTXJZRDZuRzJmY1ByZGpvM0UwdWpBNmV3RGNqUUVfUUY3ZGxFNjdmOWx6azgyVC1MblVsX0VoN2hTMEZXdGVSTlQ2LUc4anFnQWZDNFFwdTBqU0w5MVMyMHZldWo3RE1RZ014Um1BWFAzdlFkUWIyVnN2Z2tUV2pUTjhJcFlnbXJ6MFZYUjhfWNIB7wFBVV95cUxNOW1XMGlsVGVBb0p6dDFnVFZZQ1ZpWTd5aG40YnJMU0NZcmlJRnlEN09SOUpTeERVRHNhWGczMXZKR3BUZklCa3JycVNkUnduTFBFd2IxVUlJVmN3U2Q3Rk1Pck1aTldrTGxaQXRJTFdtc0g4clZhUXRzZHNEcmxzRGtQWHBLaGM2STZYVVJzM1RzLTMxU2FISWJhRG0zSHpBMWw5bmRMdkkwR3o5dHJieEJNWGhqeW95bWdQRUVFd050TXNkV19scHNWc2lNZFg1U25mS3pVbHZhQkZhTHFpNEJzbVpYRFdqVWRqMkJIYw?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-11-22T14:01:00+00:00"
-   },
-   {
-    "titulo": "Nogueras (Junts) llama a unir el voto por Cataluña: “No somos sucursalistas de nadie”",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUhXWFZHVXdzTk5ZX0d1eEFSbWVfTV9HTWszNDQ3Z3IwYl9ZQWQ5b1BYbzlpZjlXbGx6WE9PWWp5bUhlY3RsVVdGbncxZTNwUlNLVGNHOWU3eFV2QlhVVlYzakFjMWh6YnFIU3pWRVJxYklsRTYtdUN4UmhmZVJEZlFIVW1DTTV1QW1hNGZ1dUpCeENFaVB2aGxJdWFTQkUwV1l6VWVVM3huOThxQnJyRDV1dXNaZ9IBuwFBVV95cUxOMl8yQ2FxWUpVS3dwa21XMGIxY0tzYm1zQk02d0YtbjVSOVpCNHpJYW84cUREOE9fbW85SF9oclRScV95N2RBOWpoSFVYdThRNXRObEdjSjk4eHZmRE1EbTc0ZU5Ta1VsS2x5aXZFdlI4eGFfam50REJVUC1GWVJwYU5RcVpOTl93RlFHZkFucE52aEpSbjZiWDJjSC1NY1lkdDNGZU92eE9tUXJvWVRuY2ZrMWg1R2N5MldJ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-22T13:47:16+00:00"
    }
   ],
   "Bildu": [
+   {
+    "titulo": "EH Bildu afirma que las luchas populares marcan su compromiso político",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYXNhNDdYTDY4VUtzR0laem5HeVBzcWU5VmtGYlloMU9EMWRRbi15dFpDNEhJWUF2TDh5X01mV1N6MWI4eXZxeFdBMGlkNXlQOW9lZ25nSzdfeXVKV04xRmk3VlBwd1l1OVRORlQwb0oxSXBpSGQ1UmJpN3hycVA4S1lsUDMtMUdSVWFjZ0ZNaDRvbVdYbTRkemtqSWY5QQ?oc=5",
+    "fuente": "Espacio Diario",
+    "fecha": "2026-11-22T19:12:02+00:00"
+   },
    {
     "titulo": "Otegi (EH Bildu) minusvalora a los votantes vitorianos y alaveses",
     "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZkU5RDRzWHNfdXc2dVhuOXY0aWNtV1FndTYzSnlkdnJhSUVDc2N1OTgyQW54RkV4LVFfSVltMnlYRlB5eG9aRVlQV3dIUVNtNVcxYTZIWWpXVGZVZmthdEhHX0pIZTZMNENqaUdsU2ZRMzZrMUNDU2JtYW40SU1OSmtVSGJod2xEdjdjMQ?oc=5",
@@ -381,12 +387,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSTJnemxrRlNEQ0RqeUxSanpBSEpnWXNNbXozaW1PeVFNeUNXeEtHMEpBZzBQcnZvbmIxZ1UzcGdPUEF4ZUVsLWJucUd0NkRMcWpYLTh0MnJlbVRLN1E5OHo2RDV1TldvVjFaNE1yX1BTYXBBa3FDTklTbHhqX3pMUEJhMVVmXzdCRXBZcEg1bEZQcHp3X0EwTkhhX1ZlVS1TLWRsSlZ4QVhvcEV6TlF4UFplYVRSdzhYaVpxazZYc2hGUXdfQnp6Um5VMWFmUy1xTlZRTUZ1ZlhLb3MyU0l3dVdTckpramV1UWE2NF90aEQ5WVXSAY4CQVVfeXFMT25TcjQ1YU8xbGNVcHd3ZnlNczVGNEJnekIzSDdoSUVwSU5vY0d0aWI5SFNlR1NxRzFqRUVGOUhvNXFJRllSV1lEZVluU3BKN0kzMVcxa2FwemdjUEJzWGZta3l4bmVwZnZ4Q3ozNW05amh6dFhzWTdGV2ZJcjVXc2xzeWZUZkFBNGg0cUxXSV9QMktFY2s1V2F6RTFMcW5aT2xqUW9BR1hlWlBuWnN6cnl5RlE5M09oaXNfS0ZSME1jTEtPTldEWGpmMGVhSXVSTXk3WERQZ3N6ZUlnVkw1cXJWTjNkalI1VmZtbTd3ZTlDN3ZIRnVDaHFtaHQ0YmEyOGVfZlJfaGtVaHhaSkNn?oc=5",
     "fuente": "Infobae",
     "fecha": "2026-11-22T13:31:00+00:00"
-   },
-   {
-    "titulo": "Otegi reclama el \"voto masivo\" en Gipuzkoa a EH Bildu para parar al \"bloque reaccionario\"",
-    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXlKcGRiT09rN1Byd0xoR01EQlZBR1lwNm1rYUFWYjhEamtWTkRZbTFXZmcyVmU0MnpidUJUang4QU9fY09HWGFOTGdqTE45UERpZVZIeHdqcWJyVVFsYW9WbEJXcTcwTjA0aG1JREc1V0lxWFVIamJEdTFTWkJqNnN0U1NRUEpfc1hiTTVHaUFKdXItMlVrWHVmWW92ZWk00gGmAUFVX3lxTFBzMF9iMEQ2R0tybGJFUTNMOW1lRzl2M2FLdTlqX2gySjBqWW9ObnNCRF9tSUVUVmM0eVplN1ZmakN0Sy1WMmhBOUppU0xLc2FFdFY1bDlZcy1xWGlCdHJxb3lLLUhid3FLVmhEUGJkdUxPTHR2QTJPWU51Wi1PRG5ieHhNR09ac3ZGTkJUY2MtSkJoRk9DaVBTVzl6UkFEWG5ncTBOTlE?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-22T13:21:24+00:00"
    }
   ],
   "PNV": [
@@ -475,7 +475,7 @@
     "fecha": "2026-11-22T17:35:25+00:00"
    },
    {
-    "titulo": "CC-Primero Canarias reclama más competencias sobre Costas y el ferry gratuito para La Graciosa",
+    "titulo": "CC-Primero Canarias exige más competencias en Costas y el ferry gratuito para La Graciosa",
     "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeElCSHZFSy1WM1ZaNTAxWEh4R0Y3WmdZal9NUFY1bDZXTFBKWldUdGx0OWU4LU5QcEx2LWZQc2FlX0ZwcVNyVGs4cTFCdUgtZDM5dndFUHVjaThrWl84N2RacjV6ZXRpb1pnZTZNUm9UVlZIQ21zOVRoOGtScWdKUzc1UzFmMlU0ME9Vek93WVNqM2pBeGdBZHVGeVdjZllTTlhLRkxleTFnVzVCdERzM3BObU9jM3N0VnpRUGpmekdrRjlLUnFGQnloWl9UQTFET2laVG9LRWxReEtQbHlkRWZ0NA?oc=5",
     "fuente": "Atlántico Hoy",
     "fecha": "2026-11-22T17:13:59+00:00"
@@ -802,6 +802,13 @@
    "partido": "PP"
   },
   {
+   "titulo": "Feijóo acepta volver a TVE tres años después de su tenso choque con Silvia Intxaurrondo",
+   "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYkw4Q3hoV3p3UDF1T2V1Nnk1cGJIRlJLVHppSHhEclNtc3pJaEV2bEw3dDU2bHFTaTZaRGZtaUMxNm5vRGh2cnA0NksxalQ5Q2c3RG5xQTE3aG1Vcko2MElPMWlKcVlPT0EzZHVBMndQdFkwWU5DTEZmOEVfM3JDQmIzUmF0akVLNi1vT0RpSVDSAZYBQVVfeXFMTlhMcE1RcDJreF9qRDJ6b01xUW1uZ2F3V2x1NGlGNEx4b3VRWDNfcWx6dHRpcVpYVzZrUzQtdExOVncwX0JFLXBJYmNZUENwanl0TzN6MmZyY0kwM1ZVQUVTQUw5bTA3Unl5NFpEejAxXzBiYklSdnBTdGhsYlVhVEFmU0VGSmxxamw1aHhRQ2pjODdzeEVn?oc=5",
+   "fuente": "Deia",
+   "fecha": "2026-11-21T08:14:31+00:00",
+   "partido": "PP"
+  },
+  {
    "titulo": "Feijóo evitará el choque con Abascal en el debate a 4 y confrontará con Sánchez: «Somos la alternativa»",
    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0V1T1R2aVJwenBVQjhYU2tBX0YtSzZqLS0tbFoycnBsY2tGS3JMcEdfTEw2M2d0VnFvUGlBLUFvbHlERDNzR1VtUFNrSEdjdVd5ejFmQi1EOUFBaXhYSGFUUC1jcWs2T1NEZkZac2tzQTB4TERleDNyYnhpdUNBYmpkOGhZMzlkcTcxNVlmbG5qX3IwVzlSS2NUYmJLYnNPVXY3VnBrbkZicDhDcTByRWQ2TdIBuAFBVV95cUxOLUFKUUlUcC1hTHNzU1ExX01EbXdKWGV0TFBTcEU0TU9OR2x5S29DdUxublNfUU9TNHJGZDlPV3l4SjZKTF9Gd1ZZSlFMbjZROWtGN21EWWFVWnpia3VMS1FQSl85eFFVaDNPSlppNGk5XzE1ZU1oWTdpRER2S3F0M1prekRyV1NDZDliMm53SVVrdGMyd2Q4TUxJeEdPalNHcHJYN096SlhUb29ZQXU5RUR1RUQxQVdk?oc=5",
    "fuente": "OkDiario",
@@ -837,17 +844,24 @@
    "partido": "Vox"
   },
   {
-   "titulo": "Vox denuncia ante la Fiscalía del Supremo las revelaciones de Puigdemont y acusa a Sánchez de «traición»",
-   "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX3BPWllkMzNNeHg1VnlUN0NrejliYjBzUDNTMi0yVml6OHdqekpkSkd5T0hteUszWXNvTjZ4enBxYW5MS0xoUVZOekNjSVlYYW15OVlRV0hUUzZISDRNZ2tkTHJtVEY5Z2RzRWd5ZEVhZTIzUXB1M2JlQXhUZTcta0plMzk0RVpEZTZjQQ?oc=5",
-   "fuente": "MONCLOA.COM",
-   "fecha": "2026-11-19T19:37:51+00:00",
-   "partido": "PSOE"
+   "titulo": "Más Madrid carga contra PP y Vox por los impagos de Espartales y el veto a La Locandiera",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTmd3UFJ5RjZRcnVndHl5LXR5Y0NsVGZ0Q2xWNWc4NndqSF9EN3BISFB0dENTZEdLVGlaa2FGZ2J5bWh3Y0Z5SUhmWWNkT21FdHhUSXptaDBTdzY1WXgxZHBTYnJkUFl0TEV3LVhaVnM1T2ZYVkpTVXQzckQzdGVDYUYzdl9CQXBrc1lrdjNRMlYzdmxydC1fc0JESThQNmNkS0dZdFRTOXpmZlZtNG8wbHc3d01rTENjdEpJY0xOTVpURHc?oc=5",
+   "fuente": "Alcalá Hoy",
+   "fecha": "2026-11-19T17:52:27+00:00",
+   "partido": "PP"
   },
   {
-   "titulo": "Vox pide a la Fiscalía del Supremo que investigue las \"contraprestaciones\" que negoció Puigdemont con el PSOE: apunta hasta ocho delitos",
-   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUlycURyRVI1NVlRNDRMNVJIeTBGXzFMU2ZLYTZ3RFY1Y1d6N2I4ckhvWko0dG03MlUzdUVMWF9yVGZQcm9wamFNUk02SmZaVDR3Q2JPc1Izdk5IZW85TXRhb1VCNE5oMUpqamdVc0UzYUlCMU14Tlgyb1pESGUwb0ZrbGdmYi10TUYwOUxkZHJCSmRncHFFMGFGVdIBmwFBVV95cUxQeTFjRW1ia2QyMUMtdkpLcjNldk5tYWxrZ0Z1SXVxa09yV2pIVmdPWFJLdlhjdmFkZjFuUHVPczlGQng4cXExQjlGSkdLQ3pabGZhVG1hVUtmekxpajhjaU8wa0hhUE1hM2NuMHhHS0R6RDAySVlJSnBCa3MzNVlGZ1BSQy00OU5ZUkJJUS1zVGVJYmxKQ3Y4eVF2OA?oc=5",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-19T14:53:52+00:00",
+   "titulo": "Rufián responde a Puigdemont tras su polémica entrevista y pide a Junts que vuelva \"a la racionalidad\": \"Sánchez es una criatura de ERC y de Bildu\"",
+   "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPeG1QVFlkQUNvOEFXcU12N0hPYzNqcTZjSWYzSlM1VVRBNGtHZkhDTVRXa0NFLWJzLThrZGN3OFplQi1rRURSRTlOV2dleDVrMW85OTVQZERvaDFQQk5jQTZrcGVtQ051Vlc0aEY2cVZtOElOOXNZTVRsZFZBVlhjQ0dOeFN1NVBEYVFsaFVaMHZQUmtQYkl2NkYxMFJ3cWtVM0xSRlJZNXJFWXJxMVVNR3hNQU1KcEVMd1N0UXVmd3dxclprcTRWeGhsclIySm9iVmllbFV3X3dUVEhlYXRXOE01NHFGbVkwUDJkd3l0Q3ZJWi1PNW9lTEJ1NkI0cnFRSDlCSDRkQkR0UQ?oc=5",
+   "fuente": "El Constitucional",
+   "fecha": "2026-11-19T16:36:12+00:00",
+   "partido": "Junts"
+  },
+  {
+   "titulo": "Vox denuncia ante la Fiscalía del Supremo las revelaciones de Puigdemont sobre la negociación para la investidura de Sánchez",
+   "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNblFLUW9ZVVhwMVVFQ0VUYk52N3dFNC1Yb2tMYWJSRjFSV0p0dUxMUW9TUVA4X1lnVUpBV2F1QjBSandMaldUOEI5dkNvOVloYW1xVXFmM1VvdTAyV1lndGRNZ2VRQW1LaU80V19vOWY5TXM0WDkzbXlqN3lBSkt5NzFkX19CaUtqRWtfSi16d1JTQ1BFb2NjMGUyQ0ZBUEFIRkRLT1N3MFk1LUZDTlJ2akZwLTBLc3NmMUREQkpFaUMxVjFlWjljTmE0aW8teGplUTN3bVJ1OHJ4SWpia2lGMTZOWlBMNGk5YnFHbzVKdDBCWkdRYjdUddIB-AFBVV95cUxQRzJ5R0JiVXhxZWdreUV4eHA0Z1gtbkVGQkhNWERVSS1ORTN6Z1BsbzFwLTdNTi1jYjVaMWRjZ2hLd09wY3dkNnpjWkhSVmJGQWt2SHlFS0JlRmtoZDJfYnNFWndFdUN5TWZhOWg4MktPbWttazhVd0RzS3FVYkRLbXhrbHk5U1JCMU4yQ2JJd1h0V2pFVkY0X1NOZW5laEZLR2lwVU5VOGpNR29FWElqZEpzTmgtd2xWQlR2UzJIeVFfRFlEMFJwOGJvNGxlZW5SY19FcTVVUUx4d0NCclQ0b2g1QzVGaS10bl91SlZONW56aDdzMm9rUw?oc=5",
+   "fuente": "LaSexta",
+   "fecha": "2026-11-19T15:49:47+00:00",
    "partido": "Junts"
   },
   {
@@ -862,7 +876,7 @@
    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZG95b0tPRF8wN2lhZHRCOExTMHVnZHUwZkFiTDVzZHpPeGlYVGp6NURhT0t2RU1QaG03d0xmcHRKU1RyeVdZSkp3djJXNG9teXlNc0lTWHNoZDJOVnhQQzYzZ2twVEZlRlpaRTNNblhqZ3BnR29LYVBPRVRmX2xxc0JjR3hTODlHdVdfMlBNQ3BxT2N2SEtybGctQ0VHZlRGMU85RXZXWU1oQ0FndXZHbS15TlBIWXJTVmRVaDBpMEVDS2xzbkxkSTlpTWswbWFrN0FGMmxkRG1JdUE1bEHSAeMBQVVfeXFMTnVRQS1OUHBraDJtRnlUZEpzaTd2STBYbEhSbEpqaVI3ZTkxbTUxNS0zQ0lReEJVMDA5a1RQaGZ5dEZnWEs1c01aVmdVOGFacTJNaHVnT21HNXEtNmtualhNWlZ5Q3FseEFvSi1TNDcyRW5IVlJtUTFtakRqdXN0WEJncEF6cVhIRmc0Wk5fcGtXMm1PLUNpZmVGQUNfMElBYWR2MzkxQmNzbXNMVEJma21fSG03aXdfZ0YtMEgtSUlHLW5vaFhUcllXS3dSMzlJMmR1VDRaZ28teHA1NzBqRlY3dHc?oc=5",
    "fuente": "Negocios.com",
    "fecha": "2026-11-19T10:29:50+00:00",
-   "partido": "Junts"
+   "partido": "PSOE"
   },
   {
    "titulo": "Irene Montero se pronuncia sobre la polémica con las pulseras antimaltrato: \"Nosotras vamos a estar a disposición de Fiscalía\"",
@@ -904,6 +918,13 @@
    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRDdFZE1UNmZRdzRBMVJweG5FSzgzZ3ZQY2ZqakU2eXE2TlVvQVFRTGplYkJWZ0lvazh4ZDg2amxULVA2cUJUV1FNTG5wXzZCb0hLdG02RE45Q0NwbVNVRjdUS3dzRW1WOXlBbFZ1UXl1ZUg5Ni01WHZVbUE3NGVrRm9RZXdEb2pmbEZtOGN2N3QyN0pLZkdzd0J2TU1nQmpVZy1fdjZvT1pDU3ZDX0FlMXQxU21YNENkbC1WajRkNnViTGtEcDJsX196RzloeGctWHZz0gHYAUFVX3lxTE5MOWJjb1pBUW1ZdVdtV3pKT1c1VHV1U0lfQWMyMUZzY055WnNSSDJKNDU5M3hXWE5paC04SUVrWW9nYUUzemFhY1BvTng1QU41SHdyYWJoekhYVHNpMV9WeWFfUEd0N20ycEZiTWwtVktwTHN1RlBjWDRxQ25iRVN4TWIwRHVLalNlVm5oQmxMUmJRSFJVYk0xNlduNnpWZEU3cDVYVjE0N05SNE54TzNiSlNwQ25RaGJEMENVVjF4S1JWa09jcGlCQUwzd2ZHUHZfM0Z3RWpTNQ?oc=5",
    "fuente": "Elplural.com",
    "fecha": "2026-11-17T09:05:00+00:00",
+   "partido": "ERC"
+  },
+  {
+   "titulo": "Nueva bronca en redes entre Luis Figo y Gabriel Rufián: «No todos nos vendemos»",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUV6bFhkWF95d21vQUdGNTBEc1ptelBKRnpxVzVHSWFoYllmdHBtTVhiZV9uNWl6NktoaGp0N2YyM255c1pUZi1HTUdrbm5FU3dveG9fTC1HUmxqMmZLQkhaR2ZXOGdlV1J6eFFyYTZ6ajRPVTJSUDZNZnhyeDRvMmctcVNtWml2VVVQVmhYT1lqSVc5MlVublhqamhpUFdYYm9KVWFBeDBsQTTSAbABQVVfeXFMT2FfYUs2RHY0UzJQRVBWdzd5NGVVTEF6cmRXSS01TEdnSXRFdUdmQlAtLVpLdkRwcnNfQ0VLT2Jqa2NRd2VHUHliYy1BMG9aWkQxLVdRUGNKZ3pZSEJyN1NIVUlxeDY4ZGlzd09iUzVuZDNRbmk0a0JaS1pidk5JaXdHSVBRNHRPaF9feEY4NGJZZFNIS0FtcnhaVi1FaURmUGJEN0RxMmNLMFU4VEhXZEw?oc=5",
+   "fuente": "El Correo",
+   "fecha": "2026-11-16T08:31:45+00:00",
    "partido": "ERC"
   }
  ],
