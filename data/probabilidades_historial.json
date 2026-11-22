@@ -1172,10 +1172,10 @@
   "fecha": "2026-11-22",
   "escenarios": {
    "pp": 0,
-   "pp_vox": 0.9128,
-   "izq_socios": 0.0455
+   "pp_vox": 0.9118,
+   "izq_socios": 0.0459
   },
-  "bloqueo": 0.0417,
+  "bloqueo": 0.0423,
   "p50": {
    "PP": 127,
    "PSOE": 108,
